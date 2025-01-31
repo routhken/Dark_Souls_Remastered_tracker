@@ -1,0 +1,182 @@
+[
+    {
+        "name": "Full Map",
+        "location_size": 30,
+        "location_border_thickness": 4,
+        "img": "images/maps/Full Map.png"
+    },
+    {
+        "name": "Anor Londo Exterior",
+        "location_size": 30,
+        "location_border_thickness": 4,
+        "img": "images/maps/Map_Anor Londo Exterior.png"
+    },
+    {
+        "name": "Anor Londo Interior",
+        "location_size": 30,
+        "location_border_thickness": 4,
+        "img": "images/maps/Map_Anor Londo Interior.png"
+    },
+    {
+        "name": "Ash Lake",
+        "location_size": 30,
+        "location_border_thickness": 4,
+        "img": "images/maps/Map_Ash Lake.png"
+    },
+    {
+        "name": "Blighttown Lower",
+        "location_size": 30,
+        "location_border_thickness": 4,
+        "img": "images/maps/Map_Blighttown Lower.png"
+    },
+    {
+        "name": "Blighttown Upper",
+        "location_size": 30,
+        "location_border_thickness": 4,
+        "img": "images/maps/Map_Blighttown Upper.png"
+    },
+    {
+        "name": "The Catacombs",
+        "location_size": 30,
+        "location_border_thickness": 4,
+        "img": "images/maps/Map_Catacombs.png"
+    },
+    {
+        "name": "Crystal Cave",
+        "location_size": 30,
+        "location_border_thickness": 4,
+        "img": "images/maps/Map_Crystal Cave.png"
+    },
+    {
+        "name": "Darkroot Basin",
+        "location_size": 30,
+        "location_border_thickness": 4,
+        "img": "images/maps/Map_Darkroot Basin.png"
+    },
+    {
+        "name": "Darkroot Garden",
+        "location_size": 30,
+        "location_border_thickness": 4,
+        "img": "images/maps/Map_Darkroot Garden.png"
+    },
+    {
+        "name": "Demon Ruins",
+        "location_size": 30,
+        "location_border_thickness": 4,
+        "img": "images/maps/Map_Demon Ruins.png"
+    },
+    {
+        "name": "Depths",
+        "location_size": 30,
+        "location_border_thickness": 4,
+        "img": "images/maps/Map_Depths.png"
+    },
+    {
+        "name": "The Duke's Archives",
+        "location_size": 30,
+        "location_border_thickness": 4,
+        "img": "images/maps/Map_Dukes Archive.png"
+    },
+    {
+        "name": "Firelink Shrine",
+        "location_size": 40,
+        "location_border_thickness": 4,
+        "img": "images/maps/Map_Firelink Shrine.png"
+    },
+    {
+        "name": "Great Hollow",
+        "location_size": 30,
+        "location_border_thickness": 4,
+        "img": "images/maps/Map_Great Hollow.png"
+    },
+    {
+        "name": "Kiln of the First Flame",
+        "location_size": 30,
+        "location_border_thickness": 4,
+        "img": "images/maps/Map_Kiln of the First Flame.png"
+    },
+    {
+        "name": "Lost Izalith",
+        "location_size": 30,
+        "location_border_thickness": 4,
+        "img": "images/maps/Map_Lost Izalith.png"
+    },
+    {
+        "name": "New Londo Ruins",
+        "location_size": 30,
+        "location_border_thickness": 4,
+        "img": "images/maps/Map_New Londo.png"
+    },
+    {
+        "name": "Painted World of Ariamis",
+        "location_size": 30,
+        "location_border_thickness": 4,
+        "img": "images/maps/Map_Painted World.png"
+    },
+    {
+        "name": "Quelaags Domain",
+        "location_size": 30,
+        "location_border_thickness": 4,
+        "img": "images/maps/Map_Quelaags Domain.png"
+    },
+    {
+        "name": "Sen's Fortress Basement",
+        "location_size": 30,
+        "location_border_thickness": 4,
+        "img": "images/maps/Map_Sens Fortress Basement.png"
+    },
+    {
+        "name": "Sen's Fortress Main",
+        "location_size": 30,
+        "location_border_thickness": 4,
+        "img": "images/maps/Map_Sens Fortress Middle.png"
+    },
+    {
+        "name": "Sen's Fortress Roof",
+        "location_size": 30,
+        "location_border_thickness": 4,
+        "img": "images/maps/Map_Sens Fortress Roof.png"
+    },
+    {
+        "name": "Tomb of the Giants Lower",
+        "location_size": 30,
+        "location_border_thickness": 4,
+        "img": "images/maps/Map_Tomb of the Giants Lower.png"
+    },
+    {
+        "name": "Tomb of the Giants Upper",
+        "location_size": 30,
+        "location_border_thickness": 4,
+        "img": "images/maps/Map_Tomb of the Giants Upper.png"
+    },
+    {
+        "name": "Undead Asylum",
+        "location_size": 50,
+        "location_border_thickness": 4,
+        "img": "images/maps/Map_Undead Asylum.png"
+    },
+    {
+        "name": "Undead Burg Lower",
+        "location_size": 30,
+        "location_border_thickness": 4,
+        "img": "images/maps/Map_Undead Burg Lower.png"
+    },
+    {
+        "name": "Undead Burg Upper",
+        "location_size": 30,
+        "location_border_thickness": 4,
+        "img": "images/maps/Map_Undead Burg Upper.png"
+    },
+    {
+        "name": "Undead Parish",
+        "location_size": 30,
+        "location_border_thickness": 4,
+        "img": "images/maps/Map_Undead Parish.png"
+    },
+    {
+        "name": "Valley of the Drakes",
+        "location_size": 30,
+        "location_border_thickness": 4,
+        "img": "images/maps/Map_Valley of the Drakes.png"
+    }
+]

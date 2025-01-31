@@ -1,0 +1,264 @@
+[
+    {
+        "name": "Annex Key",
+        "type": "toggle",
+        "img": "/images/items/Annex Key.png",
+        "codes": "annex_key"
+    },
+    {
+        "name": "Archive Prison Extra Key",
+        "type": "toggle",
+        "img": "/images/items/Archive Prison Extra Key.png",
+        "codes": "archive_prison_extra_key"
+    },
+    {
+        "name": "Archive Tower Cell Key",
+        "type": "toggle",
+        "img": "/images/items/Archive Tower Cell Key.png",
+        "codes": "archive_tower_cell_key"
+    },
+    {
+        "name": "Archive Tower Giant Cell Key",
+        "type": "toggle",
+        "img": "/images/items/Archive Tower Giant Cell Key.png",
+        "codes": "archive_tower_giant_cell_key"
+    },
+    {
+        "name": "Archive Tower Giant Door Key",
+        "type": "toggle",
+        "img": "/images/items/Archive Tower Giant Door Key.png",
+        "codes": "archive_tower_giant_door_key"
+    },
+    {
+        "name": "Basement Key",
+        "type": "toggle",
+        "img": "/images/items/Basement Key.png",
+        "codes": "basement_key"
+    },
+    {
+        "name": "Bequeathed Lord Soul Shard (Four Kings)",
+        "type": "toggle",
+        "img": "/images/items/Bequeathed Lord Soul Shard.png",
+        "codes": "lord_soul_fourkings"
+    },
+    {
+        "name": "Bequeathed Lord Soul Shard (Seath)",
+        "type": "toggle",
+        "img": "/images/items/Bequeathed Lord Soul Shard.png",
+        "codes": "lord_soul_seath"
+    },
+    {
+        "name": "Blighttown Key",
+        "type": "toggle",
+        "img": "/images/items/Blighttown Key.png",
+        "codes": "blighttown_key"
+    },
+    {
+        "name": "Cage Key",
+        "type": "toggle",
+        "img": "/images/items/Cage Key.png",
+        "codes": "cage_key"
+    },
+    {
+        "name": "Covenant of Artorias",
+        "type": "toggle",
+        "img": "/images/items/Covenant of Artorias.png",
+        "codes": "covenant_of_artorias"
+    },
+    {
+        "name": "Crest of Artorias",
+        "type": "toggle",
+        "img": "/images/items/Crest of Artorias.png",
+        "codes": "crest_of_artorias"
+    },
+    {
+        "name": "Key to Depths",
+        "type": "toggle",
+        "img": "/images/items/Key to Depths.png",
+        "codes": "depths_key"
+    },
+    {
+        "name": "Key to New Londo Ruins",
+        "type": "toggle",
+        "img": "/images/items/Key to New Londo Ruins.png",
+        "codes": "new_londo_key"
+    },
+    {
+        "name": "Key to the Seal",
+        "type": "toggle",
+        "img": "/images/items/Key to the Seal.png",
+        "codes": "seal_key"
+    },
+    {
+        "name": "Lord Soul (Nito)",
+        "type": "toggle",
+        "img": "/images/items/Lord Soul.png",
+        "codes": "lord_soul_nito"
+    },
+    {
+        "name": "Lord Soul (Bed of Chaos)",
+        "type": "toggle",
+        "img": "/images/items/Lord Soul.png",
+        "codes": "lord_soul_bedofchaos"
+    },
+    {
+        "name": "Lordvessel",
+        "type": "toggle",
+        "img": "/images/items/Lordvessel.png",
+        "codes": "lordvessel"
+    },
+    {
+        "name": "Master Key",
+        "type": "toggle",
+        "img": "/images/items/Master Key.png",
+        "codes": "master_key"
+    },
+    {
+        "name": "Orange Charred Ring",
+        "type": "toggle",
+        "img": "/images/items/Orange Charred Ring.png",
+        "codes": "orange_charred_ring"
+    },
+    {
+        "name": "Peculiar Doll",
+        "type": "toggle",
+        "img": "/images/items/Peculiar Doll.png",
+        "codes": "peculiar_doll"
+    },
+    {
+        "name": "Residence Key",
+        "type": "toggle",
+        "img": "/images/items/Residence Key.png",
+        "codes": "residence_key"
+    },
+    {
+        "name": "Sewer Chamber Key",
+        "type": "toggle",
+        "img": "/images/items/Sewer Chamber Key.png",
+        "codes": "sewer_chamber_key"
+    },
+    {
+        "name": "Undead Asylum F2 West Key",
+        "type": "toggle",
+        "img": "/images/items/Undead Asylum F2 West Key.png",
+        "codes": "uaf2_west_key"
+    },
+    {
+        "name": "Watchtower Basement Key",
+        "type": "toggle",
+        "img": "/images/items/Watchtower Basement Key.png",
+        "codes": "watchtower_basement_key"
+    },
+    {
+        "name": "Pendant",
+        "type": "toggle",
+        "codes": "pendant"
+    },
+    {
+        "name": "Rubbish",
+        "type": "toggle",
+        "codes": "rubbish"
+    },
+    {
+        "name": "Sunlight Medal",
+        "type": "toggle",
+        "codes": "sunlight_medal"
+    },
+    {
+        "name": "Bloodred Moss Clump",
+        "type": "toggle",
+        "codes": "bloodred_moss_clump"
+    },
+    {
+        "name": "Purple Moss Clump",
+        "type": "toggle",
+        "codes": "purple_moss_clump"
+    },
+    {
+        "name": "Blooming Purple Moss Clump",
+        "type": "toggle",
+        "codes": "blooming_purple_moss_clump"
+    },
+    {
+        "name": "Cracked Red Eye Orb",
+        "type": "toggle",
+        "codes": "cracked_red_eye_orb"
+    },
+    {
+        "name": "Humanity",
+        "type": "toggle",
+        "codes": "humanity"
+    },
+    {
+        "name": "Twin Humanities",
+        "type": "toggle",
+        "codes": "twin_humanities"
+    },
+    {
+        "name": "Prism Stone",
+        "type": "toggle",
+        "codes": "prism_stone"
+    },
+    {
+        "name": "Dung Pie",
+        "type": "toggle",
+        "codes": "dung_pie"
+    },
+    {
+        "name": "Pyromancy Flame",
+        "type": "toggle",
+        "codes": "pyromancy_flame"
+    },
+    {
+        "name": "Pyromancy Flame (Ascended)",
+        "type": "toggle",
+        "codes": "pyromancy_flame_ascended"
+    },
+    {
+        "name": "Egg Vermifuge",
+        "type": "toggle",
+        "codes": "egg_vermifuge"
+    },
+    {
+        "name": "Sunlight Maggot",
+        "type": "toggle",
+        "codes": "sunlight_maggot"
+    },
+    {
+        "name": "Sack",
+        "type": "toggle",
+        "codes": "sack"
+    },
+    {
+        "name": "Skull Lantern",
+        "type": "toggle",
+        "codes": "skull_lantern"
+    },
+    {
+        "name": "Ring of the Sun Princess",
+        "type": "toggle",
+        "codes": "ring_of_the_sun_princess"
+    },
+    {
+        "name": "Xanthous Crown",
+        "type": "toggle",
+        "codes": "xanthous_crown"
+    },
+    {
+        "name": "Soul of Manus",
+        "type": "toggle",
+        "codes": "soul_of_manus"
+    },
+    {
+        "name": "UI: Soul",
+        "type": "toggle",
+        "img": "/images/ui/Soul.png",
+        "codes": "ui_soul"
+    },
+    {
+        "name": "UI: Soul Darkened",
+        "type": "toggle",
+        "img": "/images/ui/Soul Darkened.png",
+        "codes": "ui_soul_darkened"
+    }
+]

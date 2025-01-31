@@ -1,0 +1,63 @@
+{
+    "items_layout": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0, 0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "vertical",
+                "margin": "0, 0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_size": "4, 4",
+                        "item_margin": "1, 0",
+                        "h_alignment": "left",
+                        "item_h_alignment": "center",
+                        "rows": [
+                            [
+                                "lordvessel",
+                                "lord_soul_fourkings",
+                                "lord_soul_seath",
+                                "lord_soul_nito",
+                                "lord_soul_bedofchaos",
+                                "master_key",
+                                "annex_key",
+                                "basement_key",
+                                "blighttown_key",
+                                "cage_key",
+                                "covenant_of_artorias",
+                                "crest_of_artorias",
+                                "depths_key"
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "itemgrid",
+                        "item_size": "4, 4",
+                        "item_margin": "1, 0",
+                        "h_alignment": "left",
+                        "item_h_alignment": "center",
+                        "rows": [
+                            [
+                                "archive_prison_extra_key",
+                                "archive_tower_cell_key",
+                                "archive_tower_giant_cell_key",
+                                "archive_tower_giant_door_key",
+                                "new_londo_key",
+                                "seal_key",
+                                "orange_charred_ring",
+                                "peculiar_doll",
+                                "residence_key",
+                                "sewer_chamber_key",
+                                "uaf2_west_key",
+                                "watchtower_basement_key"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
