@@ -7,32 +7,32 @@
     },
     {
         "name": "Anor Londo Exterior",
-        "location_size": 30,
-        "location_border_thickness": 4,
+        "location_size": 50,
+        "location_border_thickness": 6,
         "img": "images/maps/Map_Anor Londo Exterior.png"
     },
     {
         "name": "Anor Londo Interior",
-        "location_size": 30,
-        "location_border_thickness": 4,
+        "location_size": 50,
+        "location_border_thickness": 6,
         "img": "images/maps/Map_Anor Londo Interior.png"
     },
     {
         "name": "Ash Lake",
-        "location_size": 30,
-        "location_border_thickness": 4,
+        "location_size": 15,
+        "location_border_thickness": 2,
         "img": "images/maps/Map_Ash Lake.png"
     },
     {
         "name": "Blighttown Lower",
-        "location_size": 30,
-        "location_border_thickness": 4,
+        "location_size": 50,
+        "location_border_thickness": 7,
         "img": "images/maps/Map_Blighttown Lower.png"
     },
     {
         "name": "Blighttown Upper",
-        "location_size": 30,
-        "location_border_thickness": 4,
+        "location_size": 40,
+        "location_border_thickness": 6,
         "img": "images/maps/Map_Blighttown Upper.png"
     },
     {
@@ -49,14 +49,14 @@
     },
     {
         "name": "Darkroot Basin",
-        "location_size": 30,
-        "location_border_thickness": 4,
+        "location_size": 15,
+        "location_border_thickness": 2,
         "img": "images/maps/Map_Darkroot Basin.png"
     },
     {
         "name": "Darkroot Garden",
-        "location_size": 30,
-        "location_border_thickness": 4,
+        "location_size": 12,
+        "location_border_thickness": 2,
         "img": "images/maps/Map_Darkroot Garden.png"
     },
     {
@@ -67,26 +67,32 @@
     },
     {
         "name": "Depths",
-        "location_size": 30,
-        "location_border_thickness": 4,
+        "location_size": 50,
+        "location_border_thickness": 5,
         "img": "images/maps/Map_Depths.png"
     },
     {
-        "name": "The Duke's Archives",
-        "location_size": 30,
+        "name": "Duke's Archives",
+        "location_size": 20,
         "location_border_thickness": 4,
         "img": "images/maps/Map_Dukes Archive.png"
     },
     {
+        "name": "Duke's Archives Big Room",
+        "location_size": 20,
+        "location_border_thickness": 3,
+        "img": "images/maps/Map_Dukes Archive Big Room.png"
+    },
+    {
         "name": "Firelink Shrine",
         "location_size": 40,
-        "location_border_thickness": 4,
+        "location_border_thickness": 6,
         "img": "images/maps/Map_Firelink Shrine.png"
     },
     {
         "name": "Great Hollow",
-        "location_size": 30,
-        "location_border_thickness": 4,
+        "location_size": 10,
+        "location_border_thickness": 2,
         "img": "images/maps/Map_Great Hollow.png"
     },
     {
@@ -103,14 +109,14 @@
     },
     {
         "name": "New Londo Ruins",
-        "location_size": 30,
-        "location_border_thickness": 4,
+        "location_size": 12,
+        "location_border_thickness": 2,
         "img": "images/maps/Map_New Londo.png"
     },
     {
         "name": "Painted World of Ariamis",
-        "location_size": 30,
-        "location_border_thickness": 4,
+        "location_size": 45,
+        "location_border_thickness": 6,
         "img": "images/maps/Map_Painted World.png"
     },
     {
@@ -127,14 +133,14 @@
     },
     {
         "name": "Sen's Fortress Main",
-        "location_size": 30,
-        "location_border_thickness": 4,
+        "location_size": 50,
+        "location_border_thickness": 6,
         "img": "images/maps/Map_Sens Fortress Middle.png"
     },
     {
         "name": "Sen's Fortress Roof",
-        "location_size": 30,
-        "location_border_thickness": 4,
+        "location_size": 40,
+        "location_border_thickness": 5,
         "img": "images/maps/Map_Sens Fortress Roof.png"
     },
     {
@@ -157,26 +163,26 @@
     },
     {
         "name": "Undead Burg Lower",
-        "location_size": 30,
-        "location_border_thickness": 4,
+        "location_size": 50,
+        "location_border_thickness": 6,
         "img": "images/maps/Map_Undead Burg Lower.png"
     },
     {
         "name": "Undead Burg Upper",
-        "location_size": 30,
-        "location_border_thickness": 4,
+        "location_size": 40,
+        "location_border_thickness": 5,
         "img": "images/maps/Map_Undead Burg Upper.png"
     },
     {
         "name": "Undead Parish",
-        "location_size": 30,
-        "location_border_thickness": 4,
+        "location_size": 50,
+        "location_border_thickness": 5,
         "img": "images/maps/Map_Undead Parish.png"
     },
     {
         "name": "Valley of the Drakes",
-        "location_size": 30,
-        "location_border_thickness": 4,
+        "location_size": 15,
+        "location_border_thickness": 2,
         "img": "images/maps/Map_Valley of the Drakes.png"
     }
 ]

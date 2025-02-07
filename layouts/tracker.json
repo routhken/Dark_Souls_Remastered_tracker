@@ -71,7 +71,6 @@
                                 ]
                             }
                         },
-                        
                         {
                             "title": "Undead Parish",
                             "content": {
@@ -217,11 +216,20 @@
                             }
                         },
                         {
-                            "title": "The Duke's Archives",
+                            "title": "Duke's Archives",
                             "content": {
                                 "type": "map",
                                 "maps": [
-                                    "The Duke's Archives"
+                                    "Duke's Archives"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Duke's Archives Big Room",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Duke's Archives Big Room"
                                 ]
                             }
                         },

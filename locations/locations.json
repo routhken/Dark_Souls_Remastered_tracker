@@ -289,8 +289,12 @@
             {"name": "UB: Black Firebomb - Side House Chest"},
             {"name": "UB: Soul of a Lost Undead - Firebomb Throwers"},
             {"name": "UB: Blue Tearstone Ring"},
-            {"name": "UB: Havel's Ring"},
-            {"name": "UB: Undead Burg Watchtower Upper opened"},
+            {"name": "UB: Havel's Ring",
+            "access_rules": ["$canReachWatchtowerBasement"]},
+            {"name": "UB: Undead Burg Watchtower Upper opened",
+            "access_rules": ["$canReachWatchtowerBasement"]},
+            {"name": "UB: Undead Burg Watchtower Lower opened",
+            "access_rules": ["$canReachWatchtowerBasement"]},
             {"name": "UB: Large Soul of a Lost Undead - After Taurus"},
             {"name": "UB: White Sign Soapstone"},
             {"name": "UB: Claymore"},
@@ -301,6 +305,85 @@
              {"name": "UB: Undead Burg Basement opened",
               "access_rules": ["$canReachLowerUndeadBurg"]}
         ]
+    },{
+        "name": "UB: Soul of a Lost Undead - Window Corpse",
+        "map_locations": [{"map": "Undead Burg Upper","x": 570,"y": 1760}],
+        "sections": [{"name": "UB: Soul of a Lost Undead - Window Corpse"}]
+    },{
+        "name": "UB: Large Soul of a Lost Undead - Barrel Drop",
+        "map_locations": [{"map": "Undead Burg Upper","x": 720,"y": 1790}],
+        "sections": [{"name": "UB: Large Soul of a Lost Undead - Barrel Drop"}]
+    },{
+        "name": "UB: Rubbish - Undead Burg",
+        "map_locations": [{"map": "Undead Burg Upper","x": 605,"y": 1925}],
+        "sections": [{"name": "UB: Rubbish - Undead Burg"}]
+    },{
+        "name": "UB: Humanity - Undead Burg Entrance Wall",
+        "map_locations": [{"map": "Undead Burg Upper","x": 195,"y": 1640}],
+        "sections": [{"name": "UB: Humanity - Undead Burg Entrance Wall"}]
+    },{
+        "name": "UB: Soul of a Lost Undead - Upper Burg Fogwall House",
+        "map_locations": [{"map": "Undead Burg Upper","x": 570,"y": 1530}],
+        "sections": [{"name": "UB: Soul of a Lost Undead - Upper Burg Fogwall House"}]
+    },{
+        "name": "UB: Wooden Shield",
+        "map_locations": [{"map": "Undead Burg Upper","x": 1225,"y": 1640}],
+        "sections": [{"name": "UB: Wooden Shield"}]
+    },{
+        "name": "UB: Throwing Knife",
+        "map_locations": [{"map": "Undead Burg Upper","x": 520,"y": 1580}],
+        "sections": [{"name": "UB: Throwing Knife"}]
+    },{
+        "name": "UB: Light Crossbow and Standard Bolts",
+        "map_locations": [{"map": "Undead Burg Upper","x": 195,"y": 1470}],
+        "sections": [{"name": "UB: Light Crossbow"},{"name": "UB: Standard Bolt"}]
+    },{
+        "name": "UB: Black Firebomb - Side House Chest",
+        "map_locations": [{"map": "Undead Burg Upper","x": 1780,"y": 1680}],
+        "sections": [{"name": "UB: Black Firebomb - Side House Chest"}]
+    },{
+        "name": "UB: Soul of a Lost Undead - Firebomb Throwers",
+        "map_locations": [{"map": "Undead Burg Upper","x": 1510,"y": 1340}],
+        "sections": [{"name": "UB: Soul of a Lost Undead - Firebomb Throwers"}]
+    },{
+        "name": "UB: Blue Tearstone Ring",
+        "map_locations": [{"map": "Undead Burg Upper","x": 1710,"y": 1570}],
+        "sections": [{"name": "UB: Blue Tearstone Ring"}]
+    },{
+        "name": "UB: Havel's Ring - Bottom floor",
+        "map_locations": [{"map": "Undead Burg Upper","x": 2165,"y": 1535}],
+        "access_rules": ["$canReachWatchtowerBasement"],
+        "sections": [{"name": "UB: Havel's Ring"},{"name": "UB: Undead Burg Watchtower Upper opened"},{"name": "UB: Undead Burg Watchtower Lower opened"}]
+    },{
+        "name": "UB: Large Soul of a Lost Undead - After Taurus",
+        "map_locations": [{"map": "Undead Burg Upper","x": 550,"y": 1050}],
+        "sections": [{"name": "UB: Large Soul of a Lost Undead - After Taurus"}]
+    },{
+        "name": "UB: White Sign Soapstone",
+        "map_locations": [{"map": "Undead Burg Upper","x": 730,"y": 1340}],
+        "sections": [{"name": "UB: White Sign Soapstone"}]
+    },{
+        "name": "UB: Claymore",
+        "map_locations": [{"map": "Undead Burg Upper","x": 760,"y": 440}],
+        "sections": [{"name": "UB: Claymore"}]
+    },{
+        "name": "UB: Soul of a Nameless Soldier - Hellkite Bridge",
+        "map_locations": [{"map": "Undead Burg Upper","x": 700,"y": 420}],
+        "sections": [{"name": "UB: Soul of a Nameless Soldier - Hellkite Bridge"}]
+    },{
+        "name": "UB: Undead Burg Sunlight Altar opened",
+        "map_locations": [{"map": "Undead Burg Upper","x": 650,"y": 230}],
+        "sections": [{"name": "UB: Undead Burg Sunlight Altar opened"}]
+    },{
+        "name": "UB: Gold Pine Resin - 3x Gold Pine Resin in Chest behind Locked Door",
+        "map_locations": [{"map": "Undead Burg Upper","x": 1950,"y": 1450}],
+        "access_rules": ["$canReachUndeadBurgPineResinChest"],
+        "sections": [{"name": "UB: Gold Pine Resin - 3x Gold Pine Resin in Chest behind Locked Door"}]
+    },{
+        "name": "UB: Undead Burg Basement opened",
+        "map_locations": [{"map": "Undead Burg Upper","x": 770,"y": 1050}],
+        "access_rules": ["$canReachLowerUndeadBurg"],
+        "sections": [{"name": "UB: Undead Burg Basement opened"}]
     },{
         "name": "Undead Parish",
         "map_locations": [
@@ -322,6 +405,42 @@
             {"name": "UP: Large Soul of a Nameless Soldier - Parish Window"},
             {"name": "UP: Humanity - Parish Barrel"}
         ]
+    },{
+        "name": "UP: Alluring Skull",
+        "map_locations": [{"map": "Undead Parish","x": 590,"y": 1280}],
+        "sections": [{"name": "UP: Alluring Skull"}]
+    },{
+        "name": "UP: Mystery Key",
+        "map_locations": [{"map": "Undead Parish","x": 550,"y": 710}],
+        "sections": [{"name": "UP: Mystery Key"}]
+    },{
+        "name": "UP: Large Soul of a Lost Undead - Hollow Room Rafters",
+        "map_locations": [{"map": "Undead Parish","x": 740,"y": 1010}],
+        "sections": [{"name": "UP: Large Soul of a Lost Undead - Hollow Room Rafters"}]
+    },{
+        "name": "UP: Knight Shield",
+        "map_locations": [{"map": "Undead Parish","x": 610,"y": 1690}],
+        "sections": [{"name": "UP: Knight Shield"}]
+    },{
+        "name": "UP: Halberd",
+        "map_locations": [{"map": "Undead Parish","x": 990,"y": 1270}],
+        "sections": [{"name": "UP: Halberd"}]
+    },{
+        "name": "UP: Basement Key",
+        "map_locations": [{"map": "Undead Parish","x": 770,"y": 1335}],
+        "sections": [{"name": "UP: Basement Key"}]
+    },{
+        "name": "UP: Fire Keeper Soul - Undead Parish",
+        "map_locations": [{"map": "Undead Parish","x": 1640,"y": 1330}],
+        "sections": [{"name": "UP: Fire Keeper Soul - Undead Parish"}]
+    },{
+        "name": "UP: Large Soul of a Nameless Soldier - Parish Window",
+        "map_locations": [{"map": "Undead Parish","x": 1060,"y": 810}],
+        "sections": [{"name": "UP: Large Soul of a Nameless Soldier - Parish Window"}]
+    },{
+        "name": "UP: Humanity - Parish Barrel",
+        "map_locations": [{"map": "Undead Parish","x": 1550,"y": 630}],
+        "sections": [{"name": "UP: Humanity - Parish Barrel"}]
     },{
         "name": "Lower Undead Burg",
         "map_locations": [
@@ -354,10 +473,53 @@
             {"name": "UB: Sorcerer Boots",
             "access_rules": ["$canReachLowerUndeadBurgResidence"]},
             {"name": "UB: Sorcerer's Catalyst",
-            "access_rules": ["$canReachLowerUndeadBurgResidence"]},
-            {"name": "UB: Undead Burg Watchtower Lower opened",
-             "access_rules": ["$canReachWatchtowerBasement"]}
+            "access_rules": ["$canReachLowerUndeadBurgResidence"]}
         ]
+    },{
+        "name": "UB: Undead Burg -> Lower Undead Burg opened",
+        "map_locations": [{"map": "Undead Burg Lower","x": 663,"y": 2628}],
+        "access_rules": ["$canReachLowerUndeadBurg"],
+        "sections": [{"name": "UB: Undead Burg -> Lower Undead Burg opened"}]
+    },{
+        "name": "UB: Twin Humanities - Lower Burg Torch Hollows",
+        "map_locations": [{"map": "Undead Burg Lower","x": 1000,"y": 2830}],
+        "access_rules": ["$canReachLowerUndeadBurg"],
+        "sections": [{"name": "UB: Twin Humanities - Lower Burg Torch Hollows"}]
+    },{
+        "name": "UB: Mail Breaker",
+        "map_locations": [{"map": "Undead Burg Lower","x": 1370,"y": 1860}],
+        "access_rules": ["$canReachLowerUndeadBurg"],
+        "sections": [{"name": "UB: Mail Breaker"}]
+    },{
+        "name": "UB: Large Soul of a Lost Undead - Barrel outside Capra",
+        "map_locations": [{"map": "Undead Burg Lower","x": 1030,"y": 1360}],
+        "access_rules": ["$canReachLowerUndeadBurg"],
+        "sections": [{"name": "UB: Large Soul of a Lost Undead - Barrel outside Capra"}]
+    },{
+        "name": "UB: Large Soul of a Lost Undead - Hallway to Depths",
+        "map_locations": [{"map": "Undead Burg Lower","x": 1000,"y": 80}],
+        "access_rules": ["$canReachLowerUndeadBurg"],
+        "sections": [{"name": "UB: Large Soul of a Lost Undead - Hallway to Depths"}]
+    },{
+        "name": "UB: Thief Set",
+        "map_locations": [{"map": "Undead Burg Lower","x": 1270,"y": 1105}],
+        "access_rules": ["$canReachLowerUndeadBurg"],
+        "sections": [{"name": "UB: Thief Mask"},{"name": "UB: Black Leather Armor"},{"name": "UB: Black Leather Gloves"},{"name": "UB: Black Leather Boots"},{"name": "UB: Target Shield"}]
+    },{
+        "name": "UB: Undead Burg Female Merchant Shortcut opened",
+        "map_locations": [{"map": "Undead Burg Lower","x": 500,"y": 710}],
+        "access_rules": ["$canReachLowerUndeadBurg"],
+        "sections": [{"name": "UB: Undead Burg Female Merchant Shortcut opened"}]
+    },{
+        "name": "UB: Key to Depths",
+        "map_locations": [{"map": "Undead Burg Lower","x": 1150,"y": 650}],
+        "access_rules": ["$canReachLowerUndeadBurg"],
+        "sections": [{"name": "UB: Key to Depths"}]
+    },{
+        "name": "UB: Sorcerer Set",
+        "map_locations": [{"map": "Undead Burg Lower","x": 1400,"y": 2460}],
+        "access_rules": ["$canReachLowerUndeadBurgResidence"],
+        "sections": [{"name": "UB: Sorcerer Hat"},{"name": "UB: Sorcerer Cloak"},{"name": "UB: Sorcerer Gauntlets"},{"name": "UB: Sorcerer Boots"},{"name": "UB: Sorcerer's Catalyst"}]
     },{
         "name": "The Depths",
         "map_locations": [
@@ -396,6 +558,106 @@
             {"name": "Depths to Blighttown Door",
             "access_rules": ["$hasBlighttownKey"]}
         ]
+    },{
+        "name": "DE: Large Soul of a Nameless Soldier - Depths Entrance",
+        "map_locations": [{"map": "Depths","x": 800,"y": 200}],
+        "access_rules": ["$canReachDepths"],
+        "sections": [{"name": "DE: Large Soul of a Nameless Soldier - Depths Entrance"}]
+    },{
+        "name": "DE: Large Ember",
+        "map_locations": [{"map": "Depths","x": 1890,"y": 300}],
+        "access_rules": ["$canReachDepths"],
+        "sections": [{"name": "DE: Large Ember"}]
+    },{
+        "name": "DE: Spider Shield - Ledge near Giant Rat",
+        "map_locations": [{"map": "Depths","x": 1710,"y": 860}],
+        "access_rules": ["$canReachDepths"],
+        "sections": [{"name": "DE: Spider Shield - Ledge near Giant Rat"}]
+    },{
+        "name": "DE: Soul of a Nameless Soldier - Ooze Trap",
+        "map_locations": [{"map": "Depths","x": 1960,"y": 60}],
+        "access_rules": ["$canReachDepths"],
+        "sections": [{"name": "DE: Soul of a Nameless Soldier - Ooze Trap"}]
+    },{
+        "name": "DE: Greataxe",
+        "map_locations": [{"map": "Depths","x": 1580,"y": 1120}],
+        "access_rules": ["$canReachDepths"],
+        "sections": [{"name": "DE: Greataxe"}]
+    },{
+        "name": "DE: Sewer Chamber Key",
+        "map_locations": [{"map": "Depths","x": 1900,"y": 1500}],
+        "access_rules": ["$canReachDepths"],
+        "sections": [{"name": "DE: Sewer Chamber Key"}]
+    },{
+        "name": "DE: Soul of a Nameless Soldier - Near Channeler",
+        "map_locations": [{"map": "Depths","x": 2000,"y": 1860}],
+        "access_rules": ["$canReachDepths"],
+        "sections": [{"name": "DE: Soul of a Nameless Soldier - Near Channeler"}]
+    },{
+        "name": "DE: Soul of a Nameless Soldier - Giant Rat",
+        "map_locations": [{"map": "Depths","x": 1880,"y": 1240}],
+        "access_rules": ["$canReachDepths"],
+        "sections": [{"name": "DE: Soul of a Nameless Soldier - Giant Rat"}]
+    },{
+        "name": "DE: Soul of a Nameless Soldier - Giant Rat Room Entrance",
+        "map_locations": [{"map": "Depths","x": 1600,"y": 1210}],
+        "access_rules": ["$canReachDepths"],
+        "sections": [{"name": "DE: Soul of a Nameless Soldier - Giant Rat Room Entrance"}]
+    },{
+        "name": "DE: Large Titanite Shard - Depths Channeler",
+        "map_locations": [{"map": "Depths","x": 1600,"y": 2400}],
+        "access_rules": ["$canReachDepths"],
+        "sections": [{"name": "DE: Large Titanite Shard - Depths Channeler"}]
+    },{
+        "name": "DE: Large Soul of a Nameless Soldier - Depths Basalisks",
+        "map_locations": [{"map": "Depths","x": 935,"y": 1200}],
+        "access_rules": ["$canReachDepths"],
+        "sections": [{"name": "DE: Large Soul of a Nameless Soldier - Depths Basalisks"}]
+    },{
+        "name": "DE: Soul of a Nameless Soldier - Basilisk Sewer Maze",
+        "map_locations": [{"map": "Depths","x": 780,"y": 990}],
+        "access_rules": ["$canReachDepths"],
+        "sections": [{"name": "DE: Soul of a Nameless Soldier - Basilisk Sewer Maze"}]
+    },{
+        "name": "DE: Ring of the Evil Eye",
+        "map_locations": [{"map": "Depths","x": 1220,"y": 1550}],
+        "access_rules": ["$canReachDepths"],
+        "sections": [{"name": "DE: Ring of the Evil Eye"}]
+    },{
+        "name": "DE: Humanity - Depths Pitfall Jump",
+        "map_locations": [{"map": "Depths","x": 1180,"y": 1480}],
+        "access_rules": ["$canReachDepths"],
+        "sections": [{"name": "DE: Humanity - Depths Pitfall Jump"}]
+    },{
+        "name": "DE: Heavy Crossbow and Bolts",
+        "map_locations": [{"map": "Depths","x": 480,"y": 1900}],
+        "access_rules": ["$canReachDepths"],
+        "sections": [{"name": "DE: Heavy Crossbow"},{"name": "DE: Heavy Bolt"}]
+    },{
+        "name": "DE: Depths Shortcut opened",
+        "map_locations": [{"map": "Depths","x": 900,"y": 1700}],
+        "access_rules": ["$canReachDepths"],
+        "sections": [{"name": "DE: Depths Shortcut opened"}]
+    },{
+        "name": "DE: Blighttown Key",
+        "map_locations": [{"map": "Depths","x": 245,"y": 2120}],
+        "access_rules": ["$canReachDepths"],
+        "sections": [{"name": "DE: Blighttown Key"}]
+    },{
+        "name": "DE: Leather Set",
+        "map_locations": [{"map": "Depths","x": 180,"y": 2360}],
+        "access_rules": ["$canReachDepths"],
+        "sections": [{"name": "DE: Standard Helm"},{"name": "DE: Hard Leather Armor"},{"name": "DE: Hard Leather Gauntlets"},{"name": "DE: Hard Leather Boots"}]
+    },{
+        "name": "DE: Depths Bonfire Room opened",
+        "map_locations": [{"map": "Depths","x": 1590,"y": 550}],
+        "access_rules": ["$canReachSewerChamber"],
+        "sections": [{"name": "DE: Depths Bonfire Room opened"}]
+    },{
+        "name": "Depths to Blighttown Door",
+        "map_locations": [{"map": "Depths","x": 1040,"y": 2710}],
+        "access_rules": ["$canReachDepths"],
+        "sections": [{"name": "Depths to Blighttown Door","access_rules": ["$hasBlighttownKey"]}]
     },{
         "name": "Upper Blighttown",
         "map_locations": [
@@ -439,6 +701,101 @@
             {"name": "BT: Key to New Londo Ruins"}
         ]
     },{
+        "name": "BT: Soul of a Proud Knight - Blighttown Entrance Dropoff",
+        "map_locations": [{"map": "Blighttown Upper","x": 2040,"y": 540}],
+        "access_rules": ["$canReachBlighttown"],
+        "sections": [{"name": "BT: Soul of a Proud Knight - Blighttown Entrance Dropoff"}]
+    },{
+        "name": "BT: Large Soul of a Nameless Soldier - Corpse at Left Ramp",
+        "map_locations": [{"map": "Blighttown Upper","x": 1950,"y": 1230}],
+        "access_rules": ["$canReachBlighttown"],
+        "sections": [{"name": "BT: Large Soul of a Nameless Soldier - Corpse at Left Ramp"}]
+    },{
+        "name": "BT: Blooming Purple Moss Clump - Suspended Walkway",
+        "map_locations": [{"map": "Blighttown Upper","x": 2435,"y": 1905}],
+        "access_rules": ["$canReachBlighttown"],
+        "sections": [{"name": "BT: Blooming Purple Moss Clump - Suspended Walkway"}]
+    },{
+        "name": "BT: Humanity - Blighttown Swaying Bridge",
+        "map_locations": [{"map": "Blighttown Upper","x": 1920,"y": 1980}],
+        "access_rules": ["$canReachBlighttown"],
+        "sections": [{"name": "BT: Humanity - Blighttown Swaying Bridge"}]
+    },{
+        "name": "BT: Iaito",
+        "map_locations": [{"map": "Blighttown Upper","x": 2290,"y": 1320}],
+        "access_rules": ["$canReachBlighttown"],
+        "sections": [{"name": "BT: Iaito"}]
+    },{
+        "name": "BT: Soul of a Proud Knight - Below Shadow Set",
+        "map_locations": [{"map": "Blighttown Upper","x": 1720,"y": 1560}],
+        "access_rules": ["$canReachBlighttown"],
+        "sections": [{"name": "BT: Soul of a Proud Knight - Below Shadow Set"}]
+    },{
+        "name": "BT: Soul of a Proud Knight - Corpse on Wooden Structure Ledge",
+        "map_locations": [{"map": "Blighttown Upper","x": 1880,"y": 1490}],
+        "access_rules": ["$canReachBlighttown"],
+        "sections": [{"name": "BT: Soul of a Proud Knight - Corpse on Wooden Structure Ledge"}]
+    },{
+        "name": "BT: Shadow Set",
+        "map_locations": [{"map": "Blighttown Upper","x": 1860,"y": 1180}],
+        "access_rules": ["$canReachBlighttown"],
+        "sections": [{"name": "BT: Shadow Mask"},{"name": "BT: Shadow Garb"},{"name": "BT: Shadow Gauntlets"},{"name": "BT: Shadow Leggings"}]
+    },{
+        "name": "BT: Soul of a Proud Knight - Corpse in Wooden Structure near Third Catwalk",
+        "map_locations": [{"map": "Blighttown Upper","x": 1460,"y": 1520}],
+        "access_rules": ["$canReachBlighttown"],
+        "sections": [{"name": "BT: Soul of a Proud Knight - Corpse in Wooden Structure near Third Catwalk"}]
+    },{
+        "name": "BT: Eagle Shield",
+        "map_locations": [{"map": "Blighttown Upper","x": 1410,"y": 2160}],
+        "access_rules": ["$canReachBlighttown"],
+        "sections": [{"name": "BT: Eagle Shield"}]
+    },{
+        "name": "BT: Pyromancy: Power Within",
+        "map_locations": [{"map": "Blighttown Upper","x": 1110,"y": 1310}],
+        "access_rules": ["$canReachBlighttown"],
+        "sections": [{"name": "BT: Pyromancy: Power Within"}]
+    },{
+        "name": "BT: Large Soul of a Nameless Soldier - Wall Hugger",
+        "map_locations": [{"map": "Blighttown Upper","x": 1310,"y": 1310}],
+        "access_rules": ["$canReachBlighttown"],
+        "sections": [{"name": "BT: Large Soul of a Nameless Soldier - Wall Hugger"}]
+    },{
+        "name": "BT: Wanderer Set",
+        "map_locations": [{"map": "Blighttown Upper","x": 1860,"y": 2520}],
+        "access_rules": ["$canReachBlighttown"],
+        "sections": [{"name": "BT: Wanderer Hood"},{"name": "BT: Wanderer Coat"},{"name": "BT: Wanderer Manchette"},{"name": "BT: Wanderer Boots"},{"name": "BT: Falchion"}]
+    },{
+        "name": "BT: Whip - Drop down onto small ledge",
+        "map_locations": [{"map": "Blighttown Upper","x": 1150,"y": 1110}],
+        "access_rules": ["$canReachBlighttown"],
+        "sections": [{"name": "BT: Whip"}]
+    },{
+        "name": "BT: Soul of a Proud Knight - Blighttown Fire Keeper Soul",
+        "map_locations": [{"map": "Blighttown Upper","x": 420,"y": 1620}],
+        "access_rules": ["$canReachBlighttown"],
+        "sections": [{"name": "BT: Soul of a Proud Knight - Blighttown Fire Keeper Soul"}]
+    },{
+        "name": "BT: Fire Keeper Soul - Blighttown",
+        "map_locations": [{"map": "Blighttown Upper","x": 420,"y": 1550}],
+        "access_rules": ["$canReachBlighttown"],
+        "sections": [{"name": "BT: Fire Keeper Soul - Blighttown"}]
+    },{
+        "name": "BT: Crimson Set",
+        "map_locations": [{"map": "Blighttown Upper","x": 950,"y": 2340}],
+        "access_rules": ["$canReachBlighttown"],
+        "sections": [{"name": "BT: Crimson Robe"},{"name": "BT: Crimson Gloves"},{"name": "BT: Crimson Waistcloth"},{"name": "BT: Mask of the Sealer"},{"name": "BT: Tin Banishment Catalyst"}]
+    },{
+        "name": "BT: Sorcery: Remedy",
+        "map_locations": [{"map": "Blighttown Upper","x": 960,"y": 2390}],
+        "access_rules": ["$canReachBlighttown"],
+        "sections": [{"name": "BT: Sorcery: Remedy"}]
+    },{
+        "name": "BT: Key to New Londo Ruins",
+        "map_locations": [{"map": "Blighttown Upper","x": 580,"y": 620}],
+        "access_rules": ["$canReachBlighttown"],
+        "sections": [{"name": "BT: Key to New Londo Ruins"}]
+    },{
         "name": "Lower Blighttown",
         "map_locations": [
             {
@@ -469,7 +826,72 @@
             {"name": "BT: Large Titanite Shard - Near Quelana"}
         ]
     },{
-        "name": " Valley of the Drakes",
+        "name": "BT: Large Soul of a Proud Knight - Corpse below Ramp",
+        "map_locations": [{"map": "Blighttown Lower","x": 2330,"y": 900}],
+        "access_rules": ["$canReachBlighttown"],
+        "sections": [{"name": "BT: Large Soul of a Proud Knight - Corpse below Ramp"}]
+    },{
+        "name": "BT: Dragon Scale - Blighttown",
+        "map_locations": [{"map": "Blighttown Lower","x": 1830,"y": 110}],
+        "access_rules": ["$canReachBlighttown"],
+        "sections": [{"name": "BT: Dragon Scale - Blighttown"}]
+    },{
+        "name": "BT: Maneater Mildred (MISSABLE if you beat Quelaag first)",
+        "map_locations": [{"map": "Blighttown Lower","x": 1830,"y": 1110}],
+        "access_rules": ["$canReachBlighttown"],
+        "sections": [{"name": "BT: Butcher Knife"},{"name": "BT: Humanity - Maneater Mildred"}]
+    },{
+        "name": "BT: Large Soul of a Proud Knight - Quelana",
+        "map_locations": [{"map": "Blighttown Lower","x": 1570,"y": 1180}],
+        "access_rules": ["$canReachBlighttown"],
+        "sections": [{"name": "BT: Large Soul of a Proud Knight - Quelana"}]
+    },{
+        "name": "BT: Great Club",
+        "map_locations": [{"map": "Blighttown Lower","x": 1340,"y": 2040}],
+        "access_rules": ["$canReachBlighttown"],
+        "sections": [{"name": "BT: Great Club"}]
+    },{
+        "name": "BT: Tattered Cloth Set",
+        "map_locations": [{"map": "Blighttown Lower","x": 1650,"y": 1900}],
+        "access_rules": ["$canReachBlighttown"],
+        "sections": [{"name": "BT: Tattered Cloth Hood"},{"name": "BT: Tattered Cloth Robe"},{"name": "BT: Tattered Cloth Manchette"},{"name": "BT: Heavy Boots"},{"name": "BT: Pyromancy: Poison Mist"}]
+    },{
+        "name": "BT: Large Soul of a Proud Knight - Corpse between Bonfire and Great Hollow Entrance",
+        "map_locations": [{"map": "Blighttown Lower","x": 1950,"y": 1790}],
+        "access_rules": ["$canReachBlighttown"],
+        "sections": [{"name": "BT: Large Soul of a Proud Knight - Corpse between Bonfire and Great Hollow Entrance"}]
+    },{
+        "name": "BT: Large Titanite Shard - Near Server",
+        "map_locations": [{"map": "Blighttown Lower","x": 3840,"y": 610}],
+        "access_rules": ["$canReachBlighttown"],
+        "sections": [{"name": "BT: Large Titanite Shard - Near Server"}]
+    },{
+        "name": "BT: Server",
+        "map_locations": [{"map": "Blighttown Lower","x": 3610,"y": 370}],
+        "access_rules": ["$canReachBlighttown"],
+        "sections": [{"name": "BT: Server"}]
+    },{
+        "name": "BT: Green Titanite Shard - Blighttown",
+        "map_locations": [{"map": "Blighttown Lower","x": 3140,"y": 410}],
+        "access_rules": ["$canReachBlighttown"],
+        "sections": [{"name": "BT: Green Titanite Shard - Blighttown"}]
+    },{
+        "name": "BT: Plank Shield",
+        "map_locations": [{"map": "Blighttown Lower","x": 3350,"y": 500}],
+        "access_rules": ["$canReachBlighttown"],
+        "sections": [{"name": "BT: Plank Shield"}]
+    },{
+        "name": "BT: Twin Humanities - Great Hallow Entrance",
+        "map_locations": [{"map": "Blighttown Lower","x": 3500,"y": 510}],
+        "access_rules": ["$canReachBlighttown"],
+        "sections": [{"name": "BT: Twin Humanities - Great Hallow Entrance"}]
+    },{
+        "name": "BT: Large Titanite Shard - Near Quelana",
+        "map_locations": [{"map": "Blighttown Lower","x": 800,"y": 1100}],
+        "access_rules": ["$canReachBlighttown"],
+        "sections": [{"name": "BT: Large Titanite Shard - Near Quelana"}]
+    },{
+        "name": "Valley of the Drakes",
         "map_locations": [
             {
                 "map": "Full Map",
@@ -503,6 +925,51 @@
             {"name": "VotD: New Londo Ruins -> Valley of the Drakes opened"}
         ]
     },{
+        "name": "VotD: Large Soul of a Nameless Soldier - New Londo Door",
+        "map_locations": [{"map": "Valley of the Drakes","x": 115,"y": 90}],
+        "access_rules": ["$canReachValleyOfTheDrakes"],
+        "sections": [{"name": "VotD: Large Soul of a Nameless Soldier - New Londo Door"}]
+    },{
+        "name": "VotD: Astora's Straight Sword",
+        "map_locations": [{"map": "Valley of the Drakes","x": 365,"y": 530}],
+        "access_rules": ["$canReachValleyOfTheDrakes"],
+        "sections": [{"name": "VotD: Astora's Straight Sword"}]
+    },{
+        "name": "VotD: Dragon Crest Shield",
+        "map_locations": [{"map": "Valley of the Drakes","x": 355,"y": 550}],
+        "access_rules": ["$canReachValleyOfTheDrakes"],
+        "sections": [{"name": "VotD: Dragon Crest Shield"}]
+    },{
+        "name": "VotD: Soul of a Proud Knight - Undead Dragon",
+        "map_locations": [{"map": "Valley of the Drakes","x": 380,"y": 560}],
+        "access_rules": ["$canReachValleyOfTheDrakes"],
+        "sections": [{"name": "VotD: Soul of a Proud Knight - Undead Dragon"}]
+    },{
+        "name": "VotD: Humanity - Corpse in Small Cave",
+        "map_locations": [{"map": "Valley of the Drakes","x": 720,"y": 760}],
+        "access_rules": ["$canReachValleyOfTheDrakes"],
+        "sections": [{"name": "VotD: Humanity - Corpse in Small Cave"}]
+    },{
+        "name": "VotD: Brigand Set",
+        "map_locations": [{"map": "Valley of the Drakes","x": 755,"y": 480}],
+        "access_rules": ["$canReachValleyOfTheDrakes"],
+        "sections": [{"name": "VotD: Brigand Hood"},{"name": "VotD: Brigand Armor"},{"name": "VotD: Brigand Gauntlets"},{"name": "VotD: Brigand Trousers"},{"name": "VotD: Spider Shield - Brigand Armor Set"}]
+    },{
+        "name": "VotD: Red Tearstone Ring",
+        "map_locations": [{"map": "Valley of the Drakes","x": 730,"y": 360}],
+        "access_rules": ["$canReachValleyOfTheDrakes"],
+        "sections": [{"name": "VotD: Red Tearstone Ring"}]
+    },{
+        "name": "VotD: Witch Set",
+        "map_locations": [{"map": "Valley of the Drakes","x": 180,"y": 280}],
+        "access_rules": ["$canReachValleyOfTheDrakes, $canReachAbyss"],
+        "sections": [{"name": "VotD: Witch Hat"},{"name": "VotD: Witch Cloak"},{"name": "VotD: Witch Gloves"},{"name": "VotD: Witch Skirt"},{"name": "VotD: Beatrice's Catalyst"}]
+    },{
+        "name": "VotD: New Londo Ruins -> Valley of the Drakes opened",
+        "map_locations": [{"map": "Valley of the Drakes","x": 115,"y": 70}],
+        "access_rules": ["$canReachValleyOfTheDrakes"],
+        "sections": [{"name": "VotD: New Londo Ruins -> Valley of the Drakes opened"}]
+    },{
         "name": "Darkroot Basin",
         "map_locations": [
             {
@@ -526,12 +993,32 @@
             {"name": "DB: Knight Leggings"}
         ]
     },{
-        "name": " Darkroot Garden",
+        "name": "DB: Leather Set",
+        "map_locations": [{"map": "Darkroot Basin","x": 200,"y": 370}],
+        "access_rules": ["$canReachDarkrootBasin"],
+        "sections": [{"name": "DB: Leather Armor"},{"name": "DB: Leather Gloves"},{"name": "DB: Leather Boots"},{"name": "DB: Longbow"},{"name": "DB: Feather Arrow"}]
+    },{
+        "name": "DB: Large Soul of a Nameless Soldier - Darkroot Hydra",
+        "map_locations": [{"map": "Darkroot Basin","x": 430,"y": 665}],
+        "access_rules": ["$canReachDarkrootBasin"],
+        "sections": [{"name": "DB: Large Soul of a Nameless Soldier - Darkroot Hydra"}]
+    },{
+        "name": "DB: Grass Crest Shield",
+        "map_locations": [{"map": "Darkroot Basin","x": 100,"y": 520}],
+        "access_rules": ["$canReachDarkrootBasin"],
+        "sections": [{"name": "DB: Grass Crest Shield"}]
+    },{
+        "name": "DB: Knight Set",
+        "map_locations": [{"map": "Darkroot Basin","x": 675,"y": 600}],
+        "access_rules": ["$canReachDarkrootBasin"],
+        "sections": [{"name": "DB: Knight Helm"},{"name": "DB: Knight Armor"},{"name": "DB: Knight Gauntlets"},{"name": "DB: Knight Leggings"}]
+    },{
+        "name": "Darkroot Garden",
         "map_locations": [
             {
                 "map": "Full Map",
-                "x": 960,
-                "y": 390
+                "x": 850,
+                "y": 465
             }
         ],
         "access_rules": ["$canReachDarkrootGarden"],
@@ -550,12 +1037,47 @@
             {"name": "DG: Divine Ember"}
         ]
     },{
-        "name": " Darkroot Garden - Behind Artorias Door",
+        "name": "DG: Large Soul of a Nameless Soldier - Darkroot Cliff",
+        "map_locations": [{"map": "Darkroot Garden","x": 160,"y": 325}],
+        "access_rules": ["$canReachDarkrootGarden"],
+        "sections": [{"name": "DG: Large Soul of a Nameless Soldier - Darkroot Cliff"}]
+    },{
+        "name": "DG: Large Soul of a Nameless Soldier - Darkroot Ambush",
+        "map_locations": [{"map": "Darkroot Garden","x": 245,"y": 260}],
+        "access_rules": ["$canReachDarkrootGarden"],
+        "sections": [{"name": "DG: Large Soul of a Nameless Soldier - Darkroot Ambush"}]
+    },{
+        "name": "DG: Elite Knight Set",
+        "map_locations": [{"map": "Darkroot Garden","x": 188,"y": 360}],
+        "access_rules": ["$canReachDarkrootGarden"],
+        "sections": [{"name": "DG: Elite Knight Helm"},{"name": "DG: Elite Knight Armor"},{"name": "DG: Elite Knight Gauntlets"},{"name": "DG: Elite Knight Leggings"}]
+    },{
+        "name": "DG: Wolf Ring",
+        "map_locations": [{"map": "Darkroot Garden","x": 125,"y": 340}],
+        "access_rules": ["$canReachDarkrootGarden"],
+        "sections": [{"name": "DG: Wolf Ring"}]
+    },{
+        "name": "DG: Soul of a Proud Knight - Past Fake Trees",
+        "map_locations": [{"map": "Darkroot Garden","x": 65,"y": 490}],
+        "access_rules": ["$canReachDarkrootGarden"],
+        "sections": [{"name": "DG: Soul of a Proud Knight - Past Fake Trees"}]
+    },{
+        "name": "DG: Partizan",
+        "map_locations": [{"map": "Darkroot Garden","x": 268,"y": 410}],
+        "access_rules": ["$canReachDarkrootGarden"],
+        "sections": [{"name": "DG: Partizan"}]
+    },{
+        "name": "DG: Frozen Blacksmith",
+        "map_locations": [{"map": "Darkroot Garden","x": 35,"y": 310}],
+        "access_rules": ["$canReachDarkrootGarden"],
+        "sections": [{"name": "DG: Homeward Bone - Frozen Blacksmith"},{"name": "DG: Watchtower Basement Key"},{"name": "DG: Divine Ember"}]
+    },{
+        "name": "Darkroot Garden - Behind Artorias Door",
         "map_locations": [
             {
                 "map": "Full Map",
-                "x": 1110,
-                "y": 350
+                "x": 960,
+                "y": 390
             }
         ],
         "access_rules": ["$canReachBehindArtoriasDoor"],
@@ -573,6 +1095,36 @@
             {"name": "DG: Enchanted Ember"},
             {"name": "DG: Hornet Ring"}
         ]
+    },{
+        "name": "DG: Eastern Set",
+        "map_locations": [{"map": "Darkroot Garden","x": 362,"y": 470}],
+        "access_rules": ["$canReachBehindArtoriasDoor"],
+        "sections": [{"name": "DG: Eastern Helm"},{"name": "DG: Eastern Armor"},{"name": "DG: Eastern Gauntlets"},{"name": "DG: Eastern Leggings"}]
+    },{
+        "name": "DG: Stone Set",
+        "map_locations": [{"map": "Darkroot Garden","x": 460,"y": 110}],
+        "access_rules": ["$canReachBehindArtoriasDoor"],
+        "sections": [{"name": "DG: Stone Helm"},{"name": "DG: Stone Armor"},{"name": "DG: Stone Gauntlets"},{"name": "DG: Stone Leggings"}]
+    },{
+        "name": "DG: Large Soul of a Brave Warrior - Darkroot Garden Cats",
+        "map_locations": [{"map": "Darkroot Garden","x": 660,"y": 300}],
+        "access_rules": ["$canReachBehindArtoriasDoor"],
+        "sections": [{"name": "DG: Large Soul of a Brave Warrior - Darkroot Garden Cats"}]
+    },{
+        "name": "DG: Soul of a Brave Warrior - Down Ladder before Stone Bridge",
+        "map_locations": [{"map": "Darkroot Garden","x": 510,"y": 410}],
+        "access_rules": ["$canReachBehindArtoriasDoor"],
+        "sections": [{"name": "DG: Soul of a Brave Warrior - Down Ladder before Stone Bridge"}]
+    },{
+        "name": "DG: Enchanted Ember",
+        "map_locations": [{"map": "Darkroot Garden","x": 560,"y": 140}],
+        "access_rules": ["$canReachBehindArtoriasDoor"],
+        "sections": [{"name": "DG: Enchanted Ember"}]
+    },{
+        "name": "DG: Hornet Ring",
+        "map_locations": [{"map": "Darkroot Garden","x": 885,"y": 210}],
+        "access_rules": ["$canReachBehindArtoriasDoor"],
+        "sections": [{"name": "DG: Hornet Ring"}]
     },{
         "name": "The Great Hollow",
         "map_locations": [
@@ -597,6 +1149,61 @@
             {"name": "GH: Red Titanite Chunk - Near Top Branch Drop"}
         ]
     },{
+        "name": "GH: Titanite Chunk - Drop on Top Branch",
+        "map_locations": [{"map": "Great Hollow","x": 540,"y": 60}],
+        "access_rules": ["$canReachGreatHollow"],
+        "sections": [{"name": "GH: Titanite Chunk - Drop on Top Branch"}]
+    },{
+        "name": "GH: Blue Titanite Chunk - Second Last Drop before Floor",
+        "map_locations": [{"map": "Great Hollow","x": 560,"y": 470}],
+        "access_rules": ["$canReachGreatHollow"],
+        "sections": [{"name": "GH: Blue Titanite Chunk - Second Last Drop before Floor"}]
+    },{
+        "name": "GH: White Titanite Chunk - Third Last Drop before Floor",
+        "map_locations": [{"map": "Great Hollow","x": 460,"y": 210}],
+        "access_rules": ["$canReachGreatHollow"],
+        "sections": [{"name": "GH: White Titanite Chunk - Third Last Drop before Floor"}]
+    },{
+        "name": "GH: Red Titanite Chunk - Last Drop before Floor",
+        "map_locations": [{"map": "Great Hollow","x": 520,"y": 465}],
+        "access_rules": ["$canReachGreatHollow"],
+        "sections": [{"name": "GH: Red Titanite Chunk - Last Drop before Floor"}]
+    },{
+        "name": "GH: Blue Titanite Chunk - Drop on Branch into Hole",
+        "map_locations": [{"map": "Great Hollow","x": 880,"y": 50}],
+        "access_rules": ["$canReachGreatHollow"],
+        "sections": [{"name": "GH: Blue Titanite Chunk - Drop on Branch into Hole"}]
+    },{
+        "name": "GH: White Titanite Chunk - Drop below Floor",
+        "map_locations": [{"map": "Great Hollow","x": 920,"y": 200}],
+        "access_rules": ["$canReachGreatHollow"],
+        "sections": [{"name": "GH: White Titanite Chunk - Drop below Floor"}]
+    },{
+        "name": "GH: Chloranthy Ring",
+        "map_locations": [{"map": "Great Hollow","x": 170,"y": 380}],
+        "access_rules": ["$canReachGreatHollow"],
+        "sections": [{"name": "GH: Chloranthy Ring"}]
+    },{
+        "name": "GH: Large Soul of a Nameless Soldier - Corpse Entry to Basilisks",
+        "map_locations": [{"map": "Great Hollow","x": 640,"y": 105}],
+        "access_rules": ["$canReachGreatHollow"],
+        "sections": [{"name": "GH: Large Soul of a Nameless Soldier - Corpse Entry to Basilisks"}]
+    },{
+        "name": "GH: Large Soul of a Nameless Soldier - Corpse on Lower Floor with Basilisks",
+        "map_locations": [{"map": "Great Hollow","x": 775,"y": 155}],
+        "access_rules": ["$canReachGreatHollow"],
+        "sections": [{"name": "GH: Large Soul of a Nameless Soldier - Corpse on Lower Floor with Basilisks"}]
+    },{
+        "name": "GH: Titanite Chunk - Corpse on Mushroom",
+        "map_locations": [{"map": "Great Hollow","x": 865,"y": 425}],
+        "access_rules": ["$canReachGreatHollow"],
+        "sections": [{"name": "GH: Titanite Chunk - Corpse on Mushroom"}]
+    },{
+        "name": "GH: Red Titanite Chunk - Near Top Branch Drop",
+        "map_locations": [{"map": "Great Hollow","x": 552,"y": 160}],
+        "access_rules": ["$canReachGreatHollow"],
+        "sections": [{"name": "GH: Red Titanite Chunk - Near Top Branch Drop"}]
+    },{
         "name": "Ash Lake",
         "map_locations": [
             {
@@ -613,7 +1220,27 @@
             {"name": "ASH: Miracle: Great Magic Barrier"}
         ]
     },{
-        "name": " Sen's Fortress",
+        "name": "ASH: Dragon Scale - Ash Lake Start",
+        "map_locations": [{"map": "Ash Lake","x": 210,"y": 210}],
+        "access_rules": ["$canReachGreatHollow"],
+        "sections": [{"name": "ASH: Dragon Scale - Ash Lake Start"}]
+    },{
+        "name": "ASH: Dragon Scale - Ash Lake Log",
+        "map_locations": [{"map": "Ash Lake","x": 360,"y": 290}],
+        "access_rules": ["$canReachGreatHollow"],
+        "sections": [{"name": "ASH: Dragon Scale - Ash Lake Log"}]
+    },{
+        "name": "ASH: Dragon Scale - Ash Lake Water",
+        "map_locations": [{"map": "Ash Lake","x": 730,"y": 225}],
+        "access_rules": ["$canReachGreatHollow"],
+        "sections": [{"name": "ASH: Dragon Scale - Ash Lake Water"}]
+    },{
+        "name": "ASH: Miracle: Great Magic Barrier",
+        "map_locations": [{"map": "Ash Lake","x": 795,"y": 230}],
+        "access_rules": ["$canReachGreatHollow"],
+        "sections": [{"name": "ASH: Miracle: Great Magic Barrier"}]
+    },{
+        "name": "Sen's Fortress",
         "map_locations": [
             {
                 "map": "Full Map",
@@ -651,6 +1278,111 @@
             {"name": "SF: Soul of a Hero - Sen's Fortress Cage",
              "access_rules": ["$canReachSensFortressCage"]}
         ]
+    },{
+        "name": "SF: Soul of a Brave Warrior - Sen's Fortress Pit",
+        "map_locations": [{"map": "Sen's Fortress Basement","x": 1010,"y": 290}],
+        "access_rules": ["$canReachSensFortress"],
+        "sections": [{"name": "SF: Soul of a Brave Warrior - Sen's Fortress Pit"}]
+    },{
+        "name": "SF: Scythe",
+        "map_locations": [{"map": "Sen's Fortress Basement","x": 1045,"y": 125}],
+        "access_rules": ["$canReachSensFortress"],
+        "sections": [{"name": "SF: Scythe"}]
+    },{
+        "name": "SF: Large Soul of a Proud Knight - Corpse after Ladder out of Pit",
+        "map_locations": [{"map": "Sen's Fortress Main","x": 1010,"y": 1270}],
+        "access_rules": ["$canReachSensFortress"],
+        "sections": [{"name": "SF: Large Soul of a Proud Knight - Corpse after Ladder out of Pit"}]
+    },{
+        "name": "SF: Sen's Fortress Main Gate opened",
+        "map_locations": [{"map": "Sen's Fortress Main","x": 350,"y": 1495}],
+        "access_rules": ["$canReachSensFortress"],
+        "sections": [{"name": "SF: Sen's Fortress Main Gate opened"}]
+    },{
+        "name": "SF: Soul of a Brave Warrior - Sen's Fortress Entrance",
+        "map_locations": [{"map": "Sen's Fortress Main","x": 830,"y": 1550}],
+        "access_rules": ["$canReachSensFortress"],
+        "sections": [{"name": "SF: Soul of a Brave Warrior - Sen's Fortress Entrance"}]
+    },{
+        "name": "SF: Large Titanite Shard - Sen's Fortress Trap Chest",
+        "map_locations": [{"map": "Sen's Fortress Main","x": 1330,"y": 1660}],
+        "access_rules": ["$canReachSensFortress"],
+        "sections": [{"name": "SF: Large Titanite Shard - Sen's Fortress Trap Chest"}]
+    },{
+        "name": "SF: Ring of Steel Protection",
+        "map_locations": [{"map": "Sen's Fortress Main","x": 2100,"y": 2150}],
+        "access_rules": ["$canReachSensFortress"],
+        "sections": [{"name": "SF: Ring of Steel Protection"}]
+    },{
+        "name": "SF: Shotel",
+        "map_locations": [{"map": "Sen's Fortress Main","x": 1800,"y": 2300}],
+        "access_rules": ["$canReachSensFortress"],
+        "sections": [{"name": "SF: Shotel"}]
+    },{
+        "name": "SF: Covetous Gold Serpent Ring",
+        "map_locations": [{"map": "Sen's Fortress Main","x": 1470,"y": 1580}],
+        "access_rules": ["$canReachSensFortress"],
+        "sections": [{"name": "SF: Covetous Gold Serpent Ring"}]
+    },{
+        "name": "SF: Large Soul of a Proud Knight - Sen's Fortress Ball Dropdown",
+        "map_locations": [{"map": "Sen's Fortress Main","x": 1570,"y": 610}],
+        "access_rules": ["$canReachSensFortress"],
+        "sections": [{"name": "SF: Large Soul of a Proud Knight - Sen's Fortress Ball Dropdown"}]
+    },{
+        "name": "SF: Black Sorcerer Set",
+        "map_locations": [{"map": "Sen's Fortress Main","x": 1805,"y": 775}],
+        "access_rules": ["$canReachSensFortress"],
+        "sections": [{"name": "SF: Black Sorcerer Hat"},{"name": "SF: Black Sorcerer Cloak"},{"name": "SF: Black Sorcerer Gauntlets"},{"name": "SF: Black Sorcerer Boots"},{"name": "SF: Sorcery: Hush"}]
+    },{
+        "name": "SF: Slumbering Dragoncrest Ring",
+        "map_locations": [{"map": "Sen's Fortress Main","x": 1680,"y": 1500}],
+        "access_rules": ["$canReachSensFortress"],
+        "sections": [{"name": "SF: Slumbering Dragoncrest Ring"}]
+    },{
+        "name": "SF: Large Titanite Shard - Guarded by Serpent Soldier",
+        "map_locations": [{"map": "Sen's Fortress Main","x": 1410,"y": 270}],
+        "access_rules": ["$canReachSensFortress"],
+        "sections": [{"name": "SF: Large Titanite Shard - Guarded by Serpent Soldier"}]
+    },{
+        "name": "SF: Large Soul of a Brave Warrior - Sen's Fortress above Bonfire",
+        "map_locations": [{"map": "Sen's Fortress Roof","x": 1730,"y": 970}],
+        "access_rules": ["$canReachSensFortress"],
+        "sections": [{"name": "SF: Large Soul of a Brave Warrior - Sen's Fortress above Bonfire"}]
+    },{
+        "name": "SF: Flame Stoneplate Ring",
+        "map_locations": [{"map": "Sen's Fortress Roof","x": 1250,"y": 1280}],
+        "access_rules": ["$canReachSensFortress"],
+        "sections": [{"name": "SF: Flame Stoneplate Ring"}]
+    },{
+        "name": "SF: Large Titanite Shard - Corpse bombed by Giant",
+        "map_locations": [{"map": "Sen's Fortress Roof","x": 1580,"y": 950}],
+        "access_rules": ["$canReachSensFortress"],
+        "sections": [{"name": "SF: Large Titanite Shard - Corpse bombed by Giant"}]
+    },{
+        "name": "SF: Sniper Crossbow and Bolts",
+        "map_locations": [{"map": "Sen's Fortress Roof","x": 1660,"y": 1440}],
+        "access_rules": ["$canReachSensFortress"],
+        "sections": [{"name": "SF: Sniper Crossbow"},{"name": "SF: Sniper Bolt"}]
+    },{
+        "name": "SF: Cage Key",
+        "map_locations": [{"map": "Sen's Fortress Roof","x": 1830,"y": 720}],
+        "access_rules": ["$canReachSensFortress"],
+        "sections": [{"name": "SF: Cage Key"}]
+    },{
+        "name": "SF: Divine Blessing - Sen's Fortress",
+        "map_locations": [{"map": "Sen's Fortress Roof","x": 720,"y": 1145}],
+        "access_rules": ["$canReachSensFortress"],
+        "sections": [{"name": "SF: Divine Blessing - Sen's Fortress"}]
+    },{
+        "name": "SF: Rare Ring of Sacrifice - Sen's Fortress",
+        "map_locations": [{"map": "Sen's Fortress Roof","x": 720,"y": 1070}],
+        "access_rules": ["$canReachSensFortress"],
+        "sections": [{"name": "SF: Rare Ring of Sacrifice - Sen's Fortress"}]
+    },{
+        "name": "SF: Soul of a Hero - Sen's Fortress Cage",
+        "map_locations": [{"map": "Sen's Fortress Main","x": 800,"y": 2050}],
+        "access_rules": ["$canReachSensFortress, $canReachSensFortressCage"],
+        "sections": [{"name": "SF: Soul of a Hero - Sen's Fortress Cage"}]
     },{
         "name": "Anor Londo",
         "map_locations": [
@@ -703,7 +1435,117 @@
             {"name": "AL: Miracle: Sunlight Blade"}
         ]
     },{
-        "name": " Painted World of Ariamis",
+        "name": "AL: Demon Titanite - Anor Londo Giants",
+        "map_locations": [{"map": "Anor Londo Exterior","x": 880,"y": 780}],
+        "access_rules": ["$canReachAnorLondo"],
+        "sections": [{"name": "AL: Demon Titanite - Anor Londo Giants"}]
+    },{
+        "name": "AL: Twinkling Titanite - Anor Londo",
+        "map_locations": [{"map": "Anor Londo Exterior","x": 2250,"y": 770}],
+        "access_rules": ["$canReachAnorLondo"],
+        "sections": [{"name": "AL: Twinkling Titanite - Anor Londo"}]
+    },{
+        "name": "AL: Demon Titanite - Anor Londo Elevator",
+        "map_locations": [{"map": "Anor Londo Exterior","x": 1100,"y": 1140}],
+        "access_rules": ["$canReachAnorLondo"],
+        "sections": [{"name": "AL: Demon Titanite - Anor Londo Elevator"}]
+    },{
+        "name": "AL: Divine Blessing - Anor Londo Rafters",
+        "map_locations": [{"map": "Anor Londo Exterior","x": 1900,"y": 2130}],
+        "access_rules": ["$canReachAnorLondo"],
+        "sections": [{"name": "AL: Divine Blessing - Anor Londo Rafters"}]
+    },{
+        "name": "AL: Ring of the Sun's Firstborn",
+        "map_locations": [{"map": "Anor Londo Exterior","x": 2700,"y": 1690}],
+        "access_rules": ["$canReachAnorLondo"],
+        "sections": [{"name": "AL: Ring of the Sun's Firstborn"}]
+    },{
+        "name": "AL: Sorcery: Great Magic Weapon",
+        "map_locations": [{"map": "Anor Londo Exterior","x": 3250,"y": 760}],
+        "access_rules": ["$canReachAnorLondo"],
+        "sections": [{"name": "AL: Sorcery: Great Magic Weapon"}]
+    },{
+        "name": "AL: Black Iron Set",
+        "map_locations": [{"map": "Anor Londo Exterior","x": 3050,"y": 450}],
+        "access_rules": ["$canReachAnorLondo"],
+        "sections": [{"name": "AL: Black Iron Helm"},{"name": "AL: Black Iron Armor"},{"name": "AL: Black Iron Gauntlets"},{"name": "AL: Black Iron Leggings"},{"name": "AL: Greatsword"},{"name": "AL: Black Iron Greatshield"}]
+    },{
+        "name": "AL: Brass Set",
+        "map_locations": [{"map": "Anor Londo Exterior","x": 2560,"y": 2600}],
+        "access_rules": ["$canReachAnorLondo"],
+        "sections": [{"name": "AL: Brass Helm"},{"name": "AL: Brass Armor"},{"name": "AL: Brass Gauntlets"},{"name": "AL: Brass Leggings"}]
+    },{
+        "name": "AL: Miracle: Sunlight Blade",
+        "map_locations": [{"map": "Anor Londo Exterior","x": 2750,"y": 2600}],
+        "access_rules": ["$canReachAnorLondo"],
+        "sections": [{"name": "AL: Miracle: Sunlight Blade"}]
+    },{
+        "name": "AL: Soul of a Hero - Left Silver Archer",
+        "map_locations": [{"map": "Anor Londo Interior","x": 680,"y": 680}],
+        "access_rules": ["$canReachAnorLondo"],
+        "sections": [{"name": "AL: Soul of a Hero - Left Silver Archer"}]
+    },{
+        "name": "AL: Sunlight Medal - Anor Londo",
+        "map_locations": [{"map": "Anor Londo Interior","x": 320,"y": 1150}],
+        "access_rules": ["$canReachAnorLondo"],
+        "sections": [{"name": "AL: Sunlight Medal - Anor Londo"}]
+    },{
+        "name": "AL: Havel's Set",
+        "map_locations": [{"map": "Anor Londo Interior","x": 780,"y": 740}],
+        "access_rules": ["$canReachAnorLondo"],
+        "sections": [{"name": "AL: Havel's Helm"},{"name": "AL: Havel's Armor"},{"name": "AL: Havel's Gauntlets"},{"name": "AL: Havel's Leggings"},{"name": "AL: Dragon Tooth"},{"name": "AL: Havel's Greatshield"}]
+    },{
+        "name": "AL: Soul of a Hero - Anor Londo Rooms",
+        "map_locations": [{"map": "Anor Londo Interior","x": 1000,"y": 1500}],
+        "access_rules": ["$canReachAnorLondo"],
+        "sections": [{"name": "AL: Soul of a Hero - Anor Londo Rooms"}]
+    },{
+        "name": "AL: Demon Titanite - Anor Londo Bedroom",
+        "map_locations": [{"map": "Anor Londo Interior","x": 480,"y": 1470}],
+        "access_rules": ["$canReachAnorLondo"],
+        "sections": [{"name": "AL: Demon Titanite - Anor Londo Bedroom"}]
+    },{
+        "name": "AL: Silver Knight Set",
+        "map_locations": [{"map": "Anor Londo Interior","x": 990,"y": 2150}],
+        "access_rules": ["$canReachAnorLondo"],
+        "sections": [{"name": "AL: Silver Knight Helm"},{"name": "AL: Silver Knight Armor"},{"name": "AL: Silver Knight Gauntlets"},{"name": "AL: Silver Knight Leggings"}]
+    },{
+        "name": "AL: Anor Londo Bonfire Shortcut opened",
+        "map_locations": [{"map": "Anor Londo Interior","x": 550,"y": 1500}],
+        "access_rules": ["$canReachAnorLondo"],
+        "sections": [{"name": "AL: Anor Londo Bonfire Shortcut opened"}]
+    },{
+        "name": "AL: Dragonslayer Greatbow and Arrows",
+        "map_locations": [{"map": "Anor Londo Interior","x": 1650,"y": 1380}],
+        "access_rules": ["$canReachAnorLondo"],
+        "sections": [{"name": "AL: Dragonslayer Greatbow"},{"name": "AL: Dragonslayer Arrow"}]
+    },{
+        "name": "AL: Titanite Chunk - near Giant Blacksmith",
+        "map_locations": [{"map": "Anor Londo Interior","x": 1900,"y": 1080}],
+        "access_rules": ["$canReachAnorLondo"],
+        "sections": [{"name": "AL: Titanite Chunk - near Giant Blacksmith"}]
+    },{
+        "name": "AL: Hawk Ring",
+        "map_locations": [{"map": "Anor Londo Interior","x": 2050,"y": 1550}],
+        "access_rules": ["$canReachAnorLondo"],
+        "sections": [{"name": "AL: Hawk Ring"}]
+    },{
+        "name": "AL: Anor Londo Giant Blacksmith Shortcut opened",
+        "map_locations": [{"map": "Anor Londo Interior","x": 1800,"y": 1300}],
+        "access_rules": ["$canReachAnorLondo"],
+        "sections": [{"name": "AL: Anor Londo Giant Blacksmith Shortcut opened"}]
+    },{
+        "name": "AL: Anor Londo Main Hall Door opened",
+        "map_locations": [{"map": "Anor Londo Interior","x": 1552,"y": 1330}],
+        "access_rules": ["$canReachAnorLondo"],
+        "sections": [{"name": "AL: Anor Londo Main Hall Door opened"}]
+    },{
+        "name": "AL: Lordvessel",
+        "map_locations": [{"map": "Anor Londo Interior","x": 2050,"y": 3000}],
+        "access_rules": ["$canReachAnorLondo"],
+        "sections": [{"name": "AL: Lordvessel"}]
+    },{
+        "name": "Painted World of Ariamis",
         "map_locations": [
             {
                 "map": "Full Map",
@@ -759,6 +1601,161 @@
              "access_rules": ["$canReachPaintedWorldAnnex"]}
         ]
     },{
+        "name": "PW: Humanity - Painted World Hanging Body",
+        "map_locations": [{"map": "Painted World of Ariamis","x": 1780,"y": 2420}],
+        "access_rules": ["$canReachPaintedWorld"],
+        "sections": [{"name": "PW: Humanity - Painted World Hanging Body"}]
+    },{
+        "name": "PW: Ring of Sacrifice - Painted World",
+        "map_locations": [{"map": "Painted World of Ariamis","x": 1230,"y": 2160}],
+        "access_rules": ["$canReachPaintedWorld"],
+        "sections": [{"name": "PW: Ring of Sacrifice - Painted World"}]
+    },{
+        "name": "PW: Soul of a Proud Knight - Corpse up First Staircase",
+        "map_locations": [{"map": "Painted World of Ariamis","x": 660,"y": 1970}],
+        "access_rules": ["$canReachPaintedWorld"],
+        "sections": [{"name": "PW: Soul of a Proud Knight - Corpse up First Staircase"}]
+    },{
+        "name": "PW: Soul of a Proud Knight - Corpse near Bonewheels",
+        "map_locations": [{"map": "Painted World of Ariamis","x": 2310,"y": 1520}],
+        "access_rules": ["$canReachPaintedWorld"],
+        "sections": [{"name": "PW: Soul of a Proud Knight - Corpse near Bonewheels"}]
+    },{
+        "name": "PW: Twin Humanities - Painted World",
+        "map_locations": [{"map": "Painted World of Ariamis","x": 600,"y": 2100}],
+        "access_rules": ["$canReachPaintedWorld"],
+        "sections": [{"name": "PW: Twin Humanities - Painted World"}]
+    },{
+        "name": "PW: Soul of a Proud Knight - Painted World Corvid Ambush",
+        "map_locations": [{"map": "Painted World of Ariamis","x": 380,"y": 2160}],
+        "access_rules": ["$canReachPaintedWorld"],
+        "sections": [{"name": "PW: Soul of a Proud Knight - Painted World Corvid Ambush"}]
+    },{
+        "name": "PW: Egg Vermifuge - Painted World",
+        "map_locations": [{"map": "Painted World of Ariamis","x": 170,"y": 1560}],
+        "access_rules": ["$canReachPaintedWorld"],
+        "sections": [{"name": "PW: Egg Vermifuge - Painted World"}]
+    },{
+        "name": "PW: Velka's Rapier",
+        "map_locations": [{"map": "Painted World of Ariamis","x": 620,"y": 1650}],
+        "access_rules": ["$canReachPaintedWorld"],
+        "sections": [{"name": "PW: Velka's Rapier"}]
+    },{
+        "name": "PW: Red Sign Soapstone",
+        "map_locations": [{"map": "Painted World of Ariamis","x": 830,"y": 1070}],
+        "access_rules": ["$canReachPaintedWorld"],
+        "sections": [{"name": "PW: Red Sign Soapstone"}]
+    },{
+        "name": "PW: Bloodshield",
+        "map_locations": [{"map": "Painted World of Ariamis","x": 1140,"y": 640}],
+        "access_rules": ["$canReachPaintedWorld"],
+        "sections": [{"name": "PW: Bloodshield"}]
+    },{
+        "name": "PW: Large Soul of a Proud Knight - Painted World Undead Dragon",
+        "map_locations": [{"map": "Painted World of Ariamis","x": 1075,"y": 700}],
+        "access_rules": ["$canReachPaintedWorld"],
+        "sections": [{"name": "PW: Large Soul of a Proud Knight - Painted World Undead Dragon"}]
+    },{
+        "name": "PW: Soul of a Proud Knight - Jeremiah 1",
+        "map_locations": [{"map": "Painted World of Ariamis","x": 2070,"y": 2230}],
+        "access_rules": ["$canReachPaintedWorld"],
+        "sections": [{"name": "PW: Soul of a Proud Knight - Jeremiah 1"}]
+    },{
+        "name": "PW: Soul of a Proud Knight - Jeremiah 2",
+        "map_locations": [{"map": "Painted World of Ariamis","x": 2120,"y": 2370}],
+        "access_rules": ["$canReachPaintedWorld"],
+        "sections": [{"name": "PW: Soul of a Proud Knight - Jeremiah 2"}]
+    },{
+        "name": "PW: Large Soul of a Proud Knight - Jeremiah",
+        "map_locations": [{"map": "Painted World of Ariamis","x": 2065,"y": 2070}],
+        "access_rules": ["$canReachPaintedWorld"],
+        "sections": [{"name": "PW: Large Soul of a Proud Knight - Jeremiah"}]
+    },{
+        "name": "PW: Pyromancy: Acid Surge",
+        "map_locations": [{"map": "Painted World of Ariamis","x": 1940,"y": 2530}],
+        "access_rules": ["$canReachPaintedWorld"],
+        "sections": [{"name": "PW: Pyromancy: Acid Surge"}]
+    },{
+        "name": "PW: Soul of a Brave Warrior - Painted World Bonewheels",
+        "map_locations": [{"map": "Painted World of Ariamis","x": 2100,"y": 1300}],
+        "access_rules": ["$canReachPaintedWorld"],
+        "sections": [{"name": "PW: Soul of a Brave Warrior - Painted World Bonewheels"}]
+    },{
+        "name": "PW: Annex Key",
+        "map_locations": [{"map": "Painted World of Ariamis","x": 1720,"y": 1120}],
+        "access_rules": ["$canReachPaintedWorld"],
+        "sections": [{"name": "PW: Annex Key"}]
+    },{
+        "name": "PW: Dark Ember",
+        "map_locations": [{"map": "Painted World of Ariamis","x": 1000,"y": 1770}],
+        "access_rules": ["$canReachPaintedWorldAnnex"],
+        "sections": [{"name": "PW: Dark Ember"}]
+    },{
+        "name": "PW: Miracle: Vow of Silence",
+        "map_locations": [{"map": "Painted World of Ariamis","x": 970,"y": 1620}],
+        "access_rules": ["$canReachPaintedWorldAnnex"],
+        "sections": [{"name": "PW: Miracle: Vow of Silence"}]
+    },{
+        "name": "PW: Black Cleric Set",
+        "map_locations": [{"map": "Painted World of Ariamis","x": 870,"y": 1440}],
+        "access_rules": ["$canReachPaintedWorldAnnex"],
+        "sections": [{"name": "PW: Mask of Velka"},{"name": "PW: Black Cleric Robe"},{"name": "PW: Black Manchette"},{"name": "PW: Black Tights"}]
+    },{
+        "name": "PW: Painting Guardian Set",
+        "map_locations": [{"map": "Painted World of Ariamis","x": 375,"y": 1290}],
+        "access_rules": ["$canReachPaintedWorld"],
+        "sections": [{"name": "PW: Painting Guardian Hood"},{"name": "PW: Painting Guardian Robe"},{"name": "PW: Painting Guardian Gloves"},{"name": "PW: Painting Guardian Waistcloth"}]
+    },{
+        "name": "PW: Invader Jeremiah (MISSABLE if you beat Priscilla first)",
+        "map_locations": [{"map": "Painted World of Ariamis","x": 1940,"y": 2270}],
+        "access_rules": ["$canReachPaintedWorld"],
+        "sections": [{"name": "PW: Notched Whip"}]
+    },{
+        "name": "PW: Humanity - Painted World Courtyard",
+        "map_locations": [{"map": "Painted World of Ariamis","x": 1350,"y": 1870}],
+        "access_rules": ["$canReachPaintedWorld"],
+        "sections": [{"name": "PW: Humanity - Painted World Courtyard"}]
+    },{
+        "name": "PW: Soul of a Proud Knight - By Hanging Corpse",
+        "map_locations": [{"map": "Painted World of Ariamis","x": 1370,"y": 2590}],
+        "access_rules": ["$canReachPaintedWorld"],
+        "sections": [{"name": "PW: Soul of a Proud Knight - By Hanging Corpse"}]
+    },{
+        "name": "PW: Large Soul of a Proud Knight - Ambush after Building",
+        "map_locations": [{"map": "Painted World of Ariamis","x": 355,"y": 1420}],
+        "access_rules": ["$canReachPaintedWorld"],
+        "sections": [{"name": "PW: Large Soul of a Proud Knight - Ambush after Building"}]
+    },{
+        "name": "PW: Soul of a Brave Warrior - Painted World Albino Rats",
+        "map_locations": [{"map": "Painted World of Ariamis","x": 765,"y": 2620}],
+        "access_rules": ["$canReachPaintedWorld"],
+        "sections": [{"name": "PW: Soul of a Brave Warrior - Painted World Albino Rats"}]
+    },{
+        "name": "PW: Gold Coin - Painted World",
+        "map_locations": [{"map": "Painted World of Ariamis","x": 270,"y": 1370}],
+        "access_rules": ["$canReachPaintedWorldAnnex"],
+        "sections": [{"name": "PW: Gold Coin - Painted World"}]
+    },{
+        "name": "PW: Soul of a Brave Warrior - Corpse at Backside Tower Corner",
+        "map_locations": [{"map": "Painted World of Ariamis","x": 910,"y": 1450}],
+        "access_rules": ["$canReachPaintedWorld"],
+        "sections": [{"name": "PW: Soul of a Brave Warrior - Corpse at Backside Tower Corner"}]
+    },{
+        "name": "PW: Soul of a Brave Warrior - Next to Stairs",
+        "map_locations": [{"map": "Painted World of Ariamis","x": 180,"y": 1790}],
+        "access_rules": ["$canReachPaintedWorld"],
+        "sections": [{"name": "PW: Soul of a Brave Warrior - Next to Stairs"}]
+    },{
+        "name": "PW: Soul of a Brave Warrior - Painted World Tower",
+        "map_locations": [{"map": "Painted World of Ariamis","x": 650,"y": 1430}],
+        "access_rules": ["$canReachPaintedWorld"],
+        "sections": [{"name": "PW: Soul of a Brave Warrior - Painted World Tower"}]
+    },{
+        "name": "PW: Soul of a Brave Warrior - Corpse Hanging out of Hole",
+        "map_locations": [{"map": "Painted World of Ariamis","x": 650,"y": 1615}],
+        "access_rules": ["$canReachPaintedWorld"],
+        "sections": [{"name": "PW: Soul of a Brave Warrior - Corpse Hanging out of Hole"}]
+    },{
         "name": "Upper New Londo Ruins",
         "map_locations": [
             {
@@ -777,7 +1774,8 @@
             {"name": "NL: Parrying Dagger"},
             {"name": "NL: Transient Curse - Banshee"},
             {"name": "NL: Large Soul of a Nameless Soldier - Near Ladder Shortcut"},
-            {"name": "NL: Key to the Seal"},
+            {"name": "NL: Key to the Seal",
+             "access_rules": ["$hasLordvessel"]},
             {"name": "NL: Soul of a Proud Knight - New Londo Back Corridor"},
             {"name": "NL: Cursebite Ring"},
             {"name": "NL: Green Titanite Shard - New Londo"},
@@ -789,6 +1787,91 @@
             {"name": "NL: New Londo Ruins Door to the Seal opened",
              "access_rules": ["$canReachLowerNewLondo"]}
         ]
+    },{
+        "name": "NL: Soul of a Nameless Soldier - New Londo Entrance",
+        "map_locations": [{"map": "New Londo Ruins","x": 65,"y": 203}],
+        "access_rules": ["$canReachUpperNewLondo"],
+        "sections": [{"name": "NL: Soul of a Nameless Soldier - New Londo Entrance"}]
+    },{
+        "name": "NL: Estoc",
+        "map_locations": [{"map": "New Londo Ruins","x": 150,"y": 135}],
+        "access_rules": ["$canReachUpperNewLondo"],
+        "sections": [{"name": "NL: Estoc"}]
+    },{
+        "name": "NL: Transient Curse - Before Ghosts",
+        "map_locations": [{"map": "New Londo Ruins","x": 190,"y": 20}],
+        "access_rules": ["$canReachUpperNewLondo"],
+        "sections": [{"name": "NL: Transient Curse - Before Ghosts"}]
+    },{
+        "name": "NL: Fire Keeper Soul - New Londo",
+        "map_locations": [{"map": "New Londo Ruins","x": 405,"y": 152}],
+        "access_rules": ["$canReachUpperNewLondo"],
+        "sections": [{"name": "NL: Fire Keeper Soul - New Londo"}]
+    },{
+        "name": "NL: Transient Curse - 2x Transient Curses from Corpse inside Pot behind Wall",
+        "map_locations": [{"map": "New Londo Ruins","x": 545,"y": 255}],
+        "access_rules": ["$canReachUpperNewLondo"],
+        "sections": [{"name": "NL: Transient Curse - 2x Transient Curses from Corpse inside Pot behind Wall"}]
+    },{
+        "name": "NL: Parrying Dagger",
+        "map_locations": [{"map": "New Londo Ruins","x": 738,"y": 418}],
+        "access_rules": ["$canReachUpperNewLondo"],
+        "sections": [{"name": "NL: Parrying Dagger"}]
+    },{
+        "name": "NL: Transient Curse - Banshee",
+        "map_locations": [{"map": "New Londo Ruins","x": 642,"y": 410}],
+        "access_rules": ["$canReachUpperNewLondo"],
+        "sections": [{"name": "NL: Transient Curse - Banshee"}]
+    },{
+        "name": "NL: Large Soul of a Nameless Soldier - Near Ladder Shortcut",
+        "map_locations": [{"map": "New Londo Ruins","x": 608,"y": 290}],
+        "access_rules": ["$canReachUpperNewLondo"],
+        "sections": [{"name": "NL: Large Soul of a Nameless Soldier - Near Ladder Shortcut"}]
+    },{
+        "name": "NL: Key to the Seal",
+        "map_locations": [{"map": "New Londo Ruins","x": 905,"y": 580}],
+        "access_rules": ["$canReachUpperNewLondo, $hasLordvessel"],
+        "sections": [{"name": "NL: Key to the Seal"}]
+    },{
+        "name": "NL: Soul of a Proud Knight - New Londo Back Corridor",
+        "map_locations": [{"map": "New Londo Ruins","x": 590,"y": 640}],
+        "access_rules": ["$canReachUpperNewLondo"],
+        "sections": [{"name": "NL: Soul of a Proud Knight - New Londo Back Corridor"}]
+    },{
+        "name": "NL: Cursebite Ring",
+        "map_locations": [{"map": "New Londo Ruins","x": 530,"y": 515}],
+        "access_rules": ["$canReachUpperNewLondo"],
+        "sections": [{"name": "NL: Cursebite Ring"}]
+    },{
+        "name": "NL: Green Titanite Shard - New Londo",
+        "map_locations": [{"map": "New Londo Ruins","x": 652,"y": 660}],
+        "access_rules": ["$canReachUpperNewLondo"],
+        "sections": [{"name": "NL: Green Titanite Shard - New Londo"}]
+    },{
+        "name": "NL: Large Soul of a Nameless Soldier - Corpse before Seal",
+        "map_locations": [{"map": "New Londo Ruins","x": 550,"y": 668}],
+        "access_rules": ["$canReachUpperNewLondo"],
+        "sections": [{"name": "NL: Large Soul of a Nameless Soldier - Corpse before Seal"}]
+    },{
+        "name": "NL: Humanity - New Londo Ledge",
+        "map_locations": [{"map": "New Londo Ruins","x": 458,"y": 530}],
+        "access_rules": ["$canReachUpperNewLondo"],
+        "sections": [{"name": "NL: Humanity - New Londo Ledge"}]
+    },{
+        "name": "NL: Rare Ring of Sacrifice - New Londo Roof",
+        "map_locations": [{"map": "New Londo Ruins","x": 890,"y": 580}],
+        "access_rules": ["$canReachUpperNewLondo"],
+        "sections": [{"name": "NL: Rare Ring of Sacrifice - New Londo Roof"}]
+    },{
+        "name": "NL: Composite Bow and Arrows",
+        "map_locations": [{"map": "New Londo Ruins","x": 800,"y": 720}],
+        "access_rules": ["$canReachUpperNewLondo"],
+        "sections": [{"name": "NL: Composite Bow"},{"name": "NL: Large Arrow"}]
+    },{
+        "name": "NL: New Londo Ruins Door to the Seal opened",
+        "map_locations": [{"map": "New Londo Ruins","x": 718,"y": 705}],
+        "access_rules": ["$canReachLowerNewLondo"],
+        "sections": [{"name": "NL: New Londo Ruins Door to the Seal opened"}]
     },{
         "name": "Lower New Londo Ruins",
         "map_locations": [
@@ -812,6 +1895,56 @@
             {"name": "NL: Titanite Chunk - Chest behind Illusory Wall"}
         ]
     },{
+        "name": "NL: Humanity - Lower New Londo Ruins",
+        "map_locations": [{"map": "New Londo Ruins","x": 764,"y": 305}],
+        "access_rules": ["$canReachLowerNewLondo, [$canReachAnorLondo]"],
+        "sections": [{"name": "NL: Humanity - Lower New Londo Ruins"}]
+    },{
+        "name": "NL: Large Soul of a Proud Knight - Right Path after Stairs",
+        "map_locations": [{"map": "New Londo Ruins","x": 525,"y": 640}],
+        "access_rules": ["$canReachLowerNewLondo, [$canReachAnorLondo]"],
+        "sections": [{"name": "NL: Large Soul of a Proud Knight - Right Path after Stairs"}]
+    },{
+        "name": "NL: Large Soul of a Proud Knight - Corpse in Shed",
+        "map_locations": [{"map": "New Londo Ruins","x": 798,"y": 510}],
+        "access_rules": ["$canReachLowerNewLondo, [$canReachAnorLondo]"],
+        "sections": [{"name": "NL: Large Soul of a Proud Knight - Corpse in Shed"}]
+    },{
+        "name": "NL: Soul of a Brave Warrior - New Londo Stairs",
+        "map_locations": [{"map": "New Londo Ruins","x": 930,"y": 418}],
+        "access_rules": ["$canReachLowerNewLondo, [$canReachAnorLondo]"],
+        "sections": [{"name": "NL: Soul of a Brave Warrior - New Londo Stairs"}]
+    },{
+        "name": "NL: Very Large Ember",
+        "map_locations": [{"map": "New Londo Ruins","x": 660,"y": 443}],
+        "access_rules": ["$canReachLowerNewLondo, [$canReachAnorLondo]"],
+        "sections": [{"name": "NL: Very Large Ember"}]
+    },{
+        "name": "NL: Large Soul of a Proud Knight - Corpse before Illusory Wall",
+        "map_locations": [{"map": "New Londo Ruins","x": 562,"y": 493}],
+        "access_rules": ["$canReachLowerNewLondo, [$canReachAnorLondo]"],
+        "sections": [{"name": "NL: Large Soul of a Proud Knight - Corpse before Illusory Wall"}]
+    },{
+        "name": "NL: Titanite Chunk - Chest before Four Kings",
+        "map_locations": [{"map": "New Londo Ruins","x": 548,"y": 647}],
+        "access_rules": ["$canReachLowerNewLondo, [$canReachAnorLondo]"],
+        "sections": [{"name": "NL: Titanite Chunk - Chest before Four Kings"}]
+    },{
+        "name": "NL: Cracked Red Eye Orb - New Londo",
+        "map_locations": [{"map": "New Londo Ruins","x": 610,"y": 436}],
+        "access_rules": ["$canReachLowerNewLondo, [$canReachAnorLondo]"],
+        "sections": [{"name": "NL: Cracked Red Eye Orb - New Londo"}]
+    },{
+        "name": "NL: Large Soul of a Proud Knight - Corpse on Stairs",
+        "map_locations": [{"map": "New Londo Ruins","x": 570,"y": 420}],
+        "access_rules": ["$canReachLowerNewLondo, [$canReachAnorLondo]"],
+        "sections": [{"name": "NL: Large Soul of a Proud Knight - Corpse on Stairs"}]
+    },{
+        "name": "NL: Titanite Chunk - Chest behind Illusory Wall",
+        "map_locations": [{"map": "New Londo Ruins","x": 445,"y": 395}],
+        "access_rules": ["$canReachLowerNewLondo, [$canReachAnorLondo]"],
+        "sections": [{"name": "NL: Titanite Chunk - Chest behind Illusory Wall"}]
+    },{
         "name": "The Abyss",
         "map_locations": [
             {
@@ -825,7 +1958,7 @@
             {"name": "TA: Bequeathed Lord Soul Shard (Four Kings)"}
         ]
     },{
-        "name": " Duke's Archives",
+        "name": "Duke's Archives",
         "map_locations": [
             {
                 "map": "Full Map",
@@ -899,6 +2032,137 @@
             {"name": "DA: Fire Keeper Soul - Archives Giant Cell",
             "access_rules": ["$hasArchiveTowerGiantCellKey"]}
         ]
+    },{
+        "name": "DA: Big Room",
+        "map_locations": [{"map": "Duke's Archives","x": 1286,"y": 270}],
+        "access_rules": ["$canReachDukesArchives"],
+        "sections": [{"name": "DA: Soul of a Brave Warrior - Archives Under Stairs"},
+        {"name": "DA: Twinkling Titanite - Archives Chest"},
+        {"name": "DA: Twinkling Titanite - Archives Balcony"},
+        {"name": "DA: Avelyn","access_rules": ["$canReachDukesArchivesGiantDoor"]},
+        {"name": "DA: Twinkling Titanite - Archives Chest 2","access_rules": ["$canReachDukesArchivesGiantDoor"]},
+        {"name": "DA: Sorcery: Strong Magic Shield","access_rules": ["$canReachDukesArchivesGiantDoor"]},
+        {"name": "DA: Duke's Archives Bookshelf Door opened","access_rules": ["$canReachDukesArchivesGiantDoor"]}]
+    },{
+        "name": "DA: Soul of a Brave Warrior - Archives Under Stairs",
+        "map_locations": [{"map": "Duke's Archives Big Room","x": 490,"y": 905}],
+        "access_rules": ["$canReachDukesArchives"],
+        "sections": [{"name": "DA: Soul of a Brave Warrior - Archives Under Stairs"}]
+    },{
+        "name": "DA: Twinkling Titanite - Archives Chest",
+        "map_locations": [{"map": "Duke's Archives Big Room","x": 210,"y": 855}],
+        "access_rules": ["$canReachDukesArchives"],
+        "sections": [{"name": "DA: Twinkling Titanite - Archives Chest"}]
+    },{
+        "name": "DA: Twinkling Titanite - Archives Balcony",
+        "map_locations": [{"map": "Duke's Archives Big Room","x": 620,"y": 830}],
+        "access_rules": ["$canReachDukesArchives"],
+        "sections": [{"name": "DA: Twinkling Titanite - Archives Balcony"}]
+    },{
+        "name": "DA: Large Magic Ember",
+        "map_locations": [{"map": "Duke's Archives","x": 1820,"y": 760}],
+        "access_rules": ["$canReachDukesArchives"],
+        "sections": [{"name": "DA: Large Magic Ember"}]
+    },{
+        "name": "DA: Soul of a Great Hero - Seath Room",
+        "map_locations": [{"map": "Duke's Archives","x": 1675,"y": 665}],
+        "access_rules": ["$canReachDukesArchives"],
+        "sections": [{"name": "DA: Soul of a Great Hero - Seath Room"}]
+    },{
+        "name": "DA: Duke's Archives Cell Door opened",
+        "map_locations": [{"map": "Duke's Archives","x": 225,"y": 305}],
+        "access_rules": ["$canReachDukesArchivesCellDoor"],
+        "sections": [{"name": "DA: Duke's Archives Cell Door opened"}]
+    },{
+        "name": "DA: Archive Prison Extra Key",
+        "map_locations": [{"map": "Duke's Archives","x": 235,"y": 345}],
+        "access_rules": ["$canReachDukesArchivesCellExit"],
+        "sections": [{"name": "DA: Archive Prison Extra Key"}]
+    },{
+        "name": "DA: Large Soul of a Brave Warrior - In Reah's Cell",
+        "map_locations": [{"map": "Duke's Archives","x": 275,"y": 125}],
+        "access_rules": ["$canReachDukesArchivesPrison"],
+        "sections": [{"name": "DA: Large Soul of a Brave Warrior - In Reah's Cell"}]
+    },{
+        "name": "DA: Maiden Set",
+        "map_locations": [{"map": "Duke's Archives","x": 435,"y": 930}],
+        "access_rules": ["$canReachDukesArchivesPrison"],
+        "sections": [{"name": "DA: Maiden Hood"},{"name": "DA: Maiden Robe"},{"name": "DA: Maiden Gloves"},{"name": "DA: Maiden Skirt"},{"name": "DA: White Seance Ring"}]
+    },{
+        "name": "DA: Large Soul of a Brave Warrior - Archives Cell",
+        "map_locations": [{"map": "Duke's Archives","x": 1000,"y": 20}],
+        "access_rules": ["$canReachDukesArchivesPrison"],
+        "sections": [{"name": "DA: Large Soul of a Brave Warrior - Archives Cell"}]
+    },{
+        "name": "DA: Soul of a Brave Warrior - Archives Cell Scafolding",
+        "map_locations": [{"map": "Duke's Archives","x": 410,"y": 580}],
+        "access_rules": ["$canReachDukesArchivesPrison"],
+        "sections": [{"name": "DA: Soul of a Brave Warrior - Archives Cell Scafolding"}]
+    },{
+        "name": "DA: Archive Tower Giant Door Key",
+        "map_locations": [{"map": "Duke's Archives","x": 610,"y": 490}],
+        "access_rules": ["$canReachDukesArchivesPrison"],
+        "sections": [{"name": "DA: Archive Tower Giant Door Key"}]
+    },{
+        "name": "DA: Avelyn",
+        "map_locations": [{"map": "Duke's Archives Big Room","x": 285,"y": 948}],
+        "access_rules": ["$canReachDukesArchivesGiantDoor"],
+        "sections": [{"name": "DA: Avelyn"}]
+    },{
+        "name": "DA: Twinkling Titanite - Archives Chest 2",
+        "map_locations": [{"map": "Duke's Archives Big Room","x": 512,"y": 508}],
+        "access_rules": ["$canReachDukesArchivesGiantDoor"],
+        "sections": [{"name": "DA: Twinkling Titanite - Archives Chest 2"}]
+    },{
+        "name": "DA: Sorcery: Strong Magic Shield",
+        "map_locations": [{"map": "Duke's Archives Big Room","x": 870,"y": 85}],
+        "access_rules": ["$canReachDukesArchivesGiantDoor"],
+        "sections": [{"name": "DA: Sorcery: Strong Magic Shield"}]
+    },{
+        "name": "DA: Duke's Archives Bookshelf Door opened",
+        "map_locations": [{"map": "Duke's Archives Big Room","x": 660,"y": 290}],
+        "access_rules": ["$canReachDukesArchivesGiantDoor"],
+        "sections": [{"name": "DA: Duke's Archives Bookshelf Door opened"}]
+    },{
+        "name": "DA: Blue Titanite Chunk - Archives Chest",
+        "map_locations": [{"map": "Duke's Archives","x": 1190,"y": 400}],
+        "access_rules": ["$canReachDukesArchivesGiantDoor"],
+        "sections": [{"name": "DA: Blue Titanite Chunk - Archives Chest"}]
+    },{
+        "name": "DA: Archive Tower Giant Cell Key",
+        "map_locations": [{"map": "Duke's Archives","x": 1150,"y": 470}],
+        "access_rules": ["$canReachDukesArchivesGiantDoor"],
+        "sections": [{"name": "DA: Archive Tower Giant Cell Key"}]
+    },{
+        "name": "DA: Crystal Ember",
+        "map_locations": [{"map": "Duke's Archives","x": 1120,"y": 440}],
+        "access_rules": ["$canReachDukesArchivesGiantDoor"],
+        "sections": [{"name": "DA: Crystal Ember"}]
+    },{
+        "name": "DA: Channelers Set",
+        "map_locations": [{"map": "Duke's Archives","x": 1150,"y": 415}],
+        "access_rules": ["$canReachDukesArchivesGiantDoor"],
+        "sections": [{"name": "DA: Six-Eyed Helm of the Channelers"},{"name": "DA: Robe of the Channelers"},{"name": "DA: Gauntlets of the Channelers"},{"name": "DA: Waistcloth of the Channelers"}]
+    },{
+        "name": "DA: Prism Stone - Duke's Archives",
+        "map_locations": [{"map": "Duke's Archives","x": 1120,"y": 470}],
+        "access_rules": ["$canReachDukesArchivesGiantDoor"],
+        "sections": [{"name": "DA: Prism Stone - Duke's Archives"}]
+    },{
+        "name": "DA: Crystalline Set",
+        "map_locations": [{"map": "Duke's Archives","x": 910,"y": 690}],
+        "access_rules": ["$canReachDukesArchivesGiantDoor"],
+        "sections": [{"name": "DA: Crystalline Helm"},{"name": "DA: Crystalline Armor"},{"name": "DA: Crystalline Gauntlets"},{"name": "DA: Crystalline Leggings"}]
+    },{
+        "name": "DA: Blue Titanite Chunk - Archives Courtyard",
+        "map_locations": [{"map": "Duke's Archives","x": 1080,"y": 200}],
+        "access_rules": ["$canReachDukesArchivesGiantDoor"],
+        "sections": [{"name": "DA: Blue Titanite Chunk - Archives Courtyard"}]
+    },{
+        "name": "DA: Fire Keeper Soul - Archives Giant Cell",
+        "map_locations": [{"map": "Duke's Archives","x": 630,"y": 240}],
+        "access_rules": ["$hasArchiveTowerGiantCellKey"],
+        "sections": [{"name": "DA: Fire Keeper Soul - Archives Giant Cell"}]
     },{
         "name": "Crystal Cave",
         "map_locations": [

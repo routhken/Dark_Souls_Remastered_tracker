@@ -213,6 +213,7 @@ end
 -- end
 
 -- Event Accessibility Rules
+-- Since events are not locations (yet), they are always assumed to be true
 function hasTaurusDemonDefeated()
     return true
 end
@@ -375,7 +376,7 @@ function canReachDukesArchivesGiantDoor()
 end
 
 function canReachDukesArchivesTowerGiantCell()
-    return canReachDukesArchivesCellExit() and hasArchiveTowerGiantCellKey()
+    return canReachDukesArchivesCellDoor() and hasArchiveTowerGiantCellKey()
 end
 
 function canReachDukesArchivesPostSeath()
