@@ -415,29 +415,6 @@ function canReachKilnOfTheFirtFlame()
     return hasLordSoulBedOfChaos() and hasLordSoulFourKings() and hasLordSoulNito() and hasLordSoulSeath() and hasLordvessel()
 end
 
-
-
--- set_rule(self.multiworld.get_location("Snuggly: Pendant -> Souvenir of Reprisal", self.player), lambda state: state.has("Pendant", self.player))
--- set_rule(self.multiworld.get_location("Snuggly: Rubbish -> Titanite Chunk", self.player), lambda state: state.has("Rubbish", self.player))
--- set_rule(self.multiworld.get_location("Snuggly: Sunlight Medal -> White Titanite Chunk", self.player), lambda state: state.has("Sunlight Medal", self.player))
--- set_rule(self.multiworld.get_location("Snuggly: Bloodred Moss Clump -> Twinkling Titanite", self.player), lambda state: state.has("Bloodred Moss Clump", self.player))
--- set_rule(self.multiworld.get_location("Snuggly: Purple Moss Clump -> Twinkling Titanite", self.player), lambda state: state.has("Purple Moss Clump", self.player))
--- set_rule(self.multiworld.get_location("Snuggly: Blooming Purple Moss Clump -> Twinkling Titanite x2", self.player), lambda state: state.has("Blooming Purple Moss Clump", self.player))
--- set_rule(self.multiworld.get_location("Snuggly: Cracked Red Eye Orb -> Purging Stone x2", self.player), lambda state: state.has("Cracked Red Eye Orb", self.player))
--- set_rule(self.multiworld.get_location("Snuggly: Humanity -> Ring of Sacrifice", self.player), lambda state: state.has("Humanity", self.player))
--- set_rule(self.multiworld.get_location("Snuggly: Twin Humanities -> Rare Ring of Sacrifice", self.player), lambda state: state.has("Twin Humanities", self.player))
--- set_rule(self.multiworld.get_location("Snuggly: Dung Pie -> Demon Titanite", self.player), lambda state: state.has("Dung Pie", self.player))
--- set_rule(self.multiworld.get_location("Snuggly: Pyromancy Flame -> Red Titanite Chunk", self.player), lambda state: state.has("Pyromancy Flame)", self.player))
--- set_rule(self.multiworld.get_location("Snuggly: Pyromancy Flame (Ascended) -> Red Titanite Slab", self.player), lambda state: state.has("Pyromancy Flame (Ascended)", self.player))
--- set_rule(self.multiworld.get_location("Snuggly: Egg Vermifuge -> Dragon Scale", self.player), lambda state: state.has("Egg Vermifuge", self.player))
--- set_rule(self.multiworld.get_location("Snuggly: Sunlight Maggot -> Old Witch's Ring", self.player), lambda state: state.has("Sunlight Maggot", self.player))
--- set_rule(self.multiworld.get_location("Snuggly: Sack -> Demon's Great Hammer", self.player), lambda state: state.has("Sack", self.player))
--- set_rule(self.multiworld.get_location("Snuggly: Skull Lantern -> Ring of Fog", self.player), lambda state: state.has("Skull Lantern", self.player))
--- set_rule(self.multiworld.get_location("Snuggly: Ring of the Sun Princess -> Divine Blessing x2", self.player), lambda state: state.has("Ring of the Sun Princess", self.player))
--- set_rule(self.multiworld.get_location("Snuggly: Xanthous Crown -> Ring of Favor and Protection", self.player), lambda state: state.has("Xanthous Crown", self.player))
--- set_rule(self.multiworld.get_location("Snuggly: Soul of Manus -> Sorcery: Pursuers", self.player), lambda state: state.has("Soul of Manus", self.player))
-
-
 -- Visibility Rules
 function hasGoalOfAtLeastGwyn()
     return true

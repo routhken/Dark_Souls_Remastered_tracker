@@ -1,6 +1,18 @@
 {
     "versions": [
         {
+            "package_version": "1.0.3",
+            "download_url": "https://github.com/routhken/Dark_Souls_Remastered_tracker/releases/download/v1.0.3/Dark_Souls_Remastered_aptracker.zip",
+            "sha256": "7cad1dfa0a7f4fe564db741cc3498c19ce8be489482ce87d4070ef718a58cce6",
+            "changelog": [
+                " - Fixed caduceus round shield copy pasta",
+                " - Fixed souls of lost undead by aquaduct being swapped",
+                " - Fixed souls of proud knight by shadow set being swapped",
+                " - Fixed plank shield and twin humanities in lower blighttown being swapped (polygon map is wrong)",
+                " - Added the remaining maps."
+            ]
+        },
+        {
             "package_version": "1.0.2",
             "download_url": "https://github.com/routhken/Dark_Souls_Remastered_tracker/releases/download/v1.0.2/Dark_Souls_Remastered_aptracker.zip",
             "sha256": "6dfab3a0dfc26770d6055248070b56157419fa8950d4d4d4417f4518b07f9076",

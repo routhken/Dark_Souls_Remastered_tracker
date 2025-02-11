@@ -44,7 +44,8 @@
                                     "Undead Asylum"
                                 ]
                             }
-                        },{
+                        },
+                        {
                             "title": "Firelink Shrine",
                             "content": {
                                 "type": "map",

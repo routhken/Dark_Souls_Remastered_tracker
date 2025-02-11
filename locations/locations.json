@@ -241,7 +241,7 @@
         "sections": [{"name": "FS: Winged Spear"}]
     },{
         "name": "FS: Caduceus Round Shield",
-        "map_locations": [{"map": "Firelink Shrine","x": 205,"y": 450}],
+        "map_locations": [{"map": "Firelink Shrine","x": 520,"y": 750}],
         "sections": [{"name": "FS: Caduceus Round Shield"}]
     },{
         "name": "FS: Binoculars",
@@ -253,11 +253,11 @@
         "sections": [{"name": "FS: Ring of Sacrifice - Jump onto Aqueduct"}]
     },{
         "name": "FS: Soul of a Lost Undead - Aqueduct Cliff",
-        "map_locations": [{"map": "Firelink Shrine","x": 2770,"y": 1065}],
+        "map_locations": [{"map": "Firelink Shrine","x": 2480,"y": 965}],
         "sections": [{"name": "FS: Soul of a Lost Undead - Aqueduct Cliff"}]
     },{
         "name": "FS: Soul of a Lost Undead - Aqueduct Entrance",
-        "map_locations": [{"map": "Firelink Shrine","x": 2480,"y": 965}],
+        "map_locations": [{"map": "Firelink Shrine","x": 2770,"y": 1065}],
         "sections": [{"name": "FS: Soul of a Lost Undead - Aqueduct Entrance"}]
     },{
         "name": "FS: Soul of a Lost Undead - Sewer Rat",
@@ -727,12 +727,12 @@
         "sections": [{"name": "BT: Iaito"}]
     },{
         "name": "BT: Soul of a Proud Knight - Below Shadow Set",
-        "map_locations": [{"map": "Blighttown Upper","x": 1720,"y": 1560}],
+        "map_locations": [{"map": "Blighttown Upper","x": 1880,"y": 1490}],
         "access_rules": ["$canReachBlighttown"],
         "sections": [{"name": "BT: Soul of a Proud Knight - Below Shadow Set"}]
     },{
         "name": "BT: Soul of a Proud Knight - Corpse on Wooden Structure Ledge",
-        "map_locations": [{"map": "Blighttown Upper","x": 1880,"y": 1490}],
+        "map_locations": [{"map": "Blighttown Upper","x": 1720,"y": 1560}],
         "access_rules": ["$canReachBlighttown"],
         "sections": [{"name": "BT: Soul of a Proud Knight - Corpse on Wooden Structure Ledge"}]
     },{
@@ -877,12 +877,12 @@
         "sections": [{"name": "BT: Green Titanite Shard - Blighttown"}]
     },{
         "name": "BT: Plank Shield",
-        "map_locations": [{"map": "Blighttown Lower","x": 3350,"y": 500}],
+        "map_locations": [{"map": "Blighttown Lower","x": 3500,"y": 510}],
         "access_rules": ["$canReachBlighttown"],
         "sections": [{"name": "BT: Plank Shield"}]
     },{
         "name": "BT: Twin Humanities - Great Hallow Entrance",
-        "map_locations": [{"map": "Blighttown Lower","x": 3500,"y": 510}],
+        "map_locations": [{"map": "Blighttown Lower","x": 3350,"y": 500}],
         "access_rules": ["$canReachBlighttown"],
         "sections": [{"name": "BT: Twin Humanities - Great Hallow Entrance"}]
     },{
@@ -1511,7 +1511,7 @@
         "sections": [{"name": "AL: Silver Knight Helm"},{"name": "AL: Silver Knight Armor"},{"name": "AL: Silver Knight Gauntlets"},{"name": "AL: Silver Knight Leggings"}]
     },{
         "name": "AL: Anor Londo Bonfire Shortcut opened",
-        "map_locations": [{"map": "Anor Londo Interior","x": 550,"y": 1500}],
+        "map_locations": [{"map": "Anor Londo Interior","x": 800,"y": 1090}],
         "access_rules": ["$canReachAnorLondo"],
         "sections": [{"name": "AL: Anor Londo Bonfire Shortcut opened"}]
     },{
@@ -1742,7 +1742,7 @@
         "sections": [{"name": "PW: Soul of a Brave Warrior - Corpse at Backside Tower Corner"}]
     },{
         "name": "PW: Soul of a Brave Warrior - Next to Stairs",
-        "map_locations": [{"map": "Painted World of Ariamis","x": 180,"y": 1790}],
+        "map_locations": [{"map": "Painted World of Ariamis","x": 650,"y": 1615}],
         "access_rules": ["$canReachPaintedWorld"],
         "sections": [{"name": "PW: Soul of a Brave Warrior - Next to Stairs"}]
     },{
@@ -1752,7 +1752,7 @@
         "sections": [{"name": "PW: Soul of a Brave Warrior - Painted World Tower"}]
     },{
         "name": "PW: Soul of a Brave Warrior - Corpse Hanging out of Hole",
-        "map_locations": [{"map": "Painted World of Ariamis","x": 650,"y": 1615}],
+        "map_locations": [{"map": "Painted World of Ariamis","x": 180,"y": 1790}],
         "access_rules": ["$canReachPaintedWorld"],
         "sections": [{"name": "PW: Soul of a Brave Warrior - Corpse Hanging out of Hole"}]
     },{
@@ -2181,7 +2181,32 @@
             {"name": "CC: Bequeathed Lord Soul Shard (Seath)"}
         ]
     },{
-        "name": " Demon Ruins",
+        "name": "CC: Humanity - Crystal Caverns",
+        "map_locations": [{"map": "Crystal Cave","x": 258,"y": 100}],
+        "access_rules": ["$canReachDukesArchives"],
+        "sections": [{"name": "CC: Humanity - Crystal Caverns"}]
+    },{
+        "name": "CC: Blue Titanite Chunk - Crystal Caverns",
+        "map_locations": [{"map": "Crystal Cave","x": 270,"y": 350}],
+        "access_rules": ["$canReachDukesArchives"],
+        "sections": [{"name": "CC: Blue Titanite Chunk - Crystal Caverns"}]
+    },{
+        "name": "CC: Blue Titanite Slab - Crystal Caverns",
+        "map_locations": [{"map": "Crystal Cave","x": 315,"y": 147}],
+        "access_rules": ["$canReachDukesArchives"],
+        "sections": [{"name": "CC: Blue Titanite Slab - Crystal Caverns"}]
+    },{
+        "name": "CC: Soul of a Hero - Crystal Caverns",
+        "map_locations": [{"map": "Crystal Cave","x": 285,"y": 535}],
+        "access_rules": ["$canReachDukesArchives"],
+        "sections": [{"name": "CC: Soul of a Hero - Crystal Caverns"}]
+    },{
+        "name": "CC: Bequeathed Lord Soul Shard (Seath)",
+        "map_locations": [{"map": "Crystal Cave","x": 138,"y": 1020}],
+        "access_rules": ["$canReachDukesArchives"],
+        "sections": [{"name": "CC: Bequeathed Lord Soul Shard (Seath)"}]
+    },{
+        "name": "Demon Ruins",
         "map_locations": [
             {
                 "map": "Full Map",
@@ -2217,7 +2242,82 @@
             "access_rules": ["$canReachLostIzalith"]}
         ]
     },{
-        "name": " Lost Izalith",
+        "name": "Gold-Hemmed Black Set",
+        "map_locations": [{"map": "Demon Ruins","x": 1490,"y": 1080}],
+        "access_rules": ["$canReachDemonRuins"],
+        "sections": [{"name": "DR: Gold-Hemmed Black Hood"},{"name": "DR: Gold-Hemmed Black Cloak"},{"name": "DR: Gold-Hemmed Black Gloves"},{"name": "DR: Gold-Hemmed Black Skirt"}]
+    },{
+        "name": "DR: Large Soul of a Proud Knight - First Jump over the Lava",
+        "map_locations": [{"map": "Demon Ruins","x": 1490,"y": 700}],
+        "access_rules": ["$canReachDemonRuins"],
+        "sections": [{"name": "DR: Large Soul of a Proud Knight - First Jump over the Lava"}]
+    },{
+        "name": "DR: Chaos Flame Ember",
+        "map_locations": [{"map": "Demon Ruins","x": 1627,"y": 960}],
+        "access_rules": ["$canReachDemonRuins"],
+        "sections": [{"name": "DR: Chaos Flame Ember"}]
+    },{
+        "name": "DR: Soul of a Proud Knight - Ceased Discharge",
+        "map_locations": [{"map": "Demon Ruins","x": 1285,"y": 605}],
+        "access_rules": ["$canReachDemonRuins"],
+        "sections": [{"name": "DR: Soul of a Proud Knight - Ceased Discharge"}]
+    },{
+        "name": "DR: Green Titanite Shard - 2x Green Titanite Shards under the Staircase",
+        "map_locations": [{"map": "Demon Ruins","x": 890,"y": 930}],
+        "access_rules": ["$canReachDemonRuins"],
+        "sections": [{"name": "DR: Green Titanite Shard - 2x Green Titanite Shards under the Staircase"}]
+    },{
+        "name": "DR: Soul of a Proud Knight - Ledge Corpse Top of Stairs",
+        "map_locations": [{"map": "Demon Ruins","x": 920,"y": 910}],
+        "access_rules": ["$canReachDemonRuins"],
+        "sections": [{"name": "DR: Soul of a Proud Knight - Ledge Corpse Top of Stairs"}]
+    },{
+        "name": "DR: Soul of a Proud Knight - Demon Ruins Bonfire",
+        "map_locations": [{"map": "Demon Ruins","x": 1010,"y": 895}],
+        "access_rules": ["$canReachDemonRuins"],
+        "sections": [{"name": "DR: Soul of a Proud Knight - Demon Ruins Bonfire"}]
+    },{
+        "name": "DR: Large Flame Ember",
+        "map_locations": [{"map": "Demon Ruins","x": 607,"y": 940}],
+        "access_rules": ["$canReachDemonRuins"],
+        "sections": [{"name": "DR: Large Flame Ember"}]
+    },{
+        "name": "DR: Soul of a Brave Warrior - Capra Outside Firesage",
+        "map_locations": [{"map": "Demon Ruins","x": 885,"y": 635}],
+        "access_rules": ["$canReachDemonRuins"],
+        "sections": [{"name": "DR: Soul of a Brave Warrior - Capra Outside Firesage"}]
+    },{
+        "name": "DR: Soul of a Brave Warrior - On Platform Below Roots to Centipede",
+        "map_locations": [{"map": "Demon Ruins","x": 210,"y": 420}],
+        "access_rules": ["$canReachDemonRuinsGoldWall"],
+        "sections": [{"name": "DR: Soul of a Brave Warrior - On Platform Below Roots to Centipede"}]
+    },{
+        "name": "DR: Soul of a Brave Warrior - Ruins Domain shortcut",
+        "map_locations": [{"map": "Demon Ruins","x": 950,"y": 485}],
+        "access_rules": ["$canReachDemonRuinsGoldWall"],
+        "sections": [{"name": "DR: Soul of a Brave Warrior - Ruins Domain shortcut"}]
+    },{
+        "name": "DR: Soul of a Brave Warrior - Chaos Door",
+        "map_locations": [{"map": "Demon Ruins","x": 565,"y": 325}],
+        "access_rules": ["$canReachDemonRuinsGoldWall"],
+        "sections": [{"name": "DR: Soul of a Brave Warrior - Chaos Door"}]
+    },{
+        "name": "Centipede Demon",
+        "map_locations": [{"map": "Demon Ruins","x": 375,"y": 735}],
+        "access_rules": ["$canReachDemonRuinsGoldWall"],
+        "sections": [{"name": "DR: Orange Charred Ring"}]
+    },{
+        "name": "DR: Green Titanite Shard - Centipede Demon",
+        "map_locations": [{"map": "Demon Ruins","x": 200,"y": 740}],
+        "access_rules": ["$canReachDemonRuinsGoldWall"],
+        "sections": [{"name": "DR: Green Titanite Shard - Centipede Demon"}]
+    },{
+        "name": "DR: Demon Ruins Shortcut opened",
+        "map_locations": [{"map": "Demon Ruins","x": 1160,"y": 350}],
+        "access_rules": ["$canReachLostIzalith"],
+        "sections": [{"name": "DR: Demon Ruins Shortcut opened"}]
+    },{
+        "name": "Lost Izalith",
         "map_locations": [
             {
                 "map": "Full Map",
@@ -2245,7 +2345,87 @@
             {"name": "LI: Lord Soul (Bed of Chaos)"}
         ]
     },{
-        "name": " The Catacombs Entrance",
+        "name": "LI: Soul of a Brave Warrior - First Platform after Entrance",
+        "map_locations": [{"map": "Lost Izalith","x": 115,"y": 630}],
+        "access_rules": ["$canReachLostIzalith"],
+        "sections": [{"name": "LI: Soul of a Brave Warrior - First Platform after Entrance"}]
+    },{
+        "name": "LI: Soul of a Brave Warrior - Near Soul of a Great Hero Chest",
+        "map_locations": [{"map": "Lost Izalith","x": 285,"y": 622}],
+        "access_rules": ["$canReachLostIzalith"],
+        "sections": [{"name": "LI: Soul of a Brave Warrior - Near Soul of a Great Hero Chest"}]
+    },{
+        "name": "LI: Soul of a Great Hero - Lost Izalith",
+        "map_locations": [{"map": "Lost Izalith","x": 353,"y": 700}],
+        "access_rules": ["$canReachLostIzalith"],
+        "sections": [{"name": "LI: Soul of a Great Hero - Lost Izalith"}]
+    },{
+        "name": "LI: Twin Humanities - Lost Izalith",
+        "map_locations": [{"map": "Lost Izalith","x": 536,"y": 700}],
+        "access_rules": ["$canReachLostIzalith"],
+        "sections": [{"name": "LI: Twin Humanities - Lost Izalith"}]
+    },{
+        "name": "LI: Divine Blessing - Izalith Lava 1",
+        "map_locations": [{"map": "Lost Izalith","x": 595,"y": 1010}],
+        "access_rules": ["$canReachLostIzalith"],
+        "sections": [{"name": "LI: Divine Blessing - Izalith Lava 1"}]
+    },{
+        "name": "LI: Divine Blessing - Izalith Lava 2",
+        "map_locations": [{"map": "Lost Izalith","x": 575,"y": 1020}],
+        "access_rules": ["$canReachLostIzalith"],
+        "sections": [{"name": "LI: Divine Blessing - Izalith Lava 2"}]
+    },{
+        "name": "LI: Large Soul of a Brave Warrior - Izalith City",
+        "map_locations": [{"map": "Lost Izalith","x": 345,"y": 180}],
+        "access_rules": ["$canReachLostIzalith"],
+        "sections": [{"name": "LI: Large Soul of a Brave Warrior - Izalith City"}]
+    },{
+        "name": "LI: Soul of a Hero - Izalith City",
+        "map_locations": [{"map": "Lost Izalith","x": 350,"y": 252}],
+        "access_rules": ["$canReachLostIzalith"],
+        "sections": [{"name": "LI: Soul of a Hero - Izalith City"}]
+    },{
+        "name": "LI: Rare Ring of Sacrifice - Izalith City",
+        "map_locations": [{"map": "Lost Izalith","x": 352,"y": 320}],
+        "access_rules": ["$canReachLostIzalith"],
+        "sections": [{"name": "LI: Rare Ring of Sacrifice - Izalith City"}]
+    },{
+        "name": "LI: Red Titanite Chunk - Inside Chaos Eater Pit",
+        "map_locations": [{"map": "Lost Izalith","x": 820,"y": 415}],
+        "access_rules": ["$canReachLostIzalith"],
+        "sections": [{"name": "LI: Red Titanite Chunk - Inside Chaos Eater Pit"}]
+    },{
+        "name": "LI: Green Titanite Shard - Chaos Eater Pit",
+        "map_locations": [{"map": "Lost Izalith","x": 865,"y": 315}],
+        "access_rules": ["$canReachLostIzalith"],
+        "sections": [{"name": "LI: Green Titanite Shard - Chaos Eater Pit"}]
+    },{
+        "name": "LI: Soul of a Brave Warrior - Inside Chaos Eater Pit",
+        "map_locations": [{"map": "Lost Izalith","x": 795,"y": 415}],
+        "access_rules": ["$canReachLostIzalith"],
+        "sections": [{"name": "LI: Soul of a Brave Warrior - Inside Chaos Eater Pit"}]
+    },{
+        "name": "LI: Red Titanite Slab - Chaos Eater Pit",
+        "map_locations": [{"map": "Lost Izalith","x": 799,"y": 575}],
+        "access_rules": ["$canReachLostIzalith"],
+        "sections": [{"name": "LI: Red Titanite Slab - Chaos Eater Pit"}]
+    },{
+        "name": "LI: Red Titanite Chunk - After Chaos Eater Pit",
+        "map_locations": [{"map": "Lost Izalith","x": 795,"y": 435}],
+        "access_rules": ["$canReachLostIzalith"],
+        "sections": [{"name": "LI: Red Titanite Chunk - After Chaos Eater Pit"}]
+    },{
+        "name": "LI: Pyromancy: Chaos Fire Whip",
+        "map_locations": [{"map": "Lost Izalith","x": 520,"y": 410}],
+        "access_rules": ["$canReachLostIzalith"],
+        "sections": [{"name": "LI: Pyromancy: Chaos Fire Whip"}]
+    },{
+        "name": "LI: Lord Soul (Bed of Chaos)",
+        "map_locations": [{"map": "Lost Izalith","x": 675,"y": 90}],
+        "access_rules": ["$canReachLostIzalith"],
+        "sections": [{"name": "LI: Lord Soul (Bed of Chaos)"}]
+    },{
+        "name": "The Catacombs Entrance",
         "map_locations": [
             {
                 "map": "Full Map",
@@ -2257,7 +2437,11 @@
             {"name": "TC: Catacombs Door 1 opened"}
         ]
     },{
-        "name": " The Catacombs",
+        "name": "TC: Catacombs Door 1 opened",
+        "map_locations": [{"map": "The Catacombs","x": 262,"y": 472}],
+        "sections": [{"name": "TC: Catacombs Door 1 opened"}]
+    },{
+        "name": "The Catacombs",
         "map_locations": [
             {
                 "map": "Full Map",
@@ -2285,7 +2469,87 @@
             {"name": "TC: Soul of a Proud Knight - Above Pinwheel"}
         ]
     },{
-        "name": " Upper Tomb of the Giants",
+        "name": "TC: Darkmoon Seance Ring",
+        "map_locations": [{"map": "The Catacombs","x": 760,"y": 135}],
+        "access_rules": ["$canReachCatacombs"],
+        "sections": [{"name": "TC: Darkmoon Seance Ring"}]
+    },{
+        "name": "TC: Lucerne",
+        "map_locations": [{"map": "The Catacombs","x": 375,"y": 272}],
+        "access_rules": ["$canReachCatacombs"],
+        "sections": [{"name": "TC: Lucerne"}]
+    },{
+        "name": "TC: Large Soul of a Nameless Soldier - Room before First Rotating Bridge",
+        "map_locations": [{"map": "The Catacombs","x": 330,"y": 222}],
+        "access_rules": ["$canReachCatacombs"],
+        "sections": [{"name": "TC: Large Soul of a Nameless Soldier - Room before First Rotating Bridge"}]
+    },{
+        "name": "TC: Soul of a Proud Knight - After Second Switch",
+        "map_locations": [{"map": "The Catacombs","x": 252,"y": 28}],
+        "access_rules": ["$canReachCatacombs"],
+        "sections": [{"name": "TC: Soul of a Proud Knight - After Second Switch"}]
+    },{
+        "name": "TC: Soul of a Proud Knight - First Spiral Stairway Upper",
+        "map_locations": [{"map": "The Catacombs","x": 505,"y": 360}],
+        "access_rules": ["$canReachCatacombs"],
+        "sections": [{"name": "TC: Soul of a Proud Knight - First Spiral Stairway Upper"}]
+    },{
+        "name": "TC: Soul of a Proud Knight - First Spiral Stairway Lower",
+        "map_locations": [{"map": "The Catacombs","x": 553,"y": 469}],
+        "access_rules": ["$canReachCatacombs"],
+        "sections": [{"name": "TC: Soul of a Proud Knight - First Spiral Stairway Lower"}]
+    },{
+        "name": "TC: Great Scythe",
+        "map_locations": [{"map": "The Catacombs","x": 490,"y": 388}],
+        "access_rules": ["$canReachCatacombs"],
+        "sections": [{"name": "TC: Great Scythe"}]
+    },{
+        "name": "TC: Catacombs Door 2 opened",
+        "map_locations": [{"map": "The Catacombs","x": 465,"y": 383}],
+        "access_rules": ["$canReachCatacombs"],
+        "sections": [{"name": "TC: Catacombs Door 2 opened"}]
+    },{
+        "name": "TC: Green Titanite Shard - On Platform near Vamos",
+        "map_locations": [{"map": "The Catacombs","x": 425,"y": 385}],
+        "access_rules": ["$canReachCatacombs"],
+        "sections": [{"name": "TC: Green Titanite Shard - On Platform near Vamos"}]
+    },{
+        "name": "TC: Miracle: Tranquil Walk of Peace",
+        "map_locations": [{"map": "The Catacombs","x": 774,"y": 520}],
+        "access_rules": ["$canReachCatacombs"],
+        "sections": [{"name": "TC: Miracle: Tranquil Walk of Peace"}]
+    },{
+        "name": "TC: Eye of Death - Catacombs Titanite Demon",
+        "map_locations": [{"map": "The Catacombs","x": 1053,"y": 36}],
+        "access_rules": ["$canReachCatacombs"],
+        "sections": [{"name": "TC: Eye of Death - Catacombs Titanite Demon"}]
+    },{
+        "name": "TC: Large Soul of a Nameless Soldier - Above Black Knight",
+        "map_locations": [{"map": "The Catacombs","x": 1085,"y": 140}],
+        "access_rules": ["$canReachCatacombs"],
+        "sections": [{"name": "TC: Large Soul of a Nameless Soldier - Above Black Knight"}]
+    },{
+        "name": "TC: Soul of a Proud Knight - Black Knight Ledge",
+        "map_locations": [{"map": "The Catacombs","x": 985,"y": 150}],
+        "access_rules": ["$canReachCatacombs"],
+        "sections": [{"name": "TC: Soul of a Proud Knight - Black Knight Ledge"}]
+    },{
+        "name": "TC: Large Soul of a Nameless Soldier - Catacombs Above Bonewheels",
+        "map_locations": [{"map": "The Catacombs","x": 960,"y": 332}],
+        "access_rules": ["$canReachCatacombs"],
+        "sections": [{"name": "TC: Large Soul of a Nameless Soldier - Catacombs Above Bonewheels"}]
+    },{
+        "name": "TC: Rite of Kindling",
+        "map_locations": [{"map": "The Catacombs","x": 975,"y": 590}],
+        "access_rules": ["$canReachCatacombs"],
+        "sections": [{"name": "TC: Rite of Kindling"}]
+    },{
+        "name": "TC: Soul of a Proud Knight - Above Pinwheel",
+        "map_locations": [{"map": "The Catacombs","x": 990,"y": 485}],
+        "access_rules": ["$canReachCatacombs"],
+        "sections": [{"name": "TC: Soul of a Proud Knight - Above Pinwheel"}]
+    },{
+        "name": "Upper Tomb of the Giants",
         "map_locations": [
             {
                 "map": "Full Map",
@@ -2314,7 +2578,92 @@
             {"name": "TotG: Soul of a Brave Warrior - Lower Tomb of the Giants"}
         ]
     },{
-        "name": " Lower Tomb of the Giants",
+        "name": "TotG: Large Soul of a Proud Knight - Right after Green Light Slide",
+        "map_locations": [{"map": "Tomb of the Giants Upper","x": 620,"y": 200}],
+        "access_rules": ["$canReachTombOfTheGiants"],
+        "sections": [{"name": "TotG: Large Soul of a Proud Knight - Right after Green Light Slide"}]
+    },{
+        "name": "TotG: Large Soul of a Proud Knight - Ledge Overlooking Pinwheel",
+        "map_locations": [{"map": "Tomb of the Giants Upper","x": 558,"y": 407}],
+        "access_rules": ["$canReachTombOfTheGiants"],
+        "sections": [{"name": "TotG: Large Soul of a Proud Knight - Ledge Overlooking Pinwheel"}]
+    },{
+        "name": "TotG: Soul of a Brave Warrior - Behind Bone Archer",
+        "map_locations": [{"map": "Tomb of the Giants Upper","x": 660,"y": 662}],
+        "access_rules": ["$canReachTombOfTheGiants"],
+        "sections": [{"name": "TotG: Soul of a Brave Warrior - Behind Bone Archer"}]
+    },{
+        "name": "TotG: Large Soul of a Proud Knight - Giant Coffin Drop",
+        "map_locations": [{"map": "Tomb of the Giants Upper","x": 315,"y": 227}],
+        "access_rules": ["$canReachTombOfTheGiants"],
+        "sections": [{"name": "TotG: Large Soul of a Proud Knight - Giant Coffin Drop"}]
+    },{
+        "name": "TotG: Large Soul of a Proud Knight - Upper Giant Coffin",
+        "map_locations": [{"map": "Tomb of the Giants Upper","x": 295,"y": 240}],
+        "access_rules": ["$canReachTombOfTheGiants"],
+        "sections": [{"name": "TotG: Large Soul of a Proud Knight - Upper Giant Coffin"}]
+    },{
+        "name": "TotG: Humanity - Corpse on Ledge",
+        "map_locations": [{"map": "Tomb of the Giants Upper","x": 622,"y": 165}],
+        "access_rules": ["$canReachTombOfTheGiants"],
+        "sections": [{"name": "TotG: Humanity - Corpse on Ledge"}]
+    },{
+        "name": "TotG: Large Soul of a Proud Knight - Patches Pit 1",
+        "map_locations": [{"map": "Tomb of the Giants Upper","x": 460,"y": 93}],
+        "access_rules": ["$canReachTombOfTheGiants"],
+        "sections": [{"name": "TotG: Large Soul of a Proud Knight - Patches Pit 1"}]
+    },{
+        "name": "TotG: Large Soul of a Proud Knight - Patches Pit 2",
+        "map_locations": [{"map": "Tomb of the Giants Upper","x": 435,"y": 75}],
+        "access_rules": ["$canReachTombOfTheGiants"],
+        "sections": [{"name": "TotG: Large Soul of a Proud Knight - Patches Pit 2"}]
+    },{
+        "name": "TotG: Skull Lantern",
+        "map_locations": [{"map": "Tomb of the Giants Upper","x": 455,"y": 75}],
+        "access_rules": ["$canReachTombOfTheGiants"],
+        "sections": [{"name": "TotG: Skull Lantern"}]
+    },{
+        "name": "TotG: White Titanite Chunk - Patches Kick",
+        "map_locations": [{"map": "Tomb of the Giants Upper","x": 390,"y": 100}],
+        "access_rules": ["$canReachTombOfTheGiants"],
+        "sections": [{"name": "TotG: White Titanite Chunk - Patches Kick"}]
+    },{
+        "name": "TotG: White Titanite Chunk - Lower Tomb of the Giants",
+        "map_locations": [{"map": "Tomb of the Giants Upper","x": 570,"y": 800}],
+        "access_rules": ["$canReachTombOfTheGiants"],
+        "sections": [{"name": "TotG: White Titanite Chunk - Lower Tomb of the Giants"}]
+    },{
+        "name": "TotG: Eye of Death - Upper Giant Coffin",
+        "map_locations": [{"map": "Tomb of the Giants Upper","x": 310,"y": 320}],
+        "access_rules": ["$canReachTombOfTheGiants"],
+        "sections": [{"name": "TotG: Eye of Death - Upper Giant Coffin"}]
+    },{
+        "name": "TotG: Large Divine Ember",
+        "map_locations": [{"map": "Tomb of the Giants Upper","x": 40,"y": 305}],
+        "access_rules": ["$canReachTombOfTheGiants"],
+        "sections": [{"name": "TotG: Large Divine Ember"}]
+    },{
+        "name": "TotG: Soul of a Brave Warrior - Lower Giant Coffin",
+        "map_locations": [{"map": "Tomb of the Giants Upper","x": 153,"y": 255}],
+        "access_rules": ["$canReachTombOfTheGiants"],
+        "sections": [{"name": "TotG: Soul of a Brave Warrior - Lower Giant Coffin"}]
+    },{
+        "name": "TotG: Effigy Shield",
+        "map_locations": [{"map": "Tomb of the Giants Upper","x": 880,"y": 485}],
+        "access_rules": ["$canReachTombOfTheGiants"],
+        "sections": [{"name": "TotG: Effigy Shield"}]
+    },{
+        "name": "TotG: Covetous Silver Serpent Ring",
+        "map_locations": [{"map": "Tomb of the Giants Upper","x": 786,"y": 770}],
+        "access_rules": ["$canReachTombOfTheGiants"],
+        "sections": [{"name": "TotG: Covetous Silver Serpent Ring"}]
+    },{
+        "name": "TotG: Soul of a Brave Warrior - Lower Tomb of the Giants",
+        "map_locations": [{"map": "Tomb of the Giants Upper","x": 700,"y": 930}],
+        "access_rules": ["$canReachTombOfTheGiants"],
+        "sections": [{"name": "TotG: Soul of a Brave Warrior - Lower Tomb of the Giants"}]
+    },{
+        "name": "Lower Tomb of the Giants",
         "map_locations": [
             {
                 "map": "Full Map",
@@ -2331,7 +2680,32 @@
             {"name": "TotG: Lord Soul (Nito)"}
         ]
     },{
-        "name": " Kiln of the First Flame",
+        "name": "TotG: White Titanite Slab - Outside Nito",
+        "map_locations": [{"map": "Tomb of the Giants Lower","x": 520,"y": 520}],
+        "access_rules": ["$canReachTombOfTheGiantsGoldWall"],
+        "sections": [{"name": "TotG: White Titanite Slab - Outside Nito"}]
+    },{
+        "name": "TotG: Soul of a Hero - Pinwheel Clone Room Entryway",
+        "map_locations": [{"map": "Tomb of the Giants Lower","x": 320,"y": 455}],
+        "access_rules": ["$canReachTombOfTheGiantsGoldWall"],
+        "sections": [{"name": "TotG: Soul of a Hero - Pinwheel Clone Room Entryway"}]
+    },{
+        "name": "TotG: Soul of a Hero - Outside Nito",
+        "map_locations": [{"map": "Tomb of the Giants Lower","x": 430,"y": 555}],
+        "access_rules": ["$canReachTombOfTheGiantsGoldWall"],
+        "sections": [{"name": "TotG: Soul of a Hero - Outside Nito"}]
+    },{
+        "name": "TotG: White Titanite Chunk - Outside Nito",
+        "map_locations": [{"map": "Tomb of the Giants Lower","x": 535,"y": 380}],
+        "access_rules": ["$canReachTombOfTheGiantsGoldWall"],
+        "sections": [{"name": "TotG: White Titanite Chunk - Outside Nito"}]
+    },{
+        "name": "TotG: Lord Soul (Nito)",
+        "map_locations": [{"map": "Tomb of the Giants Lower","x": 410,"y": 920}],
+        "access_rules": ["$canReachTombOfTheGiantsGoldWall"],
+        "sections": [{"name": "TotG: Lord Soul (Nito)"}]
+    },{
+        "name": "Kiln of the First Flame",
         "map_locations": [
             {
                 "map": "Full Map",
@@ -2346,5 +2720,10 @@
             {"name": "KoFF: Black Knight Gauntlets"},
             {"name": "KoFF: Black Knight Leggings"}
         ]
+    },{
+        "name": "Black Knight Set",
+        "map_locations": [{"map": "Kiln of the First Flame","x": 475,"y": 580}],
+        "access_rules": ["$canReachKilnOfTheFirtFlame"],
+        "sections": [{"name": "KoFF: Black Knight Helm"},{"name": "KoFF: Black Knight Armor"},{"name": "KoFF: Black Knight Gauntlets"},{"name": "KoFF: Black Knight Leggings"}]
     }
 ]

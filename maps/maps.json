@@ -37,14 +37,14 @@
     },
     {
         "name": "The Catacombs",
-        "location_size": 30,
-        "location_border_thickness": 4,
+        "location_size": 10,
+        "location_border_thickness": 2,
         "img": "images/maps/Map_Catacombs.png"
     },
     {
         "name": "Crystal Cave",
-        "location_size": 30,
-        "location_border_thickness": 4,
+        "location_size": 15,
+        "location_border_thickness": 3,
         "img": "images/maps/Map_Crystal Cave.png"
     },
     {
@@ -61,8 +61,8 @@
     },
     {
         "name": "Demon Ruins",
-        "location_size": 30,
-        "location_border_thickness": 4,
+        "location_size": 20,
+        "location_border_thickness": 3,
         "img": "images/maps/Map_Demon Ruins.png"
     },
     {
@@ -97,14 +97,14 @@
     },
     {
         "name": "Kiln of the First Flame",
-        "location_size": 30,
-        "location_border_thickness": 4,
+        "location_size": 15,
+        "location_border_thickness": 3,
         "img": "images/maps/Map_Kiln of the First Flame.png"
     },
     {
         "name": "Lost Izalith",
-        "location_size": 30,
-        "location_border_thickness": 4,
+        "location_size": 15,
+        "location_border_thickness": 3,
         "img": "images/maps/Map_Lost Izalith.png"
     },
     {
@@ -145,14 +145,14 @@
     },
     {
         "name": "Tomb of the Giants Lower",
-        "location_size": 30,
-        "location_border_thickness": 4,
+        "location_size": 15,
+        "location_border_thickness": 3,
         "img": "images/maps/Map_Tomb of the Giants Lower.png"
     },
     {
         "name": "Tomb of the Giants Upper",
-        "location_size": 30,
-        "location_border_thickness": 4,
+        "location_size": 15,
+        "location_border_thickness": 3,
         "img": "images/maps/Map_Tomb of the Giants Upper.png"
     },
     {
