@@ -289,8 +289,6 @@
             {"name": "UB: Black Firebomb - Side House Chest"},
             {"name": "UB: Soul of a Lost Undead - Firebomb Throwers"},
             {"name": "UB: Blue Tearstone Ring"},
-            {"name": "UB: Havel's Ring",
-            "access_rules": ["$canReachWatchtowerBasement"]},
             {"name": "UB: Undead Burg Watchtower Upper opened",
             "access_rules": ["$canReachWatchtowerBasement"]},
             {"name": "UB: Undead Burg Watchtower Lower opened",
@@ -350,10 +348,10 @@
         "map_locations": [{"map": "Undead Burg Upper","x": 1710,"y": 1570}],
         "sections": [{"name": "UB: Blue Tearstone Ring"}]
     },{
-        "name": "UB: Havel's Ring - Bottom floor",
+        "name": "Undead Burg Watchtower",
         "map_locations": [{"map": "Undead Burg Upper","x": 2165,"y": 1535}],
         "access_rules": ["$canReachWatchtowerBasement"],
-        "sections": [{"name": "UB: Havel's Ring"},{"name": "UB: Undead Burg Watchtower Upper opened"},{"name": "UB: Undead Burg Watchtower Lower opened"}]
+        "sections": [{"name": "UB: Undead Burg Watchtower Upper opened"},{"name": "UB: Undead Burg Watchtower Lower opened"}]
     },{
         "name": "UB: Large Soul of a Lost Undead - After Taurus",
         "map_locations": [{"map": "Undead Burg Upper","x": 550,"y": 1050}],
@@ -2080,7 +2078,7 @@
         "sections": [{"name": "DA: Archive Prison Extra Key"}]
     },{
         "name": "DA: Large Soul of a Brave Warrior - In Reah's Cell",
-        "map_locations": [{"map": "Duke's Archives","x": 275,"y": 125}],
+        "map_locations": [{"map": "Duke's Archives","x": 315,"y": 115}],
         "access_rules": ["$canReachDukesArchivesPrison"],
         "sections": [{"name": "DA: Large Soul of a Brave Warrior - In Reah's Cell"}]
     },{
@@ -2090,7 +2088,7 @@
         "sections": [{"name": "DA: Maiden Hood"},{"name": "DA: Maiden Robe"},{"name": "DA: Maiden Gloves"},{"name": "DA: Maiden Skirt"},{"name": "DA: White Seance Ring"}]
     },{
         "name": "DA: Large Soul of a Brave Warrior - Archives Cell",
-        "map_locations": [{"map": "Duke's Archives","x": 1000,"y": 20}],
+        "map_locations": [{"map": "Duke's Archives","x": 275,"y": 125}],
         "access_rules": ["$canReachDukesArchivesPrison"],
         "sections": [{"name": "DA: Large Soul of a Brave Warrior - Archives Cell"}]
     },{
@@ -2293,12 +2291,12 @@
         "sections": [{"name": "DR: Soul of a Brave Warrior - On Platform Below Roots to Centipede"}]
     },{
         "name": "DR: Soul of a Brave Warrior - Ruins Domain shortcut",
-        "map_locations": [{"map": "Demon Ruins","x": 950,"y": 485}],
+        "map_locations": [{"map": "Demon Ruins","x": 565,"y": 325}],
         "access_rules": ["$canReachDemonRuinsGoldWall"],
         "sections": [{"name": "DR: Soul of a Brave Warrior - Ruins Domain shortcut"}]
     },{
         "name": "DR: Soul of a Brave Warrior - Chaos Door",
-        "map_locations": [{"map": "Demon Ruins","x": 565,"y": 325}],
+        "map_locations": [{"map": "Demon Ruins","x": 950,"y": 485}],
         "access_rules": ["$canReachDemonRuinsGoldWall"],
         "sections": [{"name": "DR: Soul of a Brave Warrior - Chaos Door"}]
     },{

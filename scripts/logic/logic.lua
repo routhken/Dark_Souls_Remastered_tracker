@@ -304,7 +304,7 @@ function canReachDepths()
 end
 
 function canReachLowerUndeadBurgResidence()
-    return canReachLowerUndeadBurg() and (hasResidenceKey() or hasMasterKey())
+    return canReachLowerUndeadBurg() and hasResidenceKey()
 end
 
 function canReachUpperNewLondo()
@@ -336,7 +336,7 @@ function canReachSensFortress()
 end
 
 function canReachSensFortressCage()
-    return canReachSensFortress() and hasCageKey()
+    return canReachSensFortress() and (hasCageKey() or hasMasterKey())
 end
 
 function canReachAnorLondo()

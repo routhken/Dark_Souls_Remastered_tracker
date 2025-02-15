@@ -1,6 +1,17 @@
 {
     "versions": [
         {
+            "package_version": "1.0.4",
+            "download_url": "https://github.com/routhken/Dark_Souls_Remastered_tracker/releases/download/v1.0.4/Dark_Souls_Remastered_aptracker.zip",
+            "sha256": "1da3d04a7600be24ea89d13de0605a9654b15b44511b5a08f39549590e17e53e",
+            "changelog": [
+                " - Fixed chaos door and domain shortcut brave souls being swapped",
+                " - Fixed snuggly trade item id copy pasta",
+                " - Fixed residence key logic",
+                " - Removed Havel's Ring"
+            ]
+        },
+        {
             "package_version": "1.0.3",
             "download_url": "https://github.com/routhken/Dark_Souls_Remastered_tracker/releases/download/v1.0.3/Dark_Souls_Remastered_aptracker.zip",
             "sha256": "7cad1dfa0a7f4fe564db741cc3498c19ce8be489482ce87d4070ef718a58cce6",
