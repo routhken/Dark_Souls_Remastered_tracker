@@ -1,6 +1,15 @@
 {
     "versions": [
         {
+            "package_version": "1.0.5",
+            "download_url": "https://github.com/routhken/Dark_Souls_Remastered_tracker/releases/download/v1.0.5/Dark_Souls_Remastered_aptracker.zip",
+            "sha256": "b56eb5136f37e8d1b162d6b39a1ec755879e55f4e2343fcc352063063df1d9ba",
+            "changelog": [
+                " - Fixed demon ruins shortcut logic",
+                " - Fixed orange charred ring tracking"
+            ]
+        },
+        {
             "package_version": "1.0.4",
             "download_url": "https://github.com/routhken/Dark_Souls_Remastered_tracker/releases/download/v1.0.4/Dark_Souls_Remastered_aptracker.zip",
             "sha256": "1da3d04a7600be24ea89d13de0605a9654b15b44511b5a08f39549590e17e53e",

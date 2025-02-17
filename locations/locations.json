@@ -2312,7 +2312,7 @@
     },{
         "name": "DR: Demon Ruins Shortcut opened",
         "map_locations": [{"map": "Demon Ruins","x": 1160,"y": 350}],
-        "access_rules": ["$canReachLostIzalith"],
+        "access_rules": ["$canReachDemonRuinsGoldWall"],
         "sections": [{"name": "DR: Demon Ruins Shortcut opened"}]
     },{
         "name": "Lost Izalith",
