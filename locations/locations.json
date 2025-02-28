@@ -1943,6 +1943,11 @@
         "access_rules": ["$canReachLowerNewLondo, [$canReachAnorLondo]"],
         "sections": [{"name": "NL: Titanite Chunk - Chest behind Illusory Wall"}]
     },{
+        "name": "TA: Bequeathed Lord Soul Shard (Four Kings)",
+        "map_locations": [{"map": "New Londo Ruins","x": 675,"y": 570}],
+        "access_rules": ["$canReachAbyss, [$canReachAnorLondo]"],
+        "sections": [{"name": "TA: Bequeathed Lord Soul Shard (Four Kings)"}]
+    },{
         "name": "The Abyss",
         "map_locations": [
             {
@@ -1951,7 +1956,7 @@
                 "y": 735
             }
         ],
-        "access_rules": ["$canReachAbyss"],
+        "access_rules": ["$canReachAbyss, [$canReachAnorLondo]"],
         "sections": [
             {"name": "TA: Bequeathed Lord Soul Shard (Four Kings)"}
         ]
