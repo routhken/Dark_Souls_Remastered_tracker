@@ -1,6 +1,15 @@
 {
     "versions": [
         {
+            "package_version": "1.0.7",
+            "download_url": "https://github.com/routhken/Dark_Souls_Remastered_tracker/releases/download/v1.0.7/Dark_Souls_Remastered_aptracker.zip",
+            "sha256": "39e3943668dc9d8b5119c4772b1b3b7e465dfb5b2bd854b54d670fffd490877a",
+            "changelog": [
+                " - Fixed residence key ID",
+                " - Removed snuggly trades to match apworld update"
+            ]
+        },
+        {
             "package_version": "1.0.6",
             "download_url": "https://github.com/routhken/Dark_Souls_Remastered_tracker/releases/download/v1.0.6/Dark_Souls_Remastered_aptracker.zip",
             "sha256": "71e0d51d5ef8f4bc51c1691852dfd67d1ae1a183c6d8b0a94f530540aa89e448",
