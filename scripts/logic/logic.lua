@@ -364,23 +364,23 @@ function canReachDukesArchivesCellDoor()
 end
 
 function canReachDukesArchivesCellExit()
-    return canReachDukesArchivesCellDoor() and (hasArchivePrisonExtraKey() or hasArchiveTowerGiantCellKey())
+    return canReachDukesArchivesCellDoor()
 end
 
 function canReachDukesArchivesPrison()
-    return canReachDukesArchivesCellDoor() and hasArchivePrisonExtraKey()
+    return canReachDukesArchivesCellExit() and hasArchivePrisonExtraKey()
 end
 
 function canReachDukesArchivesGiantDoor()
-    return canReachDukesArchivesCellExit() and hasArchiveTowerGiantDoorKey()
+    return canReachDukesArchivesPrison() and hasArchiveTowerGiantDoorKey()
 end
 
 function canReachDukesArchivesTowerGiantCell()
-    return canReachDukesArchivesCellDoor() and hasArchiveTowerGiantCellKey()
+    return canReachDukesArchivesCellExit() and hasArchiveTowerGiantCellKey()
 end
 
 function canReachDukesArchivesPostSeath()
-    return canReachDukesArchives() and hasSeathDefeated()
+    return canReachDukesArchivesTowerGiantCell() and hasSeathDefeated()
 end
 
 function canReachPaintedWorld()

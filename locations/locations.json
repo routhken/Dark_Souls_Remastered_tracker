@@ -26,12 +26,15 @@
                 "y": 60
             }
         ],
-        "access_rules": ["$canReachUAF2WestDoor"],
         "sections": [
-            {"name": "UA2: Undead Asylum F2 West Door opened"},
-            {"name": "UA2: Crest Shield"},
-            {"name": "UA2: Rusted Iron Ring"},
-            {"name": "UA2: Peculiar Doll"}
+            {"name": "UA2: Undead Asylum F2 West Door opened",
+            "access_rules": ["$canReachUAF2WestDoor"]},
+            {"name": "UA2: Crest Shield",
+            "access_rules": ["$canReachNorthernUndeadAsylum"]},
+            {"name": "UA2: Rusted Iron Ring",
+            "access_rules": ["$canReachUAF2WestDoor"]},
+            {"name": "UA2: Peculiar Doll",
+            "access_rules": ["$canReachNorthernUndeadAsylum"]}
         ]
     },{
         "name": "F2 West Door Opened",
@@ -41,7 +44,7 @@
     },{
         "name": "Crest Shield",
         "map_locations": [{"map": "Undead Asylum","x": 1395,"y": 430}],
-        "access_rules": ["$canReachUAF2WestDoor"],
+        "access_rules": ["$canReachNorthernUndeadAsylum"],
         "sections": [{"name": "UA2: Crest Shield"}]
     },{
         "name": "Rusted Iron Ring",
@@ -51,7 +54,7 @@
     },{
         "name": "Peculiar Doll",
         "map_locations": [{"map": "Undead Asylum","x": 160,"y": 1240}],
-        "access_rules": ["$canReachUAF2WestDoor"],
+        "access_rules": ["$canReachNorthernUndeadAsylum"],
         "sections": [{"name": "UA2: Peculiar Doll"}]
     },{
         "name": "Firelink Shrine",
@@ -1670,8 +1673,7 @@
             {"name": "NL: Parrying Dagger"},
             {"name": "NL: Transient Curse - Banshee"},
             {"name": "NL: Large Soul of a Nameless Soldier - Near Ladder Shortcut"},
-            {"name": "NL: Key to the Seal",
-             "access_rules": ["$hasLordvessel"]},
+            {"name": "NL: Key to the Seal"},
             {"name": "NL: Soul of a Proud Knight - New Londo Back Corridor"},
             {"name": "NL: Cursebite Ring"},
             {"name": "NL: Green Titanite Shard - New Londo"},
@@ -1726,7 +1728,7 @@
     },{
         "name": "NL: Key to the Seal",
         "map_locations": [{"map": "New Londo Ruins","x": 905,"y": 580}],
-        "access_rules": ["$canReachUpperNewLondo, $hasLordvessel"],
+        "access_rules": ["$canReachUpperNewLondo"],
         "sections": [{"name": "NL: Key to the Seal"}]
     },{
         "name": "NL: Soul of a Proud Knight - New Londo Back Corridor",
@@ -1872,8 +1874,10 @@
             {"name": "DA: Soul of a Brave Warrior - Archives Under Stairs"},
             {"name": "DA: Twinkling Titanite - Archives Chest"},
             {"name": "DA: Twinkling Titanite - Archives Balcony"},
-            {"name": "DA: Large Magic Ember"},
-            {"name": "DA: Soul of a Great Hero - Seath Room"},
+            {"name": "DA: Large Magic Ember",
+            "access_rules": ["$canReachDukesArchivesPostSeath"]},
+            {"name": "DA: Soul of a Great Hero - Seath Room",
+            "access_rules": ["$canReachDukesArchivesPostSeath"]},
             {"name": "DA: Duke's Archives Cell Door opened",
             "access_rules": ["$canReachDukesArchivesCellDoor"]},
             {"name": "DA: Archive Prison Extra Key",
@@ -1962,12 +1966,12 @@
     },{
         "name": "DA: Large Magic Ember",
         "map_locations": [{"map": "Duke's Archives","x": 1820,"y": 760}],
-        "access_rules": ["$canReachDukesArchives"],
+        "access_rules": ["$canReachDukesArchivesPostSeath"],
         "sections": [{"name": "DA: Large Magic Ember"}]
     },{
         "name": "DA: Soul of a Great Hero - Seath Room",
         "map_locations": [{"map": "Duke's Archives","x": 1675,"y": 665}],
-        "access_rules": ["$canReachDukesArchives"],
+        "access_rules": ["$canReachDukesArchivesPostSeath"],
         "sections": [{"name": "DA: Soul of a Great Hero - Seath Room"}]
     },{
         "name": "DA: Duke's Archives Cell Door opened",
@@ -2062,7 +2066,7 @@
     },{
         "name": "DA: Fire Keeper Soul - Archives Giant Cell",
         "map_locations": [{"map": "Duke's Archives","x": 630,"y": 240}],
-        "access_rules": ["$hasArchiveTowerGiantCellKey"],
+        "access_rules": ["$canReachDukesArchivesTowerGiantCell"],
         "sections": [{"name": "DA: Fire Keeper Soul - Archives Giant Cell"}]
     },{
         "name": "Crystal Cave",
@@ -2073,7 +2077,7 @@
                 "y": 445
             }
         ],
-        "access_rules": ["$canReachDukesArchives"],
+        "access_rules": ["$canReachDukesArchivesPostSeath"],
         "sections": [
             {"name": "CC: Humanity - Crystal Caverns"},
             {"name": "CC: Blue Titanite Chunk - Crystal Caverns"},
@@ -2084,27 +2088,27 @@
     },{
         "name": "CC: Humanity - Crystal Caverns",
         "map_locations": [{"map": "Crystal Cave","x": 258,"y": 100}],
-        "access_rules": ["$canReachDukesArchives"],
+        "access_rules": ["$canReachDukesArchivesPostSeath"],
         "sections": [{"name": "CC: Humanity - Crystal Caverns"}]
     },{
         "name": "CC: Blue Titanite Chunk - Crystal Caverns",
         "map_locations": [{"map": "Crystal Cave","x": 270,"y": 350}],
-        "access_rules": ["$canReachDukesArchives"],
+        "access_rules": ["$canReachDukesArchivesPostSeath"],
         "sections": [{"name": "CC: Blue Titanite Chunk - Crystal Caverns"}]
     },{
         "name": "CC: Blue Titanite Slab - Crystal Caverns",
         "map_locations": [{"map": "Crystal Cave","x": 315,"y": 147}],
-        "access_rules": ["$canReachDukesArchives"],
+        "access_rules": ["$canReachDukesArchivesPostSeath"],
         "sections": [{"name": "CC: Blue Titanite Slab - Crystal Caverns"}]
     },{
         "name": "CC: Soul of a Hero - Crystal Caverns",
         "map_locations": [{"map": "Crystal Cave","x": 285,"y": 535}],
-        "access_rules": ["$canReachDukesArchives"],
+        "access_rules": ["$canReachDukesArchivesPostSeath"],
         "sections": [{"name": "CC: Soul of a Hero - Crystal Caverns"}]
     },{
         "name": "CC: Bequeathed Lord Soul Shard (Seath)",
         "map_locations": [{"map": "Crystal Cave","x": 138,"y": 1020}],
-        "access_rules": ["$canReachDukesArchives"],
+        "access_rules": ["$canReachDukesArchivesPostSeath"],
         "sections": [{"name": "CC: Bequeathed Lord Soul Shard (Seath)"}]
     },{
         "name": "Demon Ruins",
@@ -2292,12 +2296,12 @@
         "sections": [{"name": "LI: Rare Ring of Sacrifice - Izalith City"}]
     },{
         "name": "LI: Red Titanite Chunk - Inside Chaos Eater Pit",
-        "map_locations": [{"map": "Lost Izalith","x": 820,"y": 415}],
+        "map_locations": [{"map": "Lost Izalith","x": 865,"y": 315}],
         "access_rules": ["$canReachLostIzalith"],
         "sections": [{"name": "LI: Red Titanite Chunk - Inside Chaos Eater Pit"}]
     },{
         "name": "LI: Green Titanite Shard - Chaos Eater Pit",
-        "map_locations": [{"map": "Lost Izalith","x": 865,"y": 315}],
+        "map_locations": [{"map": "Lost Izalith","x": 820,"y": 415}],
         "access_rules": ["$canReachLostIzalith"],
         "sections": [{"name": "LI: Green Titanite Shard - Chaos Eater Pit"}]
     },{
