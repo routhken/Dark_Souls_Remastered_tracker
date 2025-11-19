@@ -707,8 +707,6 @@
         "sections": [
             {"name": "BT: Large Soul of a Proud Knight - Corpse below Ramp"},
             {"name": "BT: Dragon Scale - Blighttown"},
-            {"name": "BT: Butcher Knife"},
-            {"name": "BT: Humanity - Maneater Mildred"},
             {"name": "BT: Large Soul of a Proud Knight - Quelana"},
             {"name": "BT: Great Club"},
             {"name": "BT: Tattered Cloth Hood"},
@@ -734,11 +732,6 @@
         "map_locations": [{"map": "Blighttown Lower","x": 1830,"y": 110}],
         "access_rules": ["$canReachBlighttown"],
         "sections": [{"name": "BT: Dragon Scale - Blighttown"}]
-    },{
-        "name": "BT: Maneater Mildred (MISSABLE if you beat Quelaag first)",
-        "map_locations": [{"map": "Blighttown Lower","x": 1830,"y": 1110}],
-        "access_rules": ["$canReachBlighttown"],
-        "sections": [{"name": "BT: Butcher Knife"},{"name": "BT: Humanity - Maneater Mildred"}]
     },{
         "name": "BT: Large Soul of a Proud Knight - Quelana",
         "map_locations": [{"map": "Blighttown Lower","x": 1570,"y": 1180}],
@@ -1480,7 +1473,6 @@
             {"name": "PW: Soul of a Proud Knight - Jeremiah 2"},
             {"name": "PW: Large Soul of a Proud Knight - Jeremiah"},
             {"name": "PW: Pyromancy: Acid Surge"},
-            {"name": "PW: Notched Whip"},
             {"name": "PW: Soul of a Brave Warrior - Painted World Bonewheels"},
             {"name": "PW: Annex Key"},
             {"name": "PW: Humanity - Painted World Courtyard"},
@@ -1604,11 +1596,6 @@
         "map_locations": [{"map": "Painted World of Ariamis","x": 375,"y": 1290}],
         "access_rules": ["$canReachPaintedWorld"],
         "sections": [{"name": "PW: Painting Guardian Hood"},{"name": "PW: Painting Guardian Robe"},{"name": "PW: Painting Guardian Gloves"},{"name": "PW: Painting Guardian Waistcloth"}]
-    },{
-        "name": "PW: Invader Jeremiah (MISSABLE if you beat Priscilla first)",
-        "map_locations": [{"map": "Painted World of Ariamis","x": 1940,"y": 2270}],
-        "access_rules": ["$canReachPaintedWorld"],
-        "sections": [{"name": "PW: Notched Whip"}]
     },{
         "name": "PW: Humanity - Painted World Courtyard",
         "map_locations": [{"map": "Painted World of Ariamis","x": 1350,"y": 1870}],
@@ -1882,8 +1869,6 @@
             "access_rules": ["$canReachDukesArchivesCellDoor"]},
             {"name": "DA: Archive Prison Extra Key",
             "access_rules": ["$canReachDukesArchivesCellExit"]},
-            {"name": "DA: Large Soul of a Brave Warrior - In Reah's Cell",
-            "access_rules": ["$canReachDukesArchivesPrison"]},
             {"name": "DA: Maiden Hood",
             "access_rules": ["$canReachDukesArchivesPrison"]},
             {"name": "DA: Maiden Robe",
@@ -1983,11 +1968,6 @@
         "map_locations": [{"map": "Duke's Archives","x": 235,"y": 345}],
         "access_rules": ["$canReachDukesArchivesCellExit"],
         "sections": [{"name": "DA: Archive Prison Extra Key"}]
-    },{
-        "name": "DA: Large Soul of a Brave Warrior - In Reah's Cell",
-        "map_locations": [{"map": "Duke's Archives","x": 315,"y": 115}],
-        "access_rules": ["$canReachDukesArchivesPrison"],
-        "sections": [{"name": "DA: Large Soul of a Brave Warrior - In Reah's Cell"}]
     },{
         "name": "DA: Maiden Set",
         "map_locations": [{"map": "Duke's Archives","x": 435,"y": 930}],
@@ -2370,6 +2350,11 @@
             {"name": "TC: Large Soul of a Nameless Soldier - Above Black Knight"},
             {"name": "TC: Soul of a Proud Knight - Black Knight Ledge"},
             {"name": "TC: Large Soul of a Nameless Soldier - Catacombs Above Bonewheels"},
+            {"name": "TC: Priest's Hat"},
+            {"name": "TC: Holy Robe"},
+            {"name": "TC: Traveling Gloves"},
+            {"name": "TC: Holy Trousers"},
+            {"name": "TC: Mace"},
             {"name": "TC: Rite of Kindling"},
             {"name": "TC: Soul of a Proud Knight - Above Pinwheel"}
         ]
@@ -2438,6 +2423,11 @@
         "map_locations": [{"map": "The Catacombs","x": 985,"y": 150}],
         "access_rules": ["$canReachCatacombs"],
         "sections": [{"name": "TC: Soul of a Proud Knight - Black Knight Ledge"}]
+    },{
+        "name": "TC: Priest Set and Large Soul of a Nameless Soldier - Catacombs Above Bonewheels",
+        "map_locations": [{"map": "The Catacombs","x": 960,"y": 332}],
+        "access_rules": ["$canReachCatacombs"],
+        "sections": [{"name": "TC: Large Soul of a Nameless Soldier - Catacombs Above Bonewheels"},{"name": "TC: Priest's Hat"},{"name": "TC: Holy Robe"},{"name": "TC: Traveling Gloves"},{"name": "TC: Holy Trousers"},{"name": "TC: Mace"}]
     },{
         "name": "TC: Large Soul of a Nameless Soldier - Catacombs Above Bonewheels",
         "map_locations": [{"map": "The Catacombs","x": 960,"y": 332}],

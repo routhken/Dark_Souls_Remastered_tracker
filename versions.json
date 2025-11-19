@@ -1,6 +1,17 @@
 {
     "versions": [
         {
+            "package_version": "1.0.9",
+            "download_url": "https://github.com/routhken/Dark_Souls_Remastered_tracker/releases/download/v1.0.9/Dark_Souls_Remastered_aptracker.zip",
+            "sha256": "53eb040e6328f14f265ad3865404275416cf76de3744247bf485bcd281983998",
+            "changelog": [
+                " - Removed DA: Large Soul of a Brave Warrior - In Reah's Cell",
+                " - Removed BT: Butcher Knife",
+                " - Removed BT: Humanity - Maneater Mildred",
+                " - Removed PW: Notched Whip",
+                " - Added Priest Set"
+            ]
+        },{
             "package_version": "1.0.8",
             "download_url": "https://github.com/routhken/Dark_Souls_Remastered_tracker/releases/download/v1.0.8/Dark_Souls_Remastered_aptracker.zip",
             "sha256": "f392c11c7ac2701d001e2fb44b9a424df43fa160cd06bb1ad654987c10edb291",
