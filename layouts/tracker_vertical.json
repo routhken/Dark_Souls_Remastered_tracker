@@ -1,0 +1,349 @@
+{
+    "tracker_default": {
+        "type": "container",
+        "background": "#000000",
+        "content": {
+            "type": "dock",
+            "dropshadow": true,
+            "content": [
+                {
+                    "type": "dock",
+                    "dock": "left",
+                    "content": [
+                        {
+                            "type": "group",
+                            "header": "Progression Items",
+                            "dock": "left",
+                            "margin": "0,0,3,0",
+                            "content": {
+                                "type": "layout",
+                                "h_alignment": "center",
+                                "v_alignment": "center",
+                                "key": "items_layout"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Full Map",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Full Map"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Undead Asylum",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Undead Asylum"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Firelink Shrine",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Firelink Shrine"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Undead Burg Upper",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Undead Burg Upper"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Undead Burg Lower",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Undead Burg Lower"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Undead Parish",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Undead Parish"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Depths",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Depths"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Blighttown Upper",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Blighttown Upper"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Blighttown Lower",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Blighttown Lower"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Valley of the Drakes",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Valley of the Drakes"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Darkroot Basin",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Darkroot Basin"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Darkroot Garden",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Darkroot Garden"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Great Hollow",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Great Hollow"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Ash Lake",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Ash Lake"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Sen's Fortress Basement",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Sen's Fortress Basement"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Sen's Fortress Main",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Sen's Fortress Main"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Sen's Fortress Roof",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Sen's Fortress Roof"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Anor Londo Exterior",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Anor Londo Exterior"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Anor Londo Interior",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Anor Londo Interior"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Painted World of Ariamis",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Painted World of Ariamis"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "New Londo Ruins",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "New Londo Ruins"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Duke's Archives",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Duke's Archives"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Duke's Archives Big Room",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Duke's Archives Big Room"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Crystal Cave",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Crystal Cave"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Demon Ruins",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Demon Ruins"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Lost Izalith",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Lost Izalith"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "The Catacombs",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "The Catacombs"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Tomb of the Giants Upper",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Tomb of the Giants Upper"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Tomb of the Giants Lower",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Tomb of the Giants Lower"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Kiln of the First Flame",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Kiln of the First Flame"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "DLC",
+                            "content": {
+                                "type": "tabbed",
+                                "tabs": [
+                                    {
+                                        "title": "Oolacile Sanctuary",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "Oolacile Sanctuary"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Royal Wood",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "Royal Wood"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Oolacile Township",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "Oolacile Township"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Chasm of the Abyss",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "Chasm of the Abyss"
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

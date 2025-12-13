@@ -1,12 +1,20 @@
 {
     "name": "Dark Souls Remastered",
     "game_name": "Dark Souls Remastered",
-    "package_version": "1.0.10",
+    "package_version": "1.0.11",
     "package_uid": "ap_dark_souls_remastered",
     "author": "DaKennyMan22",
     "variants": {
-      "map": {
-        "display_name": "Tracker",
+      "a_standard": {
+        "display_name": "Tracker (Horizontal)",
+        "flags": ["ap"]
+      },
+      "b_vertical": {
+        "display_name": "Tracker (Vertical)",
+        "flags": ["ap"]
+      },
+      "c_items_only": {
+        "display_name": "Tracker (Items Only)",
         "flags": ["ap"]
       }
     },

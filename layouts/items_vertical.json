@@ -1,0 +1,73 @@
+{
+    "items_layout": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0, 0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "vertical",
+                "margin": "0, 0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_size": "4, 4",
+                        "item_margin": "1, 0",
+                        "h_alignment": "left",
+                        "item_h_alignment": "center",
+                        "rows": [
+                            [
+                                "lordvessel",
+                                "archive_prison_extra_key",
+                                "archive_tower_cell_key"
+                            ],
+                            [
+                                "lord_soul_fourkings",
+                                "archive_tower_giant_cell_key",
+                                "archive_tower_giant_door_key"
+                            ],
+                            [
+                                "lord_soul_seath",
+                                "new_londo_key",
+                                "seal_key"
+                            ],
+                            [
+                                "lord_soul_nito",
+                                "orange_charred_ring",
+                                "peculiar_doll"
+                            ],
+                            [
+                                "lord_soul_bedofchaos",
+                                "residence_key",
+                                "sewer_chamber_key"
+                            ],
+                            [
+                                "master_key",
+                                "uaf2_west_key",
+                                "watchtower_basement_key"
+                            ],
+                            [
+                                "annex_key",
+                                "basement_key",
+                                "blighttown_key"
+                            ],
+                            [
+                                "cage_key",
+                                "covenant_of_artorias",
+                                "crest_of_artorias"
+                            ],
+                            [
+                                "depths_key",
+                                "crest_key",
+                                "skull_lantern"
+                            ],
+                            [
+                                "broken_pendant"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

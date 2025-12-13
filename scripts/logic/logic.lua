@@ -444,16 +444,16 @@ function canReachOolacileTownship()
     return canReachRoyalWood() and hasArtoriasDefeated()
 end
 
-function canReachRoyalWoodHawkeyeGough()
-    return canReachOolacileTownship()
-end
-
 function canReachOolacileTownshipLightWalls()
     return canReachOolacileTownship() and hasSkullLantern()
 end
 
 function canReachOolacileTownshipCrestKey()
     return canReachOolacileTownship() and hasDLCCrestKey()
+end
+
+function canReachRoyalWoodHawkeyeGough()
+    return canReachOolacileTownshipCrestKey()
 end
 
 function canReachChasmOfTheAbyss()

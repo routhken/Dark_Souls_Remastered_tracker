@@ -2669,7 +2669,9 @@
             {"name": "RW: Blue Titanite Slab - Hidden Chest at Pool"},
             {"name": "RW: Soul of a Brave Warrior - Outside Elevator"},
             {"name": "RW: Gough's Great Arrow - Kalemeet's Arena","access_rules": ["$canReachRoyalWoodHawkeyeGough"]},
-            {"name": "RW: Titanite Slab - Kalameet's Arena Behind Waterfall","access_rules": ["$canReachRoyalWoodHawkeyeGough"]}
+            {"name": "RW: Titanite Slab - Kalameet's Arena Behind Waterfall","access_rules": ["$canReachRoyalWoodHawkeyeGough"]},
+            {"name": "OT: Soul of a Hero - 2F Behind Stairs To Gough"},
+            {"name": "Oolacile Crest Key Door opened","access_rules": ["$canReachOolacileTownshipCrestKey"]}
         ]
     },{ "name": "RW: Soul of a Proud Knight - Behind Tower",
         "map_locations": [{"map": "Royal Wood","x": 127,"y": 382}],"access_rules": ["$canReachRoyalWood"],"sections": [
@@ -2725,6 +2727,12 @@
     },{ "name": "RW: Titanite Slab - Kalameet's Arena Behind Waterfall",
         "map_locations": [{"map": "Royal Wood","x": 1110,"y": 428}],"access_rules": ["$canReachRoyalWoodHawkeyeGough"],"sections": [
             {"name": "RW: Titanite Slab - Kalameet's Arena Behind Waterfall","ref": "Royal Wood/RW: Titanite Slab - Kalameet's Arena Behind Waterfall"}]
+    },{ "name": "OT: Soul of a Hero - 2F Behind Stairs To Gough",
+        "map_locations": [{"map": "Royal Wood","x": 899,"y": 204}],"access_rules": ["$canReachOolacileTownship"],"sections": [
+            {"name": "OT: Soul of a Hero - 2F Behind Stairs To Gough","ref": "Royal Wood/OT: Soul of a Hero - 2F Behind Stairs To Gough"}]
+    },{ "name": "Oolacile Crest Key Door opened",
+        "map_locations": [{"map": "Royal Wood","x": 778,"y": 56}],"access_rules": ["$canReachOolacileTownshipCrestKey"],"sections": [
+            {"name": "Oolacile Crest Key Door opened","ref": "Royal Wood/Oolacile Crest Key Door opened"}]
     },{
         "name": "Oolacile Township",
         "map_locations": [
@@ -2746,8 +2754,7 @@
             {"name": "OT: Twin Humanities - Drop onto Roof"},
             {"name": "OT: Soul of a Brave Warrior - Corpse in Corner of Statue Hallway"},
             {"name": "OT: Silver Pendant","access_rules": ["$canReachOolacileTownshipLightWalls"]}, 
-            {"name": "OT: Red Titanite Chunk - In Chest behind Illusory Wall","access_rules": ["$canReachOolacileTownshipLightWalls"]},
-            {"name": "Oolacile Crest Key Door opened","access_rules": ["$canReachOolacileTownshipCrestKey"]}
+            {"name": "OT: Red Titanite Chunk - In Chest behind Illusory Wall","access_rules": ["$canReachOolacileTownshipLightWalls"]}
         ]
     },{ "name": "OT: Rubbish - Outside of Door",
         "map_locations": [{"map": "Oolacile Township","x": 754,"y": 426}],"access_rules": ["$canReachOolacileTownship"],"sections": [
@@ -2782,9 +2789,6 @@
     },{ "name": "OT: Red Titanite Chunk - In Chest behind Illusory Wall",
         "map_locations": [{"map": "Oolacile Township","x": 917,"y": 493}],"access_rules": ["$canReachOolacileTownshipLightWalls"],"sections": [
             {"name": "OT: Red Titanite Chunk - In Chest behind Illusory Wall","ref": "Oolacile Township/OT: Red Titanite Chunk - In Chest behind Illusory Wall"}]
-    },{ "name": "Oolacile Crest Key Door opened",
-        "map_locations": [{"map": "Oolacile Township","x": 916,"y": 365}],"access_rules": ["$canReachOolacileTownshipCrestKey"],"sections": [
-            {"name": "Oolacile Crest Key Door opened","ref": "Oolacile Township/Oolacile Crest Key Door opened"}]
     },{
         "name": "Chasm of the Abyss",
         "map_locations": [

@@ -1,5 +1,6 @@
 ScriptHost:LoadScript("scripts/autotracking/item_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/location_mapping.lua")
+Tracker.AllowDeferredLogicUpdate = true
 
 
 CURRENT_INDEX = -1
@@ -18,6 +19,7 @@ function dump(o)
 end
 
 function onClear(slotData)
+    Tracker.BulkUpdate = true
     CURRENT_INDEX = -1
 
     -- Reset Locations
@@ -78,6 +80,80 @@ function onClear(slotData)
 
     --print("Slotdata: ") --debug
     --print(dump(slotData)) --debug
+    Tracker.BulkUpdate = false
+end
+
+function OnNotify(key, value, old_value)
+	if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+		print(string.format("called onNotify: %s, %s, %s", key, dump(value), old_value))
+	end
+
+	if value == old_value then
+		return
+	end
+
+	if key == HINTS_ID and Highlight then
+		for _, hint in ipairs(value) do
+			if not hint.found and hint.finding_player == Archipelago.PlayerNumber then
+				UpdateHints(hint.location, hint.status)
+			else
+				ClearHints(hint.location)
+			end
+		end
+	elseif key == DATA_STORAGE_ID and value ~= nil then
+		for k, v in pairs(value) do
+			if (DataStorageLocationTable[k]) then
+				Tracker:FindObjectForCode(DataStorageLocationTable[k]).AvailableChestCount = v and 0 or 1
+			elseif (DataStorageItemTable[k]) then
+				Tracker:FindObjectForCode(DataStorageItemTable[k]).Active = v or false
+			end
+		end
+		Tracker:FindObjectForCode(HiddenSetting).Active = not Tracker:FindObjectForCode(HiddenSetting).Active
+	end
+end
+
+-- called when a location is hinted or the status of a hint is changed
+function UpdateHints(locationID, status)
+	if not Highlight then
+		return
+	end
+	local locations = LOCATION_MAPPING[locationID]
+	-- print("Hint", dump(locations), status)
+	for _, location in ipairs(locations) do
+		local section = Tracker:FindObjectForCode(location)
+		---@cast section LocationSection
+		if section then
+			section.Highlight = PriorityToHighlight[status]
+		else
+			print(string.format("No object found for code: %s", location))
+		end
+	end
+end
+
+function ClearHints(locationID)
+	if not Highlight then
+		return
+	end
+	local locations = LOCATION_MAPPING[locationID]
+	if (not locations) then
+		return
+	end
+	for _, location in ipairs(locations) do
+		local section = Tracker:FindObjectForCode(location)
+		---@cast section LocationSection
+		if section then
+			section.Highlight = Highlight.None
+		else
+			print(string.format("No object found for code: %s", location))
+		end
+	end
+end
+
+function OnNotifyLaunch(key, value)
+	if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+		print(string.format("called onNotifyLaunch: %s, %s", key, dump(value)))
+	end
+	OnNotify(key, value)
 end
 
 
@@ -143,3 +219,16 @@ end
 Archipelago:AddClearHandler("Clear", onClear)
 Archipelago:AddItemHandler("Item", onItem)
 Archipelago:AddLocationHandler("Location", onLocation)
+Archipelago:AddSetReplyHandler("notify handler", OnNotify)
+Archipelago:AddRetrievedHandler("notify launch handler", OnNotifyLaunch)
+
+PriorityToHighlight = {}
+if Highlight then
+	PriorityToHighlight = {
+		[0] = Highlight.Unspecified,
+		[10] = Highlight.NoPriority,
+		[20] = Highlight.Avoid,
+		[30] = Highlight.Priority,
+		[40] = Highlight.None -- found
+	}
+end
