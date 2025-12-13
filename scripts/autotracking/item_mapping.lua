@@ -44,4 +44,6 @@ ITEM_MAPPING = {
     [11114027] = {"ring_of_the_sun_princess", "toggle"},
     [11117101] = {"xanthous_crown", "toggle"},
     [11112062] = {"soul_of_manus", "toggle"},
+    [11113028] = {"broken_pendant", "toggle"},
+    [11113021] = {"crest_key", "toggle"},
 }

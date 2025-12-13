@@ -296,6 +296,50 @@
                                     "Kiln of the First Flame"
                                 ]
                             }
+                        },
+                        {
+                            "title": "DLC",
+                            "content": {
+                                "type": "tabbed",
+                                "tabs": [
+                                    {
+                                        "title": "Oolacile Sanctuary",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "Oolacile Sanctuary"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Royal Wood",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "Royal Wood"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Oolacile Township",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "Oolacile Township"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Chasm of the Abyss",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "Chasm of the Abyss"
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
                         }
                     ]
                 }

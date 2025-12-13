@@ -57,6 +57,11 @@
         "access_rules": ["$canReachNorthernUndeadAsylum"],
         "sections": [{"name": "UA2: Peculiar Doll"}]
     },{
+        "name": "Soul of a Lost Undead",
+        "map_locations": [{"map": "Undead Asylum","x": 560,"y": 1580}],
+        "access_rules": ["$canReachNorthernUndeadAsylum"],
+        "sections": [{"name": "UA: Soul of a Lost Undead - Outside Asylum"}]
+    },{
         "name": "Firelink Shrine",
         "map_locations": [
             {
@@ -1452,7 +1457,7 @@
             {"name": "PW: Soul of a Proud Knight - Corpse near Bonewheels"},
             {"name": "PW: Soul of a Proud Knight - By Hanging Corpse"},
             {"name": "PW: Ring of Sacrifice - Painted World"},
-            {"name": "PW: Soul of a Brave Warrior - Next to Stairs"},
+            {"name": "PW: Soul of a Brave Warrior - Next to Ground Floor Stairs"},
             {"name": "PW: Soul of a Brave Warrior - Corpse at Backside Tower Corner"},
             {"name": "PW: Soul of a Proud Knight - Painted World Corvid Ambush"},
             {"name": "PW: Twin Humanities - Painted World"},
@@ -1627,10 +1632,10 @@
         "access_rules": ["$canReachPaintedWorld"],
         "sections": [{"name": "PW: Soul of a Brave Warrior - Corpse at Backside Tower Corner"}]
     },{
-        "name": "PW: Soul of a Brave Warrior - Next to Stairs",
+        "name": "PW: Soul of a Brave Warrior - Next to Ground Floor Stairs",
         "map_locations": [{"map": "Painted World of Ariamis","x": 650,"y": 1615}],
         "access_rules": ["$canReachPaintedWorld"],
-        "sections": [{"name": "PW: Soul of a Brave Warrior - Next to Stairs"}]
+        "sections": [{"name": "PW: Soul of a Brave Warrior - Next to Ground Floor Stairs"}]
     },{
         "name": "PW: Soul of a Brave Warrior - Painted World Tower",
         "map_locations": [{"map": "Painted World of Ariamis","x": 650,"y": 1430}],
@@ -2059,32 +2064,32 @@
         ],
         "access_rules": ["$canReachDukesArchivesPostSeath"],
         "sections": [
-            {"name": "CC: Humanity - Crystal Caverns"},
-            {"name": "CC: Blue Titanite Chunk - Crystal Caverns"},
-            {"name": "CC: Blue Titanite Slab - Crystal Caverns"},
-            {"name": "CC: Soul of a Hero - Crystal Caverns"},
+            {"name": "CC: Humanity - Crystal Cave"},
+            {"name": "CC: Blue Titanite Chunk - Crystal Cave"},
+            {"name": "CC: Blue Titanite Slab - Crystal Cave"},
+            {"name": "CC: Soul of a Hero - Crystal Cave"},
             {"name": "CC: Bequeathed Lord Soul Shard (Seath)"}
         ]
     },{
-        "name": "CC: Humanity - Crystal Caverns",
+        "name": "CC: Humanity - Crystal Cave",
         "map_locations": [{"map": "Crystal Cave","x": 258,"y": 100}],
         "access_rules": ["$canReachDukesArchivesPostSeath"],
-        "sections": [{"name": "CC: Humanity - Crystal Caverns"}]
+        "sections": [{"name": "CC: Humanity - Crystal Cave"}]
     },{
-        "name": "CC: Blue Titanite Chunk - Crystal Caverns",
+        "name": "CC: Blue Titanite Chunk - Crystal Cave",
         "map_locations": [{"map": "Crystal Cave","x": 270,"y": 350}],
         "access_rules": ["$canReachDukesArchivesPostSeath"],
-        "sections": [{"name": "CC: Blue Titanite Chunk - Crystal Caverns"}]
+        "sections": [{"name": "CC: Blue Titanite Chunk - Crystal Cave"}]
     },{
-        "name": "CC: Blue Titanite Slab - Crystal Caverns",
+        "name": "CC: Blue Titanite Slab - Crystal Cave",
         "map_locations": [{"map": "Crystal Cave","x": 315,"y": 147}],
         "access_rules": ["$canReachDukesArchivesPostSeath"],
-        "sections": [{"name": "CC: Blue Titanite Slab - Crystal Caverns"}]
+        "sections": [{"name": "CC: Blue Titanite Slab - Crystal Cave"}]
     },{
-        "name": "CC: Soul of a Hero - Crystal Caverns",
+        "name": "CC: Soul of a Hero - Crystal Cave",
         "map_locations": [{"map": "Crystal Cave","x": 285,"y": 535}],
         "access_rules": ["$canReachDukesArchivesPostSeath"],
-        "sections": [{"name": "CC: Soul of a Hero - Crystal Caverns"}]
+        "sections": [{"name": "CC: Soul of a Hero - Crystal Cave"}]
     },{
         "name": "CC: Bequeathed Lord Soul Shard (Seath)",
         "map_locations": [{"map": "Crystal Cave","x": 138,"y": 1020}],
@@ -2620,5 +2625,209 @@
         "map_locations": [{"map": "Kiln of the First Flame","x": 475,"y": 580}],
         "access_rules": ["$canReachKilnOfTheFirtFlame"],
         "sections": [{"name": "KoFF: Black Knight Helm"},{"name": "KoFF: Black Knight Armor"},{"name": "KoFF: Black Knight Gauntlets"},{"name": "KoFF: Black Knight Leggings"}]
+    },{
+        "name": "Oolacile Sanctuary",
+        "map_locations": [
+            {
+                "map": "Full Map",
+                "x": 1233,
+                "y": 434
+            }
+        ],
+        "access_rules": ["$canReachOolacileSanctuary"],
+        "sections": [
+            {"name": "OS: Humanity - Corpse Near Bonfire"}
+        ]
+    },{ "name": "OS: Humanity - Corpse Near Bonfire",
+        "map_locations": [{"map": "Oolacile Sanctuary","x": 105,"y": 309}],"access_rules": ["$canReachOolacileSanctuary"],"sections": [
+            { "name": "OS: Humanity - Corpse Near Bonfire","ref": "Oolacile Sanctuary/OS: Humanity - Corpse Near Bonfire"}]
+    },{
+        "name": "Royal Wood",
+        "map_locations": [
+            {
+                "map": "Full Map",
+                "x": 1278,
+                "y": 434
+            }
+        ],
+        "access_rules": ["$canReachRoyalWood"],
+        "sections": [
+            {"name": "RW: Soul of a Proud Knight - Behind Tower"},
+            {"name": "RW: Gold Coin - Down the Slope"},
+            {"name": "RW: Guardian Leggings"},
+            {"name": "RW: Guardian Armor"},
+            {"name": "RW: Elizabeth's Mushroom"},
+            {"name": "RW: Guardian Helm"},
+            {"name": "RW: Gough's Great Arrow"},
+            {"name": "RW: Large Soul of a Proud Knight - Edge of Cliff"},
+            {"name": "RW: Large Soul of a Brave Warrior - Back of Ravine"},
+            {"name": "RW: Soul of a Brave Warrior - Up The Slope"},
+            {"name": "RW: Soul of a Hero - Kalameet Arena"},
+            {"name": "RW: Soul of a Brave Warrior 1 - Kalameet Arena"},
+            {"name": "RW: Soul of a Brave Warrior 2 - Kalameet Arena"},
+            {"name": "RW: Guardian Gauntlets"},
+            {"name": "RW: Blue Titanite Slab - Hidden Chest at Pool"},
+            {"name": "RW: Soul of a Brave Warrior - Outside Elevator"},
+            {"name": "RW: Gough's Great Arrow - Kalemeet's Arena","access_rules": ["$canReachRoyalWoodHawkeyeGough"]},
+            {"name": "RW: Titanite Slab - Kalameet's Arena Behind Waterfall","access_rules": ["$canReachRoyalWoodHawkeyeGough"]}
+        ]
+    },{ "name": "RW: Soul of a Proud Knight - Behind Tower",
+        "map_locations": [{"map": "Royal Wood","x": 127,"y": 382}],"access_rules": ["$canReachRoyalWood"],"sections": [
+            {"name": "RW: Soul of a Proud Knight - Behind Tower","ref": "Royal Wood/RW: Soul of a Proud Knight - Behind Tower"}]
+    },{ "name": "RW: Gold Coin - Down the Slope",
+        "map_locations": [{"map": "Royal Wood","x": 57,"y": 588}],"access_rules": ["$canReachRoyalWood"],"sections": [
+            {"name": "RW: Gold Coin - Down the Slope","ref": "Royal Wood/RW: Gold Coin - Down the Slope"}]
+    },{ "name": "RW: Guardian Leggings",
+        "map_locations": [{"map": "Royal Wood","x": 541,"y": 188}],"access_rules": ["$canReachRoyalWood"],"sections": [
+            {"name": "RW: Guardian Leggings","ref": "Royal Wood/RW: Guardian Leggings"}]
+    },{ "name": "RW: Guardian Armor",
+        "map_locations": [{"map": "Royal Wood","x": 538,"y": 374}],"access_rules": ["$canReachRoyalWood"],"sections": [
+            {"name": "RW: Guardian Armor","ref": "Royal Wood/RW: Guardian Armor"}]
+    },{ "name": "RW: Elizabeth's Mushroom",
+        "map_locations": [{"map": "Royal Wood","x": 486,"y": 652}],"access_rules": ["$canReachRoyalWood"],"sections": [
+            {"name": "RW: Elizabeth's Mushroom","ref": "Royal Wood/RW: Elizabeth's Mushroom"}]
+    },{ "name": "RW: Guardian Helm",
+        "map_locations": [{"map": "Royal Wood","x": 543,"y": 610}],"access_rules": ["$canReachRoyalWood"],"sections": [
+            {"name": "RW: Guardian Helm","ref": "Royal Wood/RW: Guardian Helm"}]
+    },{ "name": "RW: Gough's Great Arrow",
+        "map_locations": [{"map": "Royal Wood","x": 577,"y": 383}],"access_rules": ["$canReachRoyalWood"],"sections": [
+            {"name": "RW: Gough's Great Arrow","ref": "Royal Wood/RW: Gough's Great Arrow"}]
+    },{ "name": "RW: Large Soul of a Proud Knight - Edge of Cliff",
+        "map_locations": [{"map": "Royal Wood","x": 356,"y": 401}],"access_rules": ["$canReachRoyalWood"],"sections": [
+            {"name": "RW: Large Soul of a Proud Knight - Edge of Cliff","ref": "Royal Wood/RW: Large Soul of a Proud Knight - Edge of Cliff"}]
+    },{ "name": "RW: Large Soul of a Brave Warrior - Back of Ravine",
+        "map_locations": [{"map": "Royal Wood","x": 55,"y": 716}],"access_rules": ["$canReachRoyalWood"],"sections": [
+            {"name": "RW: Large Soul of a Brave Warrior - Back of Ravine","ref": "Royal Wood/RW: Large Soul of a Brave Warrior - Back of Ravine"}]
+    },{ "name": "RW: Soul of a Brave Warrior - Up The Slope",
+        "map_locations": [{"map": "Royal Wood","x": 444,"y": 558}],"access_rules": ["$canReachRoyalWood"],"sections": [
+            {"name": "RW: Soul of a Brave Warrior - Up The Slope","ref": "Royal Wood/RW: Soul of a Brave Warrior - Up The Slope"}]
+    },{ "name": "RW: Soul of a Hero - Kalameet Arena",
+        "map_locations": [{"map": "Royal Wood","x": 1002,"y": 606}],"access_rules": ["$canReachRoyalWood"],"sections": [
+            {"name": "RW: Soul of a Hero - Kalameet Arena","ref": "Royal Wood/RW: Soul of a Hero - Kalameet Arena"}]
+    },{ "name": "RW: Soul of a Brave Warrior 1 - Kalameet Arena",
+        "map_locations": [{"map": "Royal Wood","x": 974,"y": 576}],"access_rules": ["$canReachRoyalWood"],"sections": [
+            {"name": "RW: Soul of a Brave Warrior 1 - Kalameet Arena","ref": "Royal Wood/RW: Soul of a Brave Warrior 1 - Kalameet Arena"}]
+    },{ "name": "RW: Soul of a Brave Warrior 2 - Kalameet Arena",
+        "map_locations": [{"map": "Royal Wood","x": 1015,"y": 568}],"access_rules": ["$canReachRoyalWood"],"sections": [
+            {"name": "RW: Soul of a Brave Warrior 2 - Kalameet Arena","ref": "Royal Wood/RW: Soul of a Brave Warrior 2 - Kalameet Arena"}]
+    },{ "name": "RW: Guardian Gauntlets",
+        "map_locations": [{"map": "Royal Wood","x": 132,"y": 323}],"access_rules": ["$canReachRoyalWood"],"sections": [
+            {"name": "RW: Guardian Gauntlets","ref": "Royal Wood/RW: Guardian Gauntlets"}]
+    },{ "name": "RW: Blue Titanite Slab - Hidden Chest at Pool",
+        "map_locations": [{"map": "Royal Wood","x": 320,"y": 223}],"access_rules": ["$canReachRoyalWood"],"sections": [
+            {"name": "RW: Blue Titanite Slab - Hidden Chest at Pool","ref": "Royal Wood/RW: Blue Titanite Slab - Hidden Chest at Pool"}]
+    },{ "name": "RW: Soul of a Brave Warrior - Outside Elevator",
+        "map_locations": [{"map": "Royal Wood","x": 79,"y": 769}],"access_rules": ["$canReachRoyalWood"],"sections": [
+            {"name": "RW: Soul of a Brave Warrior - Outside Elevator","ref": "Royal Wood/RW: Soul of a Brave Warrior - Outside Elevator"}]
+    },{ "name": "RW: Gough's Great Arrow - Kalemeet's Arena",
+        "map_locations": [{"map": "Royal Wood","x": 1041,"y": 814}],"access_rules": ["$canReachRoyalWoodHawkeyeGough"],"sections": [
+            {"name": "RW: Gough's Great Arrow - Kalemeet's Arena","ref": "Royal Wood/RW: Gough's Great Arrow - Kalemeet's Arena"}]
+    },{ "name": "RW: Titanite Slab - Kalameet's Arena Behind Waterfall",
+        "map_locations": [{"map": "Royal Wood","x": 1110,"y": 428}],"access_rules": ["$canReachRoyalWoodHawkeyeGough"],"sections": [
+            {"name": "RW: Titanite Slab - Kalameet's Arena Behind Waterfall","ref": "Royal Wood/RW: Titanite Slab - Kalameet's Arena Behind Waterfall"}]
+    },{
+        "name": "Oolacile Township",
+        "map_locations": [
+            {
+                "map": "Full Map",
+                "x": 1323,
+                "y": 434
+            }
+        ],
+        "access_rules": ["$canReachOolacileTownship"],
+        "sections": [
+            {"name": "OT: Rubbish - Outside of Door"},
+            {"name": "OT: Large Soul of a Proud Knight - Early Oolacile Rooftop"},
+            {"name": "OT: Soul of a Brave Warrior - By First Sorceress"},
+            {"name": "OT: Sorcery: Dark Orb"},
+            {"name": "OT: Soul of a Brave Warrior - Wooden Platform"},
+            {"name": "OT: Soul of a Hero - Stair Ledge"},
+            {"name": "OT: Sorcery: Dark Fog"},
+            {"name": "OT: Twin Humanities - Drop onto Roof"},
+            {"name": "OT: Soul of a Brave Warrior - Corpse in Corner of Statue Hallway"},
+            {"name": "OT: Silver Pendant","access_rules": ["$canReachOolacileTownshipLightWalls"]}, 
+            {"name": "OT: Red Titanite Chunk - In Chest behind Illusory Wall","access_rules": ["$canReachOolacileTownshipLightWalls"]},
+            {"name": "Oolacile Crest Key Door opened","access_rules": ["$canReachOolacileTownshipCrestKey"]}
+        ]
+    },{ "name": "OT: Rubbish - Outside of Door",
+        "map_locations": [{"map": "Oolacile Township","x": 754,"y": 426}],"access_rules": ["$canReachOolacileTownship"],"sections": [
+            {"name": "OT: Rubbish - Outside of Door","ref": "Oolacile Township/OT: Rubbish - Outside of Door"}]
+    },{ "name": "OT: Large Soul of a Proud Knight - Early Oolacile Rooftop",
+        "map_locations": [{"map": "Oolacile Township","x": 560,"y": 164}],"access_rules": ["$canReachOolacileTownship"],"sections": [
+            {"name": "OT: Large Soul of a Proud Knight - Early Oolacile Rooftop","ref": "Oolacile Township/OT: Large Soul of a Proud Knight - Early Oolacile Rooftop"}]
+    },{ "name": "OT: Soul of a Brave Warrior - By First Sorceress",
+        "map_locations": [{"map": "Oolacile Township","x": 251,"y": 302}],"access_rules": ["$canReachOolacileTownship"],"sections": [
+            {"name": "OT: Soul of a Brave Warrior - By First Sorceress","ref": "Oolacile Township/OT: Soul of a Brave Warrior - By First Sorceress"}]
+    },{ "name": "OT: Sorcery: Dark Orb",
+        "map_locations": [{"map": "Oolacile Township","x": 151,"y": 566}],"access_rules": ["$canReachOolacileTownship"],"sections": [
+            {"name": "OT: Sorcery: Dark Orb","ref": "Oolacile Township/OT: Sorcery: Dark Orb"}]
+    },{ "name": "OT: Soul of a Brave Warrior - Wooden Platform",
+        "map_locations": [{"map": "Oolacile Township","x": 164,"y": 253}],"access_rules": ["$canReachOolacileTownship"],"sections": [
+            {"name": "OT: Soul of a Brave Warrior - Wooden Platform","ref": "Oolacile Township/OT: Soul of a Brave Warrior - Wooden Platform"}]
+    },{ "name": "OT: Soul of a Hero - Stair Ledge",
+        "map_locations": [{"map": "Oolacile Township","x": 622,"y": 322}],"access_rules": ["$canReachOolacileTownship"],"sections": [
+            {"name": "OT: Soul of a Hero - Stair Ledge","ref": "Oolacile Township/OT: Soul of a Hero - Stair Ledge"}]
+    },{ "name": "OT: Sorcery: Dark Fog",
+        "map_locations": [{"map": "Oolacile Township","x": 657,"y": 229}],"access_rules": ["$canReachOolacileTownship"],"sections": [
+            {"name": "OT: Sorcery: Dark Fog","ref": "Oolacile Township/OT: Sorcery: Dark Fog"}]
+    },{ "name": "OT: Twin Humanities - Drop onto Roof",
+        "map_locations": [{"map": "Oolacile Township","x": 918,"y": 230}],"access_rules": ["$canReachOolacileTownship"],"sections": [
+            {"name": "OT: Twin Humanities - Drop onto Roof","ref": "Oolacile Township/OT: Twin Humanities - Drop onto Roof"}]
+    },{ "name": "OT: Soul of a Brave Warrior - Corpse in Corner of Statue Hallway",
+        "map_locations": [{"map": "Oolacile Township","x": 429,"y": 385}],"access_rules": ["$canReachOolacileTownship"],"sections": [
+            {"name": "OT: Soul of a Brave Warrior - Corpse in Corner of Statue Hallway","ref": "Oolacile Township/OT: Soul of a Brave Warrior - Corpse in Corner of Statue Hallway"}]
+    },{ "name": "OT: Silver Pendant",
+        "map_locations": [{"map": "Oolacile Township","x": 293,"y": 404}],"access_rules": ["$canReachOolacileTownshipLightWalls"],"sections": [
+            {"name": "OT: Silver Pendant","ref": "Oolacile Township/OT: Silver Pendant"}] 
+    },{ "name": "OT: Red Titanite Chunk - In Chest behind Illusory Wall",
+        "map_locations": [{"map": "Oolacile Township","x": 917,"y": 493}],"access_rules": ["$canReachOolacileTownshipLightWalls"],"sections": [
+            {"name": "OT: Red Titanite Chunk - In Chest behind Illusory Wall","ref": "Oolacile Township/OT: Red Titanite Chunk - In Chest behind Illusory Wall"}]
+    },{ "name": "Oolacile Crest Key Door opened",
+        "map_locations": [{"map": "Oolacile Township","x": 916,"y": 365}],"access_rules": ["$canReachOolacileTownshipCrestKey"],"sections": [
+            {"name": "Oolacile Crest Key Door opened","ref": "Oolacile Township/Oolacile Crest Key Door opened"}]
+    },{
+        "name": "Chasm of the Abyss",
+        "map_locations": [
+            {
+                "map": "Full Map",
+                "x": 1368,
+                "y": 434
+            }
+        ],
+        "access_rules": ["$canReachChasmOfTheAbyss"],
+        "sections": [
+            {"name": "CotA: Sorcery: Dark Bead"},
+            {"name": "CotA: Pyromancy: Black Flame"},
+            {"name": "CotA: Cleansing Greatshield"},
+            {"name": "CotA: Humanity - Corpse after Prism Stone"},
+            {"name": "CotA: Help Me! Carving"},
+            {"name": "CotA: Twin Humanities - Under Pillar"},
+            {"name": "CotA: White Titanite Slab - On Ledge"},
+            {"name": "CotA: Soul of a Hero - Left Ledge Before Boss"}
+        ]
+    },{ "name": "CotA: Sorcery: Dark Bead",
+        "map_locations": [{"map": "Chasm of the Abyss","x": 30,"y": 436}],"access_rules": ["$canReachChasmOfTheAbyss"],"sections": [
+            {"name": "CotA: Sorcery: Dark Bead","ref": "Chasm of the Abyss/CotA: Sorcery: Dark Bead"}]
+    },{ "name": "CotA: Pyromancy: Black Flame",
+        "map_locations": [{"map": "Chasm of the Abyss","x": 220,"y": 295}],"access_rules": ["$canReachChasmOfTheAbyss"],"sections": [
+            {"name": "CotA: Pyromancy: Black Flame","ref": "Chasm of the Abyss/CotA: Pyromancy: Black Flame"}]
+    },{ "name": "CotA: Cleansing Greatshield",
+        "map_locations": [{"map": "Chasm of the Abyss","x": 845,"y": 51}],"access_rules": ["$canReachChasmOfTheAbyss"],"sections": [
+            {"name": "CotA: Cleansing Greatshield","ref": "Chasm of the Abyss/CotA: Cleansing Greatshield"}]
+    },{ "name": "CotA: Humanity - Corpse after Prism Stone",
+        "map_locations": [{"map": "Chasm of the Abyss","x": 341,"y": 304}],"access_rules": ["$canReachChasmOfTheAbyss"],"sections": [
+            {"name": "CotA: Humanity - Corpse after Prism Stone","ref": "Chasm of the Abyss/CotA: Humanity - Corpse after Prism Stone"}]
+    },{ "name": "CotA: Help Me! Carving",
+        "map_locations": [{"map": "Chasm of the Abyss","x": 199,"y": 292}],"access_rules": ["$canReachChasmOfTheAbyss"],"sections": [
+            {"name": "CotA: Help Me! Carving","ref": "Chasm of the Abyss/CotA: Help Me! Carving"}]
+    },{ "name": "CotA: Twin Humanities - Under Pillar",
+        "map_locations": [{"map": "Chasm of the Abyss","x": 651,"y": 388}],"access_rules": ["$canReachChasmOfTheAbyss"],"sections": [
+            {"name": "CotA: Twin Humanities - Under Pillar","ref": "Chasm of the Abyss/CotA: Twin Humanities - Under Pillar"}]
+    },{ "name": "CotA: White Titanite Slab - On Ledge",
+        "map_locations": [{"map": "Chasm of the Abyss","x": 619,"y": 432}],"access_rules": ["$canReachChasmOfTheAbyss"],"sections": [
+            {"name": "CotA: White Titanite Slab - On Ledge","ref": "Chasm of the Abyss/CotA: White Titanite Slab - On Ledge"}]
+    },{ "name": "CotA: Soul of a Hero - Left Ledge Before Boss",
+        "map_locations": [{"map": "Chasm of the Abyss","x": 622,"y": 475}],"access_rules": ["$canReachChasmOfTheAbyss"],"sections": [
+            {"name": "CotA: Soul of a Hero - Left Ledge Before Boss","ref": "Chasm of the Abyss/CotA: Soul of a Hero - Left Ledge Before Boss"}]
     }
 ]

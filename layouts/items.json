@@ -29,7 +29,8 @@
                                 "cage_key",
                                 "covenant_of_artorias",
                                 "crest_of_artorias",
-                                "depths_key"
+                                "depths_key",
+                                "crest_key"
                             ]
                         ]
                     },
@@ -52,7 +53,9 @@
                                 "residence_key",
                                 "sewer_chamber_key",
                                 "uaf2_west_key",
-                                "watchtower_basement_key"
+                                "watchtower_basement_key",
+                                "skull_lantern",
+                                "broken_pendant"
                             ]
                         ]
                     }

@@ -1,6 +1,16 @@
 {
     "versions": [
         {
+            "package_version": "1.0.10",
+            "download_url": "https://github.com/routhken/Dark_Souls_Remastered_tracker/releases/download/v1.0.10/Dark_Souls_Remastered_aptracker.zip",
+            "sha256": "ca5cfdbf038a3363cda9ecdc845ec78cb1a7a8f608d09f3dacad899ad263b6e8",
+            "changelog": [
+                " - Added DLC maps, locations, items, and logic",
+                " - Renamed instances of crystal caverns to crystal cave",
+                " - Renamed a check in painted world",
+                " - Added soul of a lost undead to the undead asylum submap"
+            ]
+        },{
             "package_version": "1.0.9",
             "download_url": "https://github.com/routhken/Dark_Souls_Remastered_tracker/releases/download/v1.0.9/Dark_Souls_Remastered_aptracker.zip",
             "sha256": "53eb040e6328f14f265ad3865404275416cf76de3744247bf485bcd281983998",

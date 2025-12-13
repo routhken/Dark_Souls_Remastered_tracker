@@ -150,6 +150,18 @@
         "codes": "watchtower_basement_key"
     },
     {
+        "name": "Broken Pendant",
+        "type": "toggle",
+        "img": "/images/items/Broken Pendant.png",
+        "codes": "broken_pendant"
+    },
+    {
+        "name": "Crest Key",
+        "type": "toggle",
+        "img": "/images/items/Crest Key.png",
+        "codes": "crest_key"
+    },
+    {
         "name": "Pendant",
         "type": "toggle",
         "codes": "pendant"
@@ -232,6 +244,7 @@
     {
         "name": "Skull Lantern",
         "type": "toggle",
+        "img": "/images/items/Skull Lantern.png",
         "codes": "skull_lantern"
     },
     {

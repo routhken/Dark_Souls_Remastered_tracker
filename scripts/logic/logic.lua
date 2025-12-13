@@ -192,10 +192,6 @@ function hasSack()
     return has("sack")
 end
 
-function hasSkullLantern()
-    return has("skull_lantern")
-end
-
 function hasSunPrincessRing()
     return has("ring_of_the_sun_princess")
 end
@@ -208,9 +204,18 @@ function hasSoulOfManus()
     return has("soul_of_manus")
 end
 
--- function hasBrokenPendant()
---     return has("pendant")
--- end
+function hasSkullLantern()
+    return has("skull_lantern")
+end
+
+function hasBrokenPendant()
+    return has("broken_pendant")
+end
+
+function hasDLCCrestKey()
+    return has("crest_key")
+end
+
 
 -- Event Accessibility Rules
 -- Since events are not locations (yet), they are always assumed to be true
@@ -239,6 +244,14 @@ function hasOrnsteinSmoughDefeated()
 end
 
 function hasCentipedeDemonDefeated()
+    return true
+end
+
+function hasSanctuaryGuardianDefeated()
+    return true
+end
+
+function hasArtoriasDefeated()
     return true
 end
 
@@ -413,6 +426,38 @@ end
 
 function canReachKilnOfTheFirtFlame()
     return hasLordSoulBedOfChaos() and hasLordSoulFourKings() and hasLordSoulNito() and hasLordSoulSeath() and hasLordvessel()
+end
+
+function canReachSanctuaryGarden()
+    return canReachDarkrootBasin() and hasBrokenPendant()
+end
+
+function canReachOolacileSanctuary()
+    return canReachSanctuaryGarden() and hasSanctuaryGuardianDefeated()
+end
+
+function canReachRoyalWood()
+    return canReachOolacileSanctuary()
+end
+
+function canReachOolacileTownship()
+    return canReachRoyalWood() and hasArtoriasDefeated()
+end
+
+function canReachRoyalWoodHawkeyeGough()
+    return canReachOolacileTownship()
+end
+
+function canReachOolacileTownshipLightWalls()
+    return canReachOolacileTownship() and hasSkullLantern()
+end
+
+function canReachOolacileTownshipCrestKey()
+    return canReachOolacileTownship() and hasDLCCrestKey()
+end
+
+function canReachChasmOfTheAbyss()
+    return canReachOolacileTownship()
 end
 
 -- Visibility Rules

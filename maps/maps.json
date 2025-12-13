@@ -184,5 +184,29 @@
         "location_size": 15,
         "location_border_thickness": 2,
         "img": "images/maps/Map_Valley of the Drakes.png"
+    },
+    {
+        "name": "Oolacile Sanctuary",
+        "location_size": 15,
+        "location_border_thickness": 2,
+        "img": "images/maps/Map_Oolacile Sanctuary.png"
+    },
+    {
+        "name": "Royal Wood",
+        "location_size": 15,
+        "location_border_thickness": 2,
+        "img": "images/maps/Map_Royal Wood.png"
+    },
+    {
+        "name": "Oolacile Township",
+        "location_size": 15,
+        "location_border_thickness": 2,
+        "img": "images/maps/Map_Oolacile Township.png"
+    },
+    {
+        "name": "Chasm of the Abyss",
+        "location_size": 15,
+        "location_border_thickness": 2,
+        "img": "images/maps/Map_Chasm of the Abyss.png"
     }
 ]
