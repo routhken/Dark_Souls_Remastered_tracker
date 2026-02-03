@@ -21,6 +21,28 @@
                                 "v_alignment": "center",
                                 "key": "items_layout"
                             }
+                        },{
+                            "type": "group",
+                            "header": "Fog Walls",
+                            "dock": "left",
+                            "margin": "0,0,3,0",
+                            "content": {
+                                "type": "layout",
+                                "h_alignment": "center",
+                                "v_alignment": "center",
+                                "key": "items_layout_fog"
+                            }
+                        },{
+                            "type": "group",
+                            "header": "Boss Fog Walls",
+                            "dock": "left",
+                            "margin": "0,0,3,0",
+                            "content": {
+                                "type": "layout",
+                                "h_alignment": "center",
+                                "v_alignment": "center",
+                                "key": "items_layout_boss"
+                            }
                         }
                     ]
                 },
@@ -345,5 +367,23 @@
                 }
             ]
         }
+    },
+    "settings_popup": {
+        "type": "array",
+        "background": "#000000",
+        "orientation": "vertical",
+        "h_alignment": "left",
+        "content": [
+            {
+                "type": "group",
+                "header": "Settings",
+                "dock": "bottom",
+                "margin": "0,0,3,0",
+                "content": {
+                    "type": "layout",
+                    "key": "settings_layout"
+                }
+            }
+        ]
     }
 }

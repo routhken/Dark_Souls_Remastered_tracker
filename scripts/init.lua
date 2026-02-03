@@ -8,7 +8,6 @@ Tracker:AddItems("items/items.json")
 Tracker:AddMaps("maps/maps.json")
 
 Tracker:AddLocations("locations/locations.json")
-Tracker:AddLayouts("layouts/tab_layout.json")
 Tracker:AddLayouts("layouts/settings.json")
 
 if (string.find(Tracker.ActiveVariantUID,"a_standard")) then
@@ -27,10 +26,6 @@ if (string.find(Tracker.ActiveVariantUID,"c_items_only")) then
     IS_ITEMS_ONLY = true
 end
 
-
---Tracker:AddLayouts("layouts/items.json")
-
---Tracker:AddLayouts("layouts/tracker.json")
 
 if PopVersion and PopVersion >= "0.18.0" then
     ScriptHost:LoadScript("scripts/autotracking.lua")

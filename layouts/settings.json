@@ -1,0 +1,48 @@
+{
+    "settings_layout": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "vertical",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_size": "4, 4",
+                        "item_margin": "2, 2",
+                        "item_h_alignment": "center",
+                        "h_alignment": "left",
+                        "rows": [
+                            [
+                                "setting_fogwall_lock",
+                                "setting_fogwall_lock_ua",
+                                "setting_fogwall_lock_boss"
+                            ]
+                        ]
+                    }
+                ]
+            },{
+                "type": "array",
+                "orientation": "vertical",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_size": "7, 3",
+                        "item_margin": "2, 2",
+                        "item_h_alignment": "center",
+                        "h_alignment": "left",
+                        "rows": [
+                            [
+                                "setting_deathlink"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

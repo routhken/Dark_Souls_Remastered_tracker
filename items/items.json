@@ -162,6 +162,240 @@
         "codes": "crest_key"
     },
     {
+        "name": "Fog Wall Key - Northern Undead Asylum",
+        "type": "toggle",
+        "img": "/images/items/Fog Wall UA.png",
+        "codes": "fog_wall_northern_undead_asylum"
+    },
+    {
+        "name": "Fog Wall Key - Undead Burg",
+        "type": "toggle",
+        "img": "/images/items/Fog Wall UB.png",
+        "codes": "fog_wall_undead_burg"
+    },
+    {
+        "name": "Fog Wall Key - Undead Parish",
+        "type": "toggle",
+        "img": "/images/items/Fog Wall UP.png",
+        "codes": "fog_wall_undead_parish"
+    },
+    {
+        "name": "Fog Wall Key - Darkroot Garden",
+        "type": "toggle",
+        "img": "/images/items/Fog Wall DG.png",
+        "codes": "fog_wall_darkroot_garden"
+    },
+    {
+        "name": "Fog Wall Key - Depths Rat Room",
+        "type": "toggle",
+        "img": "/images/items/Fog Wall DE.png",
+        "codes": "fog_wall_depths_rat_room"
+    },
+    {
+        "name": "Fog Wall Key - Lower Blighttown Entrance",
+        "type": "toggle",
+        "img": "/images/items/Fog Wall BT.png",
+        "codes": "fog_wall_lower_blighttown_entrance"
+    },
+    {
+        "name": "Fog Wall Key - Ash Lake Entrance",
+        "type": "toggle",
+        "img": "/images/items/Fog Wall ASH.png",
+        "codes": "fog_wall_ash_lake_entrance"
+    },
+    {
+        "name": "Fog Wall Key - Sen's Fortress #1 (Outside Stairs)",
+        "type": "toggle",
+        "img": "/images/items/Fog Wall SF1.png",
+        "codes": "fog_wall_sens_fortress_1"
+    },
+    {
+        "name": "Fog Wall Key - Sen's Fortress #2 (Upper Entrance)",
+        "type": "toggle",
+        "img": "/images/items/Fog Wall SF2.png",
+        "codes": "fog_wall_sens_fortress_2"
+    },
+    {
+        "name": "Fog Wall Key - Anor Londo #1 (Rafters)",
+        "type": "toggle",
+        "img": "/images/items/Fog Wall AL1.png",
+        "codes": "fog_wall_anor_londo_1"
+    },
+    {
+        "name": "Fog Wall Key - Anor Londo #2 (Archers)",
+        "type": "toggle",
+        "img": "/images/items/Fog Wall AL2.png",
+        "codes": "fog_wall_anor_londo_2"
+    },
+    {
+        "name": "Fog Wall Key - Duke's Archives Courtyard Entrance",
+        "type": "toggle",
+        "img": "/images/items/Fog Wall DA.png",
+        "codes": "fog_wall_dukes_archives_courtyard_entrance"
+    },
+    {
+        "name": "Fog Wall Key - Catacombs",
+        "type": "toggle",
+        "img": "/images/items/Fog Wall TC.png",
+        "codes": "fog_wall_catacombs"
+    },
+    {
+        "name": "Fog Wall Key - Tomb of the Giants",
+        "type": "toggle",
+        "img": "/images/items/Fog Wall TG.png",
+        "codes": "fog_wall_tomb_of_the_giants"
+    },
+    {
+        "name": "Fog Wall Key - New Londo (Upper)",
+        "type": "toggle",
+        "img": "/images/items/Fog Wall NL1.png",
+        "codes": "fog_wall_new_londo_upper"
+    },
+    {
+        "name": "Fog Wall Key - New Londo (Lower)",
+        "type": "toggle",
+        "img": "/images/items/Fog Wall NL2.png",
+        "codes": "fog_wall_new_londo_lower"
+    },
+    {
+        "name": "Fog Wall Key - Painted World",
+        "type": "toggle",
+        "img": "/images/items/Fog Wall PW.png",
+        "codes": "fog_wall_painted_world"
+    },
+    {
+        "name": "Boss Fog Wall Key - Taurus Demon",
+        "type": "toggle",
+        "img": "/images/items/Fog Wall Taur.png",
+        "codes": "boss_fog_wall_taurus_demon"
+    },
+    {
+        "name": "Boss Fog Wall Key - Capra Demon",
+        "type": "toggle",
+        "img": "/images/items/Fog Wall Capr.png",
+        "codes": "boss_fog_wall_capra_demon"
+    },
+    {
+        "name": "Boss Fog Wall Key - Gaping Dragon",
+        "type": "toggle",
+        "img": "/images/items/Fog Wall Gap.png",
+        "codes": "boss_fog_wall_gaping_dragon"
+    },
+    {
+        "name": "Boss Fog Wall Key - Quelaag",
+        "type": "toggle",
+        "img": "/images/items/Fog Wall Que.png",
+        "codes": "boss_fog_wall_quelaag"
+    },
+    {
+        "name": "Boss Fog Wall Key - Bell Gargoyles",
+        "type": "toggle",
+        "img": "/images/items/Fog Wall Garg.png",
+        "codes": "boss_fog_wall_bell_gargoyles"
+    },
+    {
+        "name": "Boss Fog Wall Key - Iron Golem",
+        "type": "toggle",
+        "img": "/images/items/Fog Wall Iron.png",
+        "codes": "boss_fog_wall_iron_golem"
+    },
+    {
+        "name": "Boss Fog Wall Key - Ornstein and Smough",
+        "type": "toggle",
+        "img": "/images/items/Fog Wall OandS.png",
+        "codes": "boss_fog_wall_ornstein_and_smough"
+    },
+    {
+        "name": "Boss Fog Wall Key - Seath First Encounter",
+        "type": "toggle",
+        "img": "/images/items/Fog Wall Sea.png",
+        "codes": "boss_fog_wall_seath_first_encounter"
+    },
+    {
+        "name": "Boss Fog Wall Key - Pinwheel",
+        "type": "toggle",
+        "img": "/images/items/Fog Wall Pin.png",
+        "codes": "boss_fog_wall_pinwheel"
+    },
+    {
+        "name": "Boss Fog Wall Key - Nito",
+        "type": "toggle",
+        "img": "/images/items/Fog Wall Nito.png",
+        "codes": "boss_fog_wall_nito"
+    },
+    {
+        "name": "Boss Fog Wall Key - Four Kings",
+        "type": "toggle",
+        "img": "/images/items/Fog Wall 4K.png",
+        "codes": "boss_fog_wall_four_kings"
+    },
+    {
+        "name": "Boss Fog Wall Key - Ceaseless Discharge",
+        "type": "toggle",
+        "img": "/images/items/Fog Wall Ceas.png",
+        "codes": "boss_fog_wall_ceaseless_discharge"
+    },
+    {
+        "name": "Boss Fog Wall Key - Demon Firesage",
+        "type": "toggle",
+        "img": "/images/items/Fog Wall Fire.png",
+        "codes": "boss_fog_wall_demon_firesage"
+    },
+    {
+        "name": "Boss Fog Wall Key - Centipede Demon",
+        "type": "toggle",
+        "img": "/images/items/Fog Wall Cent.png",
+        "codes": "boss_fog_wall_centipede_demon"
+    },
+    {
+        "name": "Boss Fog Wall Key - Bed of Chaos",
+        "type": "toggle",
+        "img": "/images/items/Fog Wall Bed.png",
+        "codes": "boss_fog_wall_bed_of_chaos"
+    },
+    {
+        "name": "Boss Fog Wall Key - Gwyn",
+        "type": "toggle",
+        "img": "/images/items/Fog Wall Gwn.png",
+        "codes": "boss_fog_wall_gwyn"
+    },
+    {
+        "name": "Boss Fog Wall Key - Sanctuary Guardian",
+        "type": "toggle",
+        "img": "/images/items/Fog Wall Sanc.png",
+        "codes": "boss_fog_wall_sanctuary_guardian"
+    },
+    {
+        "name": "Boss Fog Wall Key - Artorias",
+        "type": "toggle",
+        "img": "/images/items/Fog Wall Art.png",
+        "codes": "boss_fog_wall_artorias"
+    },
+    {
+        "name": "Boss Fog Wall Key - Manus",
+        "type": "toggle",
+        "img": "/images/items/Fog Wall Man.png",
+        "codes": "boss_fog_wall_manus"
+    },
+    {
+        "name": "Boss Fog Wall Key - Gwyndolin",
+        "type": "toggle",
+        "img": "/images/items/Fog Wall Gwd.png",
+        "codes": "boss_fog_wall_gwyndolin"
+    },
+    {
+        "name": "Boss Fog Wall Key - Moonlight Butterfly",
+        "type": "toggle",
+        "img": "/images/items/Fog Wall Moo.png",
+        "codes": "boss_fog_wall_moonlight_butterfly"
+    },
+    {
+        "name": "Boss Fog Wall Key - Crossbreed Priscilla",
+        "type": "toggle",
+        "img": "/images/items/Fog Wall Pris.png",
+        "codes": "boss_fog_wall_crossbreed_priscilla"
+    },
+    {
         "name": "Pendant",
         "type": "toggle",
         "codes": "pendant"
@@ -273,5 +507,29 @@
         "type": "toggle",
         "img": "/images/ui/Soul Darkened.png",
         "codes": "ui_soul_darkened"
+    },
+    {
+        "name": "Setting: Fog Wall Locks",
+        "type": "toggle",
+        "img": "/images/ui/Fog Wall Fog.png",
+        "codes": "setting_fogwall_lock"
+    },
+    {
+        "name": "Setting: Fog Wall Locks Include UA",
+        "type": "toggle",
+        "img": "/images/items/Fog Wall UA.png",
+        "codes": "setting_fogwall_lock_ua"
+    },
+    {
+        "name": "Setting: Boss Fog Wall Locks",
+        "type": "toggle",
+        "img": "/images/ui/Fog Wall Boss.png",
+        "codes": "setting_fogwall_lock_boss"
+    },
+    {
+        "name": "Setting: Deathlink",
+        "type": "toggle",
+        "img": "/images/ui/You Died.png",
+        "codes": "setting_deathlink"
     }
 ]

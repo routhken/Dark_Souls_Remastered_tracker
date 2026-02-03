@@ -1,7 +1,7 @@
 {
     "name": "Dark Souls Remastered",
     "game_name": "Dark Souls Remastered",
-    "package_version": "1.0.11",
+    "package_version": "1.0.13",
     "package_uid": "ap_dark_souls_remastered",
     "author": "DaKennyMan22",
     "variants": {
@@ -18,7 +18,7 @@
         "flags": ["ap"]
       }
     },
-    "min_poptracker_version": "0.18.0",
-    "target_poptracker_version": "0.18.0",
+    "min_poptracker_version": "0.26.0",
+    "target_poptracker_version": "0.26.0",
     "versions_url": "https://raw.githubusercontent.com/routhken/Dark_Souls_Remastered_tracker/refs/heads/main/versions.json"
 }

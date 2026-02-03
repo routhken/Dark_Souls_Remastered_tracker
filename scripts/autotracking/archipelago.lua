@@ -76,10 +76,45 @@ function onClear(slotData)
     end
 
     -- Reset Settings
-    -- no settings to reset
+    Tracker:FindObjectForCode("setting_fogwall_lock").Active = false
+    Tracker:FindObjectForCode("setting_fogwall_lock_ua").Active = false
+    Tracker:FindObjectForCode("setting_fogwall_lock_boss").Active = false
+    Tracker:FindObjectForCode("setting_deathlink").Active = false
+    print("settings set to false init")
+
+    if slotData['fogwall_lock'] == 1 then
+        Tracker:FindObjectForCode("setting_fogwall_lock").Active = true
+        print("Fogwall locks turned on, ")
+    end
+    if slotData['fogwall_lock_include_ua'] == 1 then
+        Tracker:FindObjectForCode("setting_fogwall_lock_ua").Active = true
+    end
+    if slotData['boss_fogwall_lock'] == 1 then
+        Tracker:FindObjectForCode("setting_fogwall_lock_boss").Active = true
+    end
+    if slotData['enable_deathlink'] == 1 then
+        Tracker:FindObjectForCode("setting_deathlink").Active = true
+    end
 
     --print("Slotdata: ") --debug
     --print(dump(slotData)) --debug
+    
+	PLAYER_ID = Archipelago.PlayerNumber or -1
+	TEAM_NUMBER = Archipelago.TeamNumber or 0
+
+    if Archipelago.PlayerNumber > -1 then
+        HINTS_ID = "_read_hints_"..TEAM_NUMBER.."_"..PLAYER_ID
+        DATA_STORAGE_ID = "Dark_Souls_Remastered_"..TEAM_NUMBER.."_"..PLAYER_ID
+
+        if Highlight then
+            Archipelago:SetNotify({HINTS_ID, DATA_STORAGE_ID})
+            Archipelago:Get({HINTS_ID, DATA_STORAGE_ID})
+        else
+            Archipelago:SetNotify({DATA_STORAGE_ID})
+            Archipelago:Get({DATA_STORAGE_ID})
+        end
+    end
+
     Tracker.BulkUpdate = false
 end
 

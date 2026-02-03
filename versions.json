@@ -1,6 +1,25 @@
 {
     "versions": [
         {
+            "package_version": "1.0.13",
+            "download_url": "https://github.com/routhken/Dark_Souls_Remastered_tracker/releases/download/v1.0.13/Dark_Souls_Remastered_aptracker.zip",
+            "sha256": "8b45adc609094757b08a8aee904b24c35133bd7004fad47feed76bc75b2eec16",
+            "changelog": [
+                " - Cleaned up redundant, leftover code"
+            ]
+        },{
+            "package_version": "1.0.12",
+            "download_url": "https://github.com/routhken/Dark_Souls_Remastered_tracker/releases/download/v1.0.12/Dark_Souls_Remastered_aptracker.zip",
+            "sha256": "tba",
+            "changelog": [
+                " - Added fog wall locations",
+                " - Added a settings tab",
+                " - Added hint tracking for real",
+                " - Added ref to all locations, removing redundant code",
+                " - Rewrote the logic",
+                " - Fixed issue where locations manually checked on full map would not be checked in submap"
+            ]
+        },{
             "package_version": "1.0.11",
             "download_url": "https://github.com/routhken/Dark_Souls_Remastered_tracker/releases/download/v1.0.11/Dark_Souls_Remastered_aptracker.zip",
             "sha256": "3246db9a5ed1ab37dab51b0432170a606bf7e93ca6656547fa4725810499ca74",

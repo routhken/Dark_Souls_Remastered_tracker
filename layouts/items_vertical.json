@@ -19,50 +19,147 @@
                             [
                                 "lordvessel",
                                 "archive_prison_extra_key",
-                                "archive_tower_cell_key"
+                                "archive_tower_cell_key",
+                                "watchtower_basement_key"
                             ],
                             [
                                 "lord_soul_fourkings",
                                 "archive_tower_giant_cell_key",
-                                "archive_tower_giant_door_key"
+                                "archive_tower_giant_door_key",
+                                "blighttown_key"
                             ],
                             [
                                 "lord_soul_seath",
                                 "new_londo_key",
-                                "seal_key"
+                                "seal_key",
+                                "basement_key"
                             ],
                             [
                                 "lord_soul_nito",
                                 "orange_charred_ring",
-                                "peculiar_doll"
+                                "peculiar_doll",
+                                "uaf2_west_key"
                             ],
                             [
                                 "lord_soul_bedofchaos",
                                 "residence_key",
-                                "sewer_chamber_key"
+                                "sewer_chamber_key",
+                                "broken_pendant"
                             ],
                             [
                                 "master_key",
-                                "uaf2_west_key",
-                                "watchtower_basement_key"
-                            ],
-                            [
                                 "annex_key",
-                                "basement_key",
-                                "blighttown_key"
-                            ],
-                            [
-                                "cage_key",
                                 "covenant_of_artorias",
                                 "crest_of_artorias"
                             ],
                             [
+                                "cage_key",
                                 "depths_key",
                                 "crest_key",
                                 "skull_lantern"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "items_layout_fog": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0, 0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "vertical",
+                "margin": "0, 0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_size": "3, 4",
+                        "item_margin": "1, 0",
+                        "h_alignment": "left",
+                        "item_h_alignment": "center",
+                        "rows": [
+                            [
+                                "fog_wall_northern_undead_asylum",
+                                "fog_wall_undead_burg",
+                                "fog_wall_undead_parish",
+                                "fog_wall_darkroot_garden",
+                                "fog_wall_painted_world"
                             ],
                             [
-                                "broken_pendant"
+                                "fog_wall_depths_rat_room",
+                                "fog_wall_lower_blighttown_entrance",
+                                "fog_wall_ash_lake_entrance",
+                                "fog_wall_sens_fortress_1"
+                            ],
+                            [
+                                "fog_wall_sens_fortress_2",
+                                "fog_wall_anor_londo_1",
+                                "fog_wall_anor_londo_2",
+                                "fog_wall_dukes_archives_courtyard_entrance"
+                            ],
+                            [
+                                "fog_wall_catacombs",
+                                "fog_wall_tomb_of_the_giants",
+                                "fog_wall_new_londo_upper",
+                                "fog_wall_new_londo_lower"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "items_layout_boss": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0, 0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "vertical",
+                "margin": "0, 0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_size": "3, 4",
+                        "item_margin": "1, 0",
+                        "h_alignment": "left",
+                        "item_h_alignment": "center",
+                        "rows": [
+                            [
+                                "boss_fog_wall_taurus_demon",
+                                "boss_fog_wall_capra_demon",
+                                "boss_fog_wall_gaping_dragon",
+                                "boss_fog_wall_quelaag",
+                                "boss_fog_wall_moonlight_butterfly"
+                            ],
+                            [
+                                "boss_fog_wall_bell_gargoyles",
+                                "boss_fog_wall_iron_golem",
+                                "boss_fog_wall_ornstein_and_smough",
+                                "boss_fog_wall_seath_first_encounter",
+                                "boss_fog_wall_crossbreed_priscilla"
+                            ],
+                            [
+                                "boss_fog_wall_pinwheel",
+                                "boss_fog_wall_nito",
+                                "boss_fog_wall_four_kings",
+                                "boss_fog_wall_ceaseless_discharge"
+                            ],
+                            [
+                                "boss_fog_wall_demon_firesage",
+                                "boss_fog_wall_centipede_demon",
+                                "boss_fog_wall_bed_of_chaos",
+                                "boss_fog_wall_gwyn"
+                            ],
+                            [
+                                "boss_fog_wall_sanctuary_guardian",
+                                "boss_fog_wall_artorias",
+                                "boss_fog_wall_manus",
+                                "boss_fog_wall_gwyndolin"
                             ]
                         ]
                     }
