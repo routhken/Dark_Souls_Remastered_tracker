@@ -2460,7 +2460,7 @@
     "name": "canReachDepthstoBlighttownDoor",
     "access_rules": [
         "@canReachDepths, blighttown_key",
-        "@canReachUpperBlighttownDepthsSide, $hasDepthsBlighttownopened"
+        "@canReachUpperBlighttownDepthsSide, @canReachDepths, blighttown_key, $hasDepthsBlighttownopened"
     ]},
     {
     "name": "canReachUpperBlighttownDepthsSide",
@@ -2508,7 +2508,7 @@
     {
     "name": "canReachValleyoftheDrakesAfterDefeatingFourKings",
     "access_rules": [
-        "@canReachValleyoftheDrakes, $hasFourKingsDefeated"
+        "@canReachValleyoftheDrakes, @canReachTheAbyssAfterFourKings"
     ]},
     {
     "name": "canReachDoorbetweenUpperNewLondoandValleyoftheDrakes",

@@ -1,6 +1,14 @@
 {
     "versions": [
         {
+            "package_version": "1.0.14",
+            "download_url": "https://github.com/routhken/Dark_Souls_Remastered_tracker/releases/download/v1.0.14/Dark_Souls_Remastered_aptracker.zip",
+            "sha256": "5c533aa28dd9c5d3f8863f4beaed0172d1eaeb1c76b13fdb2db76668f674d6ff",
+            "changelog": [
+                " - Fixed Witch set logic",
+                " - Fixed Depths to Blighttown door logic"
+            ]
+        },{
             "package_version": "1.0.13",
             "download_url": "https://github.com/routhken/Dark_Souls_Remastered_tracker/releases/download/v1.0.13/Dark_Souls_Remastered_aptracker.zip",
             "sha256": "8b45adc609094757b08a8aee904b24c35133bd7004fad47feed76bc75b2eec16",
@@ -10,7 +18,7 @@
         },{
             "package_version": "1.0.12",
             "download_url": "https://github.com/routhken/Dark_Souls_Remastered_tracker/releases/download/v1.0.12/Dark_Souls_Remastered_aptracker.zip",
-            "sha256": "tba",
+            "sha256": "none",
             "changelog": [
                 " - Added fog wall locations",
                 " - Added a settings tab",
