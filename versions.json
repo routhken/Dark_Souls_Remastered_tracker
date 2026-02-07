@@ -33,7 +33,7 @@
         },{
             "package_version": "1.0.12",
             "download_url": "https://github.com/routhken/Dark_Souls_Remastered_tracker/releases/download/v1.0.12/Dark_Souls_Remastered_aptracker.zip",
-            "sha256": "none",
+            "sha256": "928ec91a6d15934cd69db8991af84174ef789fad90739c7806a10c4474369fc6",
             "changelog": [
                 " - Added fog wall locations",
                 " - Added a settings tab",
