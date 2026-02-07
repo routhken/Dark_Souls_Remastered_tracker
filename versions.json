@@ -1,6 +1,21 @@
 {
     "versions": [
         {
+            "package_version": "1.0.15",
+            "download_url": "https://github.com/routhken/Dark_Souls_Remastered_tracker/releases/download/v1.0.15/Dark_Souls_Remastered_aptracker.zip",
+            "sha256": "84c61e1757c9ae647c3859f7c1b0533a4eede686f0df1609eea89627510cd473",
+            "changelog": [
+                " - Added yellow letters to regular key item icons to improve readability",
+                " - Fixed soul of a brave warriors at ruins/domain shortcut and at chaos door being swapped",
+                " - Fixed the following locations not showing up in a submap and not being checked after completing the location",
+                " - Depths -> Blighttown door opened",
+                " - Wanderer Set + Falchion",
+                " - soul of a brave warrior - ruins/domain shortcut",
+                " - Undead Burg Watchtower Upper opened",
+                " - Undead Burg Watchtower Lower opened",
+                " - Undead Burg Basement opened"
+            ]
+        },{
             "package_version": "1.0.14",
             "download_url": "https://github.com/routhken/Dark_Souls_Remastered_tracker/releases/download/v1.0.14/Dark_Souls_Remastered_aptracker.zip",
             "sha256": "5c533aa28dd9c5d3f8863f4beaed0172d1eaeb1c76b13fdb2db76668f674d6ff",

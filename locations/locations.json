@@ -168,7 +168,10 @@
             {"name": "UB: Claymore","access_rules": ["@canReachUpperUndeadBurgAfterTaurusDemon"]},
             {"name": "UB: Soul of a Nameless Soldier - Hellkite Bridge","access_rules": ["@canReachUpperUndeadBurgAfterTaurusDemon"]},
             {"name": "UB: Undead Burg Sunlight Altar opened","access_rules": ["@canReachUpperUndeadBurgAfterTaurusDemon"]},
-            {"name": "UB: Gold Pine Resin - 3x Gold Pine Resin in Chest behind Locked Door","access_rules": ["@canReachUpperUndeadBurgPineResinChest"]}
+            {"name": "UB: Gold Pine Resin - 3x Gold Pine Resin in Chest behind Locked Door","access_rules": ["@canReachUpperUndeadBurgPineResinChest"]},
+            {"name": "UB: Undead Burg Basement opened","access_rules": ["@canReachUndeadBurgBasementDoor"]},
+            {"name": "UB: Undead Burg Watchtower Upper opened","access_rules": ["@canReachWatchtowerBasement"]},
+            {"name": "UB: Undead Burg Watchtower Lower opened","access_rules": ["@canReachWatchtowerBasement"]}
         ]
     },{
         "name": "UB: Soul of a Lost Undead - Window Corpse","map_locations": [{"map": "Undead Burg Upper","x": 570,"y": 1760}],
@@ -298,7 +301,6 @@
             }
         ],
         "sections": [
-            {"name": "UB: Undead Burg Basement opened","access_rules": ["@canReachUndeadBurgBasementDoor"]},
             {"name": "UB: Undead Burg -> Lower Undead Burg opened","access_rules": ["@canReachLowerUndeadBurg"]},
             {"name": "UB: Twin Humanities - Lower Burg Torch Hollows","access_rules": ["@canReachLowerUndeadBurg"]},
             {"name": "UB: Mail Breaker","access_rules": ["@canReachLowerUndeadBurg"]},
@@ -316,9 +318,7 @@
             {"name": "UB: Sorcerer Cloak","access_rules": ["@canReachLowerUndeadBurgAfterResidenceKey"]},
             {"name": "UB: Sorcerer Gauntlets","access_rules": ["@canReachLowerUndeadBurgAfterResidenceKey"]},
             {"name": "UB: Sorcerer Boots","access_rules": ["@canReachLowerUndeadBurgAfterResidenceKey"]},
-            {"name": "UB: Sorcerer's Catalyst","access_rules": ["@canReachLowerUndeadBurgAfterResidenceKey"]},
-            {"name": "UB: Undead Burg Watchtower Upper opened","access_rules": ["@canReachWatchtowerBasement"]},
-            {"name": "UB: Undead Burg Watchtower Lower opened","access_rules": ["@canReachWatchtowerBasement"]}
+            {"name": "UB: Sorcerer's Catalyst","access_rules": ["@canReachLowerUndeadBurgAfterResidenceKey"]}
         ]
     },{
         "name": "UB: Undead Burg -> Lower Undead Burg opened","map_locations": [{"map": "Undead Burg Lower","x": 663,"y": 2628}],
@@ -346,7 +346,7 @@
         "name": "UB: Undead Burg Female Merchant Shortcut opened","map_locations": [{"map": "Undead Burg Lower","x": 500,"y": 710}],
         "sections": [{"name": "UB: Undead Burg Female Merchant Shortcut opened","ref": "Lower Undead Burg/UB: Undead Burg Female Merchant Shortcut opened"}]
     },{
-        "name": "UB: Boss Fog Wall - Capra Demon","map_locations": [{"map": "Undead Burg Lower","x": 1144,"y": 885}],
+        "name": "UB: Boss Fog Wall - Capra Demon","map_locations": [{"map": "Undead Burg Lower","x": 1163,"y": 729}],
         "sections": [{"name": "UB: Boss Fog Wall - Capra Demon","ref": "Lower Undead Burg/UB: Boss Fog Wall - Capra Demon"}]
     },{
         "name": "UB: Key to Depths","map_locations": [{"map": "Undead Burg Lower","x": 1150,"y": 650}],
@@ -445,7 +445,7 @@
         "name": "DE: Depths Shortcut opened","map_locations": [{"map": "Depths","x": 900,"y": 1700}],
         "sections": [{"name": "DE: Depths Shortcut opened","ref": "The Depths/DE: Depths Shortcut opened"}]
     },{
-        "name": "DE: Fog Wall - Depths Rat Room","map_locations": [{"map": "Depths","x": 2002,"y": 1714}],
+        "name": "DE: Fog Wall - Depths Rat Room","map_locations": [{"map": "Depths","x": 1861,"y": 1921}],
         "sections": [{"name": "DE: Fog Wall - Depths Rat Room","ref": "The Depths/DE: Fog Wall - Depths Rat Room"}]
     },{
         "name": "DE: Boss Fog Wall - Gaping Dragon","map_locations": [{"map": "Depths","x": 544,"y": 2051}],
@@ -499,7 +499,12 @@
             {"name": "BT: Crimson Waistcloth","access_rules": ["@canReachUpperBlighttownVotDSide"]},
             {"name": "BT: Tin Banishment Catalyst","access_rules": ["@canReachUpperBlighttownVotDSide"]},
             {"name": "BT: Sorcery: Remedy","access_rules": ["@canReachUpperBlighttownVotDSide"]},
-            {"name": "BT: Key to New Londo Ruins","access_rules": ["@canReachUpperBlighttownVotDSide"]}
+            {"name": "BT: Key to New Londo Ruins","access_rules": ["@canReachUpperBlighttownVotDSide"]},
+            {"name": "BT: Wanderer Hood","access_rules": ["@canReachLowerBlighttown"]},
+            {"name": "BT: Wanderer Coat","access_rules": ["@canReachLowerBlighttown"]},
+            {"name": "BT: Wanderer Manchette","access_rules": ["@canReachLowerBlighttown"]},
+            {"name": "BT: Wanderer Boots","access_rules": ["@canReachLowerBlighttown"]},
+            {"name": "BT: Falchion","access_rules": ["@canReachLowerBlighttown"]}
         ]
     },{
         "name": "BT: Soul of a Proud Knight - Blighttown Entrance Dropoff","map_locations": [{"map": "Blighttown Upper","x": 2040,"y": 540}],
@@ -580,11 +585,6 @@
         ],
         "sections": [
             {"name": "BT: Fog Wall - Lower Blighttown Entrance","access_rules": ["@canReachLowerBlighttownFog"],"visibility_rules": ["setting_fogwall_lock"]},
-            {"name": "BT: Wanderer Hood","access_rules": ["@canReachLowerBlighttown"]},
-            {"name": "BT: Wanderer Coat","access_rules": ["@canReachLowerBlighttown"]},
-            {"name": "BT: Wanderer Manchette","access_rules": ["@canReachLowerBlighttown"]},
-            {"name": "BT: Wanderer Boots","access_rules": ["@canReachLowerBlighttown"]},
-            {"name": "BT: Falchion","access_rules": ["@canReachLowerBlighttown"]},
             {"name": "BT: Large Soul of a Proud Knight - Corpse below Ramp","access_rules": ["@canReachLowerBlighttown"]},
             {"name": "BT: Dragon Scale - Blighttown","access_rules": ["@canReachLowerBlighttown"]},
             {"name": "BT: Large Soul of a Proud Knight - Quelana","access_rules": ["@canReachLowerBlighttown"]},
@@ -1406,7 +1406,7 @@
         "name": "NL: Transient Curse - 2x Transient Curses from Corpse inside Pot behind Wall","map_locations": [{"map": "New Londo Ruins","x": 545,"y": 255}],
         "sections": [{"name": "NL: Transient Curse - 2x Transient Curses from Corpse inside Pot behind Wall","ref": "Upper New Londo Ruins/NL: Transient Curse - 2x Transient Curses from Corpse inside Pot behind Wall"}]
     },{
-        "name": "NL: Fog Wall - New Londo (Upper)","map_locations": [{"map": "New Londo Ruins","x": 598,"y": 528}],
+        "name": "NL: Fog Wall - New Londo (Upper)","map_locations": [{"map": "New Londo Ruins","x": 698,"y": 372}],
         "sections": [{"name": "NL: Fog Wall - New Londo (Upper)","ref": "Upper New Londo Ruins/NL: Fog Wall - New Londo (Upper)"}]
     },{
         "name": "NL: Parrying Dagger","map_locations": [{"map": "New Londo Ruins","x": 738,"y": 418}],
@@ -1469,7 +1469,7 @@
             {"name": "NL: Boss Fog Wall - Four Kings","access_rules": ["@canReachTheAbyss"],"visibility_rules": ["setting_fogwall_lock_boss"]}
         ]
     },{
-        "name": "NL: Fog Wall - New Londo (Lower)","map_locations": [{"map": "New Londo Ruins","x": 624,"y": 723}],
+        "name": "NL: Fog Wall - New Londo (Lower)","map_locations": [{"map": "New Londo Ruins","x": 758,"y": 474}],
         "sections": [{"name": "NL: Fog Wall - New Londo (Lower)","ref": "Lower New Londo Ruins/NL: Fog Wall - New Londo (Lower)"}]
     },{
         "name": "NL: Humanity - Lower New Londo Ruins","map_locations": [{"map": "New Londo Ruins","x": 764,"y": 305}],
@@ -1505,7 +1505,7 @@
         "name": "TA: Bequeathed Lord Soul Shard (Four Kings)","map_locations": [{"map": "New Londo Ruins","x": 675,"y": 570}],
         "sections": [{"name": "TA: Bequeathed Lord Soul Shard (Four Kings)","ref": "Lower New Londo Ruins/TA: Bequeathed Lord Soul Shard (Four Kings)"}]
     },{
-        "name": "NL: Boss Fog Wall - Four Kings","map_locations": [{"map": "New Londo Ruins","x": 635,"y": 612}],
+        "name": "NL: Boss Fog Wall - Four Kings","map_locations": [{"map": "New Londo Ruins","x": 660,"y": 587}],
         "sections": [{"name": "NL: Boss Fog Wall - Four Kings","ref": "Lower New Londo Ruins/NL: Boss Fog Wall - Four Kings"}]
     },{
         "name": "The Abyss",
@@ -1584,7 +1584,7 @@
         "name": "DA: Twinkling Titanite - Archives Balcony","map_locations": [{"map": "Duke's Archives Big Room","x": 620,"y": 830}],
         "sections": [{"name": "DA: Twinkling Titanite - Archives Balcony","ref": "Duke's Archives/DA: Twinkling Titanite - Archives Balcony"}]
     },{
-        "name": "DA: Boss Fog Wall - Seath First Encounter","map_locations": [{"map": "Duke's Archives","x": 1821,"y": 529}],
+        "name": "DA: Boss Fog Wall - Seath First Encounter","map_locations": [{"map": "Duke's Archives","x": 1821,"y": 571}],
         "sections": [{"name": "DA: Boss Fog Wall - Seath First Encounter","ref": "Duke's Archives/DA: Boss Fog Wall - Seath First Encounter"}]
     },{
         "name": "DA: Large Magic Ember","map_locations": [{"map": "Duke's Archives","x": 1820,"y": 760}],
@@ -1645,7 +1645,7 @@
         "name": "DA: Prism Stone - Duke's Archives","map_locations": [{"map": "Duke's Archives","x": 1120,"y": 470}],
         "sections": [{"name": "DA: Prism Stone - Duke's Archives","ref": "Duke's Archives/DA: Prism Stone - Duke's Archives"}]
     },{
-        "name": "DA: Fog Wall - Duke's Archives Courtyard Entrance","map_locations": [{"map": "Duke's Archives","x": 973,"y": 180}],
+        "name": "DA: Fog Wall - Duke's Archives Courtyard Entrance","map_locations": [{"map": "Duke's Archives","x": 1109,"y": 515}],
         "sections": [{"name": "DA: Fog Wall - Duke's Archives Courtyard Entrance","ref": "Duke's Archives/DA: Fog Wall - Duke's Archives Courtyard Entrance"}]
     },{
         "name": "DA: Crystalline Set","map_locations": [{"map": "Duke's Archives","x": 910,"y": 690}],
@@ -1715,7 +1715,7 @@
             {"name": "DR: Soul of a Brave Warrior - Capra Outside Firesage","access_rules": ["@canReachDemonRuins"]},
             {"name": "DR: Boss Fog Wall - Demon Firesage","access_rules": ["@canReachDemonRuinsDemonFiresage"],"visibility_rules": ["setting_fogwall_lock_boss"]},
             {"name": "DR: Soul of a Brave Warrior - On Platform Below Roots to Centipede","access_rules": ["@canReachDemonRuinsAfterDemonFiresage"]},
-            {"name": "DR: Soul of a Brave Warrior - Ruins/Domain shortcut","access_rules": ["@canReachDemonRuinsAfterDemonFiresage"]},
+            {"name": "DR: Soul of a Brave Warrior - Ruins Domain shortcut","access_rules": ["@canReachDemonRuinsAfterDemonFiresage"]},
             {"name": "DR: Soul of a Brave Warrior - Chaos Door","access_rules": ["@canReachDemonRuinsAfterDemonFiresage"]},
             {"name": "DR: Boss Fog Wall - Centipede Demon","access_rules": ["@canReachDemonRuinsCentipedeDemon"],"visibility_rules": ["setting_fogwall_lock_boss"]},
             {"name": "DR: Orange Charred Ring","access_rules": ["@canReachDemonRuinsCentipedeDemon"]},
@@ -1756,10 +1756,10 @@
         "name": "DR: Soul of a Brave Warrior - On Platform Below Roots to Centipede","map_locations": [{"map": "Demon Ruins","x": 210,"y": 420}],
         "sections": [{"name": "DR: Soul of a Brave Warrior - On Platform Below Roots to Centipede","ref": "Demon Ruins/DR: Soul of a Brave Warrior - On Platform Below Roots to Centipede"}]
     },{
-        "name": "DR: Soul of a Brave Warrior - Ruins Domain shortcut","map_locations": [{"map": "Demon Ruins","x": 565,"y": 325}],
+        "name": "DR: Soul of a Brave Warrior - Ruins Domain shortcut","map_locations": [{"map": "Demon Ruins","x": 950,"y": 485}],
         "sections": [{"name": "DR: Soul of a Brave Warrior - Ruins Domain shortcut","ref": "Demon Ruins/DR: Soul of a Brave Warrior - Ruins Domain shortcut"}]
     },{
-        "name": "DR: Soul of a Brave Warrior - Chaos Door","map_locations": [{"map": "Demon Ruins","x": 950,"y": 485}],
+        "name": "DR: Soul of a Brave Warrior - Chaos Door","map_locations": [{"map": "Demon Ruins","x": 565,"y": 325}],
         "sections": [{"name": "DR: Soul of a Brave Warrior - Chaos Door","ref": "Demon Ruins/DR: Soul of a Brave Warrior - Chaos Door"}]
     },{
         "name": "Centipede Demon","map_locations": [{"map": "Demon Ruins","x": 375,"y": 735}],
@@ -1908,7 +1908,7 @@
             {"name": "TC: Soul of a Proud Knight - Above Pinwheel","access_rules": ["@canReachTheCatacombsAfterPinwheel"]}
         ]
     },{
-        "name": "TC: Fog Wall - Catacombs","map_locations": [{"map": "The Catacombs","x": 140,"y": 618}],
+        "name": "TC: Fog Wall - Catacombs","map_locations": [{"map": "The Catacombs","x": 702,"y": 428}],
         "sections": [{"name": "TC: Fog Wall - Catacombs","ref": "The Catacombs/TC: Fog Wall - Catacombs"}]
     },{
         "name": "TC: Darkmoon Seance Ring","map_locations": [{"map": "The Catacombs","x": 760,"y": 135}],

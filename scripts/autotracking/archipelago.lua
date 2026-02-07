@@ -21,6 +21,7 @@ end
 function onClear(slotData)
     Tracker.BulkUpdate = true
     CURRENT_INDEX = -1
+    sd_options = slotData['options']
 
     -- Reset Locations
     for _, layoutLocationPath in pairs(LOCATION_MAPPING) do
@@ -82,17 +83,17 @@ function onClear(slotData)
     Tracker:FindObjectForCode("setting_deathlink").Active = false
     print("settings set to false init")
 
-    if slotData['fogwall_lock'] == 1 then
+    if sd_options['fogwall_lock'] == 1 then
         Tracker:FindObjectForCode("setting_fogwall_lock").Active = true
         print("Fogwall locks turned on, ")
     end
-    if slotData['fogwall_lock_include_ua'] == 1 then
+    if sd_options['fogwall_lock_include_ua'] == 1 then
         Tracker:FindObjectForCode("setting_fogwall_lock_ua").Active = true
     end
-    if slotData['boss_fogwall_lock'] == 1 then
+    if sd_options['boss_fogwall_lock'] == 1 then
         Tracker:FindObjectForCode("setting_fogwall_lock_boss").Active = true
     end
-    if slotData['enable_deathlink'] == 1 then
+    if sd_options['enable_deathlink'] == 1 then
         Tracker:FindObjectForCode("setting_deathlink").Active = true
     end
 

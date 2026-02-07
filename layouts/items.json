@@ -22,33 +22,33 @@
                                 "lord_soul_seath",
                                 "lord_soul_nito",
                                 "lord_soul_bedofchaos",
-                                "master_key",
-                                "annex_key",
-                                "basement_key",
-                                "blighttown_key"
-                            ],
-                            [
-                                "cage_key",
                                 "covenant_of_artorias",
-                                "crest_of_artorias",
-                                "depths_key",
-                                "crest_key",
-                                "new_londo_key",
-                                "seal_key",
                                 "orange_charred_ring",
-                                "peculiar_doll"
+                                "peculiar_doll",
+                                "broken_pendant"
                             ],
                             [
+                                "depths_key",
+                                "cage_key",
+                                "seal_key",
+                                "basement_key",
+                                "sewer_chamber_key",
+                                "blighttown_key",
+                                "new_londo_key",
+                                "crest_key",
+                                "crest_of_artorias"
+                            ],
+                            [
+                                "skull_lantern",
+                                "annex_key",
+                                "watchtower_basement_key",
+                                "uaf2_west_key",
+                                "residence_key",
+                                "master_key",
                                 "archive_prison_extra_key",
                                 "archive_tower_cell_key",
                                 "archive_tower_giant_cell_key",
-                                "archive_tower_giant_door_key",
-                                "residence_key",
-                                "sewer_chamber_key",
-                                "uaf2_west_key",
-                                "watchtower_basement_key",
-                                "skull_lantern",
-                                "broken_pendant"
+                                "archive_tower_giant_door_key"
                             ]
                         ]
                     }
