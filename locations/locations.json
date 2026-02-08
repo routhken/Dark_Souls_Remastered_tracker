@@ -2564,7 +2564,7 @@
     {
     "name": "canReachSensFortress",
     "access_rules": [
-        "@canReachUndeadParish, @canReachUndeadParishBellGargoyles"
+        "@canReachUndeadParish, @canReachUndeadParishBellGargoyles, @canReachLowerBlighttownAfterQuelaag"
     ]},
     {
     "name": "canReachSensFortressAfterFirstFog",
