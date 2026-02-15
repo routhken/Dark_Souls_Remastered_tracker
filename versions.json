@@ -1,6 +1,13 @@
 {
     "versions": [
         {
+            "package_version": "1.0.17",
+            "download_url": "https://github.com/routhken/Dark_Souls_Remastered_tracker/releases/download/v1.0.17/Dark_Souls_Remastered_aptracker.zip",
+            "sha256": "a4764bbcddbacb2649b292f04a7001df78b4150748be0e45e4f928ea5cfa157b",
+            "changelog": [
+                " - Fixed Undead Asylum second visit logic"
+            ]
+        },{
             "package_version": "1.0.16",
             "download_url": "https://github.com/routhken/Dark_Souls_Remastered_tracker/releases/download/v1.0.16/Dark_Souls_Remastered_aptracker.zip",
             "sha256": "91f1b3e1869aade3d61e2129935cac093bd2617c68895d57a94782212538513d",

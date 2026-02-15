@@ -138,7 +138,7 @@
         "sections": [{"name": "UA2: Peculiar Doll","ref": "Northern Undead Asylum - Second Visit/UA2: Peculiar Doll"}]
     },{
         "name": "Soul of a Lost Undead","map_locations": [{"map": "Undead Asylum","x": 560,"y": 1580}],
-        "sections": [{"name": "UA: Soul of a Lost Undead - Outside Asylum","ref": "Northern Undead Asylum - Second Visit/UA: Soul of a Lost Undead - Outside Asylum"}]
+        "sections": [{"name": "UA: Soul of a Lost Undead - Outside Asylum","ref": "Northern Undead Asylum/UA: Soul of a Lost Undead - Outside Asylum"}]
     },{
         "name": "Upper Undead Burg",
         "map_locations": [
@@ -2390,7 +2390,7 @@
     {
     "name": "canReachNorthernUndeadAsylumSecondVisit",
     "access_rules": [
-        "@canReachFirelinkShrine"
+        "@canReachFirelinkShrineAfterUndeadParishElevator"
     ]},
     {
     "name": "canReachNorthernUndeadAsylumSecondVisitF2WestDoor",
