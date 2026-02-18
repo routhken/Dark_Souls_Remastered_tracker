@@ -2746,7 +2746,7 @@
     {
     "name": "canReachDemonRuins",
     "access_rules": [
-        "@canReachDemonRuinsEarly, $hasDemonFiresageDefeated"
+        "@canReachDemonRuinsEarly, @canReachDemonRuinsCeaselessDischarge"
     ]},
     {
     "name": "canReachDemonRuinsDemonFiresage",
