@@ -1756,10 +1756,10 @@
         "name": "DR: Soul of a Brave Warrior - On Platform Below Roots to Centipede","map_locations": [{"map": "Demon Ruins","x": 210,"y": 420}],
         "sections": [{"name": "DR: Soul of a Brave Warrior - On Platform Below Roots to Centipede","ref": "Demon Ruins/DR: Soul of a Brave Warrior - On Platform Below Roots to Centipede"}]
     },{
-        "name": "DR: Soul of a Brave Warrior - Ruins Domain shortcut","map_locations": [{"map": "Demon Ruins","x": 950,"y": 485}],
+        "name": "DR: Soul of a Brave Warrior - Ruins Domain shortcut","map_locations": [{"map": "Demon Ruins","x": 565,"y": 325}],
         "sections": [{"name": "DR: Soul of a Brave Warrior - Ruins Domain shortcut","ref": "Demon Ruins/DR: Soul of a Brave Warrior - Ruins Domain shortcut"}]
     },{
-        "name": "DR: Soul of a Brave Warrior - Chaos Door","map_locations": [{"map": "Demon Ruins","x": 565,"y": 325}],
+        "name": "DR: Soul of a Brave Warrior - Chaos Door","map_locations": [{"map": "Demon Ruins","x": 950,"y": 485}],
         "sections": [{"name": "DR: Soul of a Brave Warrior - Chaos Door","ref": "Demon Ruins/DR: Soul of a Brave Warrior - Chaos Door"}]
     },{
         "name": "Centipede Demon","map_locations": [{"map": "Demon Ruins","x": 375,"y": 735}],

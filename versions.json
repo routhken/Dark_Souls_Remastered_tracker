@@ -1,6 +1,13 @@
 {
     "versions": [
         {
+            "package_version": "1.0.19",
+            "download_url": "https://github.com/routhken/Dark_Souls_Remastered_tracker/releases/download/v1.0.19/Dark_Souls_Remastered_aptracker.zip",
+            "sha256": "e4dbc8d01a982535d04fb3b25c88b7123f0a72c82c89ea715654e17f6d30ef3e",
+            "changelog": [
+                " - Unfixed soul of a brave warriors at ruins/domain shortcut and at chaos door being swapped"
+            ]
+        },{
             "package_version": "1.0.18",
             "download_url": "https://github.com/routhken/Dark_Souls_Remastered_tracker/releases/download/v1.0.18/Dark_Souls_Remastered_aptracker.zip",
             "sha256": "b4db3c6b07d12ed22122480717eeb67ce62e2d50229caa616822ef30133df45d",
