@@ -2308,7 +2308,7 @@
     {
     "name": "canReachNorthernUndeadAsylumAfterFog",
     "access_rules": [
-        "@canReachNorthernUndeadAsylum, $canPassUAFog|fog_wall_northern_undead_asylum"
+        "@canReachNorthernUndeadAsylum"
     ]},
     {
     "name": "canReachNorthernUndeadAsylumAfterF2EastDoor",
@@ -2418,7 +2418,7 @@
     {
     "name": "canReachLowerUndeadBurgAfterResidenceKey",
     "access_rules": [
-        "@canReachLowerUndeadBurg, residence_key"
+        "@canReachLowerUndeadBurg, @canReachUndeadMerchant"
     ]},
     {
     "name": "canReachLowerUndeadBurgCapraDemon",
@@ -2537,7 +2537,7 @@
     {
     "name": "canReachDarkrootGardenBehindArtoriasDoor",
     "access_rules": [
-        "@canReachDarkrootGardenBeforeFog, crest_of_artorias"
+        "@canReachDarkrootGardenBeforeFog, @canReachAndre"
     ]},
     {
     "name": "canReachDarkrootGardenMoonlightButterfly",
@@ -2554,7 +2554,7 @@
     "access_rules": [
         "@canReachLowerBlighttown, setting_fogwall_lock",
         "@canReachLowerBlighttown, setting_fogwall_lock_boss",
-        "@canReachLowerBlighttown, lordvessel"
+        "@canReachLowerBlighttown, @canReachFirelinkAltar, lordvessel"
     ]},
     {
     "name": "canReachAshLake",
@@ -2671,7 +2671,7 @@
     {
     "name": "canReachTheAbyss",
     "access_rules": [
-        "@canReachLowerNewLondoRuins, covenant_of_artorias, $canPassBossFog|boss_fog_wall_four_kings"
+        "@canReachLowerNewLondoRuins, @canReachDarkrootGardenBehindArtoriasDoor, $canPassBossFog|boss_fog_wall_four_kings"
     ]},
     {
     "name": "canReachTheAbyssAfterFourKings",
@@ -2681,7 +2681,7 @@
     {
     "name": "canReachTheDukesArchives",
     "access_rules": [
-        "@canReachAnorLondo, lordvessel"
+        "@canReachAnorLondo, @canReachFirelinkAltar, lordvessel"
     ]},
     {
     "name": "canReachTheDukesArchivesAfterFirstSeathEncounter",
@@ -2691,7 +2691,7 @@
     {
     "name": "canReachTheDukesArchivesCellDoor",
     "access_rules": [
-        "@canReachTheDukesArchivesAfterFirstSeathEncounter, archive_tower_cell_key"
+        "@canReachTheDukesArchivesAfterFirstSeathEncounter"
     ]},
     {
     "name": "canReachTheDukesArchivesGettingoutofCell",
@@ -2751,7 +2751,7 @@
     {
     "name": "canReachDemonRuinsDemonFiresage",
     "access_rules": [
-        "@canReachDemonRuins, lordvessel, $canPassBossFog|boss_fog_wall_demon_firesage"
+        "@canReachDemonRuins, @canReachFirelinkAltar, lordvessel, $canPassBossFog|boss_fog_wall_demon_firesage"
     ]},
     {
     "name": "canReachDemonRuinsAfterDemonFiresage",
@@ -2782,9 +2782,12 @@
     {
     "name": "canReachTheCatacombs",
     "access_rules": [
-        "@canReachFirelinkShrine, setting_fogwall_lock",
-        "@canReachFirelinkShrine, setting_fogwall_lock_boss",
-        "@canReachFirelinkShrine, @canReachAnorLondoAfterOrnsteinandSmough"
+        "@canReachFirelinkShrine, catacomb_logic_none",
+        "@canReachFirelinkShrine, catacomb_logic_merchant, @canReachUndeadMerchant",
+        "@canReachFirelinkShrine, catacomb_logic_andre, @canReachAndre",
+        "@canReachFirelinkShrine, catacomb_logic_andre_merchant, @canReachAndre",
+        "@canReachFirelinkShrine, catacomb_logic_andre_merchant, @canReachUndeadMerchant",
+        "@canReachFirelinkShrine, catacomb_logic_oands, @canReachAnorLondoAfterOrnsteinandSmough"
     ]},
     {
     "name": "canReachTheCatacombsDoor1",
@@ -2821,7 +2824,7 @@
     {
     "name": "canReachTomboftheGiantsBehindGoldenFogWall",
     "access_rules": [
-        "@canReachTomboftheGiantsAfterWhiteFog, lordvessel"
+        "@canReachTomboftheGiantsAfterWhiteFog, @canReachFirelinkAltar, lordvessel"
     ]},
     {
     "name": "canReachTomboftheGiantsNito",
@@ -2834,10 +2837,15 @@
         "@canReachTomboftheGiantsNito, $hasNitoDefeated"
     ]},
     {
+    "name": "canReachFirelinkAltar",
+    "access_rules": [
+        "@canReachFirelinkShrine, @canReachUndeadParishBellGargoyles",
+        "@canReachTheAbyssAfterFourKings"
+    ]},
+    {
     "name": "canReachKilnoftheFirstFlame",
     "access_rules": [
-        "@canReachFirelinkShrine, lord_soul_nito, lord_soul_bedofchaos, lord_soul_fourkings, lord_soul_seath, lordvessel, @canReachUndeadParishBellGargoyles",
-        "@canReachTheAbyssAfterFourKings, lord_soul_nito, lord_soul_bedofchaos, lord_soul_fourkings, lord_soul_seath, lordvessel"
+        "@canReachFirelinkAltar, lord_soul_nito, lord_soul_bedofchaos, lord_soul_fourkings, lord_soul_seath, lordvessel"
     ]},
     {
     "name": "canReachKilnoftheFirstFlameGwyn",
@@ -2847,7 +2855,7 @@
     {
     "name": "canReachSanctuaryGarden",
     "access_rules": [
-        "@canReachDarkrootBasin, broken_pendant"
+        "@canReachDarkrootBasin, @canReachTheDukesArchives"
     ]},
     {
     "name": "canReachSanctuaryGardenSantuaryGuardian",
@@ -2898,5 +2906,15 @@
     "name": "canReachChasmoftheAbyssManus",
     "access_rules": [
         "@canReachChasmoftheAbyss, $canPassBossFog|boss_fog_wall_manus"
+    ]},
+    {
+    "name": "canReachAndre",
+    "access_rules": [
+        "@canReachUndeadParish"
+    ]},
+    {
+    "name": "canReachUndeadMerchant",
+    "access_rules": [
+        "@canReachUpperUndeadBurg"
     ]}
 ]

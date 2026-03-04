@@ -78,20 +78,33 @@ function onClear(slotData)
 
     -- Reset Settings
     Tracker:FindObjectForCode("setting_fogwall_lock").Active = false
-    Tracker:FindObjectForCode("setting_fogwall_lock_ua").Active = false
+    --Tracker:FindObjectForCode("setting_fogwall_lock_ua").Active = false
     Tracker:FindObjectForCode("setting_fogwall_lock_boss").Active = false
+    Tracker:FindObjectForCode("setting_catacomb_logic").CurrentStage = 0
     Tracker:FindObjectForCode("setting_deathlink").Active = false
-    print("settings set to false init")
+    print("settings set to initialize as false")
 
-    if sd_options['fogwall_lock'] == 1 then
+    if sd_options['fogwall_sanity'] == 1 then
         Tracker:FindObjectForCode("setting_fogwall_lock").Active = true
         print("Fogwall locks turned on, ")
     end
-    if sd_options['fogwall_lock_include_ua'] == 1 then
-        Tracker:FindObjectForCode("setting_fogwall_lock_ua").Active = true
-    end
-    if sd_options['boss_fogwall_lock'] == 1 then
+    --This option was removed in apworld 0.22.0
+    -- if sd_options['fogwall_lock_include_ua'] == 1 then
+    --     Tracker:FindObjectForCode("setting_fogwall_lock_ua").Active = true
+    -- end
+    if sd_options['boss_fogwall_sanity'] == 1 then
         Tracker:FindObjectForCode("setting_fogwall_lock_boss").Active = true
+    end
+    if sd_options['logic_to_access_catacombs'] == "no_logic" then
+        Tracker:FindObjectForCode("setting_catacomb_logic").CurrentStage = 0
+    elseif sd_options['logic_to_access_catacombs'] == "undead_merchant" then
+        Tracker:FindObjectForCode("setting_catacomb_logic").CurrentStage = 1
+    elseif sd_options['logic_to_access_catacombs'] == "andre" then
+        Tracker:FindObjectForCode("setting_catacomb_logic").CurrentStage = 2
+    elseif sd_options['logic_to_access_catacombs'] == "andre_or_undead_merchant" then
+        Tracker:FindObjectForCode("setting_catacomb_logic").CurrentStage = 3
+    elseif sd_options['logic_to_access_catacombs'] == "ornstein_and_smough" then
+        Tracker:FindObjectForCode("setting_catacomb_logic").CurrentStage = 4
     end
     if sd_options['enable_deathlink'] == 1 then
         Tracker:FindObjectForCode("setting_deathlink").Active = true

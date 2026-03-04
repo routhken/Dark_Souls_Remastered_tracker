@@ -22,10 +22,8 @@
                                 "lord_soul_seath",
                                 "lord_soul_nito",
                                 "lord_soul_bedofchaos",
-                                "covenant_of_artorias",
                                 "orange_charred_ring",
-                                "peculiar_doll",
-                                "broken_pendant"
+                                "peculiar_doll"
                             ],
                             [
                                 "depths_key",
@@ -35,18 +33,15 @@
                                 "sewer_chamber_key",
                                 "blighttown_key",
                                 "new_londo_key",
-                                "crest_key",
-                                "crest_of_artorias"
+                                "crest_key"
                             ],
                             [
                                 "skull_lantern",
                                 "annex_key",
                                 "watchtower_basement_key",
                                 "uaf2_west_key",
-                                "residence_key",
                                 "master_key",
                                 "archive_prison_extra_key",
-                                "archive_tower_cell_key",
                                 "archive_tower_giant_cell_key",
                                 "archive_tower_giant_door_key"
                             ]
@@ -74,20 +69,19 @@
                         "item_h_alignment": "center",
                         "rows": [
                             [
-                                "fog_wall_northern_undead_asylum",
                                 "fog_wall_undead_burg",
                                 "fog_wall_undead_parish",
                                 "fog_wall_darkroot_garden",
                                 "fog_wall_depths_rat_room",
-                                "fog_wall_lower_blighttown_entrance"
+                                "fog_wall_lower_blighttown_entrance",
+                                "fog_wall_dukes_archives_courtyard_entrance"
                             ],
                             [
                                 "fog_wall_ash_lake_entrance",
                                 "fog_wall_sens_fortress_1",
                                 "fog_wall_sens_fortress_2",
                                 "fog_wall_anor_londo_1",
-                                "fog_wall_anor_londo_2",
-                                "fog_wall_dukes_archives_courtyard_entrance"
+                                "fog_wall_anor_londo_2"
                             ],
                             [
                                 "fog_wall_catacombs",

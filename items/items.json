@@ -531,5 +531,45 @@
         "type": "toggle",
         "img": "/images/ui/You Died.png",
         "codes": "setting_deathlink"
+    },
+    {
+        "name": "Setting: Catacombs Logic",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": false,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "name": "No Logic",
+                "img": "/images/settings/Catacomb Logic 1.png",
+                "codes": "catacomb_logic_none",
+                "inherit_codes": false
+            },
+            {
+                "name": "Undead Merchant",
+                "img": "/images/settings/Catacomb Logic 2.png",
+                "codes": "catacomb_logic_merchant",
+                "inherit_codes": false
+            },
+            {
+                "name": "Andre",
+                "img": "/images/settings/Catacomb Logic 3.png",
+                "codes": "catacomb_logic_andre",
+                "inherit_codes": false
+            },
+            {
+                "name": "Andre or Undead Merchant",
+                "img": "/images/settings/Catacomb Logic 4.png",
+                "codes": "catacomb_logic_andre_merchant",
+                "inherit_codes": false
+            },
+            {
+                "name": "Ornstein and Smough",
+                "img": "/images/settings/Catacomb Logic 5.png",
+                "codes": "catacomb_logic_oands",
+                "inherit_codes": false
+            }
+        ],
+        "codes": "setting_catacomb_logic"
     }
 ]

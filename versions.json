@@ -1,6 +1,16 @@
 {
     "versions": [
         {
+            "package_version": "1.0.20",
+            "download_url": "https://github.com/routhken/Dark_Souls_Remastered_tracker/releases/download/v1.0.20/Dark_Souls_Remastered_aptracker.zip",
+            "sha256": "810d833356dff5a2e17d84c6f535c89db8219d3355b1d47b37125bee1b61748a",
+            "changelog": [
+                " - Removed UA fog wall setting and added Catacomb logic setting to reflect apworld version 0.22.1",
+                " - Added logic for catacomb setting",
+                " - Removed Residence Key, Crest of Artorias, Covenant of Artorias, Archive Tower Cell Key, and Broken Pendant from item list",
+                " - Updated logic for removed items"
+            ]
+        },{
             "package_version": "1.0.19",
             "download_url": "https://github.com/routhken/Dark_Souls_Remastered_tracker/releases/download/v1.0.19/Dark_Souls_Remastered_aptracker.zip",
             "sha256": "e4dbc8d01a982535d04fb3b25c88b7123f0a72c82c89ea715654e17f6d30ef3e",

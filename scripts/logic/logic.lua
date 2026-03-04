@@ -144,9 +144,9 @@ function hasBellofAwakening2() return true end
 function hasDemonRuinsShortcut() return true end
 
 -- Location Accessibilty Rules
-function canPassUAFog(item)
-    return (not has("setting_fogwall_lock")) or (not has("setting_fogwall_lock_ua")) or has(item)
-end
+-- function canPassUAFog(item)
+--     return (not has("setting_fogwall_lock")) or (not has("setting_fogwall_lock_ua")) or has(item)
+-- end
 
 function canPassFog(item)
     return (not has("setting_fogwall_lock")) or has(item)

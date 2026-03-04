@@ -20,7 +20,7 @@
                                 "lordvessel",
                                 "orange_charred_ring",
                                 "peculiar_doll",
-                                "covenant_of_artorias"
+                                "master_key"
                             ],
                             [
                                 "lord_soul_seath",
@@ -31,23 +31,19 @@
                             [
                                 "lord_soul_fourkings",
                                 "blighttown_key",
-                                "archive_tower_giant_cell_key",
-                                "archive_tower_giant_door_key"
+                                "archive_tower_giant_cell_key"
                             ],
                             [
                                 "lord_soul_nito",
                                 "uaf2_west_key",
-                                "archive_prison_extra_key",
-                                "archive_tower_cell_key"
+                                "archive_prison_extra_key"
                             ],
                             [
                                 "lord_soul_bedofchaos",
-                                "residence_key",
                                 "sewer_chamber_key",
-                                "master_key"
+                                "archive_tower_giant_door_key"
                             ],
                             [
-                                "broken_pendant",
                                 "skull_lantern",
                                 "annex_key",
                                 "watchtower_basement_key"
@@ -55,8 +51,7 @@
                             [
                                 "depths_key",
                                 "cage_key",
-                                "crest_key",
-                                "crest_of_artorias"
+                                "crest_key"
                             ]
                         ]
                     }
@@ -82,7 +77,6 @@
                         "item_h_alignment": "center",
                         "rows": [
                             [
-                                "fog_wall_northern_undead_asylum",
                                 "fog_wall_undead_burg",
                                 "fog_wall_undead_parish",
                                 "fog_wall_darkroot_garden",
