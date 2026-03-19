@@ -9,13 +9,8 @@
             }
         ],
         "sections": [
-            {"name": "UA: Undead Asylum Cell Door opened","access_rules": ["@canReachUndeadAsylumCellDoor"]},
-            {"name": "UA: Undead Asylum - Boss Door opened","access_rules": ["@canReachNorthernUndeadAsylum"]},
             {"name": "UA: Fog Wall - Northern Undead Asylum","access_rules": ["@canReachNorthernUndeadAsylumAfterFog"],"visibility_rules": ["setting_fogwall_lock_ua"]},
-            {"name": "UA: Undead Asylum Shortcut Door opened","access_rules": ["@canReachNorthernUndeadAsylumAfterFog"]},
-            {"name": "UA: Undead Asylum F2 East Door opened","access_rules": ["@canReachNorthernUndeadAsylumF2EastDoor"]},
-            {"name": "UA: Soul of a Lost Undead - Outside Asylum","access_rules": ["@canReachNorthernUndeadAsylumAfterF2EastDoor"]},
-            {"name": "UA: Undead Asylum Big Pilgrim Door opened","access_rules": ["@canReachNorthernUndeadAsylumBigPilgrimDoor"]}
+            {"name": "UA: Soul of a Lost Undead - Outside Asylum","access_rules": ["@canReachNorthernUndeadAsylumAfterF2EastDoor"]}
         ]
     },{
         "name": "Firelink Shrine",
@@ -121,12 +116,8 @@
         "sections": [
             {"name": "UA2: Crest Shield","access_rules": ["@canReachNorthernUndeadAsylumSecondVisit"]},
             {"name": "UA2: Peculiar Doll","access_rules": ["@canReachNorthernUndeadAsylumSecondVisit"]},
-            {"name": "UA2: Undead Asylum F2 West Door opened","access_rules": ["@canReachNorthernUndeadAsylumSecondVisitF2WestDoor"]},
             {"name": "UA2: Rusted Iron Ring","access_rules": ["@canReachNorthernUndeadAsylumSecondVisitBehindF2WestDoor"]}
         ]
-    },{
-        "name": "F2 West Door Opened","map_locations": [{"map": "Undead Asylum","x": 1670,"y": 900}],
-        "sections": [{"name": "UA2: Undead Asylum F2 West Door opened","ref": "Northern Undead Asylum - Second Visit/UA2: Undead Asylum F2 West Door opened"}]
     },{
         "name": "Crest Shield","map_locations": [{"map": "Undead Asylum","x": 1395,"y": 430}],
         "sections": [{"name": "UA2: Crest Shield","ref": "Northern Undead Asylum - Second Visit/UA2: Crest Shield"}]
@@ -167,11 +158,7 @@
             {"name": "UB: White Sign Soapstone","access_rules": ["@canReachUpperUndeadBurgAfterTaurusDemon"]},
             {"name": "UB: Claymore","access_rules": ["@canReachUpperUndeadBurgAfterTaurusDemon"]},
             {"name": "UB: Soul of a Nameless Soldier - Hellkite Bridge","access_rules": ["@canReachUpperUndeadBurgAfterTaurusDemon"]},
-            {"name": "UB: Undead Burg Sunlight Altar opened","access_rules": ["@canReachUpperUndeadBurgAfterTaurusDemon"]},
-            {"name": "UB: Gold Pine Resin - 3x Gold Pine Resin in Chest behind Locked Door","access_rules": ["@canReachUpperUndeadBurgPineResinChest"]},
-            {"name": "UB: Undead Burg Basement opened","access_rules": ["@canReachUndeadBurgBasementDoor"]},
-            {"name": "UB: Undead Burg Watchtower Upper opened","access_rules": ["@canReachWatchtowerBasement"]},
-            {"name": "UB: Undead Burg Watchtower Lower opened","access_rules": ["@canReachWatchtowerBasement"]}
+            {"name": "UB: Gold Pine Resin - 3x Gold Pine Resin in Chest behind Locked Door","access_rules": ["@canReachUpperUndeadBurgPineResinChest"]}
         ]
     },{
         "name": "UB: Soul of a Lost Undead - Window Corpse","map_locations": [{"map": "Undead Burg Upper","x": 570,"y": 1760}],
@@ -213,9 +200,6 @@
         "name": "UB: Boss Fog Wall - Taurus Demon","map_locations": [{"map": "Undead Burg Upper","x": 1526,"y": 1047}],
         "sections": [{"name": "UB: Boss Fog Wall - Taurus Demon","ref": "Upper Undead Burg/UB: Boss Fog Wall - Taurus Demon"}]
     },{
-        "name": "Undead Burg Watchtower","map_locations": [{"map": "Undead Burg Upper","x": 2165,"y": 1535}],
-        "sections": [{"name": "UB: Undead Burg Watchtower Upper opened","ref": "Upper Undead Burg/UB: Undead Burg Watchtower Upper opened"},{"name": "UB: Undead Burg Watchtower Lower opened","ref": "Upper Undead Burg/UB: Undead Burg Watchtower Lower opened"}]
-    },{
         "name": "UB: Large Soul of a Lost Undead - After Taurus","map_locations": [{"map": "Undead Burg Upper","x": 550,"y": 1050}],
         "sections": [{"name": "UB: Large Soul of a Lost Undead - After Taurus","ref": "Upper Undead Burg/UB: Large Soul of a Lost Undead - After Taurus"}]
     },{
@@ -228,14 +212,8 @@
         "name": "UB: Soul of a Nameless Soldier - Hellkite Bridge","map_locations": [{"map": "Undead Burg Upper","x": 700,"y": 420}],
         "sections": [{"name": "UB: Soul of a Nameless Soldier - Hellkite Bridge","ref": "Upper Undead Burg/UB: Soul of a Nameless Soldier - Hellkite Bridge"}]
     },{
-        "name": "UB: Undead Burg Sunlight Altar opened","map_locations": [{"map": "Undead Burg Upper","x": 650,"y": 230}],
-        "sections": [{"name": "UB: Undead Burg Sunlight Altar opened","ref": "Upper Undead Burg/UB: Undead Burg Sunlight Altar opened"}]
-    },{
         "name": "UB: Gold Pine Resin - 3x Gold Pine Resin in Chest behind Locked Door","map_locations": [{"map": "Undead Burg Upper","x": 1950,"y": 1450}],
         "sections": [{"name": "UB: Gold Pine Resin - 3x Gold Pine Resin in Chest behind Locked Door","ref": "Upper Undead Burg/UB: Gold Pine Resin - 3x Gold Pine Resin in Chest behind Locked Door"}]
-    },{
-        "name": "UB: Undead Burg Basement opened","map_locations": [{"map": "Undead Burg Upper","x": 770,"y": 1050}],
-        "sections": [{"name": "UB: Undead Burg Basement opened","ref": "Upper Undead Burg/UB: Undead Burg Basement opened"}]
     },{
         "name": "Undead Parish",
         "map_locations": [
@@ -301,7 +279,6 @@
             }
         ],
         "sections": [
-            {"name": "UB: Undead Burg -> Lower Undead Burg opened","access_rules": ["@canReachLowerUndeadBurg"]},
             {"name": "UB: Twin Humanities - Lower Burg Torch Hollows","access_rules": ["@canReachLowerUndeadBurg"]},
             {"name": "UB: Mail Breaker","access_rules": ["@canReachLowerUndeadBurg"]},
             {"name": "UB: Large Soul of a Lost Undead - Barrel outside Capra","access_rules": ["@canReachLowerUndeadBurg"]},
@@ -311,7 +288,6 @@
             {"name": "UB: Black Leather Gloves","access_rules": ["@canReachLowerUndeadBurg"]},
             {"name": "UB: Black Leather Boots","access_rules": ["@canReachLowerUndeadBurg"]},
             {"name": "UB: Target Shield","access_rules": ["@canReachLowerUndeadBurg"]},
-            {"name": "UB: Undead Burg Female Merchant Shortcut opened","access_rules": ["@canReachLowerUndeadBurg"]},
             {"name": "UB: Boss Fog Wall - Capra Demon","access_rules": ["@canReachLowerUndeadBurgCapraDemon"],"visibility_rules": ["setting_fogwall_lock_boss"]},
             {"name": "UB: Key to Depths","access_rules": ["@canReachLowerUndeadBurgAfterCapraDemon"]},
             {"name": "UB: Sorcerer Hat","access_rules": ["@canReachLowerUndeadBurgAfterResidenceKey"]},
@@ -320,9 +296,6 @@
             {"name": "UB: Sorcerer Boots","access_rules": ["@canReachLowerUndeadBurgAfterResidenceKey"]},
             {"name": "UB: Sorcerer's Catalyst","access_rules": ["@canReachLowerUndeadBurgAfterResidenceKey"]}
         ]
-    },{
-        "name": "UB: Undead Burg -> Lower Undead Burg opened","map_locations": [{"map": "Undead Burg Lower","x": 663,"y": 2628}],
-        "sections": [{"name": "UB: Undead Burg -> Lower Undead Burg opened","ref": "Lower Undead Burg/UB: Undead Burg -> Lower Undead Burg opened"}]
     },{
         "name": "UB: Twin Humanities - Lower Burg Torch Hollows","map_locations": [{"map": "Undead Burg Lower","x": 1000,"y": 2830}],
         "sections": [{"name": "UB: Twin Humanities - Lower Burg Torch Hollows","ref": "Lower Undead Burg/UB: Twin Humanities - Lower Burg Torch Hollows"}]
@@ -342,9 +315,6 @@
         {"name": "UB: Black Leather Gloves","ref": "Lower Undead Burg/UB: Black Leather Gloves"},
         {"name": "UB: Black Leather Boots","ref": "Lower Undead Burg/UB: Black Leather Boots"},
         {"name": "UB: Target Shield","ref": "Lower Undead Burg/UB: Target Shield"}]
-    },{
-        "name": "UB: Undead Burg Female Merchant Shortcut opened","map_locations": [{"map": "Undead Burg Lower","x": 500,"y": 710}],
-        "sections": [{"name": "UB: Undead Burg Female Merchant Shortcut opened","ref": "Lower Undead Burg/UB: Undead Burg Female Merchant Shortcut opened"}]
     },{
         "name": "UB: Boss Fog Wall - Capra Demon","map_locations": [{"map": "Undead Burg Lower","x": 1163,"y": 729}],
         "sections": [{"name": "UB: Boss Fog Wall - Capra Demon","ref": "Lower Undead Burg/UB: Boss Fog Wall - Capra Demon"}]
@@ -384,16 +354,13 @@
             {"name": "DE: Humanity - Depths Pitfall Jump","access_rules": ["@canReachDepths"]},
             {"name": "DE: Heavy Crossbow","access_rules": ["@canReachDepths"]},
             {"name": "DE: Heavy Bolt","access_rules": ["@canReachDepths"]},
-            {"name": "DE: Depths Shortcut opened","access_rules": ["@canReachDepths"]},
             {"name": "DE: Fog Wall - Depths Rat Room","access_rules": ["@canReachDepths, $canPassFog|fog_wall_depths_rat_room"],"visibility_rules": ["setting_fogwall_lock"]},
             {"name": "DE: Boss Fog Wall - Gaping Dragon","access_rules": ["@canReachDepthsGapingDragon"],"visibility_rules": ["setting_fogwall_lock_boss"]},
             {"name": "DE: Standard Helm","access_rules": ["@canReachDepthsGapingDragon"]},
             {"name": "DE: Hard Leather Armor","access_rules": ["@canReachDepthsGapingDragon"]},
             {"name": "DE: Hard Leather Gauntlets","access_rules": ["@canReachDepthsGapingDragon"]},
             {"name": "DE: Hard Leather Boots","access_rules": ["@canReachDepthsGapingDragon"]},
-            {"name": "DE: Blighttown Key","access_rules": ["@canReachDepthsAfterGapingDragon"]},
-            {"name": "DE: Depths Bonfire Room opened","access_rules": ["@canReachDepthsAfterSewerChamberKey"]},
-            {"name": "DE: Depths -> Blighttown opened","access_rules": ["@canReachDepthstoBlighttownDoor"]}
+            {"name": "DE: Blighttown Key","access_rules": ["@canReachDepthsAfterGapingDragon"]}
         ]
     },{
         "name": "DE: Large Soul of a Nameless Soldier - Depths Entrance","map_locations": [{"map": "Depths","x": 800,"y": 200}],
@@ -442,9 +409,6 @@
         "sections": [{"name": "DE: Heavy Crossbow","ref": "The Depths/DE: Heavy Crossbow"},
         {"name": "DE: Heavy Bolt","ref": "The Depths/DE: Heavy Bolt"}]
     },{
-        "name": "DE: Depths Shortcut opened","map_locations": [{"map": "Depths","x": 900,"y": 1700}],
-        "sections": [{"name": "DE: Depths Shortcut opened","ref": "The Depths/DE: Depths Shortcut opened"}]
-    },{
         "name": "DE: Fog Wall - Depths Rat Room","map_locations": [{"map": "Depths","x": 1861,"y": 1921}],
         "sections": [{"name": "DE: Fog Wall - Depths Rat Room","ref": "The Depths/DE: Fog Wall - Depths Rat Room"}]
     },{
@@ -459,12 +423,6 @@
         {"name": "DE: Hard Leather Armor","ref": "The Depths/DE: Hard Leather Armor"},
         {"name": "DE: Hard Leather Gauntlets","ref": "The Depths/DE: Hard Leather Gauntlets"},
         {"name": "DE: Hard Leather Boots","ref": "The Depths/DE: Hard Leather Boots"}]
-    },{
-        "name": "DE: Depths Bonfire Room opened","map_locations": [{"map": "Depths","x": 1590,"y": 550}],
-        "sections": [{"name": "DE: Depths Bonfire Room opened","ref": "The Depths/DE: Depths Bonfire Room opened"}]
-    },{
-        "name": "DE: Depths -> Blighttown opened","map_locations": [{"map": "Depths","x": 1040,"y": 2710}],
-        "sections": [{"name": "DE: Depths -> Blighttown opened","ref": "The Depths/DE: Depths -> Blighttown opened"}]
     },{
         "name": "Upper Blighttown",
         "map_locations": [
@@ -674,8 +632,7 @@
             {"name": "VotD: Witch Cloak","access_rules": ["@canReachValleyoftheDrakesAfterDefeatingFourKings"]},
             {"name": "VotD: Witch Gloves","access_rules": ["@canReachValleyoftheDrakesAfterDefeatingFourKings"]},
             {"name": "VotD: Witch Skirt","access_rules": ["@canReachValleyoftheDrakesAfterDefeatingFourKings"]},
-            {"name": "VotD: Beatrice's Catalyst","access_rules": ["@canReachValleyoftheDrakesAfterDefeatingFourKings"]},
-            {"name": "VotD: New Londo Ruins -> Valley of the Drakes opened","access_rules": ["@canReachDoorbetweenUpperNewLondoandValleyoftheDrakes"]}
+            {"name": "VotD: Beatrice's Catalyst","access_rules": ["@canReachValleyoftheDrakesAfterDefeatingFourKings"]}
         ]
     },{
         "name": "VotD: Large Soul of a Nameless Soldier - New Londo Door","map_locations": [{"map": "Valley of the Drakes","x": 115,"y": 90}],
@@ -709,9 +666,6 @@
         {"name": "VotD: Witch Gloves","ref": "Valley of the Drakes/VotD: Witch Gloves"},
         {"name": "VotD: Witch Skirt","ref": "Valley of the Drakes/VotD: Witch Skirt"},
         {"name": "VotD: Beatrice's Catalyst","ref": "Valley of the Drakes/VotD: Beatrice's Catalyst"}]
-    },{
-        "name": "VotD: New Londo Ruins -> Valley of the Drakes opened","map_locations": [{"map": "Valley of the Drakes","x": 115,"y": 70}],
-        "sections": [{"name": "VotD: New Londo Ruins -> Valley of the Drakes opened","ref": "Valley of the Drakes/VotD: New Londo Ruins -> Valley of the Drakes opened"}]
     },{
         "name": "Darkroot Basin",
         "map_locations": [
@@ -954,7 +908,6 @@
         ],
         "sections": [
             {"name": "SF: Large Soul of a Proud Knight - Corpse after Ladder out of Pit","access_rules": ["@canReachSensFortress"]},
-            {"name": "SF: Sen's Fortress Main Gate opened","access_rules": ["@canReachSensFortress"]},
             {"name": "SF: Soul of a Brave Warrior - Sen's Fortress Entrance","access_rules": ["@canReachSensFortress"]},
             {"name": "SF: Soul of a Brave Warrior - Sen's Fortress Pit","access_rules": ["@canReachSensFortress"]},
             {"name": "SF: Scythe","access_rules": ["@canReachSensFortress"]},
@@ -992,9 +945,6 @@
     },{
         "name": "SF: Large Soul of a Proud Knight - Corpse after Ladder out of Pit","map_locations": [{"map": "Sen's Fortress Main","x": 1010,"y": 1270}],
         "sections": [{"name": "SF: Large Soul of a Proud Knight - Corpse after Ladder out of Pit","ref": "Sen's Fortress/SF: Large Soul of a Proud Knight - Corpse after Ladder out of Pit"}]
-    },{
-        "name": "SF: Sen's Fortress Main Gate opened","map_locations": [{"map": "Sen's Fortress Main","x": 350,"y": 1495}],
-        "sections": [{"name": "SF: Sen's Fortress Main Gate opened","ref": "Sen's Fortress/SF: Sen's Fortress Main Gate opened"}]
     },{
         "name": "SF: Soul of a Brave Warrior - Sen's Fortress Entrance","map_locations": [{"map": "Sen's Fortress Main","x": 830,"y": 1550}],
         "sections": [{"name": "SF: Soul of a Brave Warrior - Sen's Fortress Entrance","ref": "Sen's Fortress/SF: Soul of a Brave Warrior - Sen's Fortress Entrance"}]
@@ -1098,13 +1048,10 @@
             {"name": "AL: Silver Knight Armor","access_rules": ["@canReachAnorLondoAfterSecondFog"]},
             {"name": "AL: Silver Knight Gauntlets","access_rules": ["@canReachAnorLondoAfterSecondFog"]},
             {"name": "AL: Silver Knight Leggings","access_rules": ["@canReachAnorLondoAfterSecondFog"]},
-            {"name": "AL: Anor Londo Bonfire Shortcut opened","access_rules": ["@canReachAnorLondoAfterSecondFog"]},
             {"name": "AL: Dragonslayer Greatbow","access_rules": ["@canReachAnorLondoAfterSecondFog"]},
             {"name": "AL: Dragonslayer Arrow","access_rules": ["@canReachAnorLondoAfterSecondFog"]},
             {"name": "AL: Titanite Chunk - near Giant Blacksmith","access_rules": ["@canReachAnorLondoAfterSecondFog"]},
             {"name": "AL: Hawk Ring","access_rules": ["@canReachAnorLondoAfterSecondFog"]},
-            {"name": "AL: Anor Londo Giant Blacksmith Shortcut opened","access_rules": ["@canReachAnorLondoAfterSecondFog"]},
-            {"name": "AL: Anor Londo Main Hall Door opened","access_rules": ["@canReachAnorLondoAfterSecondFog"]},
             {"name": "AL: Boss Fog Wall - Ornstein and Smough","access_rules": ["@canReachAnorLondoOrnsteinandSmough"],"visibility_rules": ["setting_fogwall_lock_boss"]},
             {"name": "AL: Lordvessel","access_rules": ["@canReachAnorLondoAfterOrnsteinandSmough"]},
             {"name": "AL: Boss Fog Wall - Gwyndolin","access_rules": ["@canReachAnorLondoGwyndolin"],"visibility_rules": ["setting_fogwall_lock_boss"]},
@@ -1182,9 +1129,6 @@
         {"name": "AL: Silver Knight Gauntlets","ref": "Anor Londo/AL: Silver Knight Gauntlets"},
         {"name": "AL: Silver Knight Leggings","ref": "Anor Londo/AL: Silver Knight Leggings"}]
     },{
-        "name": "AL: Anor Londo Bonfire Shortcut opened","map_locations": [{"map": "Anor Londo Interior","x": 800,"y": 1090}],
-        "sections": [{"name": "AL: Anor Londo Bonfire Shortcut opened","ref": "Anor Londo/AL: Anor Londo Bonfire Shortcut opened"}]
-    },{
         "name": "AL: Dragonslayer Greatbow and Arrows","map_locations": [{"map": "Anor Londo Interior","x": 1650,"y": 1380}],
         "sections": [{"name": "AL: Dragonslayer Greatbow","ref": "Anor Londo/AL: Dragonslayer Greatbow"},
         {"name": "AL: Dragonslayer Arrow","ref": "Anor Londo/AL: Dragonslayer Arrow"}]
@@ -1194,12 +1138,6 @@
     },{
         "name": "AL: Hawk Ring","map_locations": [{"map": "Anor Londo Interior","x": 2050,"y": 1550}],
         "sections": [{"name": "AL: Hawk Ring","ref": "Anor Londo/AL: Hawk Ring"}]
-    },{
-        "name": "AL: Anor Londo Giant Blacksmith Shortcut opened","map_locations": [{"map": "Anor Londo Interior","x": 1800,"y": 1300}],
-        "sections": [{"name": "AL: Anor Londo Giant Blacksmith Shortcut opened","ref": "Anor Londo/AL: Anor Londo Giant Blacksmith Shortcut opened"}]
-    },{
-        "name": "AL: Anor Londo Main Hall Door opened","map_locations": [{"map": "Anor Londo Interior","x": 1552,"y": 1330}],
-        "sections": [{"name": "AL: Anor Londo Main Hall Door opened","ref": "Anor Londo/AL: Anor Londo Main Hall Door opened"}]
     },{
         "name": "AL: Boss Fog Wall - Ornstein and Smough","map_locations": [{"map": "Anor Londo Interior","x": 1549,"y": 2266}],
         "sections": [{"name": "AL: Boss Fog Wall - Ornstein and Smough","ref": "Anor Londo/AL: Boss Fog Wall - Ornstein and Smough"}]
@@ -1387,8 +1325,7 @@
             {"name": "NL: Humanity - New Londo Ledge","access_rules": ["@canReachUpperNewLondoRuinsAfterFog"]},
             {"name": "NL: Rare Ring of Sacrifice - New Londo Roof","access_rules": ["@canReachUpperNewLondoRuinsAfterFog"]},
             {"name": "NL: Composite Bow","access_rules": ["@canReachUpperNewLondoRuinsAfterFog"]},
-            {"name": "NL: Large Arrow","access_rules": ["@canReachUpperNewLondoRuinsAfterFog"]},
-            {"name": "NL: New Londo Ruins Door to the Seal opened","access_rules": ["@canReachNewLondoRuinsDoortotheSeal"]}
+            {"name": "NL: Large Arrow","access_rules": ["@canReachUpperNewLondoRuinsAfterFog"]}
         ]
     },{
         "name": "NL: Soul of a Nameless Soldier - New Londo Entrance","map_locations": [{"map": "New Londo Ruins","x": 65,"y": 203}],
@@ -1442,9 +1379,6 @@
         "name": "NL: Composite Bow and Arrows","map_locations": [{"map": "New Londo Ruins","x": 800,"y": 720}],
         "sections": [{"name": "NL: Composite Bow","ref": "Upper New Londo Ruins/NL: Composite Bow"},
         {"name": "NL: Large Arrow","ref": "Upper New Londo Ruins/NL: Large Arrow"}]
-    },{
-        "name": "NL: New Londo Ruins Door to the Seal opened","map_locations": [{"map": "New Londo Ruins","x": 718,"y": 705}],
-        "sections": [{"name": "NL: New Londo Ruins Door to the Seal opened","ref": "Upper New Londo Ruins/NL: New Londo Ruins Door to the Seal opened"}]
     },{
         "name": "Lower New Londo Ruins",
         "map_locations": [
@@ -1533,7 +1467,6 @@
             {"name": "DA: Twinkling Titanite - Archives Chest","access_rules": ["@canReachTheDukesArchives"]},
             {"name": "DA: Twinkling Titanite - Archives Balcony","access_rules": ["@canReachTheDukesArchives"]},
             {"name": "DA: Boss Fog Wall - Seath First Encounter","access_rules": ["@canReachTheDukesArchivesAfterFirstSeathEncounter"],"visibility_rules": ["setting_fogwall_lock_boss"]},
-            {"name": "DA: Duke's Archives Cell Door opened","access_rules": ["@canReachTheDukesArchivesCellDoor"]},
             {"name": "DA: Archive Prison Extra Key","access_rules": ["@canReachTheDukesArchivesGettingoutofCell"]},
             {"name": "DA: Maiden Hood","access_rules": ["@canReachTheDukesArchivesAfterArchivePrisonExtraKey"]},
             {"name": "DA: Maiden Robe","access_rules": ["@canReachTheDukesArchivesAfterArchivePrisonExtraKey"]},
@@ -1546,7 +1479,6 @@
             {"name": "DA: Avelyn","access_rules": ["@canReachTheDukesArchivesAfterArchiveTowerGiantDoorKey"]},
             {"name": "DA: Twinkling Titanite - Archives Chest 2","access_rules": ["@canReachTheDukesArchivesAfterArchiveTowerGiantDoorKey"]},
             {"name": "DA: Sorcery: Strong Magic Shield","access_rules": ["@canReachTheDukesArchivesAfterArchiveTowerGiantDoorKey"]},
-            {"name": "DA: Duke's Archives Bookshelf Door opened","access_rules": ["@canReachTheDukesArchivesAfterArchiveTowerGiantDoorKey"]},
             {"name": "DA: Blue Titanite Chunk - Archives Chest","access_rules": ["@canReachTheDukesArchivesAfterArchiveTowerGiantDoorKey"]},
             {"name": "DA: Archive Tower Giant Cell Key","access_rules": ["@canReachTheDukesArchivesAfterArchiveTowerGiantDoorKey"]},
             {"name": "DA: Crystal Ember","access_rules": ["@canReachTheDukesArchivesAfterArchiveTowerGiantDoorKey"]},
@@ -1572,8 +1504,7 @@
         {"name": "DA: Twinkling Titanite - Archives Balcony","ref": "Duke's Archives/DA: Twinkling Titanite - Archives Balcony"},
         {"name": "DA: Avelyn","ref": "Duke's Archives/DA: Avelyn"},
         {"name": "DA: Twinkling Titanite - Archives Chest 2","ref": "Duke's Archives/DA: Twinkling Titanite - Archives Chest 2"},
-        {"name": "DA: Sorcery: Strong Magic Shield","ref": "Duke's Archives/DA: Sorcery: Strong Magic Shield"},
-        {"name": "DA: Duke's Archives Bookshelf Door opened","ref": "Duke's Archives/DA: Duke's Archives Bookshelf Door opened"}]
+        {"name": "DA: Sorcery: Strong Magic Shield","ref": "Duke's Archives/DA: Sorcery: Strong Magic Shield"}]
     },{
         "name": "DA: Soul of a Brave Warrior - Archives Under Stairs","map_locations": [{"map": "Duke's Archives Big Room","x": 490,"y": 905}],
         "sections": [{"name": "DA: Soul of a Brave Warrior - Archives Under Stairs","ref": "Duke's Archives/DA: Soul of a Brave Warrior - Archives Under Stairs"}]
@@ -1592,9 +1523,6 @@
     },{
         "name": "DA: Soul of a Great Hero - Seath Room","map_locations": [{"map": "Duke's Archives","x": 1675,"y": 665}],
         "sections": [{"name": "DA: Soul of a Great Hero - Seath Room","ref": "Duke's Archives/DA: Soul of a Great Hero - Seath Room"}]
-    },{
-        "name": "DA: Duke's Archives Cell Door opened","map_locations": [{"map": "Duke's Archives","x": 225,"y": 305}],
-        "sections": [{"name": "DA: Duke's Archives Cell Door opened","ref": "Duke's Archives/DA: Duke's Archives Cell Door opened"}]
     },{
         "name": "DA: Archive Prison Extra Key","map_locations": [{"map": "Duke's Archives","x": 235,"y": 345}],
         "sections": [{"name": "DA: Archive Prison Extra Key","ref": "Duke's Archives/DA: Archive Prison Extra Key"}]
@@ -1623,9 +1551,6 @@
     },{
         "name": "DA: Sorcery: Strong Magic Shield","map_locations": [{"map": "Duke's Archives Big Room","x": 870,"y": 85}],
         "sections": [{"name": "DA: Sorcery: Strong Magic Shield","ref": "Duke's Archives/DA: Sorcery: Strong Magic Shield"}]
-    },{
-        "name": "DA: Duke's Archives Bookshelf Door opened","map_locations": [{"map": "Duke's Archives Big Room","x": 660,"y": 290}],
-        "sections": [{"name": "DA: Duke's Archives Bookshelf Door opened","ref": "Duke's Archives/DA: Duke's Archives Bookshelf Door opened"}]
     },{
         "name": "DA: Blue Titanite Chunk - Archives Chest","map_locations": [{"map": "Duke's Archives","x": 1190,"y": 400}],
         "sections": [{"name": "DA: Blue Titanite Chunk - Archives Chest","ref": "Duke's Archives/DA: Blue Titanite Chunk - Archives Chest"}]
@@ -1719,8 +1644,7 @@
             {"name": "DR: Soul of a Brave Warrior - Chaos Door","access_rules": ["@canReachDemonRuinsAfterDemonFiresage"]},
             {"name": "DR: Boss Fog Wall - Centipede Demon","access_rules": ["@canReachDemonRuinsCentipedeDemon"],"visibility_rules": ["setting_fogwall_lock_boss"]},
             {"name": "DR: Orange Charred Ring","access_rules": ["@canReachDemonRuinsCentipedeDemon"]},
-            {"name": "DR: Green Titanite Shard - Centipede Demon","access_rules": ["@canReachDemonRuinsCentipedeDemon"]},
-            {"name": "DR: Demon Ruins Shortcut opened","access_rules": ["@canReachDemonRuinsShortcut"]}
+            {"name": "DR: Green Titanite Shard - Centipede Demon","access_rules": ["@canReachDemonRuinsCentipedeDemon"]}
         ]
     },{
         "name": "Gold-Hemmed Black Set","map_locations": [{"map": "Demon Ruins","x": 1490,"y": 1080}],
@@ -1767,9 +1691,6 @@
     },{
         "name": "DR: Green Titanite Shard - Centipede Demon","map_locations": [{"map": "Demon Ruins","x": 200,"y": 740}],
         "sections": [{"name": "DR: Green Titanite Shard - Centipede Demon","ref": "Demon Ruins/DR: Green Titanite Shard - Centipede Demon"}]
-    },{
-        "name": "DR: Demon Ruins Shortcut opened","map_locations": [{"map": "Demon Ruins","x": 1160,"y": 350}],
-        "sections": [{"name": "DR: Demon Ruins Shortcut opened","ref": "Demon Ruins/DR: Demon Ruins Shortcut opened"}]
     },{
         "name": "DR: Boss Fog Wall - Ceaseless Discharge","map_locations": [{"map": "Demon Ruins","x": 1060,"y": 728}],
         "sections": [{"name": "DR: Boss Fog Wall - Ceaseless Discharge","ref": "Demon Ruins/DR: Boss Fog Wall - Ceaseless Discharge"}]
@@ -1859,21 +1780,6 @@
         "name": "LI: Lord Soul (Bed of Chaos)","map_locations": [{"map": "Lost Izalith","x": 675,"y": 90}],
         "sections": [{"name": "LI: Lord Soul (Bed of Chaos)","ref": "Lost Izalith/LI: Lord Soul (Bed of Chaos)"}]
     },{
-        "name": "The Catacombs Entrance",
-        "map_locations": [
-            {
-                "map": "Full Map",
-                "x": 570,
-                "y": 785
-            }
-        ],
-        "sections": [
-            {"name": "TC: Catacombs Door 1 opened","access_rules": ["@canReachTheCatacombsDoor1"]}
-        ]
-    },{
-        "name": "TC: Catacombs Door 1 opened","map_locations": [{"map": "The Catacombs","x": 262,"y": 472}],
-        "sections": [{"name": "TC: Catacombs Door 1 opened","ref": "The Catacombs Entrance/TC: Catacombs Door 1 opened"}]
-    },{
         "name": "The Catacombs",
         "map_locations": [
             {
@@ -1891,7 +1797,6 @@
             {"name": "TC: Soul of a Proud Knight - First Spiral Stairway Upper","access_rules": ["@canReachTheCatacombsAfterDoor1"]},
             {"name": "TC: Soul of a Proud Knight - First Spiral Stairway Lower","access_rules": ["@canReachTheCatacombsAfterDoor1"]},
             {"name": "TC: Great Scythe","access_rules": ["@canReachTheCatacombsAfterDoor1"]},
-            {"name": "TC: Catacombs Door 2 opened","access_rules": ["@canReachTheCatacombsAfterDoor1"]},
             {"name": "TC: Green Titanite Shard - On Platform near Vamos","access_rules": ["@canReachTheCatacombsAfterDoor1"]},
             {"name": "TC: Miracle: Tranquil Walk of Peace","access_rules": ["@canReachTheCatacombsAfterDoor1"]},
             {"name": "TC: Eye of Death - Catacombs Titanite Demon","access_rules": ["@canReachTheCatacombsAfterDoor1"]},
@@ -1931,9 +1836,6 @@
     },{
         "name": "TC: Great Scythe","map_locations": [{"map": "The Catacombs","x": 490,"y": 388}],
         "sections": [{"name": "TC: Great Scythe","ref": "The Catacombs/TC: Great Scythe"}]
-    },{
-        "name": "TC: Catacombs Door 2 opened","map_locations": [{"map": "The Catacombs","x": 465,"y": 383}],
-        "sections": [{"name": "TC: Catacombs Door 2 opened","ref": "The Catacombs/TC: Catacombs Door 2 opened"}]
     },{
         "name": "TC: Green Titanite Shard - On Platform near Vamos","map_locations": [{"map": "The Catacombs","x": 425,"y": 385}],
         "sections": [{"name": "TC: Green Titanite Shard - On Platform near Vamos","ref": "The Catacombs/TC: Green Titanite Shard - On Platform near Vamos"}]
@@ -2155,8 +2057,7 @@
             {"name": "RW: Boss Fog Wall - Artorias","access_rules": ["@canReachRoyalWoodArtorias"],"visibility_rules": ["setting_fogwall_lock_boss"]},
             {"name": "RW: Gough's Great Arrow - Kalemeet's Arena","access_rules": ["@canReachRoyalWoodAfterHawkeyeGough"]},
             {"name": "RW: Titanite Slab - Kalameet's Arena Behind Waterfall","access_rules": ["@canReachRoyalWoodAfterHawkeyeGough"]},
-            {"name": "OT: Soul of a Hero - 2F Behind Stairs To Gough","access_rules": ["@canReachOolacileTownship"]},
-            {"name": "Oolacile Crest Key Door opened","access_rules": ["@canReachOolacileTownshipAfterCrestKey"]}
+            {"name": "OT: Soul of a Hero - 2F Behind Stairs To Gough","access_rules": ["@canReachOolacileTownship"]}
         ]
     },{ "name": "RW: Soul of a Proud Knight - Behind Tower","map_locations": [{"map": "Royal Wood","x": 127,"y": 382}],"sections": [
             {"name": "RW: Soul of a Proud Knight - Behind Tower","ref": "Royal Wood/RW: Soul of a Proud Knight - Behind Tower"}]
@@ -2198,8 +2099,6 @@
             {"name": "RW: Titanite Slab - Kalameet's Arena Behind Waterfall","ref": "Royal Wood/RW: Titanite Slab - Kalameet's Arena Behind Waterfall"}]
     },{ "name": "OT: Soul of a Hero - 2F Behind Stairs To Gough","map_locations": [{"map": "Royal Wood","x": 899,"y": 204}],"sections": [
             {"name": "OT: Soul of a Hero - 2F Behind Stairs To Gough","ref": "Royal Wood/OT: Soul of a Hero - 2F Behind Stairs To Gough"}]
-    },{ "name": "Oolacile Crest Key Door opened","map_locations": [{"map": "Royal Wood","x": 778,"y": 56}],"sections": [
-            {"name": "Oolacile Crest Key Door opened","ref": "Royal Wood/Oolacile Crest Key Door opened"}]
     },{
         "name": "Oolacile Township",
         "map_locations": [
