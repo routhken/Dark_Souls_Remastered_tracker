@@ -2255,7 +2255,8 @@
     {
     "name": "canReachUpperUndeadBurgAfterTaurusDemon",
     "access_rules": [
-        "@canReachUpperUndeadBurgTaurusDemon, $hasTaurusDemonDefeated"
+        "@canReachUpperUndeadBurgTaurusDemon, $hasTaurusDemonDefeated",
+        "@canReachUndeadParishBeforeFog"
     ]},
     {
     "name": "canReachUndeadParishBeforeFog",
