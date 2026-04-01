@@ -22,6 +22,7 @@
             }
         ],
         "sections": [
+            {"name": "FS: Firelink Shrine Bonfire","access_rules": ["@canReachFirelinkShrine"]},
             {"name": "FS: Firebomb - Outside Petrus","access_rules": ["@canReachFirelinkShrine"]},
             {"name": "FS: Humanity - Firelink Well","access_rules": ["@canReachFirelinkShrine"]},
             {"name": "FS: Soul of a Lost Undead - Outside Firelink Elevator","access_rules": ["@canReachFirelinkShrine"]},
@@ -44,6 +45,9 @@
             {"name": "FS: Soul of a Lost Undead - Sewer Rat","access_rules": ["@canReachFirelinkShrine"]},
             {"name": "FS: Undead Asylum F2 West Key","access_rules": ["@canReachFirelinkShrineAfterUndeadParishElevator"]}
         ]
+    },{
+        "name": "FS: Firelink Shrine Bonfire","map_locations": [{"map": "Firelink Shrine","x": 1753,"y": 1243}],
+        "sections": [{"name": "FS: Firelink Shrine Bonfire","ref": "Firelink Shrine/FS: Firelink Shrine Bonfire"}]
     },{
         "name": "FS: Firebomb - Outside Petrus","map_locations": [{"map": "Firelink Shrine","x": 1555,"y": 650}],
         "sections": [{"name": "FS: Firebomb - Outside Petrus","ref": "Firelink Shrine/FS: Firebomb - Outside Petrus"}]
@@ -154,10 +158,11 @@
             {"name": "UB: Soul of a Lost Undead - Firebomb Throwers","access_rules": ["@canReachUpperUndeadBurg"]},
             {"name": "UB: Blue Tearstone Ring","access_rules": ["@canReachUpperUndeadBurg"]},
             {"name": "UB: Boss Fog Wall - Taurus Demon","access_rules": ["@canReachUpperUndeadBurgTaurusDemon"],"visibility_rules": ["setting_fogwall_lock_boss"]},
-            {"name": "UB: Large Soul of a Lost Undead - After Taurus","access_rules": ["@canReachUpperUndeadBurgAfterTaurusDemon"]},
-            {"name": "UB: White Sign Soapstone","access_rules": ["@canReachUpperUndeadBurgAfterTaurusDemon"]},
-            {"name": "UB: Claymore","access_rules": ["@canReachUpperUndeadBurgAfterTaurusDemon"]},
-            {"name": "UB: Soul of a Nameless Soldier - Hellkite Bridge","access_rules": ["@canReachUpperUndeadBurgAfterTaurusDemon"]},
+            {"name": "UB: Large Soul of a Lost Undead - After Taurus","access_rules": ["@canReachUpperUndeadBurgHellkiteBridge"]},
+            {"name": "UB: White Sign Soapstone","access_rules": ["@canReachUpperUndeadBurgHellkiteBridge"]},
+            {"name": "UB: Claymore","access_rules": ["@canReachUpperUndeadBurgHellkiteBridge"]},
+            {"name": "UB: Soul of a Nameless Soldier - Hellkite Bridge","access_rules": ["@canReachUpperUndeadBurgHellkiteBridge"]},
+            {"name": "UB: Sunlight Altar Bonfire","access_rules": ["@canReachUpperUndeadBurgHellkiteBridge"]},
             {"name": "UB: Gold Pine Resin - 3x Gold Pine Resin in Chest behind Locked Door","access_rules": ["@canReachUpperUndeadBurgPineResinChest"]}
         ]
     },{
@@ -212,6 +217,9 @@
         "name": "UB: Soul of a Nameless Soldier - Hellkite Bridge","map_locations": [{"map": "Undead Burg Upper","x": 700,"y": 420}],
         "sections": [{"name": "UB: Soul of a Nameless Soldier - Hellkite Bridge","ref": "Upper Undead Burg/UB: Soul of a Nameless Soldier - Hellkite Bridge"}]
     },{
+        "name": "UB: Sunlight Altar Bonfire","map_locations": [{"map": "Undead Burg Upper","x": 1280,"y": 1425}],
+        "sections": [{"name": "UB: Sunlight Altar Bonfire","ref": "Upper Undead Burg/UB: Sunlight Altar Bonfire"}]
+    },{
         "name": "UB: Gold Pine Resin - 3x Gold Pine Resin in Chest behind Locked Door","map_locations": [{"map": "Undead Burg Upper","x": 1950,"y": 1450}],
         "sections": [{"name": "UB: Gold Pine Resin - 3x Gold Pine Resin in Chest behind Locked Door","ref": "Upper Undead Burg/UB: Gold Pine Resin - 3x Gold Pine Resin in Chest behind Locked Door"}]
     },{
@@ -229,6 +237,7 @@
             {"name": "UP: Large Soul of a Lost Undead - Hollow Room Rafters","access_rules": ["@canReachUndeadParishBeforeFog"]},
             {"name": "UP: Fog Wall - Undead Parish","access_rules": ["@canReachUndeadParishFog"],"visibility_rules": ["setting_fogwall_lock"]},
             {"name": "UP: Knight Shield","access_rules": ["@canReachUndeadParish"]},
+            {"name": "UP: Undead Parish Bonfire","access_rules": ["@canReachUndeadParish"]},
             {"name": "UP: Halberd","access_rules": ["@canReachUndeadParish"]},
             {"name": "UP: Basement Key","access_rules": ["@canReachUndeadParish"]},
             {"name": "UP: Fire Keeper Soul - Undead Parish","access_rules": ["@canReachUndeadParish"]},
@@ -251,6 +260,9 @@
     },{
         "name": "UP: Knight Shield","map_locations": [{"map": "Undead Parish","x": 610,"y": 1690}],
         "sections": [{"name": "UP: Knight Shield","ref": "Undead Parish/UP: Knight Shield"}]
+    },{
+        "name": "UP: Undead Parish Bonfire","map_locations": [{"map": "Undead Parish","x": 1688,"y": 2241}],
+        "sections": [{"name": "UP: Undead Parish Bonfire","ref": "Undead Parish/UP: Undead Parish Bonfire"}]
     },{
         "name": "UP: Halberd","map_locations": [{"map": "Undead Parish","x": 990,"y": 1270}],
         "sections": [{"name": "UP: Halberd","ref": "Undead Parish/UP: Halberd"}]
@@ -360,7 +372,8 @@
             {"name": "DE: Hard Leather Armor","access_rules": ["@canReachDepthsGapingDragon"]},
             {"name": "DE: Hard Leather Gauntlets","access_rules": ["@canReachDepthsGapingDragon"]},
             {"name": "DE: Hard Leather Boots","access_rules": ["@canReachDepthsGapingDragon"]},
-            {"name": "DE: Blighttown Key","access_rules": ["@canReachDepthsAfterGapingDragon"]}
+            {"name": "DE: Blighttown Key","access_rules": ["@canReachDepthsAfterGapingDragon"]},
+            {"name": "DE: Depths Bonfire","access_rules": ["@canReachDepthsAfterSewerChamberKey"]}
         ]
     },{
         "name": "DE: Large Soul of a Nameless Soldier - Depths Entrance","map_locations": [{"map": "Depths","x": 800,"y": 200}],
@@ -415,14 +428,17 @@
         "name": "DE: Boss Fog Wall - Gaping Dragon","map_locations": [{"map": "Depths","x": 544,"y": 2051}],
         "sections": [{"name": "DE: Boss Fog Wall - Gaping Dragon","ref": "The Depths/DE: Boss Fog Wall - Gaping Dragon"}]
     },{
-        "name": "DE: Blighttown Key","map_locations": [{"map": "Depths","x": 245,"y": 2120}],
-        "sections": [{"name": "DE: Blighttown Key","ref": "The Depths/DE: Blighttown Key"}]
-    },{
         "name": "DE: Leather Set","map_locations": [{"map": "Depths","x": 180,"y": 2360}],
         "sections": [{"name": "DE: Standard Helm","ref": "The Depths/DE: Standard Helm"},
         {"name": "DE: Hard Leather Armor","ref": "The Depths/DE: Hard Leather Armor"},
         {"name": "DE: Hard Leather Gauntlets","ref": "The Depths/DE: Hard Leather Gauntlets"},
         {"name": "DE: Hard Leather Boots","ref": "The Depths/DE: Hard Leather Boots"}]
+    },{
+        "name": "DE: Blighttown Key","map_locations": [{"map": "Depths","x": 245,"y": 2120}],
+        "sections": [{"name": "DE: Blighttown Key","ref": "The Depths/DE: Blighttown Key"}]
+    },{
+        "name": "DE: Depths Bonfire","map_locations": [{"map": "Depths","x": 1289,"y": 565}],
+        "sections": [{"name": "DE: Depths Bonfire","ref": "The Depths/DE: Depths Bonfire"}]
     },{
         "name": "Upper Blighttown",
         "map_locations": [
@@ -559,7 +575,8 @@
             {"name": "BT: Plank Shield","access_rules": ["@canReachLowerBlighttown"]},
             {"name": "BT: Twin Humanities - Great Hallow Entrance","access_rules": ["@canReachLowerBlighttown"]},
             {"name": "BT: Large Titanite Shard - Near Quelana","access_rules": ["@canReachLowerBlighttown"]},
-            {"name": "BT: Boss Fog Wall - Quelaag","access_rules": ["@canReachLowerBlighttownQuelaag"],"visibility_rules": ["setting_fogwall_lock_boss"]}
+            {"name": "BT: Boss Fog Wall - Quelaag","access_rules": ["@canReachLowerBlighttownQuelaag"],"visibility_rules": ["setting_fogwall_lock_boss"]},
+            {"name": "BT: Daughter of Chaos Bonfire","access_rules": ["@canReachLowerBlighttownAfterQuelaag"]}
         ]
     },{
         "name": "BT: Fog Wall - Lower Blighttown Entrance","map_locations": [{"map": "Blighttown Lower","x": 2369,"y": 817}],
@@ -607,6 +624,9 @@
     },{
         "name": "BT: Boss Fog Wall - Quelaag","map_locations": [{"map": "Blighttown Lower","x": 335,"y": 1925}],
         "sections": [{"name": "BT: Boss Fog Wall - Quelaag","ref": "Lower Blighttown/BT: Boss Fog Wall - Quelaag"}]
+    },{
+        "name": "BT: Daughter of Chaos Bonfire","map_locations": [{"map": "Blighttown Lower","x": 221,"y": 1881}],
+        "sections": [{"name": "BT: Daughter of Chaos Bonfire","ref": "Lower Blighttown/BT: Daughter of Chaos Bonfire"}]
     },{
         "name": "Valley of the Drakes",
         "map_locations": [
@@ -880,7 +900,8 @@
             {"name": "ASH: Dragon Scale - Ash Lake Start","access_rules": ["@canReachAshLake"]},
             {"name": "ASH: Dragon Scale - Ash Lake Water","access_rules": ["@canReachAshLake"]},
             {"name": "ASH: Dragon Scale - Ash Lake Log","access_rules": ["@canReachAshLake"]},
-            {"name": "ASH: Miracle: Great Magic Barrier","access_rules": ["@canReachAshLake"]}
+            {"name": "ASH: Miracle: Great Magic Barrier","access_rules": ["@canReachAshLake"]},
+            {"name": "ASH: Stone Dragon Bonfire","access_rules": ["@canReachAshLake"]}
         ]
     },{
         "name": "ASH: Fog Wall - Ash Lake Entrance","map_locations": [{"map": "Ash Lake","x": 90,"y": 334}],
@@ -897,6 +918,9 @@
     },{
         "name": "ASH: Miracle: Great Magic Barrier","map_locations": [{"map": "Ash Lake","x": 795,"y": 230}],
         "sections": [{"name": "ASH: Miracle: Great Magic Barrier","ref": "Ash Lake/ASH: Miracle: Great Magic Barrier"}]
+    },{
+        "name": "ASH: Stone Dragon Bonfire","map_locations": [{"map": "Ash Lake","x": 141,"y": 384}],
+        "sections": [{"name": "ASH: Stone Dragon Bonfire","ref": "Ash Lake/ASH: Stone Dragon Bonfire"}]
     },{
         "name": "Sen's Fortress",
         "map_locations": [
@@ -1020,11 +1044,13 @@
             }
         ],
         "sections": [
+            {"name": "AL: Anor Londo Bonfire","access_rules": ["@canReachAnorLondo"]},
             {"name": "AL: Demon Titanite - Anor Londo Giants","access_rules": ["@canReachAnorLondo"]},
             {"name": "AL: Twinkling Titanite - Anor Londo","access_rules": ["@canReachAnorLondo"]},
             {"name": "AL: Demon Titanite - Anor Londo Elevator","access_rules": ["@canReachAnorLondo"]},
             {"name": "AL: Divine Blessing - Anor Londo Rafters","access_rules": ["@canReachAnorLondo"]},
             {"name": "AL: Fog Wall - Anor Londo #1 (Rafters)","access_rules": ["@canReachAnorLondoAfterFirstFog"],"visibility_rules": ["setting_fogwall_lock"]},
+            {"name": "AL: Darkmoon Tomb Bonfire","access_rules": ["@canReachAnorLondoAfterFirstFog"]},
             {"name": "AL: Ring of the Sun's Firstborn","access_rules": ["@canReachAnorLondoAfterFirstFog"]},
             {"name": "AL: Sorcery: Great Magic Weapon","access_rules": ["@canReachAnorLondoAfterFirstFog"]},
             {"name": "AL: Black Iron Helm","access_rules": ["@canReachAnorLondoAfterFirstFog"]},
@@ -1059,8 +1085,12 @@
             {"name": "AL: Brass Armor","access_rules": ["@canReachAnorLondoAfterGwyndolin"]},
             {"name": "AL: Brass Gauntlets","access_rules": ["@canReachAnorLondoAfterGwyndolin"]},
             {"name": "AL: Brass Leggings","access_rules": ["@canReachAnorLondoAfterGwyndolin"]},
-            {"name": "AL: Miracle: Sunlight Blade","access_rules": ["@canReachAnorLondoAfterGwyndolin"]}
+            {"name": "AL: Miracle: Sunlight Blade","access_rules": ["@canReachAnorLondoAfterGwyndolin"]},
+            {"name": "AL: Chamber of the Princess Bonfire","access_rules": ["@canReachAnorLondoAfterGwyndolin"]}
         ]
+    },{
+        "name": "AL: Anor Londo Bonfire","map_locations": [{"map": "Anor Londo Exterior","x": 1571,"y": 549}],
+        "sections": [{"name": "AL: Anor Londo Bonfire","ref": "Anor Londo/AL: Anor Londo Bonfire"}]
     },{
         "name": "AL: Demon Titanite - Anor Londo Giants","map_locations": [{"map": "Anor Londo Exterior","x": 880,"y": 780}],
         "sections": [{"name": "AL: Demon Titanite - Anor Londo Giants","ref": "Anor Londo/AL: Demon Titanite - Anor Londo Giants"}]
@@ -1076,6 +1106,9 @@
     },{
         "name": "AL: Fog Wall - Anor Londo #1 (Rafters)","map_locations": [{"map": "Anor Londo Exterior","x": 1643,"y": 2149}],
         "sections": [{"name": "AL: Fog Wall - Anor Londo #1 (Rafters)","ref": "Anor Londo/AL: Fog Wall - Anor Londo #1 (Rafters)"}]
+    },{
+        "name": "AL: Darkmoon Tomb Bonfire","map_locations": [{"map": "Anor Londo Exterior","x": 2652,"y": 1650}],
+        "sections": [{"name": "AL: Darkmoon Tomb Bonfire","ref": "Anor Londo/AL: Darkmoon Tomb Bonfire"}]
     },{
         "name": "AL: Ring of the Sun's Firstborn","map_locations": [{"map": "Anor Londo Exterior","x": 2700,"y": 1690}],
         "sections": [{"name": "AL: Ring of the Sun's Firstborn","ref": "Anor Londo/AL: Ring of the Sun's Firstborn"}]
@@ -1148,6 +1181,9 @@
         "name": "AL: Boss Fog Wall - Gwyndolin","map_locations": [{"map": "Anor Londo Interior","x": 2051,"y": 2906}],
         "sections": [{"name": "AL: Boss Fog Wall - Gwyndolin","ref": "Anor Londo/AL: Boss Fog Wall - Gwyndolin"}]
     },{
+        "name": "AL: Chamber of the Princess Bonfire","map_locations": [{"map": "Anor Londo Interior","x": 2052,"y": 2680}],
+        "sections": [{"name": "AL: Chamber of the Princess Bonfire","ref": "Anor Londo/AL: Chamber of the Princess Bonfire"}]
+    },{
         "name": "Painted World of Ariamis",
         "map_locations": [
             {
@@ -1157,6 +1193,7 @@
             }
         ],
         "sections": [
+            {"name": "PW: Painted World Bonfire","access_rules": ["@canReachPaintedWorldofAriamis"]},
             {"name": "PW: Soul of a Proud Knight - Corpse up First Staircase","access_rules": ["@canReachPaintedWorldofAriamis"]},
             {"name": "PW: Soul of a Proud Knight - Painted World Corvid Ambush","access_rules": ["@canReachPaintedWorldofAriamis"]},
             {"name": "PW: Twin Humanities - Painted World","access_rules": ["@canReachPaintedWorldofAriamis"]},
@@ -1196,6 +1233,9 @@
             {"name": "PW: Black Manchette","access_rules": ["@canReachPaintedWorldofAriamisAfterAnnexKey"]},
             {"name": "PW: Black Tights","access_rules": ["@canReachPaintedWorldofAriamisAfterAnnexKey"]}
         ]
+    },{
+        "name": "PW: Painted World Bonfire","map_locations": [{"map": "Painted World of Ariamis","x": 1500,"y": 2682}],
+        "sections": [{"name": "PW: Painted World Bonfire","ref": "Painted World of Ariamis/PW: Painted World Bonfire"}]
     },{
         "name": "PW: Fog Wall - Painted World","map_locations": [{"map": "Painted World of Ariamis","x": 1535,"y": 1713}],
         "sections": [{"name": "PW: Fog Wall - Painted World","ref": "Painted World of Ariamis/PW: Fog Wall - Painted World"}]
@@ -1436,9 +1476,6 @@
         "name": "NL: Titanite Chunk - Chest behind Illusory Wall","map_locations": [{"map": "New Londo Ruins","x": 445,"y": 395}],
         "sections": [{"name": "NL: Titanite Chunk - Chest behind Illusory Wall","ref": "Lower New Londo Ruins/NL: Titanite Chunk - Chest behind Illusory Wall"}]
     },{
-        "name": "TA: Bequeathed Lord Soul Shard (Four Kings)","map_locations": [{"map": "New Londo Ruins","x": 675,"y": 570}],
-        "sections": [{"name": "TA: Bequeathed Lord Soul Shard (Four Kings)","ref": "Lower New Londo Ruins/TA: Bequeathed Lord Soul Shard (Four Kings)"}]
-    },{
         "name": "NL: Boss Fog Wall - Four Kings","map_locations": [{"map": "New Londo Ruins","x": 660,"y": 587}],
         "sections": [{"name": "NL: Boss Fog Wall - Four Kings","ref": "Lower New Londo Ruins/NL: Boss Fog Wall - Four Kings"}]
     },{
@@ -1451,8 +1488,13 @@
             }
         ],
         "sections": [
-            {"name": "TA: Bequeathed Lord Soul Shard (Four Kings)","access_rules": ["@canReachTheAbyssAfterFourKings"]}
+            {"name": "TA: Bequeathed Lord Soul Shard (Four Kings)","access_rules": ["@canReachTheAbyssAfterFourKings"]},
+            {"name": "TA: The Abyss Bonfire","access_rules": ["@canReachTheAbyssAfterFourKings"]}
         ]
+    },{
+        "name": "The Abyss  ","map_locations": [{"map": "New Londo Ruins","x": 675,"y": 570}],
+        "sections": [{"name": "TA: Bequeathed Lord Soul Shard (Four Kings)","ref": "The Abyss/TA: Bequeathed Lord Soul Shard (Four Kings)"},
+                     {"name": "TA: The Abyss Bonfire","ref": "The Abyss/TA: The Abyss Bonfire"}]
     },{
         "name": "Duke's Archives",
         "map_locations": [
@@ -1467,7 +1509,7 @@
             {"name": "DA: Twinkling Titanite - Archives Chest","access_rules": ["@canReachTheDukesArchives"]},
             {"name": "DA: Twinkling Titanite - Archives Balcony","access_rules": ["@canReachTheDukesArchives"]},
             {"name": "DA: Boss Fog Wall - Seath First Encounter","access_rules": ["@canReachTheDukesArchivesAfterFirstSeathEncounter"],"visibility_rules": ["setting_fogwall_lock_boss"]},
-            {"name": "DA: Archive Prison Extra Key","access_rules": ["@canReachTheDukesArchivesGettingoutofCell"]},
+            {"name": "DA: Archive Prison Extra Key","access_rules": ["@canReachTheDukesArchivesAfterArchiveTowerCellKey"]},
             {"name": "DA: Maiden Hood","access_rules": ["@canReachTheDukesArchivesAfterArchivePrisonExtraKey"]},
             {"name": "DA: Maiden Robe","access_rules": ["@canReachTheDukesArchivesAfterArchivePrisonExtraKey"]},
             {"name": "DA: Maiden Gloves","access_rules": ["@canReachTheDukesArchivesAfterArchivePrisonExtraKey"]},
@@ -1479,6 +1521,7 @@
             {"name": "DA: Avelyn","access_rules": ["@canReachTheDukesArchivesAfterArchiveTowerGiantDoorKey"]},
             {"name": "DA: Twinkling Titanite - Archives Chest 2","access_rules": ["@canReachTheDukesArchivesAfterArchiveTowerGiantDoorKey"]},
             {"name": "DA: Sorcery: Strong Magic Shield","access_rules": ["@canReachTheDukesArchivesAfterArchiveTowerGiantDoorKey"]},
+            {"name": "DA: Duke's Archives Balcony Bonfire","access_rules": ["@canReachTheDukesArchivesAfterArchiveTowerGiantDoorKey"]},
             {"name": "DA: Blue Titanite Chunk - Archives Chest","access_rules": ["@canReachTheDukesArchivesAfterArchiveTowerGiantDoorKey"]},
             {"name": "DA: Archive Tower Giant Cell Key","access_rules": ["@canReachTheDukesArchivesAfterArchiveTowerGiantDoorKey"]},
             {"name": "DA: Crystal Ember","access_rules": ["@canReachTheDukesArchivesAfterArchiveTowerGiantDoorKey"]},
@@ -1504,7 +1547,8 @@
         {"name": "DA: Twinkling Titanite - Archives Balcony","ref": "Duke's Archives/DA: Twinkling Titanite - Archives Balcony"},
         {"name": "DA: Avelyn","ref": "Duke's Archives/DA: Avelyn"},
         {"name": "DA: Twinkling Titanite - Archives Chest 2","ref": "Duke's Archives/DA: Twinkling Titanite - Archives Chest 2"},
-        {"name": "DA: Sorcery: Strong Magic Shield","ref": "Duke's Archives/DA: Sorcery: Strong Magic Shield"}]
+        {"name": "DA: Sorcery: Strong Magic Shield","ref": "Duke's Archives/DA: Sorcery: Strong Magic Shield"},
+        {"name": "DA: Duke's Archives Balcony Bonfire","ref": "Duke's Archives/DA: Duke's Archives Balcony Bonfire"}]
     },{
         "name": "DA: Soul of a Brave Warrior - Archives Under Stairs","map_locations": [{"map": "Duke's Archives Big Room","x": 490,"y": 905}],
         "sections": [{"name": "DA: Soul of a Brave Warrior - Archives Under Stairs","ref": "Duke's Archives/DA: Soul of a Brave Warrior - Archives Under Stairs"}]
@@ -1552,6 +1596,9 @@
         "name": "DA: Sorcery: Strong Magic Shield","map_locations": [{"map": "Duke's Archives Big Room","x": 870,"y": 85}],
         "sections": [{"name": "DA: Sorcery: Strong Magic Shield","ref": "Duke's Archives/DA: Sorcery: Strong Magic Shield"}]
     },{
+        "name": "DA: Duke's Archives Balcony Bonfire","map_locations": [{"map": "Duke's Archives Big Room","x": 956,"y": 580}],
+        "sections": [{"name": "DA: Duke's Archives Balcony Bonfire","ref": "Duke's Archives/DA: Duke's Archives Balcony Bonfire"}]
+    },{
         "name": "DA: Blue Titanite Chunk - Archives Chest","map_locations": [{"map": "Duke's Archives","x": 1190,"y": 400}],
         "sections": [{"name": "DA: Blue Titanite Chunk - Archives Chest","ref": "Duke's Archives/DA: Blue Titanite Chunk - Archives Chest"}]
     },{
@@ -1598,7 +1645,8 @@
             {"name": "CC: Blue Titanite Chunk - Crystal Cave","access_rules": ["@canReachCrystalCave"]},
             {"name": "CC: Blue Titanite Slab - Crystal Cave","access_rules": ["@canReachCrystalCave"]},
             {"name": "CC: Soul of a Hero - Crystal Cave","access_rules": ["@canReachCrystalCave"]},
-            {"name": "CC: Bequeathed Lord Soul Shard (Seath)","access_rules": ["@canReachCrystalCaveAfterSeath"]}
+            {"name": "CC: Bequeathed Lord Soul Shard (Seath)","access_rules": ["@canReachCrystalCaveAfterSeath"]},
+            {"name": "CC: Crystal Cave Bonfire","access_rules": ["@canReachCrystalCaveAfterSeath"]}
         ]
     },{
         "name": "CC: Humanity - Crystal Cave","map_locations": [{"map": "Crystal Cave","x": 258,"y": 100}],
@@ -1615,6 +1663,9 @@
     },{
         "name": "CC: Bequeathed Lord Soul Shard (Seath)","map_locations": [{"map": "Crystal Cave","x": 138,"y": 1020}],
         "sections": [{"name": "CC: Bequeathed Lord Soul Shard (Seath)","ref": "Crystal Cave/CC: Bequeathed Lord Soul Shard (Seath)"}]
+    },{
+        "name": "CC: Crystal Cave Bonfire","map_locations": [{"map": "Crystal Cave","x": 133,"y": 1076}],
+        "sections": [{"name": "CC: Crystal Cave Bonfire","ref": "Crystal Cave/CC: Crystal Cave Bonfire"}]
     },{
         "name": "Demon Ruins",
         "map_locations": [
@@ -1798,6 +1849,7 @@
             {"name": "TC: Soul of a Proud Knight - First Spiral Stairway Lower","access_rules": ["@canReachTheCatacombsAfterDoor1"]},
             {"name": "TC: Great Scythe","access_rules": ["@canReachTheCatacombsAfterDoor1"]},
             {"name": "TC: Green Titanite Shard - On Platform near Vamos","access_rules": ["@canReachTheCatacombsAfterDoor1"]},
+            {"name": "TC: Catacombs Vamos Bonfire","access_rules": ["@canReachTheCatacombsAfterDoor1"]},
             {"name": "TC: Miracle: Tranquil Walk of Peace","access_rules": ["@canReachTheCatacombsAfterDoor1"]},
             {"name": "TC: Eye of Death - Catacombs Titanite Demon","access_rules": ["@canReachTheCatacombsAfterDoor1"]},
             {"name": "TC: Large Soul of a Nameless Soldier - Above Black Knight","access_rules": ["@canReachTheCatacombsAfterDoor1"]},
@@ -1839,6 +1891,9 @@
     },{
         "name": "TC: Green Titanite Shard - On Platform near Vamos","map_locations": [{"map": "The Catacombs","x": 425,"y": 385}],
         "sections": [{"name": "TC: Green Titanite Shard - On Platform near Vamos","ref": "The Catacombs/TC: Green Titanite Shard - On Platform near Vamos"}]
+    },{
+        "name": "TC: Catacombs Vamos Bonfire","map_locations": [{"map": "The Catacombs","x": 261,"y": 16}],
+        "sections": [{"name": "TC: Catacombs Vamos Bonfire","ref": "The Catacombs/TC: Catacombs Vamos Bonfire"}]
     },{
         "name": "TC: Miracle: Tranquil Walk of Peace","map_locations": [{"map": "The Catacombs","x": 774,"y": 520}],
         "sections": [{"name": "TC: Miracle: Tranquil Walk of Peace","ref": "The Catacombs/TC: Miracle: Tranquil Walk of Peace"}]
@@ -1883,6 +1938,7 @@
             {"name": "TotG: Large Soul of a Proud Knight - Giant Coffin Drop","access_rules": ["@canReachTomboftheGiants"]},
             {"name": "TotG: Large Soul of a Proud Knight - Upper Giant Coffin","access_rules": ["@canReachTomboftheGiants"]},
             {"name": "TotG: Humanity - Corpse on Ledge","access_rules": ["@canReachTomboftheGiants"]},
+            {"name": "TotG: Tomb of the Giants Patches Bonfire","access_rules": ["@canReachTomboftheGiants"]},
             {"name": "TotG: Large Soul of a Proud Knight - Patches Pit 1","access_rules": ["@canReachTomboftheGiants"]},
             {"name": "TotG: Large Soul of a Proud Knight - Patches Pit 2","access_rules": ["@canReachTomboftheGiants"]},
             {"name": "TotG: White Titanite Chunk - Patches Kick","access_rules": ["@canReachTomboftheGiants"]},
@@ -1915,6 +1971,9 @@
     },{
         "name": "TotG: Humanity - Corpse on Ledge","map_locations": [{"map": "Tomb of the Giants Upper","x": 622,"y": 165}],
         "sections": [{"name": "TotG: Humanity - Corpse on Ledge","ref": "Upper Tomb of the Giants/TotG: Humanity - Corpse on Ledge"}]
+    },{
+        "name": "TotG: Tomb of the Giants Patches Bonfire","map_locations": [{"map": "Tomb of the Giants Upper","x": 628,"y": 131}],
+        "sections": [{"name": "TotG: Tomb of the Giants Patches Bonfire","ref": "Upper Tomb of the Giants/TotG: Tomb of the Giants Patches Bonfire"}]
     },{
         "name": "TotG: Large Soul of a Proud Knight - Patches Pit 1","map_locations": [{"map": "Tomb of the Giants Upper","x": 460,"y": 93}],
         "sections": [{"name": "TotG: Large Soul of a Proud Knight - Patches Pit 1","ref": "Upper Tomb of the Giants/TotG: Large Soul of a Proud Knight - Patches Pit 1"}]
@@ -1966,7 +2025,8 @@
             {"name": "TotG: Soul of a Hero - Outside Nito","access_rules": ["@canReachTomboftheGiantsBehindGoldenFogWall"]},
             {"name": "TotG: White Titanite Chunk - Outside Nito","access_rules": ["@canReachTomboftheGiantsBehindGoldenFogWall"]},
             {"name": "TotG: Boss Fog Wall - Nito","access_rules": ["@canReachTomboftheGiantsNito"],"visibility_rules": ["setting_fogwall_lock_boss"]},
-            {"name": "TotG: Lord Soul (Nito)","access_rules": ["@canReachTomboftheGiantsAfterNito"]}
+            {"name": "TotG: Lord Soul (Nito)","access_rules": ["@canReachTomboftheGiantsAfterNito"]},
+            {"name": "TotG: Altar of the Gravelord Bonfire","access_rules": ["@canReachTomboftheGiantsAfterNito"]}
         ]
     },{
         "name": "TotG: White Titanite Slab - Outside Nito","map_locations": [{"map": "Tomb of the Giants Lower","x": 520,"y": 520}],
@@ -1986,6 +2046,9 @@
     },{
         "name": "TotG: Lord Soul (Nito)","map_locations": [{"map": "Tomb of the Giants Lower","x": 410,"y": 920}],
         "sections": [{"name": "TotG: Lord Soul (Nito)","ref": "Lower Tomb of the Giants/TotG: Lord Soul (Nito)"}]
+    },{
+        "name": "TotG: Altar of the Gravelord Bonfire","map_locations": [{"map": "Tomb of the Giants Lower","x": 319,"y": 949}],
+        "sections": [{"name": "TotG: Altar of the Gravelord Bonfire","ref": "Lower Tomb of the Giants/TotG: Altar of the Gravelord Bonfire"}]
     },{
         "name": "Kiln of the First Flame",
         "map_locations": [
@@ -2021,13 +2084,19 @@
             }
         ],
         "sections": [
-            {"name": "SG: Boss Fog Wall - Sanctuary Guardian","access_rules": ["@canReachSanctuaryGardenSantuaryGuardian"],"visibility_rules": ["setting_fogwall_lock_boss"]},
-            {"name": "OS: Humanity - Corpse Near Bonfire","access_rules": ["@canReachOolacileSanctuary"]}
+            {"name": "SG: Sanctuary Garden Bonfire","access_rules": ["@canReachSanctuaryGarden"]},
+            {"name": "SG: Boss Fog Wall - Sanctuary Guardian","access_rules": ["@canReachSanctuaryGardenSanctuaryGuardian"],"visibility_rules": ["setting_fogwall_lock_boss"]},
+            {"name": "OS: Humanity - Corpse Near Bonfire","access_rules": ["@canReachOolacileSanctuary"]},
+            {"name": "OS: Oolacile Sanctuary Bonfire","access_rules": ["@canReachOolacileSanctuary"]}
         ]
+    },{ "name": "SG: Sanctuary Garden Bonfire","map_locations": [{"map": "Oolacile Sanctuary","x": 738,"y": 414}],"sections": [
+            { "name": "SG: Sanctuary Garden Bonfire","ref": "Oolacile Sanctuary/SG: Sanctuary Garden Bonfire"}]
     },{ "name": "SG: Boss Fog Wall - Sanctuary Guardian","map_locations": [{"map": "Oolacile Sanctuary","x": 685,"y": 282}],"sections": [
             { "name": "SG: Boss Fog Wall - Sanctuary Guardian","ref": "Oolacile Sanctuary/SG: Boss Fog Wall - Sanctuary Guardian"}]
     },{ "name": "OS: Humanity - Corpse Near Bonfire","map_locations": [{"map": "Oolacile Sanctuary","x": 105,"y": 309}],"sections": [
             { "name": "OS: Humanity - Corpse Near Bonfire","ref": "Oolacile Sanctuary/OS: Humanity - Corpse Near Bonfire"}]
+    },{ "name": "OS: Oolacile Sanctuary Bonfire","map_locations": [{"map": "Oolacile Sanctuary","x": 163,"y": 309}],"sections": [
+            { "name": "OS: Oolacile Sanctuary Bonfire","ref": "Oolacile Sanctuary/OS: Oolacile Sanctuary Bonfire"}]
     },{
         "name": "Royal Wood",
         "map_locations": [
@@ -2110,6 +2179,7 @@
         ],
         "sections": [
             {"name": "OT: Rubbish - Outside of Door","access_rules": ["@canReachOolacileTownship"]},
+            {"name": "OT: Oolacile Township Bonfire","access_rules": ["@canReachOolacileTownship"]},
             {"name": "OT: Large Soul of a Proud Knight - Early Oolacile Rooftop","access_rules": ["@canReachOolacileTownship"]},
             {"name": "OT: Soul of a Brave Warrior - By First Sorceress","access_rules": ["@canReachOolacileTownship"]},
             {"name": "OT: Sorcery: Dark Orb","access_rules": ["@canReachOolacileTownship"]},
@@ -2118,11 +2188,14 @@
             {"name": "OT: Sorcery: Dark Fog","access_rules": ["@canReachOolacileTownship"]},
             {"name": "OT: Twin Humanities - Drop onto Roof","access_rules": ["@canReachOolacileTownship"]},
             {"name": "OT: Soul of a Brave Warrior - Corpse in Corner of Statue Hallway","access_rules": ["@canReachOolacileTownship"]},
+            {"name": "OT: Oolacile Township Dungeon Bonfire","access_rules": ["@canReachOolacileTownship"]},
             {"name": "OT: Silver Pendant","access_rules": ["@canReachOolacileTownshipBehindLightDispelledWalls"]},
             {"name": "OT: Red Titanite Chunk - In Chest behind Illusory Wall","access_rules": ["@canReachOolacileTownshipBehindLightDispelledWalls"]}
         ]
     },{ "name": "OT: Rubbish - Outside of Door","map_locations": [{"map": "Oolacile Township","x": 754,"y": 426}],"sections": [
             {"name": "OT: Rubbish - Outside of Door","ref": "Oolacile Township/OT: Rubbish - Outside of Door"}]
+    },{ "name": "OT: Oolacile Township Bonfire","map_locations": [{"map": "Oolacile Township","x": 576,"y": 20}],"sections": [
+            {"name": "OT: Oolacile Township Bonfire","ref": "Oolacile Township/OT: Oolacile Township Bonfire"}]
     },{ "name": "OT: Large Soul of a Proud Knight - Early Oolacile Rooftop","map_locations": [{"map": "Oolacile Township","x": 560,"y": 164}],"sections": [
             {"name": "OT: Large Soul of a Proud Knight - Early Oolacile Rooftop","ref": "Oolacile Township/OT: Large Soul of a Proud Knight - Early Oolacile Rooftop"}]
     },{ "name": "OT: Soul of a Brave Warrior - By First Sorceress","map_locations": [{"map": "Oolacile Township","x": 251,"y": 302}],"sections": [
@@ -2139,6 +2212,8 @@
             {"name": "OT: Twin Humanities - Drop onto Roof","ref": "Oolacile Township/OT: Twin Humanities - Drop onto Roof"}]
     },{ "name": "OT: Soul of a Brave Warrior - Corpse in Corner of Statue Hallway","map_locations": [{"map": "Oolacile Township","x": 429,"y": 385}],"sections": [
             {"name": "OT: Soul of a Brave Warrior - Corpse in Corner of Statue Hallway","ref": "Oolacile Township/OT: Soul of a Brave Warrior - Corpse in Corner of Statue Hallway"}]
+    },{ "name": "OT: Oolacile Township Dungeon Bonfire","map_locations": [{"map": "Oolacile Township","x": 767,"y": 750}],"sections": [
+            {"name": "OT: Oolacile Township Dungeon Bonfire","ref": "Oolacile Township/OT: Oolacile Township Dungeon Bonfire"}]
     },{ "name": "OT: Silver Pendant","map_locations": [{"map": "Oolacile Township","x": 293,"y": 404}],"sections": [
             {"name": "OT: Silver Pendant","ref": "Oolacile Township/OT: Silver Pendant"}] 
     },{ "name": "OT: Red Titanite Chunk - In Chest behind Illusory Wall","map_locations": [{"map": "Oolacile Township","x": 917,"y": 493}],"sections": [
@@ -2161,7 +2236,8 @@
             {"name": "CotA: Twin Humanities - Under Pillar","access_rules": ["@canReachChasmoftheAbyss"]},
             {"name": "CotA: White Titanite Slab - On Ledge","access_rules": ["@canReachChasmoftheAbyss"]},
             {"name": "CotA: Soul of a Hero - Left Ledge Before Boss","access_rules": ["@canReachChasmoftheAbyss"]},
-            {"name": "CotA: Boss Fog Wall - Manus","access_rules": ["@canReachChasmoftheAbyssManus"],"visibility_rules": ["setting_fogwall_lock_boss"]}
+            {"name": "CotA: Boss Fog Wall - Manus","access_rules": ["@canReachChasmoftheAbyssManus"],"visibility_rules": ["setting_fogwall_lock_boss"]},
+            {"name": "CotA: Chasm of the Abyss Bonfire","access_rules": ["@canReachChasmoftheAbyssManus"]}
         ]
     },{ "name": "CotA: Sorcery: Dark Bead","map_locations": [{"map": "Chasm of the Abyss","x": 30,"y": 436}],"sections": [
             {"name": "CotA: Sorcery: Dark Bead","ref": "Chasm of the Abyss/CotA: Sorcery: Dark Bead"}]
@@ -2181,6 +2257,8 @@
             {"name": "CotA: Soul of a Hero - Left Ledge Before Boss","ref": "Chasm of the Abyss/CotA: Soul of a Hero - Left Ledge Before Boss"}]
     },{ "name": "CotA: Boss Fog Wall - Manus","map_locations": [{"map": "Chasm of the Abyss","x": 697,"y": 543}],"sections": [
             {"name": "CotA: Boss Fog Wall - Manus","ref": "Chasm of the Abyss/CotA: Boss Fog Wall - Manus"}]
+    },{ "name": "CotA: Chasm of the Abyss Bonfire","map_locations": [{"map": "Chasm of the Abyss","x": 806,"y": 650}],"sections": [
+            {"name": "CotA: Chasm of the Abyss Bonfire","ref": "Chasm of the Abyss/CotA: Chasm of the Abyss Bonfire"}]
     },
 
 
@@ -2253,7 +2331,7 @@
         "@canReachUpperUndeadBurg, $canPassBossFog|boss_fog_wall_taurus_demon"
     ]},
     {
-    "name": "canReachUpperUndeadBurgAfterTaurusDemon",
+    "name": "canReachUpperUndeadBurgHellkiteBridge",
     "access_rules": [
         "@canReachUpperUndeadBurgTaurusDemon, $hasTaurusDemonDefeated",
         "@canReachUndeadParishBeforeFog"
@@ -2261,7 +2339,7 @@
     {
     "name": "canReachUndeadParishBeforeFog",
     "access_rules": [
-        "@canReachUpperUndeadBurgAfterTaurusDemon",
+        "@canReachUpperUndeadBurgHellkiteBridge",
         "@canReachUndeadParishFog",
         "@canReachUndeadParish"
     ]},
@@ -2308,7 +2386,7 @@
     {
     "name": "canReachUndeadBurgBasementDoor",
     "access_rules": [
-        "@canReachUpperUndeadBurg, @canReachUpperUndeadBurgAfterTaurusDemon, basement_key"
+        "@canReachUpperUndeadBurgHellkiteBridge, basement_key"
     ]},
     {
     "name": "canReachLowerUndeadBurg",
@@ -2384,6 +2462,7 @@
     "name": "canReachLowerBlighttown",
     "access_rules": [
         "@canReachUpperBlighttownDepthsSide, lordvessel",
+        "@canReachUpperBlighttownDepthsSide, setting_warp_without_lordvessel",
         "@canReachLowerBlighttownFog",
         "@canReachUpperBlighttownVotDSide"
     ]},
@@ -2589,24 +2668,25 @@
         "@canReachTheDukesArchives, $canPassBossFog|boss_fog_wall_seath_first_encounter"
     ]},
     {
-    "name": "canReachTheDukesArchivesCellDoor",
+    "name": "canReachTheDukesArchivesAfterArchiveTowerCellKey",
     "access_rules": [
         "@canReachTheDukesArchivesAfterFirstSeathEncounter"
     ]},
     {
-    "name": "canReachTheDukesArchivesGettingoutofCell",
-    "access_rules": [
-        "@canReachTheDukesArchivesCellDoor"
-    ]},
-    {
     "name": "canReachTheDukesArchivesAfterArchivePrisonExtraKey",
     "access_rules": [
-        "@canReachTheDukesArchivesGettingoutofCell, archive_prison_extra_key"
+        "@canReachTheDukesArchivesAfterFirstSeathEncounter, archive_prison_extra_key"
+    ]},
+    {
+    "name": "canReachTheDukesArchivesOutofCell",
+    "access_rules": [
+        "@canReachTheDukesArchivesAfterArchivePrisonExtraKey",
+        "@canReachTheDukesArchivesAfterArchiveTowerCellKey"
     ]},
     {
     "name": "canReachTheDukesArchivesAfterArchiveTowerGiantDoorKey",
     "access_rules": [
-        "@canReachTheDukesArchivesAfterArchivePrisonExtraKey, archive_tower_giant_door_key"
+        "@canReachTheDukesArchivesOutofCell, archive_tower_giant_door_key"
     ]},
     {
     "name": "canReachTheDukesArchivesCourtyard",
@@ -2616,7 +2696,7 @@
     {
     "name": "canReachTheDukesArchivesGiantCell",
     "access_rules": [
-        "@canReachTheDukesArchivesGettingoutofCell, archive_tower_giant_cell_key"
+        "@canReachTheDukesArchivesOutofCell, archive_tower_giant_cell_key"
     ]},
     {
     "name": "canReachCrystalCave",
@@ -2758,14 +2838,14 @@
         "@canReachDarkrootBasin, @canReachTheDukesArchives"
     ]},
     {
-    "name": "canReachSanctuaryGardenSantuaryGuardian",
+    "name": "canReachSanctuaryGardenSanctuaryGuardian",
     "access_rules": [
         "@canReachSanctuaryGarden, $canPassBossFog|boss_fog_wall_sanctuary_guardian"
     ]},
     {
     "name": "canReachOolacileSanctuary",
     "access_rules": [
-        "@canReachSanctuaryGardenSantuaryGuardian, $hasSanctuaryGuardianDefeated"
+        "@canReachSanctuaryGardenSanctuaryGuardian, $hasSanctuaryGuardianDefeated"
     ]},
     {
     "name": "canReachRoyalWood",

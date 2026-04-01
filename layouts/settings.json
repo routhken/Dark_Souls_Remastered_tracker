@@ -18,7 +18,8 @@
                         "rows": [
                             [
                                 "setting_fogwall_lock",
-                                "setting_fogwall_lock_boss"
+                                "setting_fogwall_lock_boss",
+                                "setting_warp_without_lordvessel"
                             ]
                         ]
                     }

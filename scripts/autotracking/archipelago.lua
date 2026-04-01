@@ -82,6 +82,7 @@ function onClear(slotData)
     Tracker:FindObjectForCode("setting_fogwall_lock_boss").Active = false
     Tracker:FindObjectForCode("setting_catacomb_logic").CurrentStage = 0
     Tracker:FindObjectForCode("setting_deathlink").Active = false
+    Tracker:FindObjectForCode("setting_warp_without_lordvessel").Active = false
     print("settings set to initialize as false")
 
     if sd_options['fogwall_sanity'] == 1 then
@@ -108,6 +109,9 @@ function onClear(slotData)
     end
     if sd_options['enable_deathlink'] == 1 then
         Tracker:FindObjectForCode("setting_deathlink").Active = true
+    end
+    if sd_options['can_warp_without_lordvessel'] == 1 then
+        Tracker:FindObjectForCode("setting_warp_without_lordvessel").Active = true
     end
 
     --print("Slotdata: ") --debug

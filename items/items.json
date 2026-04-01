@@ -533,6 +533,12 @@
         "codes": "setting_deathlink"
     },
     {
+        "name": "Setting: Warp Without Lordvessel",
+        "type": "toggle",
+        "img": "/images/settings/Bonfire.png",
+        "codes": "setting_warp_without_lordvessel"
+    },
+    {
         "name": "Setting: Catacombs Logic",
         "type": "progressive",
         "allow_disabled": false,
