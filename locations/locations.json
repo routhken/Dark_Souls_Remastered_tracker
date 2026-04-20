@@ -919,7 +919,7 @@
         "name": "ASH: Miracle: Great Magic Barrier","map_locations": [{"map": "Ash Lake","x": 795,"y": 230}],
         "sections": [{"name": "ASH: Miracle: Great Magic Barrier","ref": "Ash Lake/ASH: Miracle: Great Magic Barrier"}]
     },{
-        "name": "ASH: Stone Dragon Bonfire","map_locations": [{"map": "Ash Lake","x": 141,"y": 384}],
+        "name": "ASH: Stone Dragon Bonfire","map_locations": [{"map": "Ash Lake","x": 1291,"y": 113}],
         "sections": [{"name": "ASH: Stone Dragon Bonfire","ref": "Ash Lake/ASH: Stone Dragon Bonfire"}]
     },{
         "name": "Sen's Fortress",
@@ -2865,7 +2865,7 @@
     {
     "name": "canReachOolacileTownship",
     "access_rules": [
-        "@canReachRoyalWood, $hasArtoriasDefeated"
+        "@canReachRoyalWoodArtorias, $hasArtoriasDefeated"
     ]},
     {
     "name": "canReachOolacileTownshipBehindLightDispelledWalls",

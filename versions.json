@@ -1,6 +1,14 @@
 {
     "versions": [
         {
+            "package_version": "1.0.24",
+            "download_url": "https://github.com/routhken/Dark_Souls_Remastered_tracker/releases/download/v1.0.24/Dark_Souls_Remastered_aptracker.zip",
+            "sha256": "02adbaabc8a6509b0628eb296cc269fff1e002a847c6033a1df0a8a6481813dc",
+            "changelog": [
+                " - Fixed Artorias -> Oolacile Township logic",
+                " - Moved ash lake bonfire node to bonfire next to stone dragon"
+            ]
+        },{
             "package_version": "1.0.23",
             "download_url": "https://github.com/routhken/Dark_Souls_Remastered_tracker/releases/download/v1.0.23/Dark_Souls_Remastered_aptracker.zip",
             "sha256": "3860b10edd7324353c0260164ca535d72c01a25b3c5f84b0820e0fdc0af978c6",
