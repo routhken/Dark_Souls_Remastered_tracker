@@ -115,8 +115,8 @@
     },
     {
         "name": "Painted World of Ariamis",
-        "location_size": 45,
-        "location_border_thickness": 6,
+        "location_size": 30,
+        "location_border_thickness": 4,
         "img": "images/maps/Map_Painted World.png"
     },
     {

@@ -217,7 +217,7 @@
         "name": "UB: Soul of a Nameless Soldier - Hellkite Bridge","map_locations": [{"map": "Undead Burg Upper","x": 700,"y": 420}],
         "sections": [{"name": "UB: Soul of a Nameless Soldier - Hellkite Bridge","ref": "Upper Undead Burg/UB: Soul of a Nameless Soldier - Hellkite Bridge"}]
     },{
-        "name": "UB: Sunlight Altar Bonfire","map_locations": [{"map": "Undead Burg Upper","x": 1280,"y": 1425}],
+        "name": "UB: Sunlight Altar Bonfire","map_locations": [{"map": "Undead Burg Upper","x": 734,"y": 225}],
         "sections": [{"name": "UB: Sunlight Altar Bonfire","ref": "Upper Undead Burg/UB: Sunlight Altar Bonfire"}]
     },{
         "name": "UB: Gold Pine Resin - 3x Gold Pine Resin in Chest behind Locked Door","map_locations": [{"map": "Undead Burg Upper","x": 1950,"y": 1450}],
@@ -1234,109 +1234,109 @@
             {"name": "PW: Black Tights","access_rules": ["@canReachPaintedWorldofAriamisAfterAnnexKey"]}
         ]
     },{
-        "name": "PW: Painted World Bonfire","map_locations": [{"map": "Painted World of Ariamis","x": 1500,"y": 2682}],
+        "name": "PW: Painted World Bonfire","map_locations": [{"map": "Painted World of Ariamis","x": 750,"y": 1341}],
         "sections": [{"name": "PW: Painted World Bonfire","ref": "Painted World of Ariamis/PW: Painted World Bonfire"}]
     },{
-        "name": "PW: Fog Wall - Painted World","map_locations": [{"map": "Painted World of Ariamis","x": 1535,"y": 1713}],
+        "name": "PW: Fog Wall - Painted World","map_locations": [{"map": "Painted World of Ariamis","x": 767,"y": 856}],
         "sections": [{"name": "PW: Fog Wall - Painted World","ref": "Painted World of Ariamis/PW: Fog Wall - Painted World"}]
     },{
-        "name": "PW: Humanity - Painted World Hanging Body","map_locations": [{"map": "Painted World of Ariamis","x": 1780,"y": 2420}],
+        "name": "PW: Humanity - Painted World Hanging Body","map_locations": [{"map": "Painted World of Ariamis","x": 890,"y": 1210}],
         "sections": [{"name": "PW: Humanity - Painted World Hanging Body","ref": "Painted World of Ariamis/PW: Humanity - Painted World Hanging Body"}]
     },{
-        "name": "PW: Ring of Sacrifice - Painted World","map_locations": [{"map": "Painted World of Ariamis","x": 1230,"y": 2160}],
+        "name": "PW: Ring of Sacrifice - Painted World","map_locations": [{"map": "Painted World of Ariamis","x": 615,"y": 1080}],
         "sections": [{"name": "PW: Ring of Sacrifice - Painted World","ref": "Painted World of Ariamis/PW: Ring of Sacrifice - Painted World"}]
     },{
-        "name": "PW: Soul of a Proud Knight - Corpse up First Staircase","map_locations": [{"map": "Painted World of Ariamis","x": 660,"y": 1970}],
+        "name": "PW: Soul of a Proud Knight - Corpse up First Staircase","map_locations": [{"map": "Painted World of Ariamis","x": 330,"y": 985}],
         "sections": [{"name": "PW: Soul of a Proud Knight - Corpse up First Staircase","ref": "Painted World of Ariamis/PW: Soul of a Proud Knight - Corpse up First Staircase"}]
     },{
-        "name": "PW: Soul of a Proud Knight - Corpse near Bonewheels","map_locations": [{"map": "Painted World of Ariamis","x": 2310,"y": 1520}],
+        "name": "PW: Soul of a Proud Knight - Corpse near Bonewheels","map_locations": [{"map": "Painted World of Ariamis","x": 1155,"y": 760}],
         "sections": [{"name": "PW: Soul of a Proud Knight - Corpse near Bonewheels","ref": "Painted World of Ariamis/PW: Soul of a Proud Knight - Corpse near Bonewheels"}]
     },{
-        "name": "PW: Twin Humanities - Painted World","map_locations": [{"map": "Painted World of Ariamis","x": 600,"y": 2100}],
+        "name": "PW: Twin Humanities - Painted World","map_locations": [{"map": "Painted World of Ariamis","x": 300,"y": 1050}],
         "sections": [{"name": "PW: Twin Humanities - Painted World","ref": "Painted World of Ariamis/PW: Twin Humanities - Painted World"}]
     },{
-        "name": "PW: Soul of a Proud Knight - Painted World Corvid Ambush","map_locations": [{"map": "Painted World of Ariamis","x": 380,"y": 2160}],
+        "name": "PW: Soul of a Proud Knight - Painted World Corvid Ambush","map_locations": [{"map": "Painted World of Ariamis","x": 190,"y": 1080}],
         "sections": [{"name": "PW: Soul of a Proud Knight - Painted World Corvid Ambush","ref": "Painted World of Ariamis/PW: Soul of a Proud Knight - Painted World Corvid Ambush"}]
     },{
-        "name": "PW: Egg Vermifuge - Painted World","map_locations": [{"map": "Painted World of Ariamis","x": 170,"y": 1560}],
+        "name": "PW: Egg Vermifuge - Painted World","map_locations": [{"map": "Painted World of Ariamis","x": 85,"y": 780}],
         "sections": [{"name": "PW: Egg Vermifuge - Painted World","ref": "Painted World of Ariamis/PW: Egg Vermifuge - Painted World"}]
     },{
-        "name": "PW: Velka's Rapier","map_locations": [{"map": "Painted World of Ariamis","x": 620,"y": 1650}],
+        "name": "PW: Velka's Rapier","map_locations": [{"map": "Painted World of Ariamis","x": 310,"y": 825}],
         "sections": [{"name": "PW: Velka's Rapier","ref": "Painted World of Ariamis/PW: Velka's Rapier"}]
     },{
-        "name": "PW: Red Sign Soapstone","map_locations": [{"map": "Painted World of Ariamis","x": 830,"y": 1070}],
+        "name": "PW: Red Sign Soapstone","map_locations": [{"map": "Painted World of Ariamis","x": 415,"y": 535}],
         "sections": [{"name": "PW: Red Sign Soapstone","ref": "Painted World of Ariamis/PW: Red Sign Soapstone"}]
     },{
-        "name": "PW: Bloodshield","map_locations": [{"map": "Painted World of Ariamis","x": 1140,"y": 640}],
+        "name": "PW: Bloodshield","map_locations": [{"map": "Painted World of Ariamis","x": 570,"y": 320}],
         "sections": [{"name": "PW: Bloodshield","ref": "Painted World of Ariamis/PW: Bloodshield"}]
     },{
-        "name": "PW: Large Soul of a Proud Knight - Painted World Undead Dragon","map_locations": [{"map": "Painted World of Ariamis","x": 1075,"y": 700}],
+        "name": "PW: Large Soul of a Proud Knight - Painted World Undead Dragon","map_locations": [{"map": "Painted World of Ariamis","x": 537,"y": 350}],
         "sections": [{"name": "PW: Large Soul of a Proud Knight - Painted World Undead Dragon","ref": "Painted World of Ariamis/PW: Large Soul of a Proud Knight - Painted World Undead Dragon"}]
     },{
-        "name": "PW: Soul of a Proud Knight - Jeremiah 1","map_locations": [{"map": "Painted World of Ariamis","x": 2070,"y": 2230}],
+        "name": "PW: Soul of a Proud Knight - Jeremiah 1","map_locations": [{"map": "Painted World of Ariamis","x": 1035,"y": 1115}],
         "sections": [{"name": "PW: Soul of a Proud Knight - Jeremiah 1","ref": "Painted World of Ariamis/PW: Soul of a Proud Knight - Jeremiah 1"}]
     },{
-        "name": "PW: Soul of a Proud Knight - Jeremiah 2","map_locations": [{"map": "Painted World of Ariamis","x": 2120,"y": 2370}],
+        "name": "PW: Soul of a Proud Knight - Jeremiah 2","map_locations": [{"map": "Painted World of Ariamis","x": 1060,"y": 1185}],
         "sections": [{"name": "PW: Soul of a Proud Knight - Jeremiah 2","ref": "Painted World of Ariamis/PW: Soul of a Proud Knight - Jeremiah 2"}]
     },{
-        "name": "PW: Large Soul of a Proud Knight - Jeremiah","map_locations": [{"map": "Painted World of Ariamis","x": 2065,"y": 2070}],
+        "name": "PW: Large Soul of a Proud Knight - Jeremiah","map_locations": [{"map": "Painted World of Ariamis","x": 1032,"y": 1035}],
         "sections": [{"name": "PW: Large Soul of a Proud Knight - Jeremiah","ref": "Painted World of Ariamis/PW: Large Soul of a Proud Knight - Jeremiah"}]
     },{
-        "name": "PW: Pyromancy: Acid Surge","map_locations": [{"map": "Painted World of Ariamis","x": 1940,"y": 2530}],
+        "name": "PW: Pyromancy: Acid Surge","map_locations": [{"map": "Painted World of Ariamis","x": 970,"y": 1265}],
         "sections": [{"name": "PW: Pyromancy: Acid Surge","ref": "Painted World of Ariamis/PW: Pyromancy: Acid Surge"}]
     },{
-        "name": "PW: Soul of a Brave Warrior - Painted World Bonewheels","map_locations": [{"map": "Painted World of Ariamis","x": 2100,"y": 1300}],
+        "name": "PW: Soul of a Brave Warrior - Painted World Bonewheels","map_locations": [{"map": "Painted World of Ariamis","x": 1050,"y": 650}],
         "sections": [{"name": "PW: Soul of a Brave Warrior - Painted World Bonewheels","ref": "Painted World of Ariamis/PW: Soul of a Brave Warrior - Painted World Bonewheels"}]
     },{
-        "name": "PW: Annex Key","map_locations": [{"map": "Painted World of Ariamis","x": 1720,"y": 1120}],
+        "name": "PW: Annex Key","map_locations": [{"map": "Painted World of Ariamis","x": 860,"y": 560}],
         "sections": [{"name": "PW: Annex Key","ref": "Painted World of Ariamis/PW: Annex Key"}]
     },{
-        "name": "PW: Dark Ember","map_locations": [{"map": "Painted World of Ariamis","x": 1000,"y": 1770}],
+        "name": "PW: Dark Ember","map_locations": [{"map": "Painted World of Ariamis","x": 500,"y": 885}],
         "sections": [{"name": "PW: Dark Ember","ref": "Painted World of Ariamis/PW: Dark Ember"}]
     },{
-        "name": "PW: Miracle: Vow of Silence","map_locations": [{"map": "Painted World of Ariamis","x": 970,"y": 1620}],
+        "name": "PW: Miracle: Vow of Silence","map_locations": [{"map": "Painted World of Ariamis","x": 485,"y": 810}],
         "sections": [{"name": "PW: Miracle: Vow of Silence","ref": "Painted World of Ariamis/PW: Miracle: Vow of Silence"}]
     },{
-        "name": "PW: Black Cleric Set","map_locations": [{"map": "Painted World of Ariamis","x": 870,"y": 1440}],
+        "name": "PW: Black Cleric Set","map_locations": [{"map": "Painted World of Ariamis","x": 435,"y": 720}],
         "sections": [{"name": "PW: Mask of Velka","ref": "Painted World of Ariamis/PW: Mask of Velka"},
         {"name": "PW: Black Cleric Robe","ref": "Painted World of Ariamis/PW: Black Cleric Robe"},
         {"name": "PW: Black Manchette","ref": "Painted World of Ariamis/PW: Black Manchette"},
         {"name": "PW: Black Tights","ref": "Painted World of Ariamis/PW: Black Tights"}]
     },{
-        "name": "PW: Painting Guardian Set","map_locations": [{"map": "Painted World of Ariamis","x": 375,"y": 1290}],
+        "name": "PW: Painting Guardian Set","map_locations": [{"map": "Painted World of Ariamis","x": 187,"y": 645}],
         "sections": [{"name": "PW: Painting Guardian Hood","ref": "Painted World of Ariamis/PW: Painting Guardian Hood"},
         {"name": "PW: Painting Guardian Robe","ref": "Painted World of Ariamis/PW: Painting Guardian Robe"},
         {"name": "PW: Painting Guardian Gloves","ref": "Painted World of Ariamis/PW: Painting Guardian Gloves"},
         {"name": "PW: Painting Guardian Waistcloth","ref": "Painted World of Ariamis/PW: Painting Guardian Waistcloth"}]
     },{
-        "name": "PW: Humanity - Painted World Courtyard","map_locations": [{"map": "Painted World of Ariamis","x": 1350,"y": 1870}],
+        "name": "PW: Humanity - Painted World Courtyard","map_locations": [{"map": "Painted World of Ariamis","x": 675,"y": 935}],
         "sections": [{"name": "PW: Humanity - Painted World Courtyard","ref": "Painted World of Ariamis/PW: Humanity - Painted World Courtyard"}]
     },{
-        "name": "PW: Soul of a Proud Knight - By Hanging Corpse","map_locations": [{"map": "Painted World of Ariamis","x": 1370,"y": 2590}],
+        "name": "PW: Soul of a Proud Knight - By Hanging Corpse","map_locations": [{"map": "Painted World of Ariamis","x": 685,"y": 1295}],
         "sections": [{"name": "PW: Soul of a Proud Knight - By Hanging Corpse","ref": "Painted World of Ariamis/PW: Soul of a Proud Knight - By Hanging Corpse"}]
     },{
-        "name": "PW: Large Soul of a Proud Knight - Ambush after Building","map_locations": [{"map": "Painted World of Ariamis","x": 355,"y": 1420}],
+        "name": "PW: Large Soul of a Proud Knight - Ambush after Building","map_locations": [{"map": "Painted World of Ariamis","x": 177,"y": 710}],
         "sections": [{"name": "PW: Large Soul of a Proud Knight - Ambush after Building","ref": "Painted World of Ariamis/PW: Large Soul of a Proud Knight - Ambush after Building"}]
     },{
-        "name": "PW: Soul of a Brave Warrior - Painted World Albino Rats","map_locations": [{"map": "Painted World of Ariamis","x": 765,"y": 2620}],
+        "name": "PW: Soul of a Brave Warrior - Painted World Albino Rats","map_locations": [{"map": "Painted World of Ariamis","x": 382,"y": 1310}],
         "sections": [{"name": "PW: Soul of a Brave Warrior - Painted World Albino Rats","ref": "Painted World of Ariamis/PW: Soul of a Brave Warrior - Painted World Albino Rats"}]
     },{
-        "name": "PW: Gold Coin - Painted World","map_locations": [{"map": "Painted World of Ariamis","x": 270,"y": 1370}],
+        "name": "PW: Gold Coin - Painted World","map_locations": [{"map": "Painted World of Ariamis","x": 135,"y": 685}],
         "sections": [{"name": "PW: Gold Coin - Painted World","ref": "Painted World of Ariamis/PW: Gold Coin - Painted World"}]
     },{
-        "name": "PW: Soul of a Brave Warrior - Corpse at Backside Tower Corner","map_locations": [{"map": "Painted World of Ariamis","x": 910,"y": 1450}],
+        "name": "PW: Soul of a Brave Warrior - Corpse at Backside Tower Corner","map_locations": [{"map": "Painted World of Ariamis","x": 455,"y": 725}],
         "sections": [{"name": "PW: Soul of a Brave Warrior - Corpse at Backside Tower Corner","ref": "Painted World of Ariamis/PW: Soul of a Brave Warrior - Corpse at Backside Tower Corner"}]
     },{
-        "name": "PW: Soul of a Brave Warrior - Next to Ground Floor Stairs","map_locations": [{"map": "Painted World of Ariamis","x": 650,"y": 1615}],
+        "name": "PW: Soul of a Brave Warrior - Next to Ground Floor Stairs","map_locations": [{"map": "Painted World of Ariamis","x": 325,"y": 807}],
         "sections": [{"name": "PW: Soul of a Brave Warrior - Next to Ground Floor Stairs","ref": "Painted World of Ariamis/PW: Soul of a Brave Warrior - Next to Ground Floor Stairs"}]
     },{
-        "name": "PW: Boss Fog Wall - Crossbreed Priscilla","map_locations": [{"map": "Painted World of Ariamis","x": 1535,"y": 613}],
+        "name": "PW: Boss Fog Wall - Crossbreed Priscilla","map_locations": [{"map": "Painted World of Ariamis","x": 767,"y": 306}],
         "sections": [{"name": "PW: Boss Fog Wall - Crossbreed Priscilla","ref": "Painted World of Ariamis/PW: Boss Fog Wall - Crossbreed Priscilla"}]
     },{
-        "name": "PW: Soul of a Brave Warrior - Painted World Tower","map_locations": [{"map": "Painted World of Ariamis","x": 650,"y": 1430}],
+        "name": "PW: Soul of a Brave Warrior - Painted World Tower","map_locations": [{"map": "Painted World of Ariamis","x": 325,"y": 715}],
         "sections": [{"name": "PW: Soul of a Brave Warrior - Painted World Tower","ref": "Painted World of Ariamis/PW: Soul of a Brave Warrior - Painted World Tower"}]
     },{
-        "name": "PW: Soul of a Brave Warrior - Corpse Hanging out of Hole","map_locations": [{"map": "Painted World of Ariamis","x": 180,"y": 1790}],
+        "name": "PW: Soul of a Brave Warrior - Corpse Hanging out of Hole","map_locations": [{"map": "Painted World of Ariamis","x": 90,"y": 895}],
         "sections": [{"name": "PW: Soul of a Brave Warrior - Corpse Hanging out of Hole","ref": "Painted World of Ariamis/PW: Soul of a Brave Warrior - Corpse Hanging out of Hole"}]
     },{
         "name": "Upper New Londo Ruins",
@@ -1892,7 +1892,7 @@
         "name": "TC: Green Titanite Shard - On Platform near Vamos","map_locations": [{"map": "The Catacombs","x": 425,"y": 385}],
         "sections": [{"name": "TC: Green Titanite Shard - On Platform near Vamos","ref": "The Catacombs/TC: Green Titanite Shard - On Platform near Vamos"}]
     },{
-        "name": "TC: Catacombs Vamos Bonfire","map_locations": [{"map": "The Catacombs","x": 261,"y": 16}],
+        "name": "TC: Catacombs Vamos Bonfire","map_locations": [{"map": "The Catacombs","x": 901,"y": 235}],
         "sections": [{"name": "TC: Catacombs Vamos Bonfire","ref": "The Catacombs/TC: Catacombs Vamos Bonfire"}]
     },{
         "name": "TC: Miracle: Tranquil Walk of Peace","map_locations": [{"map": "The Catacombs","x": 774,"y": 520}],

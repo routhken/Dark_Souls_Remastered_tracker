@@ -1,6 +1,14 @@
 {
     "versions": [
         {
+            "package_version": "1.0.25",
+            "download_url": "https://github.com/routhken/Dark_Souls_Remastered_tracker/releases/download/v1.0.25/Dark_Souls_Remastered_aptracker.zip",
+            "sha256": "23c00e5ba88e51d5f66bc90165bc8582531a70eb27318916d8e78f691b586589",
+            "changelog": [
+                " - Fixed undead burg bonfire and catacombs bonfire nodes",
+                " - Compressed painted world map"
+            ]
+        },{
             "package_version": "1.0.24",
             "download_url": "https://github.com/routhken/Dark_Souls_Remastered_tracker/releases/download/v1.0.24/Dark_Souls_Remastered_aptracker.zip",
             "sha256": "02adbaabc8a6509b0628eb296cc269fff1e002a847c6033a1df0a8a6481813dc",
