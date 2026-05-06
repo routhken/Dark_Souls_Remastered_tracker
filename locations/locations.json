@@ -1327,7 +1327,7 @@
         "name": "PW: Soul of a Brave Warrior - Corpse at Backside Tower Corner","map_locations": [{"map": "Painted World of Ariamis","x": 455,"y": 725}],
         "sections": [{"name": "PW: Soul of a Brave Warrior - Corpse at Backside Tower Corner","ref": "Painted World of Ariamis/PW: Soul of a Brave Warrior - Corpse at Backside Tower Corner"}]
     },{
-        "name": "PW: Soul of a Brave Warrior - Next to Ground Floor Stairs","map_locations": [{"map": "Painted World of Ariamis","x": 325,"y": 807}],
+        "name": "PW: Soul of a Brave Warrior - Next to Ground Floor Stairs","map_locations": [{"map": "Painted World of Ariamis","x": 700,"y": 900}],
         "sections": [{"name": "PW: Soul of a Brave Warrior - Next to Ground Floor Stairs","ref": "Painted World of Ariamis/PW: Soul of a Brave Warrior - Next to Ground Floor Stairs"}]
     },{
         "name": "PW: Boss Fog Wall - Crossbreed Priscilla","map_locations": [{"map": "Painted World of Ariamis","x": 767,"y": 306}],
@@ -2318,7 +2318,8 @@
     "name": "canReachUpperUndeadBurg",
     "access_rules": [
         "@canReachUpperUndeadBurgFog",
-        "@canReachWatchtowerBasement"
+        "@canReachWatchtowerBasement",
+        "@canReachUpperUndeadBurgHellkiteBridge"
     ]},
     {
     "name": "canReachUpperUndeadBurgPineResinChest",
