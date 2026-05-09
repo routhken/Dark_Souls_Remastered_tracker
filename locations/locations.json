@@ -2876,7 +2876,7 @@
     {
     "name": "canReachOolacileTownshipAfterCrestKey",
     "access_rules": [
-        "@canReachOolacileTownship, crest_key"
+        "@canReachOolacileTownship, $hasCrestKey"
     ]},
     {
     "name": "canReachChasmoftheAbyss",

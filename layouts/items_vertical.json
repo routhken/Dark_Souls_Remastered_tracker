@@ -25,8 +25,7 @@
                             [
                                 "lord_soul_seath",
                                 "new_londo_key",
-                                "seal_key",
-                                "basement_key"
+                                "seal_key"
                             ],
                             [
                                 "lord_soul_fourkings",
@@ -51,7 +50,7 @@
                             [
                                 "depths_key",
                                 "cage_key",
-                                "crest_key"
+                                "basement_key"
                             ]
                         ]
                     }

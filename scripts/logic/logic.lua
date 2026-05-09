@@ -156,6 +156,10 @@ function canPassBossFog(item)
     return (not has("setting_fogwall_lock_boss")) or has(item)
 end
 
+function hasCrestKey()
+    return true
+end
+
 -- Visibility Rules
 function hasGoalOfAtLeastGwyn()
     return true
