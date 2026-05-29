@@ -36,10 +36,6 @@ function canUnlockBasement()
     return has("watchtower_basement_key") or has("master_key")
 end
 
-function hasPineResinChest()
-    return has("residence_key") or has("master_key")
-end
-
 -- Event Accessibility Rules
 -- Since events are not locations (yet), they are always assumed to be true
 function hasAsylumDemonDefeated() return true end
