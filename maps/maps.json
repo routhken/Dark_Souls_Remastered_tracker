@@ -120,12 +120,6 @@
         "img": "images/maps/Map_Painted World.png"
     },
     {
-        "name": "Quelaags Domain",
-        "location_size": 30,
-        "location_border_thickness": 4,
-        "img": "images/maps/Map_Quelaags Domain.png"
-    },
-    {
         "name": "Sen's Fortress Basement",
         "location_size": 30,
         "location_border_thickness": 4,

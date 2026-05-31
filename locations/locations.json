@@ -2246,7 +2246,7 @@
     {
     "name": "canReachUpperUndeadBurgPineResinChest",
     "access_rules": [
-        "@canReachUpperUndeadBurg, $hasPineResinChest"
+        "@canReachUpperUndeadBurg, @canReachUndeadMerchant"
     ]},
     {
     "name": "canReachUpperUndeadBurgTaurusDemon",
