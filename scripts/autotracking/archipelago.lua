@@ -1,5 +1,6 @@
 ScriptHost:LoadScript("scripts/autotracking/item_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/location_mapping.lua")
+ScriptHost:LoadScript("scripts/autotracking/helper_definitions.lua")
 Tracker.AllowDeferredLogicUpdate = true
 
 
@@ -123,13 +124,14 @@ function onClear(slotData)
     if Archipelago.PlayerNumber > -1 then
         HINTS_ID = "_read_hints_"..TEAM_NUMBER.."_"..PLAYER_ID
         DATA_STORAGE_ID = "Dark_Souls_Remastered_"..TEAM_NUMBER.."_"..PLAYER_ID
+		CurrentLocID = "DSR_current_map_"..TEAM_NUMBER.."_"..PLAYER_ID
 
         if Highlight then
-            Archipelago:SetNotify({HINTS_ID, DATA_STORAGE_ID})
-            Archipelago:Get({HINTS_ID, DATA_STORAGE_ID})
+            Archipelago:SetNotify({CurrentLocID, HINTS_ID, DATA_STORAGE_ID})
+            Archipelago:Get({CurrentLocID, HINTS_ID, DATA_STORAGE_ID})
         else
-            Archipelago:SetNotify({DATA_STORAGE_ID})
-            Archipelago:Get({DATA_STORAGE_ID})
+            Archipelago:SetNotify({CurrentLocID, DATA_STORAGE_ID})
+            Archipelago:Get({CurrentLocID, DATA_STORAGE_ID})
         end
     end
 
@@ -153,6 +155,20 @@ function OnNotify(key, value, old_value)
 				ClearHints(hint.location)
 			end
 		end
+    elseif key == CurrentLocID then
+        print("Current location: " .. tostring(value))
+        for _, notTupledValue in ipairs(value) do
+            if MapIDToTab[notTupledValue] then
+                for _, room in ipairs(MapIDToTab[notTupledValue]) do
+                    Tracker:UiHint("ActivateTab", room)
+                end
+            end
+        end
+		-- if MapIDToTab[value] then
+		-- 	for _, room in ipairs(MapIDToTab[value]) do
+		-- 		Tracker:UiHint("ActivateTab", room)
+		-- 	end
+		-- end
 	elseif key == DATA_STORAGE_ID and value ~= nil then
 		for k, v in pairs(value) do
 			if (DataStorageLocationTable[k]) then

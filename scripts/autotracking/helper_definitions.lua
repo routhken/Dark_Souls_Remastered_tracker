@@ -1,0 +1,36 @@
+-- autotab
+MapIDToTab = {
+    [1]  = {"Anor Londo Exterior"},  --"* Anor Londo"}, -> Exterior
+    [2]  = {"Anor Londo Interior"},  --"* Anor Londo"}, -> Interior
+    [3]  = {"Ash Lake"},  --"* Great Hollow / Ash Lake"}, -> Ash Lake
+    [4]  = {"Blighttown Lower"},  --"* Blighttown"}, -> Lower
+    [5]  = {"Blighttown Upper"},  --"* Blighttown"}, -> Upper
+    [6]  = {"The Catacombs"},  --"Catacombs"}, 
+    [7]  = {"Crystal Cave"},  --"* Duke's Archives / Crystal Cave"}, -> Crystal Cave
+    [8]  = {"Darkroot Basin"},  --"* Darkroot Garden / Darkroot Basin"}, -> Darkroot Basin
+    [9]  = {"Darkroot Garden"},  --"* Darkroot Garden / Darkroot Basin"}, -> Darkroot Garden
+    [10] = {"Demon Ruins"}, --"* Demon Ruins / Lost Izalith"}, -> Demon Ruins
+    [11] = {"Depths"}, -- "Depths"}, 
+    [12] = {"Duke's Archives"}, --"* Duke's Archives / Crystal Cave"}, -> Main
+    [13] = {"Duke's Archives Big Room"}, --"* Duke's Archives / Crystal Cave"}, -> Big Room
+    [14] = {"Firelink Shrine"}, --"Firelink Shrine"}, 
+    [15] = {"Great Hollow"}, --"* Great Hollow / Ash Lake"}, -> Great Hollow
+    [16] = {"Kiln of the First Flame"}, --"Kiln of the First Flame"}, 
+    [17] = {"Lost Izalith"}, --"* Demon Ruins / Lost Izalith"}, -> Lost Izalith
+    [18] = {"New Londo Ruins"}, --"* New Londo Ruins / Valley of Drakes"}, -> New Londo Ruins
+    [19] = {"Painted World of Ariamis"}, --"Painted World"}, 
+    [21] = {"Sen's Fortress Basement"}, --"* Sen's Fortress"}, -> Basement
+    [22] = {"Sen's Fortress Main"}, --"* Sen's Fortress"}, -> Main
+    [23] = {"Sen's Fortress Roof"}, --"* Sen's Fortress"}, -> Roof
+    [24] = {"Tomb of the Giants Lower"}, --"* Tomb of the Giants"}, -> Lower
+    [25] = {"Tomb of the Giants Upper"}, --"* Tomb of the Giants"}, -> Upper
+    [26] = {"Northern Undead Asylum"},--"Northern Undead Asylum"}]
+    [27] = {"Undead Burg Lower"}, -- "* Undead Burg  / Undead Parish"}, -> Undead Burg Lower
+    [28] = {"Undead Burg Upper"}, -- "* Undead Burg  / Undead Parish"}, -> Undead Burg Upper
+    [29] = {"Undead Parish"}, -- "* Undead Burg  / Undead Parish"}, -> Undead Parish
+    [30] = {"Valley of the Drakes"}, --"* New Londo Ruins / Valley of Drakes"}, -> Valley of Drakes
+    [31] = {"Sanctuary Sanctuary"}, --"* Oolacile"}, -> Sanctuary Garden & Sanctuary
+    [32] = {"Royal wood"}, --"* Oolacile"}, -> Royal wood
+    [33] = {"Oolacile Township"}, --"* Oolacile"}, -> Oolacile Township
+    [34] = {"Chasm of the Abyss"}, --"* Oolacile"}, -> Chasm of the Abyss
+}
