@@ -539,6 +539,13 @@
         "codes": "setting_warp_without_lordvessel"
     },
     {
+        "name": "Setting: Auto Map Tab",
+        "type": "toggle",
+        "img": "/images/settings/autotab.png",
+        "disabled_img": "images/settings/autotab_off.png",
+        "codes": "setting_auto_tab"
+    },
+    {
         "name": "Setting: Catacombs Logic",
         "type": "progressive",
         "allow_disabled": false,

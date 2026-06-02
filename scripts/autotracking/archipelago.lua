@@ -84,6 +84,7 @@ function onClear(slotData)
     Tracker:FindObjectForCode("setting_catacomb_logic").CurrentStage = 0
     Tracker:FindObjectForCode("setting_deathlink").Active = false
     Tracker:FindObjectForCode("setting_warp_without_lordvessel").Active = false
+    Tracker:FindObjectForCode("setting_auto_tab").Active = true
     print("settings set to initialize as false")
 
     if sd_options['fogwall_sanity'] == 1 then
@@ -157,10 +158,12 @@ function OnNotify(key, value, old_value)
 		end
     elseif key == CurrentLocID then
         print("Current location: " .. tostring(value))
-        if MapIDToTab[value] then
-         for _, room in ipairs(MapIDToTab[value]) do
-             Tracker:UiHint("ActivateTab", room)
-         end
+        if Tracker:FindObjectForCode("setting_auto_tab").Active == true then
+            if MapIDToTab[value] then
+                for _, room in ipairs(MapIDToTab[value]) do
+                    Tracker:UiHint("ActivateTab", room)
+                end
+            end
         end
 	elseif key == DATA_STORAGE_ID and value ~= nil then
 		for k, v in pairs(value) do

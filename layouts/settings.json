@@ -19,7 +19,8 @@
                             [
                                 "setting_fogwall_lock",
                                 "setting_fogwall_lock_boss",
-                                "setting_warp_without_lordvessel"
+                                "setting_warp_without_lordvessel",
+                                "setting_auto_tab"
                             ]
                         ]
                     }

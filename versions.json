@@ -1,6 +1,14 @@
 {
     "versions": [
         {
+            "package_version": "1.1.1",
+            "download_url": "https://github.com/routhken/Dark_Souls_Remastered_tracker/releases/download/v1.1.1/Dark_Souls_Remastered_aptracker.zip",
+            "sha256": "e249be0e4f0cd80a7f3c9319acac605a6a05681a8eab6d982755324e469dddf9",
+            "changelog": [
+                " - Fixed auto map tabbing",
+                " - Added a setting to disable auto tab"
+            ]
+        },{
             "package_version": "1.0.29",
             "download_url": "https://github.com/routhken/Dark_Souls_Remastered_tracker/releases/download/v1.0.29/Dark_Souls_Remastered_aptracker.zip",
             "sha256": "6d3d882aff18a2d8ba0b276dc62b43f00159cebe4df69a158275a86d23b9120b",
