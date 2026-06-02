@@ -157,18 +157,11 @@ function OnNotify(key, value, old_value)
 		end
     elseif key == CurrentLocID then
         print("Current location: " .. tostring(value))
-        for _, notTupledValue in ipairs(value) do
-            if MapIDToTab[notTupledValue] then
-                for _, room in ipairs(MapIDToTab[notTupledValue]) do
-                    Tracker:UiHint("ActivateTab", room)
-                end
-            end
+        if MapIDToTab[value] then
+         for _, room in ipairs(MapIDToTab[value]) do
+             Tracker:UiHint("ActivateTab", room)
+         end
         end
-		-- if MapIDToTab[value] then
-		-- 	for _, room in ipairs(MapIDToTab[value]) do
-		-- 		Tracker:UiHint("ActivateTab", room)
-		-- 	end
-		-- end
 	elseif key == DATA_STORAGE_ID and value ~= nil then
 		for k, v in pairs(value) do
 			if (DataStorageLocationTable[k]) then
