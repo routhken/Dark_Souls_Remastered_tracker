@@ -1145,7 +1145,7 @@
         "name": "AL: Lordvessel","map_locations": [{"map": "Anor Londo Interior","x": 2050,"y": 3000}],
         "sections": [{"name": "AL: Lordvessel","ref": "Anor Londo/AL: Lordvessel"}]
     },{
-        "name": "AL: Boss Fog Wall - Gwyndolin","map_locations": [{"map": "Anor Londo Interior","x": 2051,"y": 2906}],
+        "name": "AL: Boss Fog Wall - Gwyndolin","map_locations": [{"map": "Anor Londo Exterior","x": 2652,"y": 2117}],
         "sections": [{"name": "AL: Boss Fog Wall - Gwyndolin","ref": "Anor Londo/AL: Boss Fog Wall - Gwyndolin"}]
     },{
         "name": "Painted World of Ariamis",
@@ -2742,7 +2742,7 @@
     {
     "name": "canReachFirelinkAltar",
     "access_rules": [
-        "@canReachFirelinkShrine, @canReachUndeadParishBellGargoyles",
+        "@canReachFirelinkShrine, @canReachUndeadParishBellGargoyles, @canReachLowerBlighttownAfterQuelaag",
         "@canReachTheAbyssAfterFourKings"
     ]},
     {

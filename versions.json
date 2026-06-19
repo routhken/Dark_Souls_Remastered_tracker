@@ -1,6 +1,14 @@
 {
     "versions": [
         {
+            "package_version": "1.1.2",
+            "download_url": "https://github.com/routhken/Dark_Souls_Remastered_tracker/releases/download/v1.1.2/Dark_Souls_Remastered_aptracker.zip",
+            "sha256": "ea02cfca7b20be3d3dd55f6475b8f215cdcfa6805e24c3a9982bdd66726ea1a1",
+            "changelog": [
+                " - Fixed firelink altar logic not requiring access to quelaag",
+                " - Fixed position of gwyndolin fog wall node"
+            ]
+        },{
             "package_version": "1.1.1",
             "download_url": "https://github.com/routhken/Dark_Souls_Remastered_tracker/releases/download/v1.1.1/Dark_Souls_Remastered_aptracker.zip",
             "sha256": "e249be0e4f0cd80a7f3c9319acac605a6a05681a8eab6d982755324e469dddf9",
