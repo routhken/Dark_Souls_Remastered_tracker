@@ -10,8 +10,13 @@
         ],
         "sections": [
             {"name": "UA: Fog Wall - Northern Undead Asylum","access_rules": ["@canReachNorthernUndeadAsylumAfterFog"],"visibility_rules": ["setting_fogwall_lock_ua"]},
-            {"name": "UA: Soul of a Lost Undead - Outside Asylum","access_rules": ["@canReachNorthernUndeadAsylumAfterF2EastDoor"]}
+            {"name": "UA: Soul of a Lost Undead - Outside Asylum","access_rules": ["@canReachNorthernUndeadAsylumAfterF2EastDoor"]},
+            {"name": "UA: Humanity - Asylum Demon Drop","access_rules": ["@canReachNorthernUndeadAsylumAfterF2EastDoor"],"visibility_rules": ["setting_boss_humanity_shuffle"]}
         ]
+    },{"name": "Soul of a Lost Undead","map_locations": [{"map": "Undead Asylum","x": 560,"y": 1580}],
+        "sections": [{"name": "UA: Soul of a Lost Undead - Outside Asylum","ref": "Northern Undead Asylum/UA: Soul of a Lost Undead - Outside Asylum"}]
+    },{"name": "UA: Humanity - Asylum Demon Drop","map_locations": [{"map": "Undead Asylum","x": 501,"y": 1081}],
+        "sections": [{"name": "UA: Humanity - Asylum Demon Drop","ref": "Northern Undead Asylum/UA: Humanity - Asylum Demon Drop"}]
     },{
         "name": "Firelink Shrine",
         "map_locations": [
@@ -42,7 +47,29 @@
             {"name": "FS: Soul of a Lost Undead - Aqueduct Cliff","access_rules": ["@canReachFirelinkShrine"]},
             {"name": "FS: Soul of a Lost Undead - Aqueduct Entrance","access_rules": ["@canReachFirelinkShrine"]},
             {"name": "FS: Soul of a Lost Undead - Sewer Rat","access_rules": ["@canReachFirelinkShrine"]},
-            {"name": "FS: Undead Asylum F2 West Key","access_rules": ["@canReachFirelinkShrineAfterUndeadParishElevator"]}
+            {"name": "FS: Undead Asylum F2 West Key","access_rules": ["@canReachFirelinkShrineAfterUndeadParishElevator"]},
+            {"name": "Griggs of Vinheim: Sorcery: Soul Arrow","access_rules": ["@canReachFirelinkShrineGriggsOfVinheim"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Griggs of Vinheim: Sorcery: Great Soul Arrow","access_rules": ["@canReachFirelinkShrineGriggsOfVinheim"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Griggs of Vinheim: Sorcery: Heavy Soul Arrow","access_rules": ["@canReachFirelinkShrineGriggsOfVinheim"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Griggs of Vinheim: Sorcery: Great Heavy Soul Arrow","access_rules": ["@canReachFirelinkShrineGriggsOfVinheim"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Griggs of Vinheim: Sorcery: Magic Weapon","access_rules": ["@canReachFirelinkShrineGriggsOfVinheim"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Griggs of Vinheim: Sorcery: Magic Shield","access_rules": ["@canReachFirelinkShrineGriggsOfVinheim"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Griggs of Vinheim: Sorcery: Aural Decoy","access_rules": ["@canReachFirelinkShrineGriggsOfVinheim"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Griggs of Vinheim: Sorcery: Fall Control","access_rules": ["@canReachFirelinkShrineGriggsOfVinheim"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Griggs of Vinheim: Bellowing Dragoncrest Ring","access_rules": ["@canReachFirelinkShrineGriggsOfVinheim"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Griggs of Vinheim: Lingering Dragoncrest Ring","access_rules": ["@canReachFirelinkShrineGriggsOfVinheim"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Griggs of Vinheim: Sorcery: Homing Soulmass","access_rules": ["@canReachFirelinkShrineGriggsOfVinheimAfterLoganLeaves"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Griggs of Vinheim: Sorcery: Soul Spear","access_rules": ["@canReachFirelinkShrineGriggsOfVinheimAfterLoganLeaves"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Domhnall of Zena: Gold Pine Resin","access_rules": ["@canReachFirelinkShrineDomhnallOfZena"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Domhnall of Zena: Master Key","access_rules": ["@canReachFirelinkShrineDomhnallOfZena"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Male Undead Merchant or Domhnall of Zena: Bottomless Box","access_rules": ["@canReach2MerchantsBottomlessBox"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Petrus of Thorolund: Copper Coin","access_rules": ["@canReachFirelinkShrinePetrusOfThorolund"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Petrus of Thorolund: Miracle: Heal","access_rules": ["@canReachFirelinkShrinePetrusOfThorolund"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Petrus of Thorolund: Miracle: Great Heal Excerpt","access_rules": ["@canReachFirelinkShrinePetrusOfThorolund"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Petrus of Thorolund: Miracle: Homeward","access_rules": ["@canReachFirelinkShrinePetrusOfThorolund"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Petrus of Thorolund: Miracle: Force","access_rules": ["@canReachFirelinkShrinePetrusOfThorolund"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Petrus of Thorolund: Miracle: Seek Guidance","access_rules": ["@canReachFirelinkShrinePetrusOfThorolund"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Petrus of Thorolund: Humanity - Drop Added to Shop","access_rules": ["@canReachFirelinkShrinePetrusOfThorolund"],"visibility_rules": ["setting_shop_shuffle"]}
         ]
     },{
         "name": "FS: Firebomb - Outside Petrus","map_locations": [{"map": "Firelink Shrine","x": 1555,"y": 650}],
@@ -104,6 +131,31 @@
     },{
         "name": "Firelink Shrine - After Undead Parish Elevator","map_locations": [{"map": "Firelink Shrine","x": 2110,"y": 490}],
         "sections": [{"name": "FS: Undead Asylum F2 West Key","ref": "Firelink Shrine/FS: Undead Asylum F2 West Key"}]
+    },{"name": "Griggs of Vinheim","map_locations": [{"map": "Firelink Shrine","x": 1774,"y": 889}],"sections": [
+        {"name": "Griggs of Vinheim: Sorcery: Soul Arrow","ref": "Firelink Shrine/Griggs of Vinheim: Sorcery: Soul Arrow"},
+        {"name": "Griggs of Vinheim: Sorcery: Great Soul Arrow","ref": "Firelink Shrine/Griggs of Vinheim: Sorcery: Great Soul Arrow"},
+        {"name": "Griggs of Vinheim: Sorcery: Heavy Soul Arrow","ref": "Firelink Shrine/Griggs of Vinheim: Sorcery: Heavy Soul Arrow"},
+        {"name": "Griggs of Vinheim: Sorcery: Great Heavy Soul Arrow","ref": "Firelink Shrine/Griggs of Vinheim: Sorcery: Great Heavy Soul Arrow"},
+        {"name": "Griggs of Vinheim: Sorcery: Magic Weapon","ref": "Firelink Shrine/Griggs of Vinheim: Sorcery: Magic Weapon"},
+        {"name": "Griggs of Vinheim: Sorcery: Magic Shield","ref": "Firelink Shrine/Griggs of Vinheim: Sorcery: Magic Shield"},
+        {"name": "Griggs of Vinheim: Sorcery: Aural Decoy","ref": "Firelink Shrine/Griggs of Vinheim: Sorcery: Aural Decoy"},
+        {"name": "Griggs of Vinheim: Sorcery: Fall Control","ref": "Firelink Shrine/Griggs of Vinheim: Sorcery: Fall Control"},
+        {"name": "Griggs of Vinheim: Bellowing Dragoncrest Ring","ref": "Firelink Shrine/Griggs of Vinheim: Bellowing Dragoncrest Ring"},
+        {"name": "Griggs of Vinheim: Lingering Dragoncrest Ring","ref": "Firelink Shrine/Griggs of Vinheim: Lingering Dragoncrest Ring"},
+        {"name": "Griggs of Vinheim: Sorcery: Homing Soulmass","ref": "Firelink Shrine/Griggs of Vinheim: Sorcery: Homing Soulmass"},
+        {"name": "Griggs of Vinheim: Sorcery: Soul Spear","ref": "Firelink Shrine/Griggs of Vinheim: Sorcery: Soul Spear"}]
+    },{"name": "Domhnall of Zena","map_locations": [{"map": "Firelink Shrine","x": 2768,"y": 972}],"sections": [
+        {"name": "Domhnall of Zena: Gold Pine Resin","ref": "Firelink Shrine/Domhnall of Zena: Gold Pine Resin"},
+        {"name": "Domhnall of Zena: Master Key","ref": "Firelink Shrine/Domhnall of Zena: Master Key"},
+        {"name": "Male Undead Merchant or Domhnall of Zena: Bottomless Box","ref": "Firelink Shrine/Male Undead Merchant or Domhnall of Zena: Bottomless Box"}]
+    },{"name": "Petrus of Thorolund","map_locations": [{"map": "Firelink Shrine","x": 1535,"y": 789}],"sections": [
+        {"name": "Petrus of Thorolund: Copper Coin","ref": "Firelink Shrine/Petrus of Thorolund: Copper Coin"},
+        {"name": "Petrus of Thorolund: Miracle: Heal","ref": "Firelink Shrine/Petrus of Thorolund: Miracle: Heal"},
+        {"name": "Petrus of Thorolund: Miracle: Great Heal Excerpt","ref": "Firelink Shrine/Petrus of Thorolund: Miracle: Great Heal Excerpt"},
+        {"name": "Petrus of Thorolund: Miracle: Homeward","ref": "Firelink Shrine/Petrus of Thorolund: Miracle: Homeward"},
+        {"name": "Petrus of Thorolund: Miracle: Force","ref": "Firelink Shrine/Petrus of Thorolund: Miracle: Force"},
+        {"name": "Petrus of Thorolund: Miracle: Seek Guidance","ref": "Firelink Shrine/Petrus of Thorolund: Miracle: Seek Guidance"},
+        {"name": "Petrus of Thorolund: Humanity - Drop Added to Shop","ref": "Firelink Shrine/Petrus of Thorolund: Humanity - Drop Added to Shop"}]
     },{
         "name": "Northern Undead Asylum - Second Visit",
         "map_locations": [
@@ -116,7 +168,14 @@
         "sections": [
             {"name": "UA2: Crest Shield","access_rules": ["@canReachNorthernUndeadAsylumSecondVisit"]},
             {"name": "UA2: Peculiar Doll","access_rules": ["@canReachNorthernUndeadAsylumSecondVisit"]},
-            {"name": "UA2: Rusted Iron Ring","access_rules": ["@canReachNorthernUndeadAsylumSecondVisitBehindF2WestDoor"]}
+            {"name": "UA2: Rusted Iron Ring","access_rules": ["@canReachNorthernUndeadAsylumSecondVisitBehindF2WestDoor"]},
+            {"name": "UA2: Black Knight Sword - Black Knight Drop, Hallway Before Fog","access_rules": ["@canReachNorthernUndeadAsylumSecondVisit"],"visibility_rules": ["setting_black_knight_weapon_shuffle"]},
+            {"name": "UA2: Red Titanite Chunk - Black Knight Drop, Hallway Before Fog","access_rules": ["@canReachNorthernUndeadAsylumSecondVisit"]},
+            {"name": "UA2: Black Knight Shield - Black Knight Drop, By Starting Cell","access_rules": ["@canReachNorthernUndeadAsylumSecondVisit"],"visibility_rules": ["setting_black_knight_weapon_shuffle"]},
+            {"name": "UA2: Red Titanite Chunk - Black Knight Drop, By Starting Cell","access_rules": ["@canReachNorthernUndeadAsylumSecondVisit"]},
+            {"name": "UA2: Humanity - Stray Demon Drop","access_rules": ["@canReachNorthernUndeadAsylumSecondVisit"],"visibility_rules": ["setting_boss_humanity_shuffle"]},
+            {"name": "UA2: Homeward Bone - Stray Demon Drop","access_rules": ["@canReachNorthernUndeadAsylumSecondVisit"],"visibility_rules": ["setting_boss_bone_shuffle"]},
+            {"name": "UA2: Titanite Slab - Stray Demon Drop","access_rules": ["@canReachNorthernUndeadAsylumSecondVisit"]}
         ]
     },{
         "name": "Crest Shield","map_locations": [{"map": "Undead Asylum","x": 1395,"y": 430}],
@@ -127,9 +186,16 @@
     },{
         "name": "Peculiar Doll","map_locations": [{"map": "Undead Asylum","x": 160,"y": 1240}],
         "sections": [{"name": "UA2: Peculiar Doll","ref": "Northern Undead Asylum - Second Visit/UA2: Peculiar Doll"}]
-    },{
-        "name": "Soul of a Lost Undead","map_locations": [{"map": "Undead Asylum","x": 560,"y": 1580}],
-        "sections": [{"name": "UA: Soul of a Lost Undead - Outside Asylum","ref": "Northern Undead Asylum/UA: Soul of a Lost Undead - Outside Asylum"}]
+    },{"name": "UA2: Black Knight Sword - Black Knight Drop, Hallway Before Fog","map_locations": [{"map": "Undead Asylum","x": 1014,"y": 420}],
+    "sections": [{"name": "UA2: Black Knight Sword - Black Knight Drop, Hallway Before Fog","ref": "Northern Undead Asylum Second Visit/UA2: Black Knight Sword - Black Knight Drop, Hallway Before Fog"},
+    {"name": "UA2: Red Titanite Chunk - Black Knight Drop, Hallway Before Fog","ref": "Northern Undead Asylum Second Visit/UA2: Red Titanite Chunk - Black Knight Drop, Hallway Before Fog"}]
+    },{"name": "UA2: Black Knight Shield - Black Knight Drop, By Starting Cell","map_locations": [{"map": "Undead Asylum","x": 137,"y": 1097}],
+    "sections": [{"name": "UA2: Black Knight Shield - Black Knight Drop, By Starting Cell","ref": "Northern Undead Asylum Second Visit/UA2: Black Knight Shield - Black Knight Drop, By Starting Cell"},
+    {"name": "UA2: Red Titanite Chunk - Black Knight Drop, By Starting Cell","ref": "Northern Undead Asylum Second Visit/UA2: Red Titanite Chunk - Black Knight Drop, By Starting Cell"}]
+    },{"name": "UA2: Humanity - Stray Demon Drop","map_locations": [{"map": "Undead Asylum","x": 1154,"y": 1459}],
+    "sections": [{"name": "UA2: Humanity - Stray Demon Drop","ref": "Northern Undead Asylum - Second Visit/UA2: Humanity - Stray Demon Drop"},
+    {"name": "UA2: Homeward Bone - Stray Demon Drop","ref": "Northern Undead Asylum - Second Visit/UA2: Homeward Bone - Stray Demon Drop"},
+    {"name": "UA2: Titanite Slab - Stray Demon Drop","ref": "Northern Undead Asylum - Second Visit/UA2: Titanite Slab - Stray Demon Drop"}]
     },{
         "name": "Upper Undead Burg",
         "map_locations": [
@@ -158,7 +224,19 @@
             {"name": "UB: White Sign Soapstone","access_rules": ["@canReachUpperUndeadBurgHellkiteBridge"]},
             {"name": "UB: Claymore","access_rules": ["@canReachUpperUndeadBurgHellkiteBridge"]},
             {"name": "UB: Soul of a Nameless Soldier - Hellkite Bridge","access_rules": ["@canReachUpperUndeadBurgHellkiteBridge"]},
-            {"name": "UB: Gold Pine Resin - 3x Gold Pine Resin in Chest behind Locked Door","access_rules": ["@canReachUpperUndeadBurgPineResinChest"]}
+            {"name": "UB: Gold Pine Resin - 3x Gold Pine Resin in Chest behind Locked Door","access_rules": ["@canReachUpperUndeadBurgPineResinChest"]},
+            {"name": "UB: Titanite Chunk - Black Knight Drop","access_rules": ["@canReachUpperUndeadBurg"]},
+            {"name": "UB: Black Knight Sword - Black Knight Drop","access_rules": ["@canReachUpperUndeadBurg"],"visibility_rules": ["setting_black_knight_weapon_shuffle"]},
+            {"name": "UB: Twinkling Titanite - Crystal Lizard Drop, In Barrel Before Taurus Demon","access_rules": ["@canReachUpperUndeadBurg"],"visibility_rules": ["setting_crystal_lizard_shuffle"]},
+            {"name": "UB: Extra Titanite - Crystal Lizard Drop, In Barrel Before Taurus Demon","access_rules": ["@canReachUpperUndeadBurg"],"visibility_rules": ["setting_crystal_lizard_shuffle"]},
+            {"name": "UB: Humanity - Taurus Demon Drop","access_rules": ["@canReachUpperUndeadBurgTaurusDemon"],"visibility_rules": ["setting_boss_humanity_shuffle"]},
+            {"name": "UB: Homeward Bone - Taurus Demon Drop","access_rules": ["@canReachUpperUndeadBurgTaurusDemon"],"visibility_rules": ["setting_boss_bone_shuffle"]},
+            {"name": "Male Undead Merchant: Residence Key","access_rules": ["@canReachUpperUndeadBurgMaleUndeadMerchant"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Male Undead Merchant: Orange Guidance Soapstone","access_rules": ["@canReachUpperUndeadBurgMaleUndeadMerchant"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Male Undead Merchant: Dried Finger","access_rules": ["@canReachUpperUndeadBurgMaleUndeadMerchant"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Male Undead Merchant: Uchigatana - Drop Added To Shop","access_rules": ["@canReachUpperUndeadBurgMaleUndeadMerchant"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Male Undead Merchant: Humanity - Drop Added To Shop","access_rules": ["@canReachUpperUndeadBurgMaleUndeadMerchant"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Merchant: Repairbox","access_rules": ["@canReach4MerchantsRepairbox"],"visibility_rules": ["setting_shop_shuffle"]}
         ]
     },{
         "name": "UB: Soul of a Lost Undead - Window Corpse","map_locations": [{"map": "Undead Burg Upper","x": 570,"y": 1760}],
@@ -214,6 +292,23 @@
     },{
         "name": "UB: Gold Pine Resin - 3x Gold Pine Resin in Chest behind Locked Door","map_locations": [{"map": "Undead Burg Upper","x": 1950,"y": 1450}],
         "sections": [{"name": "UB: Gold Pine Resin - 3x Gold Pine Resin in Chest behind Locked Door","ref": "Upper Undead Burg/UB: Gold Pine Resin - 3x Gold Pine Resin in Chest behind Locked Door"}]
+    },{"name": "UB: Titanite Chunk - Black Knight Drop","map_locations": [{"map": "Undead Burg Upper","x": 1797,"y": 1573}],
+        "sections": [{"name": "UB: Titanite Chunk - Black Knight Drop","ref": "Upper Undead Burg/UB: Titanite Chunk - Black Knight Drop"},
+        {"name": "UB: Black Knight Sword - Black Knight Drop","ref": "Upper Undead Burg/UB: Black Knight Sword - Black Knight Drop"}]
+    },{"name": "UB: Twinkling Titanite - Crystal Lizard Drop, In Barrel Before Taurus Demon","map_locations": [{"map": "Undead Burg Upper","x": 2237,"y": 1077}],
+        "sections": [{"name": "UB: Twinkling Titanite - Crystal Lizard Drop, In Barrel Before Taurus Demon","ref": "Upper Undead Burg/UB: Twinkling Titanite - Crystal Lizard Drop, In Barrel Before Taurus Demon"},
+        {"name": "UB: Extra Titanite - Crystal Lizard Drop, In Barrel Before Taurus Demon","ref": "Upper Undead Burg/UB: Extra Titanite - Crystal Lizard Drop, In Barrel Before Taurus Demon"}]
+    },{"name": "UB: Humanity - Taurus Demon Drop","map_locations": [{"map": "Undead Burg Upper","x": 1815,"y": 1051}],
+        "sections": [{"name": "UB: Humanity - Taurus Demon Drop","ref": "Upper Undead Burg/UB: Humanity - Taurus Demon Drop"},
+        {"name": "UB: Homeward Bone - Taurus Demon Drop","ref": "Upper Undead Burg/UB: Homeward Bone - Taurus Demon Drop"}]
+    },{"name": "Male Undead Merchant","map_locations": [{"map": "Undead Burg Upper","x": 913,"y": 2285}],
+    "sections": [{"name": "Male Undead Merchant: Residence Key","ref": "Upper Undead Burg/Male Undead Merchant: Residence Key"},
+    {"name": "Male Undead Merchant: Orange Guidance Soapstone","ref": "Upper Undead Burg/Male Undead Merchant: Orange Guidance Soapstone"},
+    {"name": "Male Undead Merchant: Dried Finger","ref": "Upper Undead Burg/Male Undead Merchant: Dried Finger"},
+    {"name": "Male Undead Merchant: Uchigatana - Drop Added To Shop","ref": "Upper Undead Burg/Male Undead Merchant: Uchigatana - Drop Added To Shop"},
+    {"name": "Male Undead Merchant: Humanity - Drop Added To Shop","ref": "Upper Undead Burg/Male Undead Merchant: Humanity - Drop Added To Shop"},
+    {"name": "Male Undead Merchant or Domhnall of Zena: Bottomless Box","ref": "Firelink Shrine/Male Undead Merchant or Domhnall of Zena: Bottomless Box"},
+    {"name": "Merchant: Repairbox","ref": "Upper Undead Burg/Merchant: Repairbox"}]
     },{
         "name": "Undead Parish",
         "map_locations": [
@@ -234,7 +329,22 @@
             {"name": "UP: Fire Keeper Soul - Undead Parish","access_rules": ["@canReachUndeadParish"]},
             {"name": "UP: Large Soul of a Nameless Soldier - Parish Window","access_rules": ["@canReachUndeadParish"]},
             {"name": "UP: Humanity - Parish Barrel","access_rules": ["@canReachUndeadParish"]},
-            {"name": "UP: Boss Fog Wall - Bell Gargoyles","access_rules": ["@canReachUndeadParishBellGargoyles"],"visibility_rules": ["setting_fogwall_lock_boss"]}
+            {"name": "UP: Boss Fog Wall - Bell Gargoyles","access_rules": ["@canReachUndeadParishBellGargoyles"],"visibility_rules": ["setting_fogwall_lock_boss"]},
+            {"name": "UP: Black Knight Greatsword - Black Knight Drop, in Tower","access_rules": ["@canReachUndeadParishBeforeFog"],"visibility_rules": ["setting_black_knight_weapon_shuffle"]},
+            {"name": "UP: Titanite Chunk - Black Knight Drop, in Tower","access_rules": ["@canReachUndeadParishBeforeFog"]},
+            {"name": "UP: Twin Humanities - Bell Gargoyles Drop","access_rules": ["@canReachUndeadParishBellGargoyles"]},
+            {"name": "Andre of Astora: Crest of Artorias","access_rules": ["@canReachUndeadParishAndreOfAstora"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Andre of Astora: Humanity - Drop Added To Shop","access_rules": ["@canReachUndeadParishAndreOfAstora"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Andre of Astora: Blacksmith Hammer - Drop Added To Shop","access_rules": ["@canReachUndeadParishAndreOfAstora"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Oswald of Carim: Book of the Guilty","access_rules": ["@canReachUndeadParishOswaldOfCarim"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Oswald of Carim: Purging Stone","access_rules": ["@canReachUndeadParishOswaldOfCarim"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Oswald of Carim: Miracle: Karmic Justice","access_rules": ["@canReachUndeadParishOswaldOfCarim"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Oswald of Carim: Bloodbite Ring","access_rules": ["@canReachUndeadParishOswaldOfCarim"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Oswald of Carim: Poisonbite Ring","access_rules": ["@canReachUndeadParishOswaldOfCarim"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Oswald of Carim: Rings of Sacrifice","access_rules": ["@canReachUndeadParishOswaldOfCarim"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Oswald of Carim: Twin Humanities - Drop Added To Shop","access_rules": ["@canReachUndeadParishOswaldOfCarim"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Blacksmith: Weapon Smithbox","access_rules": ["@canReach3BlacksmithsSmithboxen"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Blacksmith: Armor Smithbox","access_rules": ["@canReach3BlacksmithsSmithboxen"],"visibility_rules": ["setting_shop_shuffle"]}
         ]
     },{
         "name": "UP: Alluring Skull","map_locations": [{"map": "Undead Parish","x": 590,"y": 1280}],
@@ -269,6 +379,26 @@
     },{
         "name": "UP: Boss Fog Wall - Bell Gargoyles","map_locations": [{"map": "Undead Parish","x": 1123,"y": 314}],
         "sections": [{"name": "UP: Boss Fog Wall - Bell Gargoyles","ref": "Undead Parish/UP: Boss Fog Wall - Bell Gargoyles"}]
+    },{"name": "UP: Black Knight Greatsword - Black Knight Drop, in Tower","map_locations": [{"map": "Undead Parish","x": 121,"y": 1613}],
+    "sections": [{"name": "UP: Black Knight Greatsword - Black Knight Drop, in Tower","ref": "Undead Parish/UP: Black Knight Greatsword - Black Knight Drop, in Tower"},
+    {"name": "UP: Titanite Chunk - Black Knight Drop, in Tower","ref": "Undead Parish/UP: Titanite Chunk - Black Knight Drop, in Tower"}]
+    },{"name": "UP: Twin Humanities - Bell Gargoyles Drop","map_locations": [{"map": "Undead Parish","x": 1451,"y": 221}],
+    "sections": [{"name": "UP: Twin Humanities - Bell Gargoyles Drop","ref": "Undead Parish/UP: Twin Humanities - Bell Gargoyles Drop"}]
+    },{"name": "Andre of Astora","map_locations": [{"map": "Undead Parish","x": 1975,"y": 2261}],
+    "sections": [{"name": "Andre of Astora: Crest of Artorias","ref": "Undead Parish/Andre of Astora: Crest of Artorias"},
+    {"name": "Andre of Astora: Humanity - Drop Added To Shop","ref": "Undead Parish/Andre of Astora: Humanity - Drop Added To Shop"},
+    {"name": "Andre of Astora: Blacksmith Hammer - Drop Added To Shop","ref": "Undead Parish/Andre of Astora: Blacksmith Hammer - Drop Added To Shop"},
+    {"name": "Merchant: Repairbox","ref": "Upper Undead Burg/Merchant: Repairbox"},
+    {"name": "Blacksmith: Weapon Smithbox","ref": "Undead Parish/Blacksmith: Weapon Smithbox"},
+    {"name": "Blacksmith: Armor Smithbox","ref": "Undead Parish/Blacksmith: Armor Smithbox"}]
+    },{"name": "Oswald of Carim","map_locations": [{"map": "Undead Parish","x": 1821,"y": 173}],
+    "sections": [{"name": "Oswald of Carim: Book of the Guilty","ref": "Undead Parish/Oswald of Carim: Book of the Guilty"},
+    {"name": "Oswald of Carim: Purging Stone","ref": "Undead Parish/Oswald of Carim: Purging Stone"},
+    {"name": "Oswald of Carim: Miracle: Karmic Justice","ref": "Undead Parish/Oswald of Carim: Miracle: Karmic Justice"},
+    {"name": "Oswald of Carim: Bloodbite Ring","ref": "Undead Parish/Oswald of Carim: Bloodbite Ring"},
+    {"name": "Oswald of Carim: Poisonbite Ring","ref": "Undead Parish/Oswald of Carim: Poisonbite Ring"},
+    {"name": "Oswald of Carim: Rings of Sacrifice","ref": "Undead Parish/Oswald of Carim: Rings of Sacrifice"},
+    {"name": "Oswald of Carim: Twin Humanities - Drop Added To Shop","ref": "Undead Parish/Oswald of Carim: Twin Humanities - Drop Added To Shop"}]
     },{
         "name": "Lower Undead Burg",
         "map_locations": [
@@ -294,7 +424,12 @@
             {"name": "UB: Sorcerer Cloak","access_rules": ["@canReachLowerUndeadBurgAfterResidenceKey"]},
             {"name": "UB: Sorcerer Gauntlets","access_rules": ["@canReachLowerUndeadBurgAfterResidenceKey"]},
             {"name": "UB: Sorcerer Boots","access_rules": ["@canReachLowerUndeadBurgAfterResidenceKey"]},
-            {"name": "UB: Sorcerer's Catalyst","access_rules": ["@canReachLowerUndeadBurgAfterResidenceKey"]}
+            {"name": "UB: Sorcerer's Catalyst","access_rules": ["@canReachLowerUndeadBurgAfterResidenceKey"]},
+            {"name": "UB: Humanity - Capra Demon Drop","access_rules": ["@canReachLowerUndeadBurgAfterCapraDemon"],"visibility_rules": ["setting_boss_humanity_shuffle"]},
+            {"name": "UB: Homeward Bone - Capra Demon Drop","access_rules": ["@canReachLowerUndeadBurgAfterCapraDemon"],"visibility_rules": ["setting_boss_bone_shuffle"]},
+            {"name": "UB: Havel's Ring","access_rules": ["@canReachWatchtowerBasement"]},
+            {"name": "Female Undead Merchant: Transient Curse","access_rules": ["@canReachLowerUndeadBurgFemaleUndeadMerchant"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Female Undead Merchant: Humanity","access_rules": ["@canReachLowerUndeadBurgFemaleUndeadMerchant"],"visibility_rules": ["setting_shop_shuffle"]}
         ]
     },{
         "name": "UB: Twin Humanities - Lower Burg Torch Hollows","map_locations": [{"map": "Undead Burg Lower","x": 1000,"y": 2830}],
@@ -319,8 +454,10 @@
         "name": "UB: Boss Fog Wall - Capra Demon","map_locations": [{"map": "Undead Burg Lower","x": 1163,"y": 729}],
         "sections": [{"name": "UB: Boss Fog Wall - Capra Demon","ref": "Lower Undead Burg/UB: Boss Fog Wall - Capra Demon"}]
     },{
-        "name": "UB: Key to Depths","map_locations": [{"map": "Undead Burg Lower","x": 1150,"y": 650}],
-        "sections": [{"name": "UB: Key to Depths","ref": "Lower Undead Burg/UB: Key to Depths"}]
+        "name": "UB: Capra Demon","map_locations": [{"map": "Undead Burg Lower","x": 1150,"y": 650}],
+        "sections": [{"name": "UB: Key to Depths","ref": "Lower Undead Burg/UB: Key to Depths"},
+        {"name": "UB: Humanity - Capra Demon Drop","ref": "Lower Undead Burg/UB: Humanity - Capra Demon Drop"},
+        {"name": "UB: Homeward Bone - Capra Demon Drop","ref": "Lower Undead Burg/UB: Homeward Bone - Capra Demon Drop"}]
     },{
         "name": "UB: Sorcerer Set","map_locations": [{"map": "Undead Burg Lower","x": 1400,"y": 2460}],
         "sections": [{"name": "UB: Sorcerer Hat","ref": "Lower Undead Burg/UB: Sorcerer Hat"},
@@ -328,6 +465,11 @@
         {"name": "UB: Sorcerer Gauntlets","ref": "Lower Undead Burg/UB: Sorcerer Gauntlets"},
         {"name": "UB: Sorcerer Boots","ref": "Lower Undead Burg/UB: Sorcerer Boots"},
         {"name": "UB: Sorcerer's Catalyst","ref": "Lower Undead Burg/UB: Sorcerer's Catalyst"}]
+    },{"name": "UB: Havel's Ring","map_locations": [{"map": "Undead Burg Upper","x": 2171,"y": 1535}],
+    "sections": [{"name": "UB: Havel's Ring","ref": "Lower Undead Burg/UB: Havel's Ring"}]
+    },{"name": "Female Undead Merchant: Transient Curse","map_locations": [{"map": "Undead Burg Lower","x": 323,"y": 715}],
+    "sections": [{"name": "Female Undead Merchant: Transient Curse","ref": "Lower Undead Burg/Female Undead Merchant: Transient Curse"},
+    {"name": "Female Undead Merchant: Humanity","ref": "Lower Undead Burg/Female Undead Merchant: Humanity"}]
     },{
         "name": "The Depths",
         "map_locations": [
@@ -360,7 +502,9 @@
             {"name": "DE: Hard Leather Armor","access_rules": ["@canReachDepthsGapingDragon"]},
             {"name": "DE: Hard Leather Gauntlets","access_rules": ["@canReachDepthsGapingDragon"]},
             {"name": "DE: Hard Leather Boots","access_rules": ["@canReachDepthsGapingDragon"]},
-            {"name": "DE: Blighttown Key","access_rules": ["@canReachDepthsAfterGapingDragon"]}
+            {"name": "DE: Blighttown Key","access_rules": ["@canReachDepthsAfterGapingDragon"]},
+            {"name": "DE: Twin Humanities - Gaping Dragon Drop","access_rules": ["@canReachDepthsAfterGapingDragon"],"visibility_rules": ["setting_boss_humanity_shuffle"]},
+            {"name": "DE: Homeward Bone - Gaping Dragon Drop","access_rules": ["@canReachDepthsAfterGapingDragon"],"visibility_rules": ["setting_boss_bone_shuffle"]}
         ]
     },{
         "name": "DE: Large Soul of a Nameless Soldier - Depths Entrance","map_locations": [{"map": "Depths","x": 800,"y": 200}],
@@ -423,6 +567,9 @@
     },{
         "name": "DE: Blighttown Key","map_locations": [{"map": "Depths","x": 245,"y": 2120}],
         "sections": [{"name": "DE: Blighttown Key","ref": "The Depths/DE: Blighttown Key"}]
+    },{"name": "DE: Gaping Dragon","map_locations": [{"map": "Depths","x": 246,"y": 2126}],
+    "sections": [{"name": "DE: Twin Humanities - Gaping Dragon Drop","ref": "The Depths/DE: Twin Humanities - Gaping Dragon Drop"},
+    {"name": "DE: Homeward Bone - Gaping Dragon Drop","ref": "The Depths/DE: Homeward Bone - Gaping Dragon Drop"}]
     },{
         "name": "Upper Blighttown",
         "map_locations": [
@@ -559,7 +706,9 @@
             {"name": "BT: Plank Shield","access_rules": ["@canReachLowerBlighttown"]},
             {"name": "BT: Twin Humanities - Great Hallow Entrance","access_rules": ["@canReachLowerBlighttown"]},
             {"name": "BT: Large Titanite Shard - Near Quelana","access_rules": ["@canReachLowerBlighttown"]},
-            {"name": "BT: Boss Fog Wall - Quelaag","access_rules": ["@canReachLowerBlighttownQuelaag"],"visibility_rules": ["setting_fogwall_lock_boss"]}
+            {"name": "BT: Boss Fog Wall - Quelaag","access_rules": ["@canReachLowerBlighttownQuelaag"],"visibility_rules": ["setting_fogwall_lock_boss"]},
+            {"name": "BT: Soul of Quelaag","access_rules": ["@canReachLowerBlighttownAfterQuelaag"],"visibility_rules": ["setting_boss_soul_shuffle"]},
+            {"name": "BT: Twin Humanities - Quelaag Drop","access_rules": ["@canReachLowerBlighttownAfterQuelaag"],"visibility_rules": ["setting_boss_humanity_shuffle"]}
         ]
     },{
         "name": "BT: Fog Wall - Lower Blighttown Entrance","map_locations": [{"map": "Blighttown Lower","x": 2369,"y": 817}],
@@ -605,8 +754,10 @@
         "name": "BT: Large Titanite Shard - Near Quelana","map_locations": [{"map": "Blighttown Lower","x": 800,"y": 1100}],
         "sections": [{"name": "BT: Large Titanite Shard - Near Quelana","ref": "Lower Blighttown/BT: Large Titanite Shard - Near Quelana"}]
     },{
-        "name": "BT: Boss Fog Wall - Quelaag","map_locations": [{"map": "Blighttown Lower","x": 335,"y": 1925}],
-        "sections": [{"name": "BT: Boss Fog Wall - Quelaag","ref": "Lower Blighttown/BT: Boss Fog Wall - Quelaag"}]
+        "name": "BT: Quelaag","map_locations": [{"map": "Blighttown Lower","x": 335,"y": 1925}],
+        "sections": [{"name": "BT: Boss Fog Wall - Quelaag","ref": "Lower Blighttown/BT: Boss Fog Wall - Quelaag"},
+        {"name": "BT: Soul of Quelaag","ref": "Lower Blighttown/BT: Soul of Quelaag"},
+        {"name": "BT: Twin Humanities - Quelaag Drop","ref": "Lower Blighttown/BT: Twin Humanities - Quelaag Drop"}]
     },{
         "name": "Valley of the Drakes",
         "map_locations": [
@@ -632,7 +783,8 @@
             {"name": "VotD: Witch Cloak","access_rules": ["@canReachValleyoftheDrakesAfterDefeatingFourKings"]},
             {"name": "VotD: Witch Gloves","access_rules": ["@canReachValleyoftheDrakesAfterDefeatingFourKings"]},
             {"name": "VotD: Witch Skirt","access_rules": ["@canReachValleyoftheDrakesAfterDefeatingFourKings"]},
-            {"name": "VotD: Beatrice's Catalyst","access_rules": ["@canReachValleyoftheDrakesAfterDefeatingFourKings"]}
+            {"name": "VotD: Beatrice's Catalyst","access_rules": ["@canReachValleyoftheDrakesAfterDefeatingFourKings"]},
+            {"name": "VotD: Dragon Scale - Undead Dragon Drop","access_rules": ["@canReachValleyoftheDrakes"]}
         ]
     },{
         "name": "VotD: Large Soul of a Nameless Soldier - New Londo Door","map_locations": [{"map": "Valley of the Drakes","x": 115,"y": 90}],
@@ -666,6 +818,8 @@
         {"name": "VotD: Witch Gloves","ref": "Valley of the Drakes/VotD: Witch Gloves"},
         {"name": "VotD: Witch Skirt","ref": "Valley of the Drakes/VotD: Witch Skirt"},
         {"name": "VotD: Beatrice's Catalyst","ref": "Valley of the Drakes/VotD: Beatrice's Catalyst"}]
+    },{"name": "VotD: Dragon Scale - Undead Dragon Drop","map_locations": [{"map": "Valley of the Drakes","x": 382,"y": 539}],
+    "sections": [{"name": "VotD: Dragon Scale - Undead Dragon Drop","ref": "Valley of the Drakes/VotD: Dragon Scale - Undead Dragon Drop"}]
     },{
         "name": "Darkroot Basin",
         "map_locations": [
@@ -686,7 +840,13 @@
             {"name": "DB: Knight Helm","access_rules": ["@canReachDarkrootBasin"]},
             {"name": "DB: Knight Armor","access_rules": ["@canReachDarkrootBasin"]},
             {"name": "DB: Knight Gauntlets","access_rules": ["@canReachDarkrootBasin"]},
-            {"name": "DB: Knight Leggings","access_rules": ["@canReachDarkrootBasin"]}
+            {"name": "DB: Knight Leggings","access_rules": ["@canReachDarkrootBasin"]},
+            {"name": "DB: Twinkling Titanite - Crystal Lizard Drop, Descending Toward Hunter Set","access_rules": ["@canReachDarkrootBasin"],"visibility_rules": ["setting_crystal_lizard_shuffle"]},
+            {"name": "DB: Extra Titanite - Crystal Lizard Drop, Descending Toward Hunter Set","access_rules": ["@canReachDarkrootBasin"],"visibility_rules": ["setting_crystal_lizard_shuffle"]},
+            {"name": "DB: Dragon Scale - Hydra Drop","access_rules": ["@canReachDarkrootBasin"]},
+            {"name": "DB: Dusk Crown Ring - Hydra Drop","access_rules": ["@canReachDarkrootBasin"]},
+            {"name": "DB: Black Knight Halberd - Black Knight Drop","access_rules": ["@canReachDarkrootBasin"],"visibility_rules": ["setting_black_knight_weapon_shuffle"]},
+            {"name": "DB: Blue Titanite Chunk - Black Knight Drop","access_rules": ["@canReachDarkrootBasin"]}
         ]
     },{
         "name": "DB: Leather Set","map_locations": [{"map": "Darkroot Basin","x": 200,"y": 370}],
@@ -707,6 +867,15 @@
         {"name": "DB: Knight Armor","ref": "Darkroot Basin/DB: Knight Armor"},
         {"name": "DB: Knight Gauntlets","ref": "Darkroot Basin/DB: Knight Gauntlets"},
         {"name": "DB: Knight Leggings","ref": "Darkroot Basin/DB: Knight Leggings"}]
+    },{"name": "DB: Crystal Lizard","map_locations": [{"map": "Darkroot Basin","x": 170,"y": 363}],
+    "sections": [{"name": "DB: Twinkling Titanite - Crystal Lizard Drop, Descending Toward Hunter Set","ref": "Darkroot Basin/DB: Twinkling Titanite - Crystal Lizard Drop, Descending Toward Hunter Set"},
+    {"name": "DB: Extra Titanite - Crystal Lizard Drop, Descending Toward Hunter Set","ref": "Darkroot Basin/DB: Extra Titanite - Crystal Lizard Drop, Descending Toward Hunter Set"}]
+    },{"name": "DB: Hydra","map_locations": [{"map": "Darkroot Basin","x": 785,"y": 500}],
+    "sections": [{"name": "DB: Dragon Scale - Hydra Drop","ref": "Darkroot Basin/DB: Dragon Scale - Hydra Drop"},
+    {"name": "DB: Dusk Crown Ring - Hydra Drop","ref": "Darkroot Basin/DB: Dusk Crown Ring - Hydra Drop"}]
+    },{"name": "DB: Black Knight","map_locations": [{"map": "Darkroot Basin","x": 115,"y": 507}],
+    "sections": [{"name": "DB: Black Knight Halberd - Black Knight Drop","ref": "Darkroot Basin/DB: Black Knight Halberd - Black Knight Drop"},
+    {"name": "DB: Blue Titanite Chunk - Black Knight Drop","ref": "Darkroot Basin/DB: Blue Titanite Chunk - Black Knight Drop"}]
     },{
         "name": "Darkroot Garden",
         "map_locations": [
@@ -730,7 +899,9 @@
             {"name": "DG: Boss Fog Wall - Moonlight Butterfly","access_rules": ["@canReachDarkrootGardenMoonlightButterfly"],"visibility_rules": ["setting_fogwall_lock_boss"]},
             {"name": "DG: Homeward Bone - Frozen Blacksmith","access_rules": ["@canReachDarkrootGardenAfterMoonlightButterfly"]},
             {"name": "DG: Watchtower Basement Key","access_rules": ["@canReachDarkrootGardenAfterMoonlightButterfly"]},
-            {"name": "DG: Divine Ember","access_rules": ["@canReachDarkrootGardenAfterMoonlightButterfly"]}
+            {"name": "DG: Divine Ember","access_rules": ["@canReachDarkrootGardenAfterMoonlightButterfly"]},
+            {"name": "DG: Humanity - Moonlight Butterfly Drop","access_rules": ["@canReachDarkrootGardenMoonlightButterfly"],"visibility_rules": ["setting_boss_humanity_shuffle"]},
+            {"name": "DG: Soul of the Moonlight Butterfly","access_rules": ["@canReachDarkrootGardenAfterMoonlightButterfly"],"visibility_rules": ["setting_boss_soul_shuffle"]}
         ]
     },{
         "name": "DG: Large Soul of a Nameless Soldier - Darkroot Cliff","map_locations": [{"map": "Darkroot Garden","x": 160,"y": 325}],
@@ -764,6 +935,9 @@
         "sections": [{"name": "DG: Homeward Bone - Frozen Blacksmith","ref": "Darkroot Garden/DG: Homeward Bone - Frozen Blacksmith"},
         {"name": "DG: Watchtower Basement Key","ref": "Darkroot Garden/DG: Watchtower Basement Key"},
         {"name": "DG: Divine Ember","ref": "Darkroot Garden/DG: Divine Ember"}]
+    },{"name": "DG: Moonlight Butterfly","map_locations": [{"map": "Darkroot Garden","x": 104,"y": 386}],
+    "sections": [{"name": "DG: Humanity - Moonlight Butterfly Drop","ref": "Darkroot Garden/DG: Humanity - Moonlight Butterfly Drop"},
+    {"name": "DG: Soul of the Moonlight Butterfly","ref": "Darkroot Garden/DG: Soul of the Moonlight Butterfly"}]
     },{
         "name": "Darkroot Garden - Behind Artorias Door",
         "map_locations": [
@@ -785,7 +959,11 @@
             {"name": "DG: Large Soul of a Brave Warrior - Darkroot Garden Cats","access_rules": ["@canReachDarkrootGardenBehindArtoriasDoor"]},
             {"name": "DG: Soul of a Brave Warrior - Down Ladder before Stone Bridge","access_rules": ["@canReachDarkrootGardenBehindArtoriasDoor"]},
             {"name": "DG: Enchanted Ember","access_rules": ["@canReachDarkrootGardenBehindArtoriasDoor"]},
-            {"name": "DG: Hornet Ring","access_rules": ["@canReachDarkrootGardenBehindArtoriasDoor"]}
+            {"name": "DG: Hornet Ring","access_rules": ["@canReachDarkrootGardenBehindArtoriasDoor"]},
+            {"name": "DG: Covenant of Artorias - Sif Drop","access_rules": ["@canReachDarkrootGardenBehindArtoriasDoor"]},
+            {"name": "DG: Soul of Sif","access_rules": ["@canReachDarkrootGardenBehindArtoriasDoor"],"visibility_rules": ["setting_boss_soul_shuffle"]},
+            {"name": "DG: Humanity - Sif Drop","access_rules": ["@canReachDarkrootGardenBehindArtoriasDoor"],"visibility_rules": ["setting_boss_humanity_shuffle"]},
+            {"name": "DG: Homeward Bone - Sif Drop","access_rules": ["@canReachDarkrootGardenBehindArtoriasDoor"],"visibility_rules": ["setting_boss_bone_shuffle"]}
         ]
     },{
         "name": "DG: Eastern Set","map_locations": [{"map": "Darkroot Garden","x": 362,"y": 470}],
@@ -811,6 +989,11 @@
     },{
         "name": "DG: Hornet Ring","map_locations": [{"map": "Darkroot Garden","x": 885,"y": 210}],
         "sections": [{"name": "DG: Hornet Ring","ref": "Darkroot Garden - Behind Artorias Door/DG: Hornet Ring"}]
+    },{"name": "DG: Covenant of Artorias - Sif Drop","map_locations": [{"map": "Darkroot Garden","x": 861,"y": 196}],
+    "sections": [{"name": "DG: Covenant of Artorias - Sif Drop","ref": "Darkroot Garden - Behind Artorias Door/DG: Covenant of Artorias - Sif Drop"},
+    {"name": "DG: Soul of Sif","ref": "Darkroot Garden - Behind Artorias Door/DG: Soul of Sif"},
+    {"name": "DG: Humanity - Sif Drop","ref": "Darkroot Garden - Behind Artorias Door/DG: Humanity - Sif Drop"},
+    {"name": "DG: Homeward Bone - Sif Drop","ref": "Darkroot Garden - Behind Artorias Door/DG: Homeward Bone - Sif Drop"}]
     },{
         "name": "The Great Hollow",
         "map_locations": [
@@ -831,7 +1014,27 @@
             {"name": "GH: Large Soul of a Nameless Soldier - Corpse Entry to Basilisks","access_rules": ["@canReachTheGreatHollow"]},
             {"name": "GH: Large Soul of a Nameless Soldier - Corpse on Lower Floor with Basilisks","access_rules": ["@canReachTheGreatHollow"]},
             {"name": "GH: Titanite Chunk - Corpse on Mushroom","access_rules": ["@canReachTheGreatHollow"]},
-            {"name": "GH: Red Titanite Chunk - Near Top Branch Drop","access_rules": ["@canReachTheGreatHollow"]}
+            {"name": "GH: Red Titanite Chunk - Near Top Branch Drop","access_rules": ["@canReachTheGreatHollow"]},
+            {"name": "GH: Twinkling Titanite - Crystal Lizard Drop, Near Top, Start of Hallway To Dead End","access_rules": ["@canReachTheGreatHollow"],"visibility_rules": ["setting_crystal_lizard_shuffle"]},
+            {"name": "GH: Extra Titanite - Crystal Lizard Drop, Near Top, Start of Hallway To Dead End","access_rules": ["@canReachTheGreatHollow"],"visibility_rules": ["setting_crystal_lizard_shuffle"]},
+            {"name": "GH: Twinkling Titanite - Crystal Lizard Drop, Near Top, End of Hallway Dead End","access_rules": ["@canReachTheGreatHollow"],"visibility_rules": ["setting_crystal_lizard_shuffle"]},
+            {"name": "GH: Extra Titanite - Crystal Lizard Drop, Near Top, End of Hallway Dead End","access_rules": ["@canReachTheGreatHollow"],"visibility_rules": ["setting_crystal_lizard_shuffle"]},
+            {"name": "GH: Twinkling Titanite - Crystal Lizard Drop, Start of Hallway To Basilisk Overlook","access_rules": ["@canReachTheGreatHollow"],"visibility_rules": ["setting_crystal_lizard_shuffle"]},
+            {"name": "GH: Extra Titanite - Crystal Lizard Drop, Start of Hallway To Basilisk Overlook","access_rules": ["@canReachTheGreatHollow"],"visibility_rules": ["setting_crystal_lizard_shuffle"]},
+            {"name": "GH: Twinkling Titanite - Crystal Lizard Drop, Near End of Hallway To Basilisk Overlook","access_rules": ["@canReachTheGreatHollow"],"visibility_rules": ["setting_crystal_lizard_shuffle"]},
+            {"name": "GH: Extra Titanite - Crystal Lizard Drop, Near End of Hallway To Basilisk Overlook","access_rules": ["@canReachTheGreatHollow"],"visibility_rules": ["setting_crystal_lizard_shuffle"]},
+            {"name": "GH: Twinkling Titanite - Crystal Lizard Drop, Basilisk Overlook, Right","access_rules": ["@canReachTheGreatHollow"],"visibility_rules": ["setting_crystal_lizard_shuffle"]},
+            {"name": "GH: Extra Titanite - Crystal Lizard Drop, Basilisk Overlook, Right","access_rules": ["@canReachTheGreatHollow"],"visibility_rules": ["setting_crystal_lizard_shuffle"]},
+            {"name": "GH: Twinkling Titanite - Crystal Lizard Drop, Basilisk Overlook, Middle","access_rules": ["@canReachTheGreatHollow"],"visibility_rules": ["setting_crystal_lizard_shuffle"]},
+            {"name": "GH: Extra Titanite - Crystal Lizard Drop, Basilisk Overlook, Middle","access_rules": ["@canReachTheGreatHollow"],"visibility_rules": ["setting_crystal_lizard_shuffle"]},
+            {"name": "GH: Twinkling Titanite - Crystal Lizard Drop, Basilisk Overlook, Left","access_rules": ["@canReachTheGreatHollow"],"visibility_rules": ["setting_crystal_lizard_shuffle"]},
+            {"name": "GH: Extra Titanite - Crystal Lizard Drop, Basilisk Overlook, Left","access_rules": ["@canReachTheGreatHollow"],"visibility_rules": ["setting_crystal_lizard_shuffle"]},
+            {"name": "GH: Twinkling Titanite - Crystal Lizard Drop, Above Red Titanite Chunk Location, Behind Branch","access_rules": ["@canReachTheGreatHollow"],"visibility_rules": ["setting_crystal_lizard_shuffle"]},
+            {"name": "GH: Extra Titanite - Crystal Lizard Drop, Above Red Titanite Chunk Location, Behind Branch","access_rules": ["@canReachTheGreatHollow"],"visibility_rules": ["setting_crystal_lizard_shuffle"]},
+            {"name": "GH: Twinkling Titanite - Crystal Lizard Drop, 2nd Platform By Top Ladder, Right","access_rules": ["@canReachTheGreatHollow"],"visibility_rules": ["setting_crystal_lizard_shuffle"]},
+            {"name": "GH: Extra Titanite - Crystal Lizard Drop, 2nd Platform By Top Ladder, Right","access_rules": ["@canReachTheGreatHollow"],"visibility_rules": ["setting_crystal_lizard_shuffle"]},
+            {"name": "GH: Twinkling Titanite - Crystal Lizard Drop, 2nd Platform By Top Ladder, Left","access_rules": ["@canReachTheGreatHollow"],"visibility_rules": ["setting_crystal_lizard_shuffle"]},
+            {"name": "GH: Extra Titanite - Crystal Lizard Drop, 2nd Platform By Top Ladder, Left","access_rules": ["@canReachTheGreatHollow"],"visibility_rules": ["setting_crystal_lizard_shuffle"]}
         ]
     },{
         "name": "GH: Titanite Chunk - Drop on Top Branch","map_locations": [{"map": "Great Hollow","x": 540,"y": 60}],
@@ -866,6 +1069,36 @@
     },{
         "name": "GH: Red Titanite Chunk - Near Top Branch Drop","map_locations": [{"map": "Great Hollow","x": 552,"y": 160}],
         "sections": [{"name": "GH: Red Titanite Chunk - Near Top Branch Drop","ref": "The Great Hollow/GH: Red Titanite Chunk - Near Top Branch Drop"}]
+    },{"name": "GH: Crystal Lizard, Near Top, Start of Hallway To Dead End","map_locations": [{"map": "Great Hollow","x": 190,"y": 206}],
+    "sections": [{"name": "GH: Twinkling Titanite - Crystal Lizard Drop, Near Top, Start of Hallway To Dead End","ref": "The Great Hollow/GH: Twinkling Titanite - Crystal Lizard Drop, Near Top, Start of Hallway To Dead End"},
+    {"name": "GH: Extra Titanite - Crystal Lizard Drop, Near Top, Start of Hallway To Dead End","ref": "The Great Hollow/GH: Extra Titanite - Crystal Lizard Drop, Near Top, Start of Hallway To Dead End"}]
+    },{"name": "GH: Crystal Lizard, Near Top, End of Hallway Dead End","map_locations": [{"map": "Great Hollow","x": 329,"y": 304}],
+    "sections": [{"name": "GH: Twinkling Titanite - Crystal Lizard Drop, Near Top, End of Hallway Dead End","ref": "The Great Hollow/GH: Twinkling Titanite - Crystal Lizard Drop, Near Top, End of Hallway Dead End"},
+    {"name": "GH: Extra Titanite - Crystal Lizard Drop, Near Top, End of Hallway Dead End","ref": "The Great Hollow/GH: Extra Titanite - Crystal Lizard Drop, Near Top, End of Hallway Dead End"}]
+    },{"name": "GH: Crystal Lizard, Start of Hallway To Basilisk Overlook","map_locations": [{"map": "Great Hollow","x": 72,"y": 254}],
+    "sections": [{"name": "GH: Twinkling Titanite - Crystal Lizard Drop, Start of Hallway To Basilisk Overlook","ref": "The Great Hollow/GH: Twinkling Titanite - Crystal Lizard Drop, Start of Hallway To Basilisk Overlook"},
+    {"name": "GH: Extra Titanite - Crystal Lizard Drop, Start of Hallway To Basilisk Overlook","ref": "The Great Hollow/GH: Extra Titanite - Crystal Lizard Drop, Start of Hallway To Basilisk Overlook"}]
+    },{"name": "GH: Crystal Lizard, Near End of Hallway To Basilisk Overlook","map_locations": [{"map": "Great Hollow","x": 236,"y": 206}],
+    "sections": [{"name": "GH: Twinkling Titanite - Crystal Lizard Drop, Near End of Hallway To Basilisk Overlook","ref": "The Great Hollow/GH: Twinkling Titanite - Crystal Lizard Drop, Near End of Hallway To Basilisk Overlook"},
+    {"name": "GH: Extra Titanite - Crystal Lizard Drop, Near End of Hallway To Basilisk Overlook","ref": "The Great Hollow/GH: Extra Titanite - Crystal Lizard Drop, Near End of Hallway To Basilisk Overlook"}]
+    },{"name": "GH: Crystal Lizard, Basilisk Overlook, Right","map_locations": [{"map": "Great Hollow","x": 303,"y": 271}],
+    "sections": [{"name": "GH: Twinkling Titanite - Crystal Lizard Drop, Basilisk Overlook, Right","ref": "The Great Hollow/GH: Twinkling Titanite - Crystal Lizard Drop, Basilisk Overlook, Right"},
+    {"name": "GH: Extra Titanite - Crystal Lizard Drop, Basilisk Overlook, Right","ref": "The Great Hollow/GH: Extra Titanite - Crystal Lizard Drop, Basilisk Overlook, Right"}]
+    },{"name": "GH: Crystal Lizard, Basilisk Overlook, Middle","map_locations": [{"map": "Great Hollow","x": 282,"y": 288}],
+    "sections": [{"name": "GH: Twinkling Titanite - Crystal Lizard Drop, Basilisk Overlook, Middle","ref": "The Great Hollow/GH: Twinkling Titanite - Crystal Lizard Drop, Basilisk Overlook, Middle"},
+    {"name": "GH: Extra Titanite - Crystal Lizard Drop, Basilisk Overlook, Middle","ref": "The Great Hollow/GH: Extra Titanite - Crystal Lizard Drop, Basilisk Overlook, Middle"}]
+    },{"name": "GH: Crystal Lizard, Basilisk Overlook, Left","map_locations": [{"map": "Great Hollow","x": 253,"y": 266}],
+    "sections": [{"name": "GH: Twinkling Titanite - Crystal Lizard Drop, Basilisk Overlook, Left","ref": "The Great Hollow/GH: Twinkling Titanite - Crystal Lizard Drop, Basilisk Overlook, Left"},
+    {"name": "GH: Extra Titanite - Crystal Lizard Drop, Basilisk Overlook, Left","ref": "The Great Hollow/GH: Extra Titanite - Crystal Lizard Drop, Basilisk Overlook, Left"}]
+    },{"name": "GH: Crystal Lizard, Above Red Titanite Chunk Location, Behind Branch","map_locations": [{"map": "Great Hollow","x": 222,"y": 417}],
+    "sections": [{"name": "GH: Twinkling Titanite - Crystal Lizard Drop, Above Red Titanite Chunk Location, Behind Branch","ref": "The Great Hollow/GH: Twinkling Titanite - Crystal Lizard Drop, Above Red Titanite Chunk Location, Behind Branch"},
+    {"name": "GH: Extra Titanite - Crystal Lizard Drop, Above Red Titanite Chunk Location, Behind Branch","ref": "The Great Hollow/GH: Extra Titanite - Crystal Lizard Drop, Above Red Titanite Chunk Location, Behind Branch"}]
+    },{"name": "GH: Crystal Lizard, 2nd Platform By Top Ladder, Right","map_locations": [{"map": "Great Hollow","x": 602,"y": 227}],
+    "sections": [{"name": "GH: Twinkling Titanite - Crystal Lizard Drop, 2nd Platform By Top Ladder, Right","ref": "The Great Hollow/GH: Twinkling Titanite - Crystal Lizard Drop, 2nd Platform By Top Ladder, Right"},
+    {"name": "GH: Extra Titanite - Crystal Lizard Drop, 2nd Platform By Top Ladder, Right","ref": "The Great Hollow/GH: Extra Titanite - Crystal Lizard Drop, 2nd Platform By Top Ladder, Right"}]
+    },{"name": "GH: Crystal Lizard, 2nd Platform By Top Ladder, Left","map_locations": [{"map": "Great Hollow","x": 583,"y": 218}],
+    "sections": [{"name": "GH: Twinkling Titanite - Crystal Lizard Drop, 2nd Platform By Top Ladder, Left","ref": "The Great Hollow/GH: Twinkling Titanite - Crystal Lizard Drop, 2nd Platform By Top Ladder, Left"},
+    {"name": "GH: Extra Titanite - Crystal Lizard Drop, 2nd Platform By Top Ladder, Left","ref": "The Great Hollow/GH: Extra Titanite - Crystal Lizard Drop, 2nd Platform By Top Ladder, Left"}]
     },{
         "name": "Ash Lake",
         "map_locations": [
@@ -880,7 +1113,8 @@
             {"name": "ASH: Dragon Scale - Ash Lake Start","access_rules": ["@canReachAshLake"]},
             {"name": "ASH: Dragon Scale - Ash Lake Water","access_rules": ["@canReachAshLake"]},
             {"name": "ASH: Dragon Scale - Ash Lake Log","access_rules": ["@canReachAshLake"]},
-            {"name": "ASH: Miracle: Great Magic Barrier","access_rules": ["@canReachAshLake"]}
+            {"name": "ASH: Miracle: Great Magic Barrier","access_rules": ["@canReachAshLake"]},
+            {"name": "ASH: Dragon Scale x2 - Hydra Drop","access_rules": ["@canReachAshLake"]}
         ]
     },{
         "name": "ASH: Fog Wall - Ash Lake Entrance","map_locations": [{"map": "Ash Lake","x": 90,"y": 334}],
@@ -897,6 +1131,8 @@
     },{
         "name": "ASH: Miracle: Great Magic Barrier","map_locations": [{"map": "Ash Lake","x": 795,"y": 230}],
         "sections": [{"name": "ASH: Miracle: Great Magic Barrier","ref": "Ash Lake/ASH: Miracle: Great Magic Barrier"}]
+    },{"name": "ASH: Dragon Scale x2 - Hydra Drop","map_locations": [{"map": "Ash Lake","x": 342,"y": 75}],
+    "sections": [{"name": "ASH: Dragon Scale x2 - Hydra Drop","ref": "Ash Lake/ASH: Dragon Scale x2 - Hydra Drop"}]
     },{
         "name": "Sen's Fortress",
         "map_locations": [
@@ -934,7 +1170,13 @@
             {"name": "SF: Sniper Bolt","access_rules": ["@canReachSensFortressAfterSecondFog"]},
             {"name": "SF: Cage Key","access_rules": ["@canReachSensFortressAfterSecondFog"]},
             {"name": "SF: Boss Fog Wall - Iron Golem","access_rules": ["@canReachSensFortressIronGolem"],"visibility_rules": ["setting_fogwall_lock_boss"]},
-            {"name": "SF: Soul of a Hero - Sen's Fortress Cage","access_rules": ["@canReachSensFortressAfterCageKey"]}
+            {"name": "SF: Soul of a Hero - Sen's Fortress Cage","access_rules": ["@canReachSensFortressAfterCageKey"]},
+            {"name": "SF: Lightning Spear","access_rules": ["@canReachSensFortressAfterFirstFog"]},
+            {"name": "SF: Core of an Iron Golem","access_rules": ["@canReachSensFortressAfterIronGolem"],"visibility_rules": ["setting_boss_soul_shuffle"]},
+            {"name": "SF: Humanity - Iron Golem Drop","access_rules": ["@canReachSensFortressAfterIronGolem"],"visibility_rules": ["setting_boss_humanity_shuffle"]},
+            {"name": "Crestfallen Merchant: Thunder Stoneplate Ring","access_rules": ["@canReachSensFortressCrestfallenMerchant"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Crestfallen Merchant: Spell Stoneplate Ring","access_rules": ["@canReachSensFortressCrestfallenMerchant"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "SF: Ricard's Rapier","access_rules": ["@canReachSensFortressAfterSecondFog"]}
         ]
     },{
         "name": "SF: Soul of a Brave Warrior - Sen's Fortress Pit","map_locations": [{"map": "Sen's Fortress Basement","x": 1010,"y": 290}],
@@ -1010,6 +1252,16 @@
     },{
         "name": "SF: Soul of a Hero - Sen's Fortress Cage","map_locations": [{"map": "Sen's Fortress Main","x": 800,"y": 2050}],
         "sections": [{"name": "SF: Soul of a Hero - Sen's Fortress Cage","ref": "Sen's Fortress/SF: Soul of a Hero - Sen's Fortress Cage"}]
+    },{"name": "SF: Lightning Spear","map_locations": [{"map": "Sen's Fortress Main","x": 1943,"y": 2002}],
+    "sections": [{"name": "SF: Lightning Spear","ref": "Sen's Fortress/SF: Lightning Spear"}]
+    },{"name": "SF: Iron Golem","map_locations": [{"map": "Sen's Fortress Roof","x": 526,"y": 614}],
+    "sections": [{"name": "SF: Core of an Iron Golem","ref": "Sen's Fortress/SF: Core of an Iron Golem"},
+    {"name": "SF: Humanity - Iron Golem Drop","ref": "Sen's Fortress/SF: Humanity - Iron Golem Drop"}]
+    },{"name": "Crestfallen Merchant","map_locations": [{"map": "Sen's Fortress Roof","x": 1819,"y": 507}],
+    "sections": [{"name": "Crestfallen Merchant: Thunder Stoneplate Ring","ref": "Sen's Fortress/Crestfallen Merchant: Thunder Stoneplate Ring"},
+    {"name": "Crestfallen Merchant: Spell Stoneplate Ring","ref": "Sen's Fortress/Crestfallen Merchant: Spell Stoneplate Ring"}]
+    },{"name": "SF: Ricard's Rapier","map_locations": [{"map": "Sen's Fortress Roof","x": 759,"y": 1111}],
+    "sections": [{"name": "SF: Ricard's Rapier","ref": "Sen's Fortress/SF: Ricard's Rapier"}]
     },{
         "name": "Anor Londo",
         "map_locations": [
@@ -1059,7 +1311,17 @@
             {"name": "AL: Brass Armor","access_rules": ["@canReachAnorLondoAfterGwyndolin"]},
             {"name": "AL: Brass Gauntlets","access_rules": ["@canReachAnorLondoAfterGwyndolin"]},
             {"name": "AL: Brass Leggings","access_rules": ["@canReachAnorLondoAfterGwyndolin"]},
-            {"name": "AL: Miracle: Sunlight Blade","access_rules": ["@canReachAnorLondoAfterGwyndolin"]}
+            {"name": "AL: Miracle: Sunlight Blade","access_rules": ["@canReachAnorLondoAfterGwyndolin"]},
+            {"name": "AL: Crystal Halberd - Mimic Drop, Toward Archives","access_rules": ["@canReachAnorLondo"]},
+            {"name": "AL: Soul of Gwyndolin","access_rules": ["@canReachAnorLondoAfterGwyndolin"],"visibility_rules": ["setting_boss_soul_shuffle"]},
+            {"name": "AL: Occult Club - Basement Mimic Drop","access_rules": ["@canReachAnorLondoAfterSecondFog"]},
+            {"name": "AL: Gold Coin - Mimic Drop","access_rules": ["@canReachAnorLondoAfterSecondFog"]},
+            {"name": "AL: Silver Coin - Mimic Drop","access_rules": ["@canReachAnorLondoAfterSecondFog"]},
+            {"name": "AL: Soul of Ornstein","access_rules": ["@canReachAnorLondoAfterOrnsteinandSmough"],"visibility_rules": ["setting_boss_soul_shuffle"]},
+            {"name": "AL: Soul of Smough","access_rules": ["@canReachAnorLondoAfterOrnsteinandSmough"],"visibility_rules": ["setting_boss_soul_shuffle"]},
+            {"name": "AL: Humanity - O+S Drop","access_rules": ["@canReachAnorLondoAfterOrnsteinandSmough"],"visibility_rules": ["setting_boss_humanity_shuffle"]},
+            {"name": "AL: Leo Ring - O+S Drop","access_rules": ["@canReachAnorLondoAfterOrnsteinandSmough"]},
+            {"name": "Giant Blacksmith: Blacksmith Giant Hammer - Drop Added To Shop","access_rules": ["@canReachAnorLondoGiantBlacksmith"],"visibility_rules": ["setting_shop_shuffle"]}
         ]
     },{
         "name": "AL: Demon Titanite - Anor Londo Giants","map_locations": [{"map": "Anor Londo Exterior","x": 880,"y": 780}],
@@ -1136,7 +1398,7 @@
         "name": "AL: Titanite Chunk - near Giant Blacksmith","map_locations": [{"map": "Anor Londo Interior","x": 1900,"y": 1080}],
         "sections": [{"name": "AL: Titanite Chunk - near Giant Blacksmith","ref": "Anor Londo/AL: Titanite Chunk - near Giant Blacksmith"}]
     },{
-        "name": "AL: Hawk Ring","map_locations": [{"map": "Anor Londo Interior","x": 2050,"y": 1550}],
+        "name": "AL: Hawk Ring","map_locations": [{"map": "Anor Londo Interior","x": 2070,"y": 1550}],
         "sections": [{"name": "AL: Hawk Ring","ref": "Anor Londo/AL: Hawk Ring"}]
     },{
         "name": "AL: Boss Fog Wall - Ornstein and Smough","map_locations": [{"map": "Anor Londo Interior","x": 1549,"y": 2266}],
@@ -1147,6 +1409,26 @@
     },{
         "name": "AL: Boss Fog Wall - Gwyndolin","map_locations": [{"map": "Anor Londo Exterior","x": 2652,"y": 2117}],
         "sections": [{"name": "AL: Boss Fog Wall - Gwyndolin","ref": "Anor Londo/AL: Boss Fog Wall - Gwyndolin"}]
+    },{"name": "AL: Crystal Halberd - Mimic Drop, Toward Archives","map_locations": [{"map": "Anor Londo Exterior","x": 2258,"y": 860}],
+    "sections": [{"name": "AL: Crystal Halberd - Mimic Drop, Toward Archives","ref": "Anor Londo/AL: Crystal Halberd - Mimic Drop, Toward Archives"}]
+    },{"name": "AL: Soul of Gwyndolin","map_locations": [{"map": "Anor Londo Exterior","x": 2650,"y": 2140}],
+    "sections": [{"name": "AL: Soul of Gwyndolin","ref": "Anor Londo/AL: Soul of Gwyndolin"}]
+    },{"name": "AL: Occult Club - Basement Mimic Drop","map_locations": [{"map": "Anor Londo Interior","x": 850,"y": 720}],
+    "sections": [{"name": "AL: Occult Club - Basement Mimic Drop","ref": "Anor Londo/AL: Occult Club - Basement Mimic Drop"}]
+    },{"name": "AL: Gold Coin - Mimic Drop","map_locations": [{"map": "Anor Londo Interior","x": 620,"y": 1695}],
+    "sections": [{"name": "AL: Gold Coin - Mimic Drop","ref": "Anor Londo/AL: Gold Coin - Mimic Drop"}]
+    },{"name": "AL: Silver Coin - Mimic Drop","map_locations": [{"map": "Anor Londo Interior","x": 616,"y": 1406}],
+    "sections": [{"name": "AL: Silver Coin - Mimic Drop","ref": "Anor Londo/AL: Silver Coin - Mimic Drop"}]
+    },{"name": "AL: Ornstein and Smough","map_locations": [{"map": "Anor Londo Interior","x": 1554,"y": 2550}],
+    "sections": [{"name": "AL: Soul of Ornstein","ref": "Anor Londo/AL: Soul of Ornstein"},
+    {"name": "AL: Soul of Smough","ref": "Anor Londo/AL: Soul of Smough"},
+    {"name": "AL: Humanity - O+S Drop","ref": "Anor Londo/AL: Humanity - O+S Drop"},
+    {"name": "AL: Leo Ring - O+S Drop","ref": "Anor Londo/AL: Leo Ring - O+S Drop"}]
+    },{"name": "Giant Blacksmith","map_locations": [{"map": "Anor Londo Interior","x": 2028,"y": 1540}],
+    "sections": [{"name": "Giant Blacksmith: Blacksmith Giant Hammer - Drop Added To Shop","ref": "Anor Londo/Giant Blacksmith: Blacksmith Giant Hammer - Drop Added To Shop"},
+    {"name": "Merchant: Repairbox","ref": "Upper Undead Burg/Merchant: Repairbox"},
+    {"name": "Blacksmith: Weapon Smithbox","ref": "Undead Parish/Blacksmith: Weapon Smithbox"},
+    {"name": "Blacksmith: Armor Smithbox","ref": "Undead Parish/Blacksmith: Armor Smithbox"}]
     },{
         "name": "Painted World of Ariamis",
         "map_locations": [
@@ -1194,7 +1476,11 @@
             {"name": "PW: Mask of Velka","access_rules": ["@canReachPaintedWorldofAriamisAfterAnnexKey"]},
             {"name": "PW: Black Cleric Robe","access_rules": ["@canReachPaintedWorldofAriamisAfterAnnexKey"]},
             {"name": "PW: Black Manchette","access_rules": ["@canReachPaintedWorldofAriamisAfterAnnexKey"]},
-            {"name": "PW: Black Tights","access_rules": ["@canReachPaintedWorldofAriamisAfterAnnexKey"]}
+            {"name": "PW: Black Tights","access_rules": ["@canReachPaintedWorldofAriamisAfterAnnexKey"]},
+            {"name": "PW: Pyromancy: Fire Surge - Engorged Zombie Drop","access_rules": ["@canReachPaintedWorldofAriamisAfterFog"]},
+            {"name": "PW: Soul of Priscilla","access_rules": ["@canReachPaintedWorldofAriamisCrossbreedPriscilla"],"visibility_rules": ["setting_boss_soul_shuffle"]},
+            {"name": "PW: Twin Humanities - Crossbreed Priscilla Drop","access_rules": ["@canReachPaintedWorldofAriamisCrossbreedPriscilla"],"visibility_rules": ["setting_boss_humanity_shuffle"]},
+            {"name": "PW: Homeward Bone - Return to Anor Londo","access_rules": ["@canReachPaintedWorldofAriamisCrossbreedPriscilla"],"visibility_rules": ["setting_boss_bone_shuffle"]}
         ]
     },{
         "name": "PW: Fog Wall - Painted World","map_locations": [{"map": "Painted World of Ariamis","x": 767,"y": 856}],
@@ -1298,6 +1584,12 @@
     },{
         "name": "PW: Soul of a Brave Warrior - Corpse Hanging out of Hole","map_locations": [{"map": "Painted World of Ariamis","x": 90,"y": 895}],
         "sections": [{"name": "PW: Soul of a Brave Warrior - Corpse Hanging out of Hole","ref": "Painted World of Ariamis/PW: Soul of a Brave Warrior - Corpse Hanging out of Hole"}]
+    },{"name": "PW: Pyromancy: Fire Surge - Engorged Zombie Drop","map_locations": [{"map": "Painted World of Ariamis","x": 562,"y": 956}],
+    "sections": [{"name": "PW: Pyromancy: Fire Surge - Engorged Zombie Drop","ref": "Painted World of Ariamis/PW: Pyromancy: Fire Surge - Engorged Zombie Drop"}]
+    },{"name": "PW: Crossbreed Priscilla","map_locations": [{"map": "Painted World of Ariamis","x": 768,"y": 224}],
+    "sections": [{"name": "PW: Soul of Priscilla","ref": "Painted World of Ariamis/PW: Soul of Priscilla"},
+    {"name": "PW: Twin Humanities - Crossbreed Priscilla Drop","ref": "Painted World of Ariamis/PW: Twin Humanities - Crossbreed Priscilla Drop"},
+    {"name": "PW: Homeward Bone - Return to Anor Londo","ref": "Painted World of Ariamis/PW: Homeward Bone - Return to Anor Londo"}]
     },{
         "name": "Upper New Londo Ruins",
         "map_locations": [
@@ -1325,7 +1617,9 @@
             {"name": "NL: Humanity - New Londo Ledge","access_rules": ["@canReachUpperNewLondoRuinsAfterFog"]},
             {"name": "NL: Rare Ring of Sacrifice - New Londo Roof","access_rules": ["@canReachUpperNewLondoRuinsAfterFog"]},
             {"name": "NL: Composite Bow","access_rules": ["@canReachUpperNewLondoRuinsAfterFog"]},
-            {"name": "NL: Large Arrow","access_rules": ["@canReachUpperNewLondoRuinsAfterFog"]}
+            {"name": "NL: Large Arrow","access_rules": ["@canReachUpperNewLondoRuinsAfterFog"]},
+            {"name": "Rickert of Vinheim: Sorcery: Soul Arrow","access_rules": ["@canReachUpperNewLondoRuinsRickertOfVinheim"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Rickert of Vinheim: Sorcery: Heavy Soul Arrow","access_rules": ["@canReachUpperNewLondoRuinsRickertOfVinheim"],"visibility_rules": ["setting_shop_shuffle"]}
         ]
     },{
         "name": "NL: Soul of a Nameless Soldier - New Londo Entrance","map_locations": [{"map": "New Londo Ruins","x": 65,"y": 203}],
@@ -1379,6 +1673,9 @@
         "name": "NL: Composite Bow and Arrows","map_locations": [{"map": "New Londo Ruins","x": 800,"y": 720}],
         "sections": [{"name": "NL: Composite Bow","ref": "Upper New Londo Ruins/NL: Composite Bow"},
         {"name": "NL: Large Arrow","ref": "Upper New Londo Ruins/NL: Large Arrow"}]
+    },{"name": "Rickert of Vinheim: Sorcery: Soul Arrow","map_locations": [{"map": "New Londo Ruins","x": 185,"y": 254}],
+    "sections": [{"name": "Rickert of Vinheim: Sorcery: Soul Arrow","ref": "Upper New Londo Ruins/Rickert of Vinheim: Sorcery: Soul Arrow"},
+    {"name": "Rickert of Vinheim: Sorcery: Heavy Soul Arrow","ref": "Upper New Londo Ruins/Rickert of Vinheim: Sorcery: Heavy Soul Arrow"}]
     },{
         "name": "Lower New Londo Ruins",
         "map_locations": [
@@ -1448,11 +1745,13 @@
             }
         ],
         "sections": [
-            {"name": "TA: Bequeathed Lord Soul Shard (Four Kings)","access_rules": ["@canReachTheAbyssAfterFourKings"]}
+            {"name": "TA: Bequeathed Lord Soul Shard (Four Kings)","access_rules": ["@canReachTheAbyssAfterFourKings"]},
+            {"name": "TA: Humanity x4 - Four Kings Drop","access_rules": ["@canReachTheAbyssAfterFourKings"],"visibility_rules": ["setting_boss_humanity_shuffle"]}
         ]
     },{
         "name": "The Abyss  ","map_locations": [{"map": "New Londo Ruins","x": 675,"y": 570}],
-        "sections": [{"name": "TA: Bequeathed Lord Soul Shard (Four Kings)","ref": "The Abyss/TA: Bequeathed Lord Soul Shard (Four Kings)"}]
+        "sections": [{"name": "TA: Bequeathed Lord Soul Shard (Four Kings)","ref": "The Abyss/TA: Bequeathed Lord Soul Shard (Four Kings)"},
+        {"name": "TA: Humanity x4 - Four Kings Drop","ref": "The Abyss/TA: Humanity x4 - Four Kings Drop"}]
     },{
         "name": "Duke's Archives",
         "map_locations": [
@@ -1495,7 +1794,25 @@
             {"name": "DA: Blue Titanite Chunk - Archives Courtyard","access_rules": ["@canReachTheDukesArchivesCourtyard"]},
             {"name": "DA: Fire Keeper Soul - Archives Giant Cell","access_rules": ["@canReachTheDukesArchivesGiantCell"]},
             {"name": "DA: Large Magic Ember","access_rules": ["@canReachTheDukesArchivesFirstArenaafterSeathsDeath"]},
-            {"name": "DA: Soul of a Great Hero - Seath Room","access_rules": ["@canReachTheDukesArchivesFirstArenaafterSeathsDeath"]}
+            {"name": "DA: Soul of a Great Hero - Seath Room","access_rules": ["@canReachTheDukesArchivesFirstArenaafterSeathsDeath"]},
+            {"name": "DA: Broken Pendant","access_rules": ["@canReachTheDukesArchives"]},
+            {"name": "DA: Twinkling Titanite - Crystal Lizard Drop, Path To Seath's Study","access_rules": ["@canReachTheDukesArchives"],"visibility_rules": ["setting_crystal_lizard_shuffle"]},
+            {"name": "DA: Extra Titanite - Crystal Lizard Drop, Path To Seath's Study","access_rules": ["@canReachTheDukesArchives"],"visibility_rules": ["setting_crystal_lizard_shuffle"]},
+            {"name": "DA: Crystal Knight Shield - Mimic Drop, 2nd Floor","access_rules": ["@canReachTheDukesArchives"]},
+            {"name": "DA: Enchanted Falchion - Mimic Drop, Behind Bookcase Door","access_rules": ["@canReachTheDukesArchivesAfterArchiveTowerGiantDoorKey"]},
+            {"name": "DA: Miracle: Soothing Sunlight - Pisaca Drop","access_rules": ["@canReachTheDukesArchivesOutofCell"]},
+            {"name": "DA: Miracle: Bountiful Sunlight - Pisaca Drop","access_rules": ["@canReachTheDukesArchivesOutofCell"]},
+            {"name": "Big Hat Logan: Sorcery: Soul Arrow","access_rules": ["@canReachTheDukesArchivesBigHatLogan"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Big Hat Logan: Sorcery: Great Soul Arrow","access_rules": ["@canReachTheDukesArchivesBigHatLogan"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Big Hat Logan: Sorcery: Heavy Soul Arrow","access_rules": ["@canReachTheDukesArchivesBigHatLogan"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Big Hat Logan: Sorcery: Great Heavy Soul Arrow","access_rules": ["@canReachTheDukesArchivesBigHatLogan"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Big Hat Logan: Sorcery: Homing Soulmass","access_rules": ["@canReachTheDukesArchivesBigHatLogan"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Big Hat Logan: Sorcery: Soul Spear","access_rules": ["@canReachTheDukesArchivesBigHatLogan"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Big Hat Logan: Sorcery: Magic Weapon","access_rules": ["@canReachTheDukesArchivesBigHatLogan"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Big Hat Logan: Sorcery: Magic Shield","access_rules": ["@canReachTheDukesArchivesBigHatLogan"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Big Hat Logan: Sorcery: Homing Crystal Soulmass","access_rules": ["@canReachTheDukesArchivesBigHatLogan"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Big Hat Logan: Sorcery: Crystal Soul Spear","access_rules": ["@canReachTheDukesArchivesBigHatLogan"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Big Hat Logan: Sorcery: Crystal Magic Weapon","access_rules": ["@canReachTheDukesArchivesBigHatLogan"],"visibility_rules": ["setting_shop_shuffle"]}
         ]
     },{
         "name": "DA: Big Room","map_locations": [{"map": "Duke's Archives","x": 1286,"y": 270}],
@@ -1504,7 +1821,8 @@
         {"name": "DA: Twinkling Titanite - Archives Balcony","ref": "Duke's Archives/DA: Twinkling Titanite - Archives Balcony"},
         {"name": "DA: Avelyn","ref": "Duke's Archives/DA: Avelyn"},
         {"name": "DA: Twinkling Titanite - Archives Chest 2","ref": "Duke's Archives/DA: Twinkling Titanite - Archives Chest 2"},
-        {"name": "DA: Sorcery: Strong Magic Shield","ref": "Duke's Archives/DA: Sorcery: Strong Magic Shield"}]
+        {"name": "DA: Sorcery: Strong Magic Shield","ref": "Duke's Archives/DA: Sorcery: Strong Magic Shield"},
+        {"name": "DA: Crystal Knight Shield - Mimic Drop, 2nd Floor","ref": "Duke's Archives/DA: Crystal Knight Shield - Mimic Drop, 2nd Floor"}]
     },{
         "name": "DA: Soul of a Brave Warrior - Archives Under Stairs","map_locations": [{"map": "Duke's Archives Big Room","x": 490,"y": 905}],
         "sections": [{"name": "DA: Soul of a Brave Warrior - Archives Under Stairs","ref": "Duke's Archives/DA: Soul of a Brave Warrior - Archives Under Stairs"}]
@@ -1584,6 +1902,30 @@
     },{
         "name": "DA: Fire Keeper Soul - Archives Giant Cell","map_locations": [{"map": "Duke's Archives","x": 630,"y": 240}],
         "sections": [{"name": "DA: Fire Keeper Soul - Archives Giant Cell","ref": "Duke's Archives/DA: Fire Keeper Soul - Archives Giant Cell"}]
+    },{"name": "DA: Broken Pendant","map_locations": [{"map": "Duke's Archives","x": 1537,"y": 227}],
+    "sections": [{"name": "DA: Broken Pendant","ref": "Duke's Archives/DA: Broken Pendant"}]
+    },{"name": "DA: Crystal Lizard, Path To Seath's Study","map_locations": [{"map": "Duke's Archives","x": 1621,"y": 683}],
+    "sections": [{"name": "DA: Twinkling Titanite - Crystal Lizard Drop, Path To Seath's Study","ref": "Duke's Archives/DA: Twinkling Titanite - Crystal Lizard Drop, Path To Seath's Study"},
+    {"name": "DA: Extra Titanite - Crystal Lizard Drop, Path To Seath's Study","ref": "Duke's Archives/DA: Extra Titanite - Crystal Lizard Drop, Path To Seath's Study"}]
+    },{"name": "DA: Crystal Knight Shield - Mimic Drop, 2nd Floor","map_locations": [{"map": "Duke's Archives","x": 358,"y": 899}],
+    "sections": [{"name": "DA: Crystal Knight Shield - Mimic Drop, 2nd Floor","ref": "Duke's Archives/DA: Crystal Knight Shield - Mimic Drop, 2nd Floor"}]
+    },{"name": "DA: Enchanted Falchion - Mimic Drop, Behind Bookcase Door","map_locations": [{"map": "Duke's Archives","x": 1116,"y": 477}],
+    "sections": [{"name": "DA: Enchanted Falchion - Mimic Drop, Behind Bookcase Door","ref": "Duke's Archives/DA: Enchanted Falchion - Mimic Drop, Behind Bookcase Door"}]
+    },{"name": "DA: Miracles","map_locations": [{"map": "Duke's Archives","x": 498,"y": 221}],
+    "sections": [{"name": "DA: Miracle: Soothing Sunlight - Pisaca Drop","ref": "Duke's Archives/DA: Miracle: Soothing Sunlight - Pisaca Drop"},
+    {"name": "DA: Miracle: Bountiful Sunlight - Pisaca Drop","ref": "Duke's Archives/DA: Miracle: Bountiful Sunlight - Pisaca Drop"}]
+    },{"name": "Big Hat Logan: Sorcery: Soul Arrow","map_locations": [{"map": "Duke's Archives","x": 1184,"y": 442}],
+    "sections": [{"name": "Big Hat Logan: Sorcery: Soul Arrow","ref": "Duke's Archives/Big Hat Logan: Sorcery: Soul Arrow"},
+    {"name": "Big Hat Logan: Sorcery: Great Soul Arrow","ref": "Duke's Archives/Big Hat Logan: Sorcery: Great Soul Arrow"},
+    {"name": "Big Hat Logan: Sorcery: Heavy Soul Arrow","ref": "Duke's Archives/Big Hat Logan: Sorcery: Heavy Soul Arrow"},
+    {"name": "Big Hat Logan: Sorcery: Great Heavy Soul Arrow","ref": "Duke's Archives/Big Hat Logan: Sorcery: Great Heavy Soul Arrow"},
+    {"name": "Big Hat Logan: Sorcery: Homing Soulmass","ref": "Duke's Archives/Big Hat Logan: Sorcery: Homing Soulmass"},
+    {"name": "Big Hat Logan: Sorcery: Soul Spear","ref": "Duke's Archives/Big Hat Logan: Sorcery: Soul Spear"},
+    {"name": "Big Hat Logan: Sorcery: Magic Weapon","ref": "Duke's Archives/Big Hat Logan: Sorcery: Magic Weapon"},
+    {"name": "Big Hat Logan: Sorcery: Magic Shield","ref": "Duke's Archives/Big Hat Logan: Sorcery: Magic Shield"},
+    {"name": "Big Hat Logan: Sorcery: Homing Crystal Soulmass","ref": "Duke's Archives/Big Hat Logan: Sorcery: Homing Crystal Soulmass"},
+    {"name": "Big Hat Logan: Sorcery: Crystal Soul Spear","ref": "Duke's Archives/Big Hat Logan: Sorcery: Crystal Soul Spear"},
+    {"name": "Big Hat Logan: Sorcery: Crystal Magic Weapon","ref": "Duke's Archives/Big Hat Logan: Sorcery: Crystal Magic Weapon"}]
     },{
         "name": "Crystal Cave",
         "map_locations": [
@@ -1598,7 +1940,14 @@
             {"name": "CC: Blue Titanite Chunk - Crystal Cave","access_rules": ["@canReachCrystalCave"]},
             {"name": "CC: Blue Titanite Slab - Crystal Cave","access_rules": ["@canReachCrystalCave"]},
             {"name": "CC: Soul of a Hero - Crystal Cave","access_rules": ["@canReachCrystalCave"]},
-            {"name": "CC: Bequeathed Lord Soul Shard (Seath)","access_rules": ["@canReachCrystalCaveAfterSeath"]}
+            {"name": "CC: Bequeathed Lord Soul Shard (Seath)","access_rules": ["@canReachCrystalCaveAfterSeath"]},
+            {"name": "CC: Twinkling Titanite - Crystal Lizard Drop, 1st Under Gold Golem","access_rules": ["@canReachCrystalCave"],"visibility_rules": ["setting_crystal_lizard_shuffle"]},
+            {"name": "CC: Extra Titanite - Crystal Lizard Drop, 1st Under Gold Golem","access_rules": ["@canReachCrystalCave"],"visibility_rules": ["setting_crystal_lizard_shuffle"]},
+            {"name": "CC: Twinkling Titanite - Crystal Lizard Drop, 2nd Under Gold Golem","access_rules": ["@canReachCrystalCave"],"visibility_rules": ["setting_crystal_lizard_shuffle"]},
+            {"name": "CC: Extra Titanite - Crystal Lizard Drop, 2nd Under Gold Golem","access_rules": ["@canReachCrystalCave"],"visibility_rules": ["setting_crystal_lizard_shuffle"]},
+            {"name": "CC: Twinkling Titanite - Crystal Lizard Drop, 3rd Under Gold Golem","access_rules": ["@canReachCrystalCave"],"visibility_rules": ["setting_crystal_lizard_shuffle"]},
+            {"name": "CC: Extra Titanite - Crystal Lizard Drop, 3rd Under Gold Golem","access_rules": ["@canReachCrystalCave"],"visibility_rules": ["setting_crystal_lizard_shuffle"]},
+            {"name": "CC: Humanity - Seath Drop","access_rules": ["@canReachCrystalCaveAfterSeath"],"visibility_rules": ["setting_boss_humanity_shuffle"]}
         ]
     },{
         "name": "CC: Humanity - Crystal Cave","map_locations": [{"map": "Crystal Cave","x": 258,"y": 100}],
@@ -1615,6 +1964,15 @@
     },{
         "name": "CC: Bequeathed Lord Soul Shard (Seath)","map_locations": [{"map": "Crystal Cave","x": 138,"y": 1020}],
         "sections": [{"name": "CC: Bequeathed Lord Soul Shard (Seath)","ref": "Crystal Cave/CC: Bequeathed Lord Soul Shard (Seath)"}]
+    },{"name": "CC: Crystal Lizards, Under Gold Golem","map_locations": [{"map": "Crystal Cave","x": 239,"y": 322}],
+    "sections": [{"name": "CC: Twinkling Titanite - Crystal Lizard Drop, 1st Under Gold Golem","ref": "Crystal Cave/CC: Twinkling Titanite - Crystal Lizard Drop, 1st Under Gold Golem"},
+    {"name": "CC: Extra Titanite - Crystal Lizard Drop, 1st Under Gold Golem","ref": "Crystal Cave/CC: Extra Titanite - Crystal Lizard Drop, 1st Under Gold Golem"},
+    {"name": "CC: Twinkling Titanite - Crystal Lizard Drop, 2nd Under Gold Golem","ref": "Crystal Cave/CC: Twinkling Titanite - Crystal Lizard Drop, 2nd Under Gold Golem"},
+    {"name": "CC: Extra Titanite - Crystal Lizard Drop, 2nd Under Gold Golem","ref": "Crystal Cave/CC: Extra Titanite - Crystal Lizard Drop, 2nd Under Gold Golem"},
+    {"name": "CC: Twinkling Titanite - Crystal Lizard Drop, 3rd Under Gold Golem","ref": "Crystal Cave/CC: Twinkling Titanite - Crystal Lizard Drop, 3rd Under Gold Golem"},
+    {"name": "CC: Extra Titanite - Crystal Lizard Drop, 3rd Under Gold Golem","ref": "Crystal Cave/CC: Extra Titanite - Crystal Lizard Drop, 3rd Under Gold Golem"}]
+    },{"name": "CC: Humanity - Seath Drop","map_locations": [{"map": "Crystal Cave","x": 137,"y": 1021}],
+    "sections": [{"name": "CC: Humanity - Seath Drop","ref": "Crystal Cave/CC: Humanity - Seath Drop"}]
     },{
         "name": "Demon Ruins",
         "map_locations": [
@@ -1644,7 +2002,13 @@
             {"name": "DR: Soul of a Brave Warrior - Chaos Door","access_rules": ["@canReachDemonRuinsAfterDemonFiresage"]},
             {"name": "DR: Boss Fog Wall - Centipede Demon","access_rules": ["@canReachDemonRuinsCentipedeDemon"],"visibility_rules": ["setting_fogwall_lock_boss"]},
             {"name": "DR: Orange Charred Ring","access_rules": ["@canReachDemonRuinsCentipedeDemon"]},
-            {"name": "DR: Green Titanite Shard - Centipede Demon","access_rules": ["@canReachDemonRuinsCentipedeDemon"]}
+            {"name": "DR: Green Titanite Shard - Centipede Demon","access_rules": ["@canReachDemonRuinsCentipedeDemon"]},
+            {"name": "DR: Humanity - Ceaseless Discharge Drop","access_rules": ["@canReachDemonRuinsCeaselessDischarge"],"visibility_rules": ["setting_boss_humanity_shuffle"]},
+            {"name": "DR: Homeward Bone - Ceaseless Discharge Drop","access_rules": ["@canReachDemonRuinsCeaselessDischarge"],"visibility_rules": ["setting_boss_bone_shuffle"]},
+            {"name": "DR: Humanity - Demon Firesage Drop","access_rules": ["@canReachDemonRuinsDemonFiresage"],"visibility_rules": ["setting_boss_humanity_shuffle"]},
+            {"name": "DR: Demon's Catalyst - Demon Firesage Drop","access_rules": ["@canReachDemonRuinsDemonFiresage"]},
+            {"name": "DR: Humanity - Centipede Demon Drop","access_rules": ["@canReachDemonRuinsCentipedeDemon"],"visibility_rules": ["setting_boss_humanity_shuffle"]},
+            {"name": "DR: Homeward Bone - Centipede Demon Drop","access_rules": ["@canReachDemonRuinsCentipedeDemon"],"visibility_rules": ["setting_boss_bone_shuffle"]}
         ]
     },{
         "name": "Gold-Hemmed Black Set","map_locations": [{"map": "Demon Ruins","x": 1490,"y": 1080}],
@@ -1687,7 +2051,9 @@
         "sections": [{"name": "DR: Soul of a Brave Warrior - Chaos Door","ref": "Demon Ruins/DR: Soul of a Brave Warrior - Chaos Door"}]
     },{
         "name": "Centipede Demon","map_locations": [{"map": "Demon Ruins","x": 375,"y": 735}],
-        "sections": [{"name": "DR: Orange Charred Ring","ref": "Demon Ruins/DR: Orange Charred Ring"}]
+        "sections": [{"name": "DR: Orange Charred Ring","ref": "Demon Ruins/DR: Orange Charred Ring"},
+        {"name": "DR: Humanity - Centipede Demon Drop","ref": "Demon Ruins/DR: Humanity - Centipede Demon Drop"},
+        {"name": "DR: Homeward Bone - Centipede Demon Drop","ref": "Demon Ruins/DR: Homeward Bone - Centipede Demon Drop"}]
     },{
         "name": "DR: Green Titanite Shard - Centipede Demon","map_locations": [{"map": "Demon Ruins","x": 200,"y": 740}],
         "sections": [{"name": "DR: Green Titanite Shard - Centipede Demon","ref": "Demon Ruins/DR: Green Titanite Shard - Centipede Demon"}]
@@ -1700,6 +2066,12 @@
     },{
         "name": "DR: Boss Fog Wall - Centipede Demon","map_locations": [{"map": "Demon Ruins","x": 340,"y": 612}],
         "sections": [{"name": "DR: Boss Fog Wall - Centipede Demon","ref": "Demon Ruins/DR: Boss Fog Wall - Centipede Demon"}]
+    },{"name": "DR: Ceaseless Discharge","map_locations": [{"map": "Demon Ruins","x": 1589,"y": 909}],
+    "sections": [{"name": "DR: Humanity - Ceaseless Discharge Drop","ref": "Demon Ruins/DR: Humanity - Ceaseless Discharge Drop"},
+    {"name": "DR: Homeward Bone - Ceaseless Discharge Drop","ref": "Demon Ruins/DR: Homeward Bone - Ceaseless Discharge Drop"}]
+    },{"name": "DR: Demon Firesage","map_locations": [{"map": "Demon Ruins","x": 730,"y": 468}],
+    "sections": [{"name": "DR: Humanity - Demon Firesage Drop","ref": "Demon Ruins/DR: Humanity - Demon Firesage Drop"},
+    {"name": "DR: Demon's Catalyst - Demon Firesage Drop","ref": "Demon Ruins/DR: Demon's Catalyst - Demon Firesage Drop"}]
     },{
         "name": "Lost Izalith",
         "map_locations": [
@@ -1726,7 +2098,11 @@
             {"name": "LI: Red Titanite Chunk - After Chaos Eater Pit","access_rules": ["@canReachLostIzalith"]},
             {"name": "LI: Pyromancy: Chaos Fire Whip","access_rules": ["@canReachLostIzalith"]},
             {"name": "LI: Boss Fog Wall - Bed of Chaos","access_rules": ["@canReachLostIzalithBedofChaos"],"visibility_rules": ["setting_fogwall_lock_boss"]},
-            {"name": "LI: Lord Soul (Bed of Chaos)","access_rules": ["@canReachLostIzalithBedofChaos"]}
+            {"name": "LI: Lord Soul (Bed of Chaos)","access_rules": ["@canReachLostIzalithBedofChaos"]},
+            {"name": "LI: Twinkling Titanite - Crystal Lizard Drop, Near DR Shortcut Door","access_rules": ["@canReachLostIzalith"],"visibility_rules": ["setting_crystal_lizard_shuffle"]},
+            {"name": "LI: Extra Titanite - Crystal Lizard Drop, Near DR Shortcut Door","access_rules": ["@canReachLostIzalith"],"visibility_rules": ["setting_crystal_lizard_shuffle"]},
+            {"name": "LI: Sunlight Maggot - Red Eye Maggot Drop","access_rules": ["@canReachLostIzalith"]},
+            {"name": "LI: Izalith Catalyst - Grana Drop, Before Bed of Chaos","access_rules": ["@canReachLostIzalith"]}
         ]
     },{
         "name": "LI: Soul of a Brave Warrior - First Platform after Entrance","map_locations": [{"map": "Lost Izalith","x": 115,"y": 630}],
@@ -1779,6 +2155,13 @@
     },{
         "name": "LI: Lord Soul (Bed of Chaos)","map_locations": [{"map": "Lost Izalith","x": 675,"y": 90}],
         "sections": [{"name": "LI: Lord Soul (Bed of Chaos)","ref": "Lost Izalith/LI: Lord Soul (Bed of Chaos)"}]
+    },{"name": "LI: Crystal Lizard, Near DR Shortcut Door","map_locations": [{"map": "Lost Izalith","x": 1376,"y": 214}],
+    "sections": [{"name": "LI: Twinkling Titanite - Crystal Lizard Drop, Near DR Shortcut Door","ref": "Lost Izalith/LI: Twinkling Titanite - Crystal Lizard Drop, Near DR Shortcut Door"},
+    {"name": "LI: Extra Titanite - Crystal Lizard Drop, Near DR Shortcut Door","ref": "Lost Izalith/LI: Extra Titanite - Crystal Lizard Drop, Near DR Shortcut Door"}]
+    },{"name": "LI: Sunlight Maggot - Red Eye Maggot Drop","map_locations": [{"map": "Lost Izalith","x": 1168,"y": 344}],
+    "sections": [{"name": "LI: Sunlight Maggot - Red Eye Maggot Drop","ref": "Lost Izalith/LI: Sunlight Maggot - Red Eye Maggot Drop"}]
+    },{"name": "LI: Izalith Catalyst - Grana Drop, Before Bed of Chaos","map_locations": [{"map": "Lost Izalith","x": 458,"y": 271}],
+    "sections": [{"name": "LI: Izalith Catalyst - Grana Drop, Before Bed of Chaos","ref": "Lost Izalith/LI: Izalith Catalyst - Grana Drop, Before Bed of Chaos"}]
     },{
         "name": "The Catacombs",
         "map_locations": [
@@ -1810,7 +2193,17 @@
             {"name": "TC: Mace","access_rules": ["@canReachTheCatacombsAfterDoor1"]},
             {"name": "TC: Boss Fog Wall - Pinwheel","access_rules": ["@canReachTheCatacombsPinwheel"],"visibility_rules": ["setting_fogwall_lock_boss"]},
             {"name": "TC: Rite of Kindling","access_rules": ["@canReachTheCatacombsAfterPinwheel"]},
-            {"name": "TC: Soul of a Proud Knight - Above Pinwheel","access_rules": ["@canReachTheCatacombsAfterPinwheel"]}
+            {"name": "TC: Soul of a Proud Knight - Above Pinwheel","access_rules": ["@canReachTheCatacombsAfterPinwheel"]},
+            {"name": "TC: Twinkling Titanite - Crystal Lizard Drop, Lower In Secret Statue Tunnel","access_rules": ["@canReachTheCatacombsAfterDoor1"],"visibility_rules": ["setting_crystal_lizard_shuffle"]},
+            {"name": "TC: Extra Titanite - Crystal Lizard Drop, Lower In Secret Statue Tunnel","access_rules": ["@canReachTheCatacombsAfterDoor1"],"visibility_rules": ["setting_crystal_lizard_shuffle"]},
+            {"name": "TC: Twinkling Titanite - Crystal Lizard Drop, Higher In Secret Statue Tunnel","access_rules": ["@canReachTheCatacombsAfterDoor1"],"visibility_rules": ["setting_crystal_lizard_shuffle"]},
+            {"name": "TC: Extra Titanite - Crystal Lizard Drop, Higher In Secret Statue Tunnel","access_rules": ["@canReachTheCatacombsAfterDoor1"],"visibility_rules": ["setting_crystal_lizard_shuffle"]},
+            {"name": "TC: Black Knight Greataxe - Black Knight Drop","access_rules": ["@canReachTheCatacombsAfterDoor1"],"visibility_rules": ["setting_black_knight_weapon_shuffle"]},
+            {"name": "TC: White Titanite Chunk - Black Knight Drop","access_rules": ["@canReachTheCatacombsAfterDoor1"]},
+            {"name": "TC: Humanity - Pinwheel Drop","access_rules": ["@canReachTheCatacombsAfterPinwheel"],"visibility_rules": ["setting_boss_humanity_shuffle"]},
+            {"name": "TC: Homeward Bone - Pinwheel Drop","access_rules": ["@canReachTheCatacombsAfterPinwheel"],"visibility_rules": ["setting_boss_bone_shuffle"]},
+            {"name": "Vamos: Hammer of Vamos - Drop Added To Shop","access_rules": ["@canReachTheCatacombsVamos"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Vamos: Royal Helm - Drop Added To Shop","access_rules": ["@canReachTheCatacombsVamos"],"visibility_rules": ["setting_shop_shuffle"]}
         ]
     },{
         "name": "TC: Fog Wall - Catacombs","map_locations": [{"map": "The Catacombs","x": 702,"y": 428}],
@@ -1863,11 +2256,28 @@
         "name": "TC: Boss Fog Wall - Pinwheel","map_locations": [{"map": "The Catacombs","x": 979,"y": 517}],
         "sections": [{"name": "TC: Boss Fog Wall - Pinwheel","ref": "The Catacombs/TC: Boss Fog Wall - Pinwheel"}]
     },{
-        "name": "TC: Rite of Kindling","map_locations": [{"map": "The Catacombs","x": 975,"y": 590}],
-        "sections": [{"name": "TC: Rite of Kindling","ref": "The Catacombs/TC: Rite of Kindling"}]
+        "name": "TC: Pinwheel","map_locations": [{"map": "The Catacombs","x": 975,"y": 590}],
+        "sections": [{"name": "TC: Rite of Kindling","ref": "The Catacombs/TC: Rite of Kindling"},
+        {"name": "TC: Humanity - Pinwheel Drop","ref": "The Catacombs/TC: Humanity - Pinwheel Drop"},
+        {"name": "TC: Homeward Bone - Pinwheel Drop","ref": "The Catacombs/TC: Homeward Bone - Pinwheel Drop"}]
     },{
         "name": "TC: Soul of a Proud Knight - Above Pinwheel","map_locations": [{"map": "The Catacombs","x": 990,"y": 485}],
         "sections": [{"name": "TC: Soul of a Proud Knight - Above Pinwheel","ref": "The Catacombs/TC: Soul of a Proud Knight - Above Pinwheel"}]
+    },{"name": "TC: Crystal Lizard, Lower In Secret Statue Tunnel","map_locations": [{"map": "The Catacombs","x": 201,"y": 99}],
+    "sections": [{"name": "TC: Twinkling Titanite - Crystal Lizard Drop, Lower In Secret Statue Tunnel","ref": "The Catacombs/TC: Twinkling Titanite - Crystal Lizard Drop, Lower In Secret Statue Tunnel"},
+    {"name": "TC: Extra Titanite - Crystal Lizard Drop, Lower In Secret Statue Tunnel","ref": "The Catacombs/TC: Extra Titanite - Crystal Lizard Drop, Lower In Secret Statue Tunnel"}]
+    },{"name": "TC: Crystal Lizard, Higher In Secret Statue Tunnel","map_locations": [{"map": "The Catacombs","x": 200,"y": 69}],
+    "sections": [{"name": "TC: Twinkling Titanite - Crystal Lizard Drop, Higher In Secret Statue Tunnel","ref": "The Catacombs/TC: Twinkling Titanite - Crystal Lizard Drop, Higher In Secret Statue Tunnel"},
+    {"name": "TC: Extra Titanite - Crystal Lizard Drop, Higher In Secret Statue Tunnel","ref": "The Catacombs/TC: Extra Titanite - Crystal Lizard Drop, Higher In Secret Statue Tunnel"}]
+    },{"name": "TC: Black Knight","map_locations": [{"map": "The Catacombs","x": 979,"y": 136}],
+    "sections": [{"name": "TC: Black Knight Greataxe - Black Knight Drop","ref": "The Catacombs/TC: Black Knight Greataxe - Black Knight Drop"},
+    {"name": "TC: White Titanite Chunk - Black Knight Drop","ref": "The Catacombs/TC: White Titanite Chunk - Black Knight Drop"}]
+    },{"name": "Vamos","map_locations": [{"map": "The Catacombs","x": 899,"y": 196}],
+    "sections": [{"name": "Vamos: Hammer of Vamos - Drop Added To Shop","ref": "The Catacombs/Vamos: Hammer of Vamos - Drop Added To Shop"},
+    {"name": "Vamos: Royal Helm - Drop Added To Shop","ref": "The Catacombs/Vamos: Royal Helm - Drop Added To Shop"},
+    {"name": "Merchant: Repairbox","ref": "Upper Undead Burg/Merchant: Repairbox"},
+    {"name": "Blacksmith: Weapon Smithbox","ref": "Undead Parish/Blacksmith: Weapon Smithbox"},
+    {"name": "Blacksmith: Armor Smithbox","ref": "Undead Parish/Blacksmith: Armor Smithbox"}]
     },{
         "name": "Upper Tomb of the Giants",
         "map_locations": [
@@ -1895,7 +2305,9 @@
             {"name": "TotG: Covetous Silver Serpent Ring","access_rules": ["@canReachTomboftheGiantsAfterWhiteFog"]},
             {"name": "TotG: Soul of a Brave Warrior - Behind Bone Archer","access_rules": ["@canReachTomboftheGiantsAfterWhiteFog"]},
             {"name": "TotG: Soul of a Brave Warrior - Lower Tomb of the Giants","access_rules": ["@canReachTomboftheGiantsAfterWhiteFog"]},
-            {"name": "TotG: White Titanite Chunk - Lower Tomb of the Giants","access_rules": ["@canReachTomboftheGiantsAfterWhiteFog"]}
+            {"name": "TotG: White Titanite Chunk - Lower Tomb of the Giants","access_rules": ["@canReachTomboftheGiantsAfterWhiteFog"]},
+            {"name": "TotG: Black Knight Halberd - Black Knight Drop","access_rules": ["@canReachTomboftheGiantsAfterWhiteFog"],"visibility_rules": ["setting_black_knight_weapon_shuffle"]},
+            {"name": "TotG: White Titanite Chunk - Black Knight Drop","access_rules": ["@canReachTomboftheGiantsAfterWhiteFog"]}
         ]
     },{
         "name": "TotG: Large Soul of a Proud Knight - Right after Green Light Slide","map_locations": [{"map": "Tomb of the Giants Upper","x": 620,"y": 200}],
@@ -1951,6 +2363,9 @@
     },{
         "name": "TotG: Soul of a Brave Warrior - Lower Tomb of the Giants","map_locations": [{"map": "Tomb of the Giants Upper","x": 700,"y": 930}],
         "sections": [{"name": "TotG: Soul of a Brave Warrior - Lower Tomb of the Giants","ref": "Upper Tomb of the Giants/TotG: Soul of a Brave Warrior - Lower Tomb of the Giants"}]
+    },{"name": "TotG: Black Knight","map_locations": [{"map": "Tomb of the Giants Upper","x": 776,"y": 465}],
+    "sections": [{"name": "TotG: Black Knight Halberd - Black Knight Drop","ref": "Upper Tomb of the Giants/TotG: Black Knight Halberd - Black Knight Drop"},
+    {"name": "TotG: White Titanite Chunk - Black Knight Drop","ref": "Upper Tomb of the Giants/TotG: White Titanite Chunk - Black Knight Drop"}]
     },{
         "name": "Lower Tomb of the Giants",
         "map_locations": [
@@ -1966,7 +2381,10 @@
             {"name": "TotG: Soul of a Hero - Outside Nito","access_rules": ["@canReachTomboftheGiantsBehindGoldenFogWall"]},
             {"name": "TotG: White Titanite Chunk - Outside Nito","access_rules": ["@canReachTomboftheGiantsBehindGoldenFogWall"]},
             {"name": "TotG: Boss Fog Wall - Nito","access_rules": ["@canReachTomboftheGiantsNito"],"visibility_rules": ["setting_fogwall_lock_boss"]},
-            {"name": "TotG: Lord Soul (Nito)","access_rules": ["@canReachTomboftheGiantsAfterNito"]}
+            {"name": "TotG: Lord Soul (Nito)","access_rules": ["@canReachTomboftheGiantsAfterNito"]},
+            {"name": "TotG: Twinkling Titanite - Crystal Lizard Drop, Start of Cave","access_rules": ["@canReachTomboftheGiantsBehindGoldenFogWall"],"visibility_rules": ["setting_crystal_lizard_shuffle"]},
+            {"name": "TotG: Extra Titanite - Crystal Lizard Drop, Start of Cave","access_rules": ["@canReachTomboftheGiantsBehindGoldenFogWall"],"visibility_rules": ["setting_crystal_lizard_shuffle"]},
+            {"name": "TotG: Humanity - Nito Drop","access_rules": ["@canReachTomboftheGiantsAfterNito"],"visibility_rules": ["setting_boss_humanity_shuffle"]}
         ]
     },{
         "name": "TotG: White Titanite Slab - Outside Nito","map_locations": [{"map": "Tomb of the Giants Lower","x": 520,"y": 520}],
@@ -1984,8 +2402,12 @@
         "name": "TotG: Boss Fog Wall - Nito","map_locations": [{"map": "Tomb of the Giants Lower","x": 307,"y": 750}],
         "sections": [{"name": "TotG: Boss Fog Wall - Nito","ref": "Lower Tomb of the Giants/TotG: Boss Fog Wall - Nito"}]
     },{
-        "name": "TotG: Lord Soul (Nito)","map_locations": [{"map": "Tomb of the Giants Lower","x": 410,"y": 920}],
-        "sections": [{"name": "TotG: Lord Soul (Nito)","ref": "Lower Tomb of the Giants/TotG: Lord Soul (Nito)"}]
+        "name": "TotG: Nito","map_locations": [{"map": "Tomb of the Giants Lower","x": 410,"y": 920}],
+        "sections": [{"name": "TotG: Lord Soul (Nito)","ref": "Lower Tomb of the Giants/TotG: Lord Soul (Nito)"},
+        {"name": "TotG: Humanity - Nito Drop","ref": "Lower Tomb of the Giants/TotG: Humanity - Nito Drop"}]
+    },{"name": "TotG: Crystal Lizard, Start of Cave","map_locations": [{"map": "Tomb of the Giants Lower","x": 216,"y": 200}],
+    "sections": [{"name": "TotG: Twinkling Titanite - Crystal Lizard Drop, Start of Cave","ref": "Lower Tomb of the Giants/TotG: Twinkling Titanite - Crystal Lizard Drop, Start of Cave"},
+    {"name": "TotG: Extra Titanite - Crystal Lizard Drop, Start of Cave","ref": "Lower Tomb of the Giants/TotG: Extra Titanite - Crystal Lizard Drop, Start of Cave"}]
     },{
         "name": "Kiln of the First Flame",
         "map_locations": [
@@ -2022,12 +2444,17 @@
         ],
         "sections": [
             {"name": "SG: Boss Fog Wall - Sanctuary Guardian","access_rules": ["@canReachSanctuaryGardenSanctuaryGuardian"],"visibility_rules": ["setting_fogwall_lock_boss"]},
+            {"name": "SG: Guardian Soul","access_rules": ["@canReachSanctuaryGardenSanctuaryGuardian"],"visibility_rules": ["setting_boss_soul_shuffle"]},
+            {"name": "SG: Humanity - Sanctuary Guardian Drop","access_rules": ["@canReachSanctuaryGardenSanctuaryGuardian"],"visibility_rules": ["setting_boss_humanity_shuffle"]},
             {"name": "OS: Humanity - Corpse Near Bonfire","access_rules": ["@canReachOolacileSanctuary"]}
         ]
     },{ "name": "SG: Boss Fog Wall - Sanctuary Guardian","map_locations": [{"map": "Oolacile Sanctuary","x": 685,"y": 282}],"sections": [
             { "name": "SG: Boss Fog Wall - Sanctuary Guardian","ref": "Oolacile Sanctuary/SG: Boss Fog Wall - Sanctuary Guardian"}]
     },{ "name": "OS: Humanity - Corpse Near Bonfire","map_locations": [{"map": "Oolacile Sanctuary","x": 105,"y": 309}],"sections": [
             { "name": "OS: Humanity - Corpse Near Bonfire","ref": "Oolacile Sanctuary/OS: Humanity - Corpse Near Bonfire"}]
+    },{"name": "SG: Sanctuary Guardian","map_locations": [{"map": "Oolacile Sanctuary","x": 532,"y": 156}],
+    "sections": [{"name": "SG: Guardian Soul","ref": "Oolacile Sanctuary/SG: Guardian Soul"},
+    {"name": "SG: Humanity - Sanctuary Guardian Drop","ref": "Oolacile Sanctuary/SG: Humanity - Sanctuary Guardian Drop"}]
     },{
         "name": "Royal Wood",
         "map_locations": [
@@ -2057,7 +2484,25 @@
             {"name": "RW: Boss Fog Wall - Artorias","access_rules": ["@canReachRoyalWoodArtorias"],"visibility_rules": ["setting_fogwall_lock_boss"]},
             {"name": "RW: Gough's Great Arrow - Kalemeet's Arena","access_rules": ["@canReachRoyalWoodAfterHawkeyeGough"]},
             {"name": "RW: Titanite Slab - Kalameet's Arena Behind Waterfall","access_rules": ["@canReachRoyalWoodAfterHawkeyeGough"]},
-            {"name": "OT: Soul of a Hero - 2F Behind Stairs To Gough","access_rules": ["@canReachOolacileTownship"]}
+            {"name": "OT: Soul of a Hero - 2F Behind Stairs To Gough","access_rules": ["@canReachOolacileTownship"]},
+            {"name": "RW: Twinkling Titanite - Crystal Lizard Drop, After Bridge With Kalameet Jumpscare","access_rules": ["@canReachRoyalWood"],"visibility_rules": ["setting_crystal_lizard_shuffle"]},
+            {"name": "RW: Extra Titanite - Crystal Lizard Drop, After Bridge With Kalameet Jumpscare","access_rules": ["@canReachRoyalWood"],"visibility_rules": ["setting_crystal_lizard_shuffle"]},
+            {"name": "RW: Twinkling Titanite - Crystal Lizard Drop, Near Elevator Top","access_rules": ["@canReachRoyalWood"],"visibility_rules": ["setting_crystal_lizard_shuffle"]},
+            {"name": "RW: Extra Titanite - Crystal Lizard Drop, Near Elevator Top","access_rules": ["@canReachRoyalWood"],"visibility_rules": ["setting_crystal_lizard_shuffle"]},
+            {"name": "RW: Twinkling Titanite - Crystal Lizard Drop, Entry To Kalameet's Arena","access_rules": ["@canReachRoyalWood"],"visibility_rules": ["setting_crystal_lizard_shuffle"]},
+            {"name": "RW: Extra Titanite - Crystal Lizard Drop, Entry To Kalameet's Arena","access_rules": ["@canReachRoyalWood"],"visibility_rules": ["setting_crystal_lizard_shuffle"]},
+            {"name": "RW: Calamity Ring","access_rules": ["@canReachRoyalWoodAfterHawkeyeGough"]},
+            {"name": "Marvelous Chester: Humanity","access_rules": ["@canReachRoyalWoodMarvelousChester"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Marvelous Chester: Snickering Top Hat - Drop Added To Shop","access_rules": ["@canReachRoyalWoodMarvelousChester"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Marvelous Chester: Chester's Long Coat - Drop Added To Shop","access_rules": ["@canReachRoyalWoodMarvelousChester"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Marvelous Chester: Chester's Gloves - Drop Added To Shop","access_rules": ["@canReachRoyalWoodMarvelousChester"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Marvelous Chester: Chester's Trousers - Drop Added To Shop","access_rules": ["@canReachRoyalWoodMarvelousChester"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Hawkeye Gough: Carving: HELLO!","access_rules": ["@canReachRoyalWoodHawkeyeGough"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Hawkeye Gough: Carving: Carving: THANK YOU!","access_rules": ["@canReachRoyalWoodHawkeyeGough"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Hawkeye Gough: Gough's Helm - Drop Added To Shop","access_rules": ["@canReachRoyalWoodHawkeyeGough"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Hawkeye Gough: Gough's Armor - Drop Added To Shop","access_rules": ["@canReachRoyalWoodHawkeyeGough"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Hawkeye Gough: Gough's Gauntlets - Drop Added To Shop","access_rules": ["@canReachRoyalWoodHawkeyeGough"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Hawkeye Gough: Gough's Leggings - Drop Added To Shop","access_rules": ["@canReachRoyalWoodHawkeyeGough"],"visibility_rules": ["setting_shop_shuffle"]}
         ]
     },{ "name": "RW: Soul of a Proud Knight - Behind Tower","map_locations": [{"map": "Royal Wood","x": 127,"y": 382}],"sections": [
             {"name": "RW: Soul of a Proud Knight - Behind Tower","ref": "Royal Wood/RW: Soul of a Proud Knight - Behind Tower"}]
@@ -2099,6 +2544,30 @@
             {"name": "RW: Titanite Slab - Kalameet's Arena Behind Waterfall","ref": "Royal Wood/RW: Titanite Slab - Kalameet's Arena Behind Waterfall"}]
     },{ "name": "OT: Soul of a Hero - 2F Behind Stairs To Gough","map_locations": [{"map": "Royal Wood","x": 899,"y": 204}],"sections": [
             {"name": "OT: Soul of a Hero - 2F Behind Stairs To Gough","ref": "Royal Wood/OT: Soul of a Hero - 2F Behind Stairs To Gough"}]
+    },{"name": "RW: Crystal Lizard, After Bridge With Kalameet Jumpscare","map_locations": [{"map": "Royal Wood","x": 461,"y": 397}],
+    "sections": [{"name": "RW: Twinkling Titanite - Crystal Lizard Drop, After Bridge With Kalameet Jumpscare","ref": "Royal Wood/RW: Twinkling Titanite - Crystal Lizard Drop, After Bridge With Kalameet Jumpscare"},
+    {"name": "RW: Extra Titanite - Crystal Lizard Drop, After Bridge With Kalameet Jumpscare","ref": "Royal Wood/RW: Extra Titanite - Crystal Lizard Drop, After Bridge With Kalameet Jumpscare"}]
+    },{"name": "RW: Crystal Lizard, Near Elevator Top","map_locations": [{"map": "Royal Wood","x": 161,"y": 421}],
+    "sections": [{"name": "RW: Twinkling Titanite - Crystal Lizard Drop, Near Elevator Top","ref": "Royal Wood/RW: Twinkling Titanite - Crystal Lizard Drop, Near Elevator Top"},
+    {"name": "RW: Extra Titanite - Crystal Lizard Drop, Near Elevator Top","ref": "Royal Wood/RW: Extra Titanite - Crystal Lizard Drop, Near Elevator Top"}]
+    },{"name": "RW: Crystal Lizard, Entry To Kalameet's Arena","map_locations": [{"map": "Royal Wood","x": 888,"y": 506}],
+    "sections": [{"name": "RW: Twinkling Titanite - Crystal Lizard Drop, Entry To Kalameet's Arena","ref": "Royal Wood/RW: Twinkling Titanite - Crystal Lizard Drop, Entry To Kalameet's Arena"},
+    {"name": "RW: Extra Titanite - Crystal Lizard Drop, Entry To Kalameet's Arena","ref": "Royal Wood/RW: Extra Titanite - Crystal Lizard Drop, Entry To Kalameet's Arena"}]
+    },{"name": "RW: Calamity Ring","map_locations": [{"map": "Royal Wood","x": 1030,"y": 705}],
+    "sections": [{"name": "RW: Calamity Ring","ref": "Royal Wood/RW: Calamity Ring"}]
+    },{"name": "Marvelous Chester","map_locations": [{"map": "Royal Wood","x": 1019,"y": 62}],
+    "sections": [{"name": "Marvelous Chester: Humanity","ref": "Royal Wood/Marvelous Chester: Humanity"},
+    {"name": "Marvelous Chester: Snickering Top Hat - Drop Added To Shop","ref": "Royal Wood/Marvelous Chester: Snickering Top Hat - Drop Added To Shop"},
+    {"name": "Marvelous Chester: Chester's Long Coat - Drop Added To Shop","ref": "Royal Wood/Marvelous Chester: Chester's Long Coat - Drop Added To Shop"},
+    {"name": "Marvelous Chester: Chester's Gloves - Drop Added To Shop","ref": "Royal Wood/Marvelous Chester: Chester's Gloves - Drop Added To Shop"},
+    {"name": "Marvelous Chester: Chester's Trousers - Drop Added To Shop","ref": "Royal Wood/Marvelous Chester: Chester's Trousers - Drop Added To Shop"}]
+    },{"name": "Hawkeye Gough","map_locations": [{"map": "Royal Wood","x": 778,"y": 36}],
+    "sections": [{"name": "Hawkeye Gough: Carving: HELLO!","ref": "Royal Wood/Hawkeye Gough: Carving: HELLO!"},
+    {"name": "Hawkeye Gough: Carving: Carving: THANK YOU!","ref": "Royal Wood/Hawkeye Gough: Carving: Carving: THANK YOU!"},
+    {"name": "Hawkeye Gough: Gough's Helm - Drop Added To Shop","ref": "Royal Wood/Hawkeye Gough: Gough's Helm - Drop Added To Shop"},
+    {"name": "Hawkeye Gough: Gough's Armor - Drop Added To Shop","ref": "Royal Wood/Hawkeye Gough: Gough's Armor - Drop Added To Shop"},
+    {"name": "Hawkeye Gough: Gough's Gauntlets - Drop Added To Shop","ref": "Royal Wood/Hawkeye Gough: Gough's Gauntlets - Drop Added To Shop"},
+    {"name": "Hawkeye Gough: Gough's Leggings - Drop Added To Shop","ref": "Royal Wood/Hawkeye Gough: Gough's Leggings - Drop Added To Shop"}]
     },{
         "name": "Oolacile Township",
         "map_locations": [
@@ -2119,7 +2588,12 @@
             {"name": "OT: Twin Humanities - Drop onto Roof","access_rules": ["@canReachOolacileTownship"]},
             {"name": "OT: Soul of a Brave Warrior - Corpse in Corner of Statue Hallway","access_rules": ["@canReachOolacileTownship"]},
             {"name": "OT: Silver Pendant","access_rules": ["@canReachOolacileTownshipBehindLightDispelledWalls"]},
-            {"name": "OT: Red Titanite Chunk - In Chest behind Illusory Wall","access_rules": ["@canReachOolacileTownshipBehindLightDispelledWalls"]}
+            {"name": "OT: Red Titanite Chunk - In Chest behind Illusory Wall","access_rules": ["@canReachOolacileTownshipBehindLightDispelledWalls"]},
+            {"name": "OT: Carving: VERY GOOD! - Mimic, Outside Platform","access_rules": ["@canReachOolacileTownship"]},
+            {"name": "OT: Twinkling Titanite - Crystal Lizard Drop, Little Isolated Rooftop","access_rules": ["@canReachOolacileTownship"],"visibility_rules": ["setting_crystal_lizard_shuffle"]},
+            {"name": "OT: Extra Titanite - Crystal Lizard Drop, Little Isolated Rooftop","access_rules": ["@canReachOolacileTownship"],"visibility_rules": ["setting_crystal_lizard_shuffle"]},
+            {"name": "OT: Crest Key - Mimic Drop, By Fireplace","access_rules": ["@canReachOolacileTownship"]},
+            {"name": "OT: I'm Sorry Carving - Lone Sorceress","access_rules": ["@canReachOolacileTownship"]}
         ]
     },{ "name": "OT: Rubbish - Outside of Door","map_locations": [{"map": "Oolacile Township","x": 754,"y": 426}],"sections": [
             {"name": "OT: Rubbish - Outside of Door","ref": "Oolacile Township/OT: Rubbish - Outside of Door"}]
@@ -2143,6 +2617,15 @@
             {"name": "OT: Silver Pendant","ref": "Oolacile Township/OT: Silver Pendant"}] 
     },{ "name": "OT: Red Titanite Chunk - In Chest behind Illusory Wall","map_locations": [{"map": "Oolacile Township","x": 917,"y": 493}],"sections": [
             {"name": "OT: Red Titanite Chunk - In Chest behind Illusory Wall","ref": "Oolacile Township/OT: Red Titanite Chunk - In Chest behind Illusory Wall"}]
+    },{"name": "OT: Carving: VERY GOOD! - Mimic, Outside Platform","map_locations": [{"map": "Oolacile Township","x": 303,"y": 595}],
+    "sections": [{"name": "OT: Carving: VERY GOOD! - Mimic, Outside Platform","ref": "Oolacile Township/OT: Carving: VERY GOOD! - Mimic, Outside Platform"}]
+    },{"name": "OT: Twinkling Titanite - Crystal Lizard Drop, Little Isolated Rooftop","map_locations": [{"map": "Oolacile Township","x": 237,"y": 539}],
+    "sections": [{"name": "OT: Twinkling Titanite - Crystal Lizard Drop, Little Isolated Rooftop","ref": "Oolacile Township/OT: Twinkling Titanite - Crystal Lizard Drop, Little Isolated Rooftop"},
+    {"name": "OT: Extra Titanite - Crystal Lizard Drop, Little Isolated Rooftop","ref": "Oolacile Township/OT: Extra Titanite - Crystal Lizard Drop, Little Isolated Rooftop"}]
+    },{"name": "OT: Crest Key - Mimic Drop, By Fireplace","map_locations": [{"map": "Oolacile Township","x": 916,"y": 365}],
+    "sections": [{"name": "OT: Crest Key - Mimic Drop, By Fireplace","ref": "Oolacile Township/OT: Crest Key - Mimic Drop, By Fireplace"}]
+    },{"name": "OT: I'm Sorry Carving - Lone Sorceress","map_locations": [{"map": "Oolacile Township","x": 80,"y": 573}],
+    "sections": [{"name": "OT: I'm Sorry Carving - Lone Sorceress","ref": "Oolacile Township/OT: I'm Sorry Carving - Lone Sorceress"}]
     },{
         "name": "Chasm of the Abyss",
         "map_locations": [
@@ -2161,7 +2644,11 @@
             {"name": "CotA: Twin Humanities - Under Pillar","access_rules": ["@canReachChasmoftheAbyss"]},
             {"name": "CotA: White Titanite Slab - On Ledge","access_rules": ["@canReachChasmoftheAbyss"]},
             {"name": "CotA: Soul of a Hero - Left Ledge Before Boss","access_rules": ["@canReachChasmoftheAbyss"]},
-            {"name": "CotA: Boss Fog Wall - Manus","access_rules": ["@canReachChasmoftheAbyssManus"],"visibility_rules": ["setting_fogwall_lock_boss"]}
+            {"name": "CotA: Boss Fog Wall - Manus","access_rules": ["@canReachChasmoftheAbyssManus"],"visibility_rules": ["setting_fogwall_lock_boss"]},
+            {"name": "CotA: Twinkling Titanite - Crystal Lizard Drop, Entrance","access_rules": ["@canReachChasmoftheAbyss"],"visibility_rules": ["setting_crystal_lizard_shuffle"]},
+            {"name": "CotA: Extra Titanite - Crystal Lizard Drop, Entrance","access_rules": ["@canReachChasmoftheAbyss"],"visibility_rules": ["setting_crystal_lizard_shuffle"]},
+            {"name": "CotA: Soul of Manus","access_rules": ["@canReachChasmoftheAbyssManus"],"visibility_rules": ["setting_boss_soul_shuffle"]},
+            {"name": "CotA: Humanity x10 - Manus Drop","access_rules": ["@canReachChasmoftheAbyssManus"],"visibility_rules": ["setting_boss_humanity_shuffle"]}
         ]
     },{ "name": "CotA: Sorcery: Dark Bead","map_locations": [{"map": "Chasm of the Abyss","x": 30,"y": 436}],"sections": [
             {"name": "CotA: Sorcery: Dark Bead","ref": "Chasm of the Abyss/CotA: Sorcery: Dark Bead"}]
@@ -2181,6 +2668,12 @@
             {"name": "CotA: Soul of a Hero - Left Ledge Before Boss","ref": "Chasm of the Abyss/CotA: Soul of a Hero - Left Ledge Before Boss"}]
     },{ "name": "CotA: Boss Fog Wall - Manus","map_locations": [{"map": "Chasm of the Abyss","x": 697,"y": 543}],"sections": [
             {"name": "CotA: Boss Fog Wall - Manus","ref": "Chasm of the Abyss/CotA: Boss Fog Wall - Manus"}]
+    },{"name": "CotA: Crystal Lizard, Entrance","map_locations": [{"map": "Chasm of the Abyss","x": 342,"y": 514}],
+    "sections": [{"name": "CotA: Twinkling Titanite - Crystal Lizard Drop, Entrance","ref": "Chasm of the Abyss/CotA: Twinkling Titanite - Crystal Lizard Drop, Entrance"},
+    {"name": "CotA: Extra Titanite - Crystal Lizard Drop, Entrance","ref": "Chasm of the Abyss/CotA: Extra Titanite - Crystal Lizard Drop, Entrance"}]
+    },{"name": "CotA: Manus","map_locations": [{"map": "Chasm of the Abyss","x": 765,"y": 617}],
+    "sections": [{"name": "CotA: Soul of Manus","ref": "Chasm of the Abyss/CotA: Soul of Manus"},
+    {"name": "CotA: Humanity x10 - Manus Drop","ref": "Chasm of the Abyss/CotA: Humanity x10 - Manus Drop"}]
     },
 
 
@@ -2195,11 +2688,6 @@
         "@canReachUndeadAsylumCell, $hasDungeonCellKey"
     ]},
     {
-    "name": "canReachNorthernUndeadAsylumF2EastDoor",
-    "access_rules": [
-        "@canReachNorthernUndeadAsylumAfterFog, $hasUAF2EastKey"
-    ]},
-    {
     "name": "canReachNorthernUndeadAsylum",
     "access_rules": [
         "@canReachUndeadAsylumCellDoor, $hasDungeonCellKey"
@@ -2210,6 +2698,11 @@
         "@canReachNorthernUndeadAsylum"
     ]},
     {
+    "name": "canReachNorthernUndeadAsylumF2EastDoor",
+    "access_rules": [
+        "@canReachNorthernUndeadAsylumAfterFog"
+    ]},
+    {
     "name": "canReachNorthernUndeadAsylumAfterF2EastDoor",
     "access_rules": [
         "@canReachNorthernUndeadAsylumF2EastDoor"
@@ -2217,12 +2710,46 @@
     {
     "name": "canReachNorthernUndeadAsylumBigPilgrimDoor",
     "access_rules": [
-        "@canReachNorthernUndeadAsylumAfterF2EastDoor, $hasBigPilgrimsKey"
+        "@canReachNorthernUndeadAsylumAfterF2EastDoor"
     ]},
     {
     "name": "canReachFirelinkShrine",
     "access_rules": [
-        "@canReachNorthernUndeadAsylumBigPilgrimDoor"
+        "@canReachNorthernUndeadAsylumBigPilgrimDoor",
+        "@canReachTheCatacombs",
+        "@canReachUpperUndeadBurgBeforeFog",
+        "@canReachUpperNewLondoRuins",
+        "@canReachFirelinkShrineAfterUndeadParishElevator"
+    ]},
+    {
+    "name": "canReachFirelinkShrineTrustyPatches",
+    "access_rules": [
+        "@canReachFirelinkShrine, @canReachTomboftheGiantsNito, $hasNitoDefeated"
+    ]},
+    {
+    "name": "canReachFirelinkShrineGriggsOfVinheim",
+    "access_rules": [
+        "@canReachFirelinkShrine, @canReachLowerUndeadBurgAfterResidenceKey"
+    ]},
+    {
+    "name": "canReachFirelinkShrineGriggsOfVinheimAfterLoganLeaves",
+    "access_rules": [
+        "@canReachFirelinkShrineGriggsOfVinheim, @canReachSensFortressAfterCageKey, @canReachTheDukesArchivesOutofCell"
+    ]},
+    {
+    "name": "canReachFirelinkShrineLaurentiusOfTheGreatSwamp",
+    "access_rules": [
+        "@canReachFirelinkShrine, @canReachDepths"
+    ]},
+    {
+    "name": "canReachFirelinkShrinePetrusOfThorolund",
+    "access_rules": [
+        "@canReachFirelinkShrine"
+    ]},
+    {
+    "name": "canReachFirelinkShrineRheaOfThorolund",
+    "access_rules": [
+        "@canReachFirelinkShrine, @canReachTomboftheGiants"
     ]},
     {
     "name": "canReachUpperUndeadBurgBeforeFog",
@@ -2240,13 +2767,20 @@
     "name": "canReachUpperUndeadBurg",
     "access_rules": [
         "@canReachUpperUndeadBurgFog",
-        "@canReachWatchtowerBasement",
-        "@canReachUpperUndeadBurgHellkiteBridge"
+        "@canReachUpperUndeadBurgHellkiteBridge",
+        "@canReachLowerUndeadBurg",
+        "@canReachWatchtowerBasement"
+    ]},
+    {
+    "name": "canReachUpperUndeadBurgMaleUndeadMerchant",
+    "access_rules": [
+        "@canReachUpperUndeadBurg"
     ]},
     {
     "name": "canReachUpperUndeadBurgPineResinChest",
     "access_rules": [
-        "@canReachUpperUndeadBurg, @canReachUndeadMerchant"
+        "@canReachUpperUndeadBurg, master_key",
+        "@canReachUpperUndeadBurg, residence_key"
     ]},
     {
     "name": "canReachUpperUndeadBurgTaurusDemon",
@@ -2279,9 +2813,19 @@
         "@canReachDarkrootGardenBeforeFog"
     ]},
     {
+    "name": "canReachUndeadParishAndreOfAstora",
+    "access_rules": [
+        "@canReachUndeadParish"
+    ]},
+    {
     "name": "canReachUndeadParishBellGargoyles",
     "access_rules": [
         "@canReachUndeadParish, $canPassBossFog|boss_fog_wall_bell_gargoyles"
+    ]},
+    {
+    "name": "canReachUndeadParishOswaldOfCarim",
+    "access_rules": [
+        "@canReachUndeadParishBellGargoyles"
     ]},
     {
     "name": "canReachFirelinkShrineAfterUndeadParishElevator",
@@ -2319,7 +2863,7 @@
     {
     "name": "canReachLowerUndeadBurgAfterResidenceKey",
     "access_rules": [
-        "@canReachLowerUndeadBurg, @canReachUndeadMerchant"
+        "@canReachLowerUndeadBurg, residence_key"
     ]},
     {
     "name": "canReachLowerUndeadBurgCapraDemon",
@@ -2330,6 +2874,11 @@
     "name": "canReachLowerUndeadBurgAfterCapraDemon",
     "access_rules": [
         "@canReachLowerUndeadBurgCapraDemon, $hasCapraDemonDefeated"
+    ]},
+    {
+    "name": "canReachLowerUndeadBurgFemaleUndeadMerchant",
+    "access_rules": [
+        "@canReachLowerUndeadBurg"
     ]},
     {
     "name": "canReachWatchtowerBasement",
@@ -2358,10 +2907,14 @@
         "@canReachDepthsGapingDragon, $hasGapingDragonDefeated"
     ]},
     {
+    "name": "canReachFirelinkShrineDomhnallOfZena",
+    "access_rules": [
+        "@canReachFirelinkShrine, @canReachDepths, @canReachUndeadParishBellGargoyles, @canReachLowerBlighttownAfterQuelaag"
+    ]},
+    {
     "name": "canReachDepthstoBlighttownDoor",
     "access_rules": [
-        "@canReachDepths, blighttown_key",
-        "@canReachUpperBlighttownDepthsSide, @canReachDepths, blighttown_key, $hasDepthsBlighttownopened"
+        "@canReachDepths, blighttown_key"
     ]},
     {
     "name": "canReachUpperBlighttownDepthsSide",
@@ -2378,16 +2931,26 @@
     {
     "name": "canReachLowerBlighttownFog",
     "access_rules": [
-        "@canReachUpperBlighttownDepthsSide, $canPassFog|fog_wall_lower_blighttown_entrance",
-        "@canReachLowerBlighttown, $canPassFog|fog_wall_lower_blighttown_entrance"
+        "@canReachLowerBlighttown, $canPassFog|fog_wall_lower_blighttown_entrance",
+        "@canReachUpperBlighttownDepthsSide, $canPassFog|fog_wall_lower_blighttown_entrance"
     ]},
     {
     "name": "canReachLowerBlighttown",
     "access_rules": [
-        "@canReachUpperBlighttownDepthsSide, lordvessel",
-        "@canReachUpperBlighttownDepthsSide, setting_warp_without_lordvessel",
+        "@canReachUpperBlighttownVotDSide",
         "@canReachLowerBlighttownFog",
-        "@canReachUpperBlighttownVotDSide"
+        "@canReachUpperBlighttownDepthsSide, setting_warp_without_lordvessel",
+        "@canReachUpperBlighttownDepthsSide, lordvessel"
+    ]},
+    {
+    "name": "canReachLowerBlighttownShivaOfTheEast",
+    "access_rules": [
+        "@canReachLowerBlighttown, @canReachDarkrootGardenBehindArtoriasDoor"
+    ]},
+    {
+    "name": "canReachLowerBlighttownQuelanaOfIzalith",
+    "access_rules": [
+        "@canReachLowerBlighttown, @canReachFirelinkShrineLaurentiusOfTheGreatSwamp"
     ]},
     {
     "name": "canReachLowerBlighttownQuelaag",
@@ -2397,15 +2960,21 @@
     {
     "name": "canReachLowerBlighttownAfterQuelaag",
     "access_rules": [
-        "@canReachLowerBlighttownQuelaag, $hasQuelaagDefeated"
+        "@canReachLowerBlighttownQuelaag, $hasQuelaagDefeated",
+        "@canReachDemonRuinsEarly"
+    ]},
+    {
+    "name": "canReachLowerBlighttownEingyi",
+    "access_rules": [
+        "@canReachLowerBlighttownAfterQuelaag"
     ]},
     {
     "name": "canReachValleyoftheDrakes",
     "access_rules": [
-        "@canReachDoorbetweenUpperNewLondoandValleyoftheDrakes",
-        "@canReachLowerNewLondoRuins",
         "@canReachUpperBlighttownVotDSide",
-        "@canReachDarkrootBasin"
+        "@canReachLowerNewLondoRuins",
+        "@canReachDarkrootBasin",
+        "@canReachDoorbetweenUpperNewLondoandValleyoftheDrakes"
     ]},
     {
     "name": "canReachValleyoftheDrakesAfterDefeatingFourKings",
@@ -2421,15 +2990,21 @@
     {
     "name": "canReachDarkrootBasin",
     "access_rules": [
-        "@canReachWatchtowerBasement",
         "@canReachDarkrootGardenBeforeFog",
-        "@canReachValleyoftheDrakes"
+        "@canReachValleyoftheDrakes",
+        "@canReachWatchtowerBasement"
+    ]},
+    {
+    "name": "canReachDarkrootBasinPrincessDusk",
+    "access_rules": [
+        "@canReachDarkrootBasin, $hasPrincessDuskRescued",
+        "@canReachOolacileSanctuaryElizabeth"
     ]},
     {
     "name": "canReachDarkrootGardenBeforeFog",
     "access_rules": [
-        "@canReachUndeadParish",
-        "@canReachDarkrootBasin"
+        "@canReachDarkrootBasin",
+        "@canReachUndeadParish"
     ]},
     {
     "name": "canReachDarkrootGarden",
@@ -2439,7 +3014,7 @@
     {
     "name": "canReachDarkrootGardenBehindArtoriasDoor",
     "access_rules": [
-        "@canReachDarkrootGardenBeforeFog, @canReachAndre"
+        "@canReachDarkrootGardenBeforeFog, crest_of_artorias"
     ]},
     {
     "name": "canReachDarkrootGardenMoonlightButterfly",
@@ -2456,7 +3031,7 @@
     "access_rules": [
         "@canReachLowerBlighttown, setting_fogwall_lock",
         "@canReachLowerBlighttown, setting_fogwall_lock_boss",
-        "@canReachLowerBlighttown, @canReachFirelinkAltar, lordvessel"
+        "@canReachLowerBlighttown, lordvessel"
     ]},
     {
     "name": "canReachAshLake",
@@ -2477,6 +3052,11 @@
     "name": "canReachSensFortressAfterSecondFog",
     "access_rules": [
         "@canReachSensFortressAfterFirstFog, $canPassFog|fog_wall_sens_fortress_2"
+    ]},
+    {
+    "name": "canReachSensFortressCrestfallenMerchant",
+    "access_rules": [
+        "@canReachSensFortressAfterSecondFog"
     ]},
     {
     "name": "canReachSensFortressAfterCageKey",
@@ -2504,6 +3084,11 @@
         "@canReachAnorLondo, $canPassFog|fog_wall_anor_londo_1"
     ]},
     {
+    "name": "canReachAnorLondoPaintingRoom",
+    "access_rules": [
+        "@canReachAnorLondoAfterFirstFog"
+    ]},
+    {
     "name": "canReachAnorLondoAfterSecondFog",
     "access_rules": [
         "@canReachAnorLondoAfterFirstFog, $canPassFog|fog_wall_anor_londo_2"
@@ -2512,6 +3097,11 @@
     "name": "canReachAnorLondoOrnsteinandSmough",
     "access_rules": [
         "@canReachAnorLondoAfterSecondFog, $canPassBossFog|boss_fog_wall_ornstein_and_smough"
+    ]},
+    {
+    "name": "canReachAnorLondoGiantBlacksmith",
+    "access_rules": [
+        "@canReachAnorLondoAfterSecondFog"
     ]},
     {
     "name": "canReachAnorLondoAfterOrnsteinandSmough",
@@ -2531,7 +3121,7 @@
     {
     "name": "canReachPaintedWorldofAriamis",
     "access_rules": [
-        "@canReachAnorLondoAfterFirstFog, peculiar_doll"
+        "@canReachAnorLondoPaintingRoom, peculiar_doll"
     ]},
     {
     "name": "canReachPaintedWorldofAriamisAfterFog",
@@ -2551,12 +3141,23 @@
     {
     "name": "canReachUpperNewLondoRuins",
     "access_rules": [
-        "@canReachFirelinkShrine","@canReachDoorbetweenUpperNewLondoandValleyoftheDrakes"
+        "@canReachFirelinkShrine",
+        "@canReachDoorbetweenUpperNewLondoandValleyoftheDrakes"
+    ]},
+    {
+    "name": "canReachUpperNewLondoRuinsRickertOfVinheim",
+    "access_rules": [
+        "@canReachUpperNewLondoRuins"
     ]},
     {
     "name": "canReachUpperNewLondoRuinsAfterFog",
     "access_rules": [
         "@canReachUpperNewLondoRuins, $canPassFog|fog_wall_new_londo_upper"
+    ]},
+    {
+    "name": "canReachUpperNewLondoRuinsIngward",
+    "access_rules": [
+        "@canReachUpperNewLondoRuinsAfterFog"
     ]},
     {
     "name": "canReachNewLondoRuinsDoortotheSeal",
@@ -2573,7 +3174,7 @@
     {
     "name": "canReachTheAbyss",
     "access_rules": [
-        "@canReachLowerNewLondoRuins, @canReachDarkrootGardenBehindArtoriasDoor, $canPassBossFog|boss_fog_wall_four_kings"
+        "@canReachLowerNewLondoRuins, covenant_of_artorias, $canPassBossFog|boss_fog_wall_four_kings"
     ]},
     {
     "name": "canReachTheAbyssAfterFourKings",
@@ -2593,12 +3194,12 @@
     {
     "name": "canReachTheDukesArchivesAfterArchiveTowerCellKey",
     "access_rules": [
-        "@canReachTheDukesArchivesAfterFirstSeathEncounter"
+        "@canReachTheDukesArchives, archive_tower_cell_key"
     ]},
     {
     "name": "canReachTheDukesArchivesAfterArchivePrisonExtraKey",
     "access_rules": [
-        "@canReachTheDukesArchivesAfterFirstSeathEncounter, archive_prison_extra_key"
+        "@canReachTheDukesArchives, archive_prison_extra_key"
     ]},
     {
     "name": "canReachTheDukesArchivesOutofCell",
@@ -2634,12 +3235,17 @@
     {
     "name": "canReachTheDukesArchivesFirstArenaafterSeathsDeath",
     "access_rules": [
-        "@canReachCrystalCave, $hasSeathDefeated"
+        "@canReachTheDukesArchives, @canReachCrystalCaveAfterSeath"
+    ]},
+    {
+    "name": "canReachTheDukesArchivesBigHatLogan",
+    "access_rules": [
+        "@canReachTheDukesArchivesAfterArchiveTowerGiantDoorKey, @canReachSensFortressAfterCageKey, @canReachTheDukesArchivesGiantCell, @canReachCrystalCaveAfterSeath"
     ]},
     {
     "name": "canReachDemonRuinsEarly",
     "access_rules": [
-        "@canReachLowerBlighttown, @canReachLowerBlighttownAfterQuelaag"
+        "@canReachLowerBlighttownAfterQuelaag"
     ]},
     {
     "name": "canReachDemonRuinsCeaselessDischarge",
@@ -2669,8 +3275,7 @@
     {
     "name": "canReachDemonRuinsShortcut",
     "access_rules": [
-        "@canReachDemonRuinsAfterDemonFiresage, @canReachLostIzalithBedofChaos, $hasBedOfChaosDefeated",
-        "@canReachLostIzalith, @canReachLostIzalithBedofChaos, $hasBedOfChaosDefeated"
+        "@canReachLostIzalith"
     ]},
     {
     "name": "canReachLostIzalith",
@@ -2686,10 +3291,10 @@
     "name": "canReachTheCatacombs",
     "access_rules": [
         "@canReachFirelinkShrine, catacomb_logic_none",
-        "@canReachFirelinkShrine, catacomb_logic_merchant, @canReachUndeadMerchant",
-        "@canReachFirelinkShrine, catacomb_logic_andre, @canReachAndre",
-        "@canReachFirelinkShrine, catacomb_logic_andre_merchant, @canReachAndre",
-        "@canReachFirelinkShrine, catacomb_logic_andre_merchant, @canReachUndeadMerchant",
+        "@canReachFirelinkShrine, catacomb_logic_merchant, @canReachUpperUndeadBurgMaleUndeadMerchant",
+        "@canReachFirelinkShrine, catacomb_logic_andre, @canReachUndeadParishAndreOfAstora",
+        "@canReachFirelinkShrine, catacomb_logic_andre_merchant, @canReachUndeadParishAndreOfAstora",
+        "@canReachFirelinkShrine, catacomb_logic_andre_merchant, @canReachUpperUndeadBurgMaleUndeadMerchant",
         "@canReachFirelinkShrine, catacomb_logic_oands, @canReachAnorLondoAfterOrnsteinandSmough"
     ]},
     {
@@ -2701,6 +3306,11 @@
     "name": "canReachTheCatacombsAfterDoor1",
     "access_rules": [
         "@canReachTheCatacombsDoor1"
+    ]},
+    {
+    "name": "canReachTheCatacombsVamos",
+    "access_rules": [
+        "@canReachTheCatacombsAfterDoor1"
     ]},
     {
     "name": "canReachTheCatacombsPinwheel",
@@ -2715,9 +3325,9 @@
     {
     "name": "canReachTomboftheGiants",
     "access_rules": [
-        "@canReachTheCatacombsAfterPinwheel, skull_lantern, setting_fogwall_lock",
-        "@canReachTheCatacombsAfterPinwheel, skull_lantern, setting_fogwall_lock_boss",
-        "@canReachTheCatacombsAfterPinwheel, skull_lantern, @canReachAnorLondoAfterOrnsteinandSmough"
+        "@canReachTheCatacombsAfterPinwheel, totg_logic_none",
+        "@canReachTheCatacombsAfterPinwheel, totg_logic_skull_lantern, skull_lantern",
+        "@canReachTheCatacombsAfterPinwheel, totg_logic_sunlight_maggot, sunlight_maggot"
     ]},
     {
     "name": "canReachTomboftheGiantsAfterWhiteFog",
@@ -2742,8 +3352,11 @@
     {
     "name": "canReachFirelinkAltar",
     "access_rules": [
-        "@canReachFirelinkShrine, @canReachUndeadParishBellGargoyles, @canReachLowerBlighttownAfterQuelaag",
-        "@canReachTheAbyssAfterFourKings"
+        "@canReachFirelinkShrine, @canReachUndeadParishBellGargoyles, @canReachLowerBlighttownAfterQuelaag, @canReachTheAbyssAfterFourKings, altar_logic_both",
+        "@canReachFirelinkShrine, @canReachUndeadParishBellGargoyles, @canReachLowerBlighttownAfterQuelaag, altar_logic_frampt",
+        "@canReachFirelinkShrine, @canReachUndeadParishBellGargoyles, @canReachLowerBlighttownAfterQuelaag, altar_logic_either",
+        "@canReachTheAbyssAfterFourKings, altar_logic_kaathe",
+        "@canReachTheAbyssAfterFourKings, altar_logic_either"
     ]},
     {
     "name": "canReachKilnoftheFirstFlame",
@@ -2758,7 +3371,7 @@
     {
     "name": "canReachSanctuaryGarden",
     "access_rules": [
-        "@canReachDarkrootBasin, @canReachTheDukesArchives"
+        "@canReachDarkrootBasin, broken_pendant"
     ]},
     {
     "name": "canReachSanctuaryGardenSanctuaryGuardian",
@@ -2771,9 +3384,19 @@
         "@canReachSanctuaryGardenSanctuaryGuardian, $hasSanctuaryGuardianDefeated"
     ]},
     {
+    "name": "canReachOolacileSanctuaryElizabeth",
+    "access_rules": [
+        "@canReachOolacileSanctuary"
+    ]},
+    {
     "name": "canReachRoyalWood",
     "access_rules": [
         "@canReachOolacileSanctuary"
+    ]},
+    {
+    "name": "canReachRoyalWoodMarvelousChester",
+    "access_rules": [
+        "@canReachRoyalWood"
     ]},
     {
     "name": "canReachRoyalWoodArtorias",
@@ -2781,24 +3404,26 @@
         "@canReachRoyalWood, $canPassBossFog|boss_fog_wall_artorias"
     ]},
     {
+    "name": "canReachRoyalWoodHawkeyeGough",
+    "access_rules": [
+        "@canReachOolacileTownship, crest_key"
+    ]},
+    {
     "name": "canReachRoyalWoodAfterHawkeyeGough",
     "access_rules": [
-        "@canReachOolacileTownshipAfterCrestKey"
+        "@canReachRoyalWoodHawkeyeGough"
     ]},
     {
     "name": "canReachOolacileTownship",
     "access_rules": [
-        "@canReachRoyalWoodArtorias, $hasArtoriasDefeated"
+        "@canReachRoyalWoodArtorias, $hasArtoriasDefeated",
+        "@canReachChasmoftheAbyss"
     ]},
     {
     "name": "canReachOolacileTownshipBehindLightDispelledWalls",
     "access_rules": [
-        "@canReachOolacileTownship, skull_lantern"
-    ]},
-    {
-    "name": "canReachOolacileTownshipAfterCrestKey",
-    "access_rules": [
-        "@canReachOolacileTownship, $hasCrestKey"
+        "@canReachOolacileTownship, skull_lantern",
+        "@canReachOolacileTownship, sunlight_maggot"
     ]},
     {
     "name": "canReachChasmoftheAbyss",
@@ -2811,13 +3436,24 @@
         "@canReachChasmoftheAbyss, $canPassBossFog|boss_fog_wall_manus"
     ]},
     {
-    "name": "canReachAndre",
+    "name": "canReach2MerchantsBottomlessBox",
     "access_rules": [
-        "@canReachUndeadParish"
+        "@canReachUpperUndeadBurgMaleUndeadMerchant",
+        "@canReachFirelinkShrineDomhnallOfZena"
     ]},
     {
-    "name": "canReachUndeadMerchant",
+    "name": "canReach4MerchantsRepairbox",
     "access_rules": [
-        "@canReachUpperUndeadBurg"
+        "@canReachAnorLondoGiantBlacksmith",
+        "@canReachUpperUndeadBurgMaleUndeadMerchant",
+        "@canReachUndeadParishAndreOfAstora",
+        "@canReachTheCatacombsVamos"
+    ]},
+    {
+    "name": "canReach3BlacksmithsSmithboxen",
+    "access_rules": [
+        "@canReachAnorLondoGiantBlacksmith",
+        "@canReachUndeadParishAndreOfAstora",
+        "@canReachTheCatacombsVamos"
     ]}
 ]

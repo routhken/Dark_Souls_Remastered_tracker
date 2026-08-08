@@ -468,6 +468,7 @@
     {
         "name": "Sunlight Maggot",
         "type": "toggle",
+        "img": "/images/items/Sunlight Maggot.png",
         "codes": "sunlight_maggot"
     },
     {
@@ -546,6 +547,42 @@
         "codes": "setting_auto_tab"
     },
     {
+        "name": "Setting: Boss Soul Shuffle",
+        "type": "toggle",
+        "img": "/images/settings/Boss Soul.png",
+        "codes": "setting_boss_soul_shuffle"
+    },
+    {
+        "name": "Setting: Boss Humanity Shuffle",
+        "type": "toggle",
+        "img": "/images/settings/Humanity.png",
+        "codes": "setting_boss_humanity_shuffle"
+    },
+    {
+        "name": "Setting: Boss Bone Shuffle",
+        "type": "toggle",
+        "img": "/images/settings/Bone.png",
+        "codes": "setting_boss_bone_shuffle"
+    },
+    {
+        "name": "Setting: Black Knight Weapon Shuffle",
+        "type": "toggle",
+        "img": "/images/settings/BK Weapon.png",
+        "codes": "setting_black_knight_weapon_shuffle"
+    },
+    {
+        "name": "Setting: Crystal Lizard Shuffle",
+        "type": "toggle",
+        "img": "/images/settings/Crystal Lizard.png",
+        "codes": "setting_crystal_lizard_shuffle"
+    },
+    {
+        "name": "Setting: Shop Shuffle",
+        "type": "toggle",
+        "img": "/images/settings/Merchant.png",
+        "codes": "setting_shop_shuffle"
+    },
+    {
         "name": "Setting: Catacombs Logic",
         "type": "progressive",
         "allow_disabled": false,
@@ -584,5 +621,101 @@
             }
         ],
         "codes": "setting_catacomb_logic"
+    },
+    {
+        "name": "Setting: Firelink Altar Logic",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": false,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "name": "Either Serpent",
+                "img": "/images/settings/Altar Logic 1.png",
+                "codes": "altar_logic_either",
+                "inherit_codes": false
+            },
+            {
+                "name": "Both Serpents",
+                "img": "/images/settings/Altar Logic 2.png",
+                "codes": "altar_logic_both",
+                "inherit_codes": false
+            },
+            {
+                "name": "Frampt",
+                "img": "/images/settings/Altar Logic 3.png",
+                "codes": "altar_logic_frampt",
+                "inherit_codes": false
+            },
+            {
+                "name": "Kaathe",
+                "img": "/images/settings/Altar Logic 4.png",
+                "codes": "altar_logic_kaathe",
+                "inherit_codes": false
+            }
+        ],
+        "codes": "setting_firelink_altar_logic"
+    },
+    {
+        "name": "Setting: TotG Logic",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": false,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "name": "No Logic",
+                "img": "/images/settings/TotG Logic 1.png",
+                "codes": "totg_logic_none",
+                "inherit_codes": false
+            },
+            {
+                "name": "Skull Lantern",
+                "img": "/images/settings/TotG Logic 2.png",
+                "codes": "totg_logic_skull_lantern",
+                "inherit_codes": false
+            },
+            {
+                "name": "Sunlight Maggot",
+                "img": "/images/settings/TotG Logic 3.png",
+                "codes": "totg_logic_sunlight_maggot",
+                "inherit_codes": false
+            }
+        ],
+        "codes": "setting_totg_logic"
+    },
+    {
+        "name": "Setting: Goal",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": false,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "name": "Gwyn",
+                "img": "/images/settings/Goal Gwyn.png",
+                "codes": "goal_gwyn",
+                "inherit_codes": false
+            },
+            {
+                "name": "All Bosses",
+                "img": "/images/settings/Goal All.png",
+                "codes": "goal_all",
+                "inherit_codes": false
+            },
+            {
+                "name": "Ornstein & Smough",
+                "img": "/images/settings/Goal OnS.png",
+                "codes": "goal_ornstein_and_smough",
+                "inherit_codes": false
+            },
+            {
+                "name": "Manus",
+                "img": "/images/settings/Goal Manus.png",
+                "codes": "goal_manus",
+                "inherit_codes": false
+            }
+        ],
+        "codes": "setting_goal"
     }
 ]

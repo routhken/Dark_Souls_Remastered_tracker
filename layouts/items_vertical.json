@@ -20,37 +20,44 @@
                                 "lordvessel",
                                 "orange_charred_ring",
                                 "peculiar_doll",
-                                "master_key"
+                                "broken_pendant",
+                                "covenant_of_artorias"
                             ],
                             [
                                 "lord_soul_seath",
                                 "new_londo_key",
-                                "seal_key"
+                                "seal_key",
+                                "residence_key"
                             ],
                             [
                                 "lord_soul_fourkings",
                                 "blighttown_key",
+                                "master_key",
                                 "archive_tower_giant_cell_key"
                             ],
                             [
                                 "lord_soul_nito",
                                 "uaf2_west_key",
+                                "crest_key",
                                 "archive_prison_extra_key"
                             ],
                             [
                                 "lord_soul_bedofchaos",
+                                "watchtower_basement_key",
                                 "sewer_chamber_key",
                                 "archive_tower_giant_door_key"
                             ],
                             [
                                 "skull_lantern",
                                 "annex_key",
-                                "watchtower_basement_key"
+                                "depths_key",
+                                "archive_tower_cell_key"
                             ],
                             [
-                                "depths_key",
+                                "sunlight_maggot",
                                 "cage_key",
-                                "basement_key"
+                                "basement_key",
+                                "crest_of_artorias"
                             ]
                         ]
                     }

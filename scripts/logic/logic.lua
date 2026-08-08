@@ -138,6 +138,7 @@ function hasOolacileTownshiplit() return true end
 function hasBellofAwakening1() return true end
 function hasBellofAwakening2() return true end
 function hasDemonRuinsShortcut() return true end
+function hasPrincessDuskRescued() return true end
 
 -- Location Accessibilty Rules
 -- function canPassUAFog(item)

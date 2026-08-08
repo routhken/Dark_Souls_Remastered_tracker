@@ -32,13 +32,38 @@
                 "content": [
                     {
                         "type": "itemgrid",
+                        "item_size": "4, 4",
+                        "item_margin": "2, 2",
+                        "item_h_alignment": "center",
+                        "h_alignment": "left",
+                        "rows": [
+                            [
+                                "setting_boss_soul_shuffle",
+                                "setting_boss_humanity_shuffle",
+                                "setting_boss_bone_shuffle",
+                                "setting_black_knight_weapon_shuffle",
+                                "setting_crystal_lizard_shuffle",
+                                "setting_shop_shuffle"
+                            ]
+                        ]
+                    }
+                ]
+            },{
+                "type": "array",
+                "orientation": "vertical",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
                         "item_size": "7, 3",
                         "item_margin": "2, 2",
                         "item_h_alignment": "center",
                         "h_alignment": "left",
                         "rows": [
                             [
-                                "setting_catacomb_logic"
+                                "setting_catacomb_logic",
+                                "setting_totg_logic",
+                                "setting_firelink_altar_logic"
                             ]
                         ]
                     }

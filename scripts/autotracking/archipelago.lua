@@ -78,18 +78,36 @@ function onClear(slotData)
     end
 
     -- Reset Settings
+    Tracker:FindObjectForCode("setting_goal").CurrentStage = 0
     Tracker:FindObjectForCode("setting_fogwall_lock").Active = false
     --Tracker:FindObjectForCode("setting_fogwall_lock_ua").Active = false
     Tracker:FindObjectForCode("setting_fogwall_lock_boss").Active = false
-    Tracker:FindObjectForCode("setting_catacomb_logic").CurrentStage = 0
+    Tracker:FindObjectForCode("setting_catacomb_logic").CurrentStage = 4
     Tracker:FindObjectForCode("setting_deathlink").Active = false
     Tracker:FindObjectForCode("setting_warp_without_lordvessel").Active = false
     Tracker:FindObjectForCode("setting_auto_tab").Active = true
+    Tracker:FindObjectForCode("setting_boss_soul_shuffle").Active = false
+    Tracker:FindObjectForCode("setting_boss_humanity_shuffle").Active = false
+    Tracker:FindObjectForCode("setting_boss_bone_shuffle").Active = false
+    Tracker:FindObjectForCode("setting_black_knight_weapon_shuffle").Active = false
+    Tracker:FindObjectForCode("setting_crystal_lizard_shuffle").Active = false
+    Tracker:FindObjectForCode("setting_shop_shuffle").Active = false
+    Tracker:FindObjectForCode("setting_firelink_altar_logic").CurrentStage = 2
+    Tracker:FindObjectForCode("setting_totg_logic").CurrentStage = 1
     print("settings set to initialize as false")
+
+    if sd_options['goal_condition'] == "gwyn" then
+        Tracker:FindObjectForCode("setting_goal").CurrentStage = 0
+    elseif sd_options['goal_condition'] == "all_bosses" then
+        Tracker:FindObjectForCode("setting_goal").CurrentStage = 1
+    elseif sd_options['goal_condition'] == "ornstein_and_smough" then
+        Tracker:FindObjectForCode("setting_goal").CurrentStage = 2
+    elseif sd_options['goal_condition'] == "manus" then
+        Tracker:FindObjectForCode("setting_goal").CurrentStage = 3
+    end
 
     if sd_options['fogwall_sanity'] == 1 then
         Tracker:FindObjectForCode("setting_fogwall_lock").Active = true
-        print("Fogwall locks turned on, ")
     end
     --This option was removed in apworld 0.22.0
     -- if sd_options['fogwall_lock_include_ua'] == 1 then
@@ -114,6 +132,42 @@ function onClear(slotData)
     end
     if sd_options['can_warp_without_lordvessel'] == 1 then
         Tracker:FindObjectForCode("setting_warp_without_lordvessel").Active = true
+    end
+    if sd_options['boss_soul_shuffle'] == 1 then
+        Tracker:FindObjectForCode("setting_boss_soul_shuffle").Active = true
+    end
+    if sd_options['boss_humanity_shuffle'] == 1 then
+        Tracker:FindObjectForCode("setting_boss_humanity_shuffle").Active = true
+    end
+    if sd_options['boss_bone_shuffle'] == 1 then
+        Tracker:FindObjectForCode("setting_boss_bone_shuffle").Active = true
+    end
+    if sd_options['bk_weapon_shuffle'] == 1 then
+        Tracker:FindObjectForCode("setting_black_knight_weapon_shuffle").Active = true
+    end
+    if sd_options['lizard_shuffle'] == 1 then
+        Tracker:FindObjectForCode("setting_crystal_lizard_shuffle").Active = true
+    end
+    if sd_options['limited_shop_item_shuffle'] == 1 then
+        Tracker:FindObjectForCode("setting_shop_shuffle").Active = true
+    end
+
+    if sd_options['logic_to_access_firelink_altar'] == "either_serpent" then
+        Tracker:FindObjectForCode("setting_firelink_altar_logic").CurrentStage = 0
+    elseif sd_options['logic_to_access_firelink_altar'] == "both_serpents" then
+        Tracker:FindObjectForCode("setting_firelink_altar_logic").CurrentStage = 1
+    elseif sd_options['logic_to_access_firelink_altar'] == "frampt" then
+        Tracker:FindObjectForCode("setting_firelink_altar_logic").CurrentStage = 2
+    elseif sd_options['logic_to_access_firelink_altar'] == "kaathe" then
+        Tracker:FindObjectForCode("setting_firelink_altar_logic").CurrentStage = 3
+    end
+    
+    if sd_options['logic_to_access_totg'] == "no_logic" then
+        Tracker:FindObjectForCode("setting_totg_logic").CurrentStage = 0
+    elseif sd_options['logic_to_access_totg'] == "skull_lantern" then
+        Tracker:FindObjectForCode("setting_totg_logic").CurrentStage = 1
+    elseif sd_options['logic_to_access_totg'] == "sunlight_maggot" then
+        Tracker:FindObjectForCode("setting_totg_logic").CurrentStage = 2
     end
 
     --print("Slotdata: ") --debug
