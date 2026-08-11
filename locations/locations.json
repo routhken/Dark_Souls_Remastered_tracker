@@ -69,7 +69,12 @@
             {"name": "Petrus of Thorolund: Miracle: Homeward","access_rules": ["@canReachFirelinkShrinePetrusOfThorolund"],"visibility_rules": ["setting_shop_shuffle"]},
             {"name": "Petrus of Thorolund: Miracle: Force","access_rules": ["@canReachFirelinkShrinePetrusOfThorolund"],"visibility_rules": ["setting_shop_shuffle"]},
             {"name": "Petrus of Thorolund: Miracle: Seek Guidance","access_rules": ["@canReachFirelinkShrinePetrusOfThorolund"],"visibility_rules": ["setting_shop_shuffle"]},
-            {"name": "Petrus of Thorolund: Humanity - Drop Added to Shop","access_rules": ["@canReachFirelinkShrinePetrusOfThorolund"],"visibility_rules": ["setting_shop_shuffle"]}
+            {"name": "Petrus of Thorolund: Humanity - Drop Added to Shop","access_rules": ["@canReachFirelinkShrinePetrusOfThorolund"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Laurentius of the Great Swamp: Pyromancy: Fireball","access_rules": ["@canReachFirelinkShrineLaurentiusOfTheGreatSwamp"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Laurentius of the Great Swamp: Pyromancy: Fire Orb","access_rules": ["@canReachFirelinkShrineLaurentiusOfTheGreatSwamp"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Laurentius of the Great Swamp: Pyromancy: Combustion","access_rules": ["@canReachFirelinkShrineLaurentiusOfTheGreatSwamp"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Laurentius of the Great Swamp: Pyromancy: Iron Flesh","access_rules": ["@canReachFirelinkShrineLaurentiusOfTheGreatSwamp"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Laurentius of the Great Swamp: Pyromancy: Flash Sweat","access_rules": ["@canReachFirelinkShrineLaurentiusOfTheGreatSwamp"],"visibility_rules": ["setting_shop_shuffle"]}
         ]
     },{
         "name": "FS: Firebomb - Outside Petrus","map_locations": [{"map": "Firelink Shrine","x": 1555,"y": 650}],
@@ -156,6 +161,12 @@
         {"name": "Petrus of Thorolund: Miracle: Force","ref": "Firelink Shrine/Petrus of Thorolund: Miracle: Force"},
         {"name": "Petrus of Thorolund: Miracle: Seek Guidance","ref": "Firelink Shrine/Petrus of Thorolund: Miracle: Seek Guidance"},
         {"name": "Petrus of Thorolund: Humanity - Drop Added to Shop","ref": "Firelink Shrine/Petrus of Thorolund: Humanity - Drop Added to Shop"}]
+    },{"name": "Laurentius of the Great Swamp","map_locations": [{"map": "Firelink Shrine","x": 1560,"y": 1091}],"sections": [
+        {"name": "Laurentius of the Great Swamp: Pyromancy: Fireball","ref": "Firelink Shrine/Laurentius of the Great Swamp: Pyromancy: Fireball"},
+        {"name": "Laurentius of the Great Swamp: Pyromancy: Fire Orb","ref": "Firelink Shrine/Laurentius of the Great Swamp: Pyromancy: Fire Orb"},
+        {"name": "Laurentius of the Great Swamp: Pyromancy: Combustion","ref": "Firelink Shrine/Laurentius of the Great Swamp: Pyromancy: Combustion"},
+        {"name": "Laurentius of the Great Swamp: Pyromancy: Iron Flesh","ref": "Firelink Shrine/Laurentius of the Great Swamp: Pyromancy: Iron Flesh"},
+        {"name": "Laurentius of the Great Swamp: Pyromancy: Flash Sweat","ref": "Firelink Shrine/Laurentius of the Great Swamp: Pyromancy: Flash Sweat"}]
     },{
         "name": "Northern Undead Asylum - Second Visit",
         "map_locations": [
@@ -3194,12 +3205,12 @@
     {
     "name": "canReachTheDukesArchivesAfterArchiveTowerCellKey",
     "access_rules": [
-        "@canReachTheDukesArchives, archive_tower_cell_key"
+        "@canReachTheDukesArchivesAfterFirstSeathEncounter, archive_tower_cell_key"
     ]},
     {
     "name": "canReachTheDukesArchivesAfterArchivePrisonExtraKey",
     "access_rules": [
-        "@canReachTheDukesArchives, archive_prison_extra_key"
+        "@canReachTheDukesArchivesAfterFirstSeathEncounter, archive_prison_extra_key"
     ]},
     {
     "name": "canReachTheDukesArchivesOutofCell",

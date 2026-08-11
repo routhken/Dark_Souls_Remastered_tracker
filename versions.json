@@ -1,6 +1,14 @@
 {
     "versions": [
         {
+            "package_version": "1.2.1",
+            "download_url": "https://github.com/routhken/Dark_Souls_Remastered_tracker/releases/download/v1.2.1/Dark_Souls_Remastered_aptracker.zip",
+            "sha256": "3571011a9344a811253a0865bcf83324a17d323ec01b2563f2edffa0b7c5677c",
+            "changelog": [
+                " - Updated to apworld v0.2.4",
+                " - Added Laurentius shop, updated dukes archive logic"
+            ]
+        },{
             "package_version": "1.2.0",
             "download_url": "https://github.com/routhken/Dark_Souls_Remastered_tracker/releases/download/v1.2.0/Dark_Souls_Remastered_aptracker.zip",
             "sha256": "07c8fb82d95ce763781c39740597e9a364dabbfac41f0876e2e156aaefe4eaed",

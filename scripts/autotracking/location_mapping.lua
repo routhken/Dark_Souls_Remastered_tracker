@@ -964,4 +964,9 @@ LOCATION_MAPPING = {
     [11111063] = {"@Firelink Shrine/Petrus of Thorolund: Humanity - Drop Added to Shop"},
     [11110255] = {"@Sen's Fortress/SF: Ricard's Rapier"},
     [11110759] = {"@Oolacile Township/OT: I'm Sorry Carving - Lone Sorceress"},
+    [11110914] = {"@Firelink Shrine/Laurentius of the Great Swamp: Pyromancy: Fireball"},
+    [11110915] = {"@Firelink Shrine/Laurentius of the Great Swamp: Pyromancy: Fire Orb"},
+    [11110916] = {"@Firelink Shrine/Laurentius of the Great Swamp: Pyromancy: Combustion"},
+    [11110917] = {"@Firelink Shrine/Laurentius of the Great Swamp: Pyromancy: Iron Flesh"},
+    [11110918] = {"@Firelink Shrine/Laurentius of the Great Swamp: Pyromancy: Flash Sweat"},
 }
