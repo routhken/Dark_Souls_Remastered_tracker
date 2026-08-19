@@ -1,6 +1,14 @@
 {
     "versions": [
         {
+            "package_version": "1.2.2",
+            "download_url": "https://github.com/routhken/Dark_Souls_Remastered_tracker/releases/download/v1.2.2/Dark_Souls_Remastered_aptracker.zip",
+            "sha256": "200014901e3ac766ebeae463220902108b6f08b50901bda273497e178f6403eb",
+            "changelog": [
+                " - Fixed UA black knight node",
+                " - Fixed LI sunlight maggot and crystla lizard node"
+            ]
+        },{
             "package_version": "1.2.1",
             "download_url": "https://github.com/routhken/Dark_Souls_Remastered_tracker/releases/download/v1.2.1/Dark_Souls_Remastered_aptracker.zip",
             "sha256": "3571011a9344a811253a0865bcf83324a17d323ec01b2563f2edffa0b7c5677c",

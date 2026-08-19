@@ -198,11 +198,11 @@
         "name": "Peculiar Doll","map_locations": [{"map": "Undead Asylum","x": 160,"y": 1240}],
         "sections": [{"name": "UA2: Peculiar Doll","ref": "Northern Undead Asylum - Second Visit/UA2: Peculiar Doll"}]
     },{"name": "UA2: Black Knight Sword - Black Knight Drop, Hallway Before Fog","map_locations": [{"map": "Undead Asylum","x": 1014,"y": 420}],
-    "sections": [{"name": "UA2: Black Knight Sword - Black Knight Drop, Hallway Before Fog","ref": "Northern Undead Asylum Second Visit/UA2: Black Knight Sword - Black Knight Drop, Hallway Before Fog"},
-    {"name": "UA2: Red Titanite Chunk - Black Knight Drop, Hallway Before Fog","ref": "Northern Undead Asylum Second Visit/UA2: Red Titanite Chunk - Black Knight Drop, Hallway Before Fog"}]
+    "sections": [{"name": "UA2: Black Knight Sword - Black Knight Drop, Hallway Before Fog","ref": "Northern Undead Asylum - Second Visit/UA2: Black Knight Sword - Black Knight Drop, Hallway Before Fog"},
+    {"name": "UA2: Red Titanite Chunk - Black Knight Drop, Hallway Before Fog","ref": "Northern Undead Asylum - Second Visit/UA2: Red Titanite Chunk - Black Knight Drop, Hallway Before Fog"}]
     },{"name": "UA2: Black Knight Shield - Black Knight Drop, By Starting Cell","map_locations": [{"map": "Undead Asylum","x": 137,"y": 1097}],
-    "sections": [{"name": "UA2: Black Knight Shield - Black Knight Drop, By Starting Cell","ref": "Northern Undead Asylum Second Visit/UA2: Black Knight Shield - Black Knight Drop, By Starting Cell"},
-    {"name": "UA2: Red Titanite Chunk - Black Knight Drop, By Starting Cell","ref": "Northern Undead Asylum Second Visit/UA2: Red Titanite Chunk - Black Knight Drop, By Starting Cell"}]
+    "sections": [{"name": "UA2: Black Knight Shield - Black Knight Drop, By Starting Cell","ref": "Northern Undead Asylum - Second Visit/UA2: Black Knight Shield - Black Knight Drop, By Starting Cell"},
+    {"name": "UA2: Red Titanite Chunk - Black Knight Drop, By Starting Cell","ref": "Northern Undead Asylum - Second Visit/UA2: Red Titanite Chunk - Black Knight Drop, By Starting Cell"}]
     },{"name": "UA2: Humanity - Stray Demon Drop","map_locations": [{"map": "Undead Asylum","x": 1154,"y": 1459}],
     "sections": [{"name": "UA2: Humanity - Stray Demon Drop","ref": "Northern Undead Asylum - Second Visit/UA2: Humanity - Stray Demon Drop"},
     {"name": "UA2: Homeward Bone - Stray Demon Drop","ref": "Northern Undead Asylum - Second Visit/UA2: Homeward Bone - Stray Demon Drop"},
@@ -2166,10 +2166,10 @@
     },{
         "name": "LI: Lord Soul (Bed of Chaos)","map_locations": [{"map": "Lost Izalith","x": 675,"y": 90}],
         "sections": [{"name": "LI: Lord Soul (Bed of Chaos)","ref": "Lost Izalith/LI: Lord Soul (Bed of Chaos)"}]
-    },{"name": "LI: Crystal Lizard, Near DR Shortcut Door","map_locations": [{"map": "Lost Izalith","x": 1376,"y": 214}],
+    },{"name": "LI: Crystal Lizard, Near DR Shortcut Door","map_locations": [{"map": "Demon Ruins","x": 1376,"y": 214}],
     "sections": [{"name": "LI: Twinkling Titanite - Crystal Lizard Drop, Near DR Shortcut Door","ref": "Lost Izalith/LI: Twinkling Titanite - Crystal Lizard Drop, Near DR Shortcut Door"},
     {"name": "LI: Extra Titanite - Crystal Lizard Drop, Near DR Shortcut Door","ref": "Lost Izalith/LI: Extra Titanite - Crystal Lizard Drop, Near DR Shortcut Door"}]
-    },{"name": "LI: Sunlight Maggot - Red Eye Maggot Drop","map_locations": [{"map": "Lost Izalith","x": 1168,"y": 344}],
+    },{"name": "LI: Sunlight Maggot - Red Eye Maggot Drop","map_locations": [{"map": "Demon Ruins","x": 1168,"y": 344}],
     "sections": [{"name": "LI: Sunlight Maggot - Red Eye Maggot Drop","ref": "Lost Izalith/LI: Sunlight Maggot - Red Eye Maggot Drop"}]
     },{"name": "LI: Izalith Catalyst - Grana Drop, Before Bed of Chaos","map_locations": [{"map": "Lost Izalith","x": 458,"y": 271}],
     "sections": [{"name": "LI: Izalith Catalyst - Grana Drop, Before Bed of Chaos","ref": "Lost Izalith/LI: Izalith Catalyst - Grana Drop, Before Bed of Chaos"}]
