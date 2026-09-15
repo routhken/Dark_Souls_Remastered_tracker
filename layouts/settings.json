@@ -43,7 +43,8 @@
                                 "setting_boss_bone_shuffle",
                                 "setting_black_knight_weapon_shuffle",
                                 "setting_crystal_lizard_shuffle",
-                                "setting_shop_shuffle"
+                                "setting_shop_shuffle",
+                                "master_key"
                             ]
                         ]
                     }

@@ -60,8 +60,16 @@
             {"name": "Griggs of Vinheim: Lingering Dragoncrest Ring","access_rules": ["@canReachFirelinkShrineGriggsOfVinheim"],"visibility_rules": ["setting_shop_shuffle"]},
             {"name": "Griggs of Vinheim: Sorcery: Homing Soulmass","access_rules": ["@canReachFirelinkShrineGriggsOfVinheimAfterLoganLeaves"],"visibility_rules": ["setting_shop_shuffle"]},
             {"name": "Griggs of Vinheim: Sorcery: Soul Spear","access_rules": ["@canReachFirelinkShrineGriggsOfVinheimAfterLoganLeaves"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Griggs of Vinheim: Sorcerer's Catalyst","access_rules": ["@canReachFirelinkShrineGriggsOfVinheim"],"visibility_rules": ["setting_shop_shuffle"]},
             {"name": "Domhnall of Zena: Gold Pine Resin","access_rules": ["@canReachFirelinkShrineDomhnallOfZena"],"visibility_rules": ["setting_shop_shuffle"]},
             {"name": "Domhnall of Zena: Master Key","access_rules": ["@canReachFirelinkShrineDomhnallOfZena"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Domhnall of Zena: Crystal Straight Sword","access_rules": ["@canReachFirelinkShrineDomhnallOfZena"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Domhnall of Zena: Crystal Greatsword","access_rules": ["@canReachFirelinkShrineDomhnallOfZena"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Domhnall of Zena: Crystal Shield","access_rules": ["@canReachFirelinkShrineDomhnallOfZena"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Domhnall of Zena: Helm of the Wise","access_rules": ["@canReachFirelinkShrineDomhnallOfZena"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Domhnall of Zena: Armor of the Glorious","access_rules": ["@canReachFirelinkShrineDomhnallOfZena"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Domhnall of Zena: Gauntlets of the Vanquisher","access_rules": ["@canReachFirelinkShrineDomhnallOfZena"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Domhnall of Zena: Boots of the Explorer","access_rules": ["@canReachFirelinkShrineDomhnallOfZena"],"visibility_rules": ["setting_shop_shuffle"]},
             {"name": "Male Undead Merchant or Domhnall of Zena: Bottomless Box","access_rules": ["@canReach2MerchantsBottomlessBox"],"visibility_rules": ["setting_shop_shuffle"]},
             {"name": "Petrus of Thorolund: Copper Coin","access_rules": ["@canReachFirelinkShrinePetrusOfThorolund"],"visibility_rules": ["setting_shop_shuffle"]},
             {"name": "Petrus of Thorolund: Miracle: Heal","access_rules": ["@canReachFirelinkShrinePetrusOfThorolund"],"visibility_rules": ["setting_shop_shuffle"]},
@@ -70,11 +78,33 @@
             {"name": "Petrus of Thorolund: Miracle: Force","access_rules": ["@canReachFirelinkShrinePetrusOfThorolund"],"visibility_rules": ["setting_shop_shuffle"]},
             {"name": "Petrus of Thorolund: Miracle: Seek Guidance","access_rules": ["@canReachFirelinkShrinePetrusOfThorolund"],"visibility_rules": ["setting_shop_shuffle"]},
             {"name": "Petrus of Thorolund: Humanity - Drop Added to Shop","access_rules": ["@canReachFirelinkShrinePetrusOfThorolund"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Petrus of Thorolund: Talisman","access_rules": ["@canReachFirelinkShrinePetrusOfThorolund"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Petrus of Thorolund: Thorolund Talisman","access_rules": ["@canReachFirelinkShrinePetrusOfThorolund"],"visibility_rules": ["setting_shop_shuffle"]},
             {"name": "Laurentius of the Great Swamp: Pyromancy: Fireball","access_rules": ["@canReachFirelinkShrineLaurentiusOfTheGreatSwamp"],"visibility_rules": ["setting_shop_shuffle"]},
             {"name": "Laurentius of the Great Swamp: Pyromancy: Fire Orb","access_rules": ["@canReachFirelinkShrineLaurentiusOfTheGreatSwamp"],"visibility_rules": ["setting_shop_shuffle"]},
             {"name": "Laurentius of the Great Swamp: Pyromancy: Combustion","access_rules": ["@canReachFirelinkShrineLaurentiusOfTheGreatSwamp"],"visibility_rules": ["setting_shop_shuffle"]},
             {"name": "Laurentius of the Great Swamp: Pyromancy: Iron Flesh","access_rules": ["@canReachFirelinkShrineLaurentiusOfTheGreatSwamp"],"visibility_rules": ["setting_shop_shuffle"]},
-            {"name": "Laurentius of the Great Swamp: Pyromancy: Flash Sweat","access_rules": ["@canReachFirelinkShrineLaurentiusOfTheGreatSwamp"],"visibility_rules": ["setting_shop_shuffle"]}
+            {"name": "Laurentius of the Great Swamp: Pyromancy: Flash Sweat","access_rules": ["@canReachFirelinkShrineLaurentiusOfTheGreatSwamp"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Domhnall of Zena After Iron Golem: Golem Helm","access_rules": ["@canReachFirelinkShrineDomhnallOfZenaAfterIronGolem"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Domhnall of Zena After Iron Golem: Golem Armor","access_rules": ["@canReachFirelinkShrineDomhnallOfZenaAfterIronGolem"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Domhnall of Zena After Iron Golem: Golem Gauntlets","access_rules": ["@canReachFirelinkShrineDomhnallOfZenaAfterIronGolem"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Domhnall of Zena After Iron Golem: Golem Leggings","access_rules": ["@canReachFirelinkShrineDomhnallOfZenaAfterIronGolem"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Domhnall of Zena After O+S: Smough's Helm","access_rules": ["@canReachFirelinkShrineDomhnallOfZenaAfterOnS"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Domhnall of Zena After O+S: Smough's Armor","access_rules": ["@canReachFirelinkShrineDomhnallOfZenaAfterOnS"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Domhnall of Zena After O+S: Smough's Gauntlets","access_rules": ["@canReachFirelinkShrineDomhnallOfZenaAfterOnS"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Domhnall of Zena After O+S: Smough's Leggings","access_rules": ["@canReachFirelinkShrineDomhnallOfZenaAfterOnS"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Domhnall of Zena After O+S: Ornstein's Helm","access_rules": ["@canReachFirelinkShrineDomhnallOfZenaAfterOnS"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Domhnall of Zena After O+S: Ornstein's Armor","access_rules": ["@canReachFirelinkShrineDomhnallOfZenaAfterOnS"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Domhnall of Zena After O+S: Ornstein's Gauntlets","access_rules": ["@canReachFirelinkShrineDomhnallOfZenaAfterOnS"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Domhnall of Zena After O+S: Ornstein's Leggings","access_rules": ["@canReachFirelinkShrineDomhnallOfZenaAfterOnS"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Domhnall of Zena After Gwyndolin: Crown of the Dark Sun","access_rules": ["@canReachFirelinkShrineDomhnallOfZenaAfterGwyndolin"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Domhnall of Zena After Gwyndolin: Moonlight Robe","access_rules": ["@canReachFirelinkShrineDomhnallOfZenaAfterGwyndolin"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Domhnall of Zena After Gwyndolin: Moonlight Gloves","access_rules": ["@canReachFirelinkShrineDomhnallOfZenaAfterGwyndolin"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Domhnall of Zena After Gwyndolin: Moonlight Waistcloth","access_rules": ["@canReachFirelinkShrineDomhnallOfZenaAfterGwyndolin"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Domhnall of Zena Under Aqueduct After Artorias: Helm of Artorias","access_rules": ["@canReachFirelinkShrineDomhnallOfZenaUnderAqueductAfterArtorias"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Domhnall of Zena Under Aqueduct After Artorias: Armor of Artorias","access_rules": ["@canReachFirelinkShrineDomhnallOfZenaUnderAqueductAfterArtorias"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Domhnall of Zena Under Aqueduct After Artorias: Gauntlets of Artorias","access_rules": ["@canReachFirelinkShrineDomhnallOfZenaUnderAqueductAfterArtorias"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Domhnall of Zena Under Aqueduct After Artorias: Leggings of Artorias","access_rules": ["@canReachFirelinkShrineDomhnallOfZenaUnderAqueductAfterArtorias"],"visibility_rules": ["setting_shop_shuffle"]}
         ]
     },{
         "name": "FS: Firebomb - Outside Petrus","map_locations": [{"map": "Firelink Shrine","x": 1555,"y": 650}],
@@ -148,11 +178,39 @@
         {"name": "Griggs of Vinheim: Bellowing Dragoncrest Ring","ref": "Firelink Shrine/Griggs of Vinheim: Bellowing Dragoncrest Ring"},
         {"name": "Griggs of Vinheim: Lingering Dragoncrest Ring","ref": "Firelink Shrine/Griggs of Vinheim: Lingering Dragoncrest Ring"},
         {"name": "Griggs of Vinheim: Sorcery: Homing Soulmass","ref": "Firelink Shrine/Griggs of Vinheim: Sorcery: Homing Soulmass"},
-        {"name": "Griggs of Vinheim: Sorcery: Soul Spear","ref": "Firelink Shrine/Griggs of Vinheim: Sorcery: Soul Spear"}]
+        {"name": "Griggs of Vinheim: Sorcery: Soul Spear","ref": "Firelink Shrine/Griggs of Vinheim: Sorcery: Soul Spear"},
+        {"name": "Griggs of Vinheim: Sorcerer's Catalyst","ref": "Firelink Shrine/Griggs of Vinheim: Sorcerer's Catalyst"}]
     },{"name": "Domhnall of Zena","map_locations": [{"map": "Firelink Shrine","x": 2768,"y": 972}],"sections": [
         {"name": "Domhnall of Zena: Gold Pine Resin","ref": "Firelink Shrine/Domhnall of Zena: Gold Pine Resin"},
         {"name": "Domhnall of Zena: Master Key","ref": "Firelink Shrine/Domhnall of Zena: Master Key"},
-        {"name": "Male Undead Merchant or Domhnall of Zena: Bottomless Box","ref": "Firelink Shrine/Male Undead Merchant or Domhnall of Zena: Bottomless Box"}]
+        {"name": "Domhnall of Zena: Crystal Straight Sword","ref": "Firelink Shrine/Domhnall of Zena: Crystal Straight Sword"},
+        {"name": "Domhnall of Zena: Crystal Greatsword","ref": "Firelink Shrine/Domhnall of Zena: Crystal Greatsword"},
+        {"name": "Domhnall of Zena: Crystal Shield","ref": "Firelink Shrine/Domhnall of Zena: Crystal Shield"},
+        {"name": "Domhnall of Zena: Helm of the Wise","ref": "Firelink Shrine/Domhnall of Zena: Helm of the Wise"},
+        {"name": "Domhnall of Zena: Armor of the Glorious","ref": "Firelink Shrine/Domhnall of Zena: Armor of the Glorious"},
+        {"name": "Domhnall of Zena: Gauntlets of the Vanquisher","ref": "Firelink Shrine/Domhnall of Zena: Gauntlets of the Vanquisher"},
+        {"name": "Domhnall of Zena: Boots of the Explorer","ref": "Firelink Shrine/Domhnall of Zena: Boots of the Explorer"},
+        {"name": "Male Undead Merchant or Domhnall of Zena: Bottomless Box","ref": "Firelink Shrine/Male Undead Merchant or Domhnall of Zena: Bottomless Box"},
+        {"name": "Domhnall of Zena After Iron Golem: Golem Helm","ref": "Firelink Shrine/Domhnall of Zena After Iron Golem: Golem Helm"},
+        {"name": "Domhnall of Zena After Iron Golem: Golem Armor","ref": "Firelink Shrine/Domhnall of Zena After Iron Golem: Golem Armor"},
+        {"name": "Domhnall of Zena After Iron Golem: Golem Gauntlets","ref": "Firelink Shrine/Domhnall of Zena After Iron Golem: Golem Gauntlets"},
+        {"name": "Domhnall of Zena After Iron Golem: Golem Leggings","ref": "Firelink Shrine/Domhnall of Zena After Iron Golem: Golem Leggings"},
+        {"name": "Domhnall of Zena After O+S: Smough's Helm","ref": "Firelink Shrine/Domhnall of Zena After O+S: Smough's Helm"},
+        {"name": "Domhnall of Zena After O+S: Smough's Armor","ref": "Firelink Shrine/Domhnall of Zena After O+S: Smough's Armor"},
+        {"name": "Domhnall of Zena After O+S: Smough's Gauntlets","ref": "Firelink Shrine/Domhnall of Zena After O+S: Smough's Gauntlets"},
+        {"name": "Domhnall of Zena After O+S: Smough's Leggings","ref": "Firelink Shrine/Domhnall of Zena After O+S: Smough's Leggings"},
+        {"name": "Domhnall of Zena After O+S: Ornstein's Helm","ref": "Firelink Shrine/Domhnall of Zena After O+S: Ornstein's Helm"},
+        {"name": "Domhnall of Zena After O+S: Ornstein's Armor","ref": "Firelink Shrine/Domhnall of Zena After O+S: Ornstein's Armor"},
+        {"name": "Domhnall of Zena After O+S: Ornstein's Gauntlets","ref": "Firelink Shrine/Domhnall of Zena After O+S: Ornstein's Gauntlets"},
+        {"name": "Domhnall of Zena After O+S: Ornstein's Leggings","ref": "Firelink Shrine/Domhnall of Zena After O+S: Ornstein's Leggings"},
+        {"name": "Domhnall of Zena After Gwyndolin: Crown of the Dark Sun","ref": "Firelink Shrine/Domhnall of Zena After Gwyndolin: Crown of the Dark Sun"},
+        {"name": "Domhnall of Zena After Gwyndolin: Moonlight Robe","ref": "Firelink Shrine/Domhnall of Zena After Gwyndolin: Moonlight Robe"},
+        {"name": "Domhnall of Zena After Gwyndolin: Moonlight Gloves","ref": "Firelink Shrine/Domhnall of Zena After Gwyndolin: Moonlight Gloves"},
+        {"name": "Domhnall of Zena After Gwyndolin: Moonlight Waistcloth","ref": "Firelink Shrine/Domhnall of Zena After Gwyndolin: Moonlight Waistcloth"},
+        {"name": "Domhnall of Zena Under Aqueduct After Artorias: Helm of Artorias","ref": "Firelink Shrine/Domhnall of Zena Under Aqueduct After Artorias: Helm of Artorias"},
+        {"name": "Domhnall of Zena Under Aqueduct After Artorias: Armor of Artorias","ref": "Firelink Shrine/Domhnall of Zena Under Aqueduct After Artorias: Armor of Artorias"},
+        {"name": "Domhnall of Zena Under Aqueduct After Artorias: Gauntlets of Artorias","ref": "Firelink Shrine/Domhnall of Zena Under Aqueduct After Artorias: Gauntlets of Artorias"},
+        {"name": "Domhnall of Zena Under Aqueduct After Artorias: Leggings of Artorias","ref": "Firelink Shrine/Domhnall of Zena Under Aqueduct After Artorias: Leggings of Artorias"}]
     },{"name": "Petrus of Thorolund","map_locations": [{"map": "Firelink Shrine","x": 1535,"y": 789}],"sections": [
         {"name": "Petrus of Thorolund: Copper Coin","ref": "Firelink Shrine/Petrus of Thorolund: Copper Coin"},
         {"name": "Petrus of Thorolund: Miracle: Heal","ref": "Firelink Shrine/Petrus of Thorolund: Miracle: Heal"},
@@ -160,7 +218,9 @@
         {"name": "Petrus of Thorolund: Miracle: Homeward","ref": "Firelink Shrine/Petrus of Thorolund: Miracle: Homeward"},
         {"name": "Petrus of Thorolund: Miracle: Force","ref": "Firelink Shrine/Petrus of Thorolund: Miracle: Force"},
         {"name": "Petrus of Thorolund: Miracle: Seek Guidance","ref": "Firelink Shrine/Petrus of Thorolund: Miracle: Seek Guidance"},
-        {"name": "Petrus of Thorolund: Humanity - Drop Added to Shop","ref": "Firelink Shrine/Petrus of Thorolund: Humanity - Drop Added to Shop"}]
+        {"name": "Petrus of Thorolund: Humanity - Drop Added to Shop","ref": "Firelink Shrine/Petrus of Thorolund: Humanity - Drop Added to Shop"},
+        {"name": "Petrus of Thorolund: Talisman","ref": "@Firelink Shrine/Petrus of Thorolund: Talisman"},
+        {"name": "Petrus of Thorolund: Thorolund Talisman","ref": "@Firelink Shrine/Petrus of Thorolund: Thorolund Talisman"}]
     },{"name": "Laurentius of the Great Swamp","map_locations": [{"map": "Firelink Shrine","x": 1560,"y": 1091}],"sections": [
         {"name": "Laurentius of the Great Swamp: Pyromancy: Fireball","ref": "Firelink Shrine/Laurentius of the Great Swamp: Pyromancy: Fireball"},
         {"name": "Laurentius of the Great Swamp: Pyromancy: Fire Orb","ref": "Firelink Shrine/Laurentius of the Great Swamp: Pyromancy: Fire Orb"},
@@ -247,7 +307,26 @@
             {"name": "Male Undead Merchant: Dried Finger","access_rules": ["@canReachUpperUndeadBurgMaleUndeadMerchant"],"visibility_rules": ["setting_shop_shuffle"]},
             {"name": "Male Undead Merchant: Uchigatana - Drop Added To Shop","access_rules": ["@canReachUpperUndeadBurgMaleUndeadMerchant"],"visibility_rules": ["setting_shop_shuffle"]},
             {"name": "Male Undead Merchant: Humanity - Drop Added To Shop","access_rules": ["@canReachUpperUndeadBurgMaleUndeadMerchant"],"visibility_rules": ["setting_shop_shuffle"]},
-            {"name": "Merchant: Repairbox","access_rules": ["@canReach4MerchantsRepairbox"],"visibility_rules": ["setting_shop_shuffle"]}
+            {"name": "Merchant: Repairbox","access_rules": ["@canReach4MerchantsRepairbox"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Male Undead Merchant: Dagger","access_rules": ["@canReachUpperUndeadBurgMaleUndeadMerchant"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Male Undead Merchant: Shortsword","access_rules": ["@canReachUpperUndeadBurgMaleUndeadMerchant"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Male Undead Merchant: Scimitar","access_rules": ["@canReachUpperUndeadBurgMaleUndeadMerchant"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Male Undead Merchant: Rapier","access_rules": ["@canReachUpperUndeadBurgMaleUndeadMerchant"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Male Undead Merchant: Hand Axe","access_rules": ["@canReachUpperUndeadBurgMaleUndeadMerchant"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Male Undead Merchant: Club","access_rules": ["@canReachUpperUndeadBurgMaleUndeadMerchant"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Male Undead Merchant: Reinforced Club","access_rules": ["@canReachUpperUndeadBurgMaleUndeadMerchant"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Male Undead Merchant: Spear","access_rules": ["@canReachUpperUndeadBurgMaleUndeadMerchant"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Male Undead Merchant: Short Bow","access_rules": ["@canReachUpperUndeadBurgMaleUndeadMerchant"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Male Undead Merchant: East-West Shield","access_rules": ["@canReachUpperUndeadBurgMaleUndeadMerchant"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Male Undead Merchant: Small Leather Shield","access_rules": ["@canReachUpperUndeadBurgMaleUndeadMerchant"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Male Undead Merchant: Buckler","access_rules": ["@canReachUpperUndeadBurgMaleUndeadMerchant"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Male Undead Merchant: Leather Shield","access_rules": ["@canReachUpperUndeadBurgMaleUndeadMerchant"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Male Undead Merchant: Heater Shield","access_rules": ["@canReachUpperUndeadBurgMaleUndeadMerchant"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Male Undead Merchant: Warrior's Round Shield","access_rules": ["@canReachUpperUndeadBurgMaleUndeadMerchant"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Male Undead Merchant: Chain Helm","access_rules": ["@canReachUpperUndeadBurgMaleUndeadMerchant"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Male Undead Merchant: Chain Armor","access_rules": ["@canReachUpperUndeadBurgMaleUndeadMerchant"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Male Undead Merchant: Leather Gauntlets","access_rules": ["@canReachUpperUndeadBurgMaleUndeadMerchant"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Male Undead Merchant: Chain Leggings","access_rules": ["@canReachUpperUndeadBurgMaleUndeadMerchant"],"visibility_rules": ["setting_shop_shuffle"]}
         ]
     },{
         "name": "UB: Soul of a Lost Undead - Window Corpse","map_locations": [{"map": "Undead Burg Upper","x": 570,"y": 1760}],
@@ -313,13 +392,32 @@
         "sections": [{"name": "UB: Humanity - Taurus Demon Drop","ref": "Upper Undead Burg/UB: Humanity - Taurus Demon Drop"},
         {"name": "UB: Homeward Bone - Taurus Demon Drop","ref": "Upper Undead Burg/UB: Homeward Bone - Taurus Demon Drop"}]
     },{"name": "Male Undead Merchant","map_locations": [{"map": "Undead Burg Upper","x": 913,"y": 2285}],
-    "sections": [{"name": "Male Undead Merchant: Residence Key","ref": "Upper Undead Burg/Male Undead Merchant: Residence Key"},
-    {"name": "Male Undead Merchant: Orange Guidance Soapstone","ref": "Upper Undead Burg/Male Undead Merchant: Orange Guidance Soapstone"},
-    {"name": "Male Undead Merchant: Dried Finger","ref": "Upper Undead Burg/Male Undead Merchant: Dried Finger"},
-    {"name": "Male Undead Merchant: Uchigatana - Drop Added To Shop","ref": "Upper Undead Burg/Male Undead Merchant: Uchigatana - Drop Added To Shop"},
-    {"name": "Male Undead Merchant: Humanity - Drop Added To Shop","ref": "Upper Undead Burg/Male Undead Merchant: Humanity - Drop Added To Shop"},
-    {"name": "Male Undead Merchant or Domhnall of Zena: Bottomless Box","ref": "Firelink Shrine/Male Undead Merchant or Domhnall of Zena: Bottomless Box"},
-    {"name": "Merchant: Repairbox","ref": "Upper Undead Burg/Merchant: Repairbox"}]
+        "sections": [{"name": "Male Undead Merchant: Residence Key","ref": "Upper Undead Burg/Male Undead Merchant: Residence Key"},
+        {"name": "Male Undead Merchant: Orange Guidance Soapstone","ref": "Upper Undead Burg/Male Undead Merchant: Orange Guidance Soapstone"},
+        {"name": "Male Undead Merchant: Dried Finger","ref": "Upper Undead Burg/Male Undead Merchant: Dried Finger"},
+        {"name": "Male Undead Merchant: Uchigatana - Drop Added To Shop","ref": "Upper Undead Burg/Male Undead Merchant: Uchigatana - Drop Added To Shop"},
+        {"name": "Male Undead Merchant: Humanity - Drop Added To Shop","ref": "Upper Undead Burg/Male Undead Merchant: Humanity - Drop Added To Shop"},
+        {"name": "Male Undead Merchant: Dagger","ref": "Upper Undead Burg/Male Undead Merchant: Dagger"},
+        {"name": "Male Undead Merchant: Shortsword","ref": "Upper Undead Burg/Male Undead Merchant: Shortsword"},
+        {"name": "Male Undead Merchant: Scimitar","ref": "Upper Undead Burg/Male Undead Merchant: Scimitar"},
+        {"name": "Male Undead Merchant: Rapier","ref": "Upper Undead Burg/Male Undead Merchant: Rapier"},
+        {"name": "Male Undead Merchant: Hand Axe","ref": "Upper Undead Burg/Male Undead Merchant: Hand Axe"},
+        {"name": "Male Undead Merchant: Club","ref": "Upper Undead Burg/Male Undead Merchant: Club"},
+        {"name": "Male Undead Merchant: Reinforced Club","ref": "Upper Undead Burg/Male Undead Merchant: Reinforced Club"},
+        {"name": "Male Undead Merchant: Spear","ref": "Upper Undead Burg/Male Undead Merchant: Spear"},
+        {"name": "Male Undead Merchant: Short Bow","ref": "Upper Undead Burg/Male Undead Merchant: Short Bow"},
+        {"name": "Male Undead Merchant: East-West Shield","ref": "Upper Undead Burg/Male Undead Merchant: East-West Shield"},
+        {"name": "Male Undead Merchant: Small Leather Shield","ref": "Upper Undead Burg/Male Undead Merchant: Small Leather Shield"},
+        {"name": "Male Undead Merchant: Buckler","ref": "Upper Undead Burg/Male Undead Merchant: Buckler"},
+        {"name": "Male Undead Merchant: Leather Shield","ref": "Upper Undead Burg/Male Undead Merchant: Leather Shield"},
+        {"name": "Male Undead Merchant: Heater Shield","ref": "Upper Undead Burg/Male Undead Merchant: Heater Shield"},
+        {"name": "Male Undead Merchant: Warrior's Round Shield","ref": "Upper Undead Burg/Male Undead Merchant: Warrior's Round Shield"},
+        {"name": "Male Undead Merchant: Chain Helm","ref": "Upper Undead Burg/Male Undead Merchant: Chain Helm"},
+        {"name": "Male Undead Merchant: Chain Armor","ref": "Upper Undead Burg/Male Undead Merchant: Chain Armor"},
+        {"name": "Male Undead Merchant: Leather Gauntlets","ref": "Upper Undead Burg/Male Undead Merchant: Leather Gauntlets"},
+        {"name": "Male Undead Merchant: Chain Leggings","ref": "Upper Undead Burg/Male Undead Merchant: Chain Leggings"},
+        {"name": "Male Undead Merchant or Domhnall of Zena: Bottomless Box","ref": "Firelink Shrine/Male Undead Merchant or Domhnall of Zena: Bottomless Box"},
+        {"name": "Merchant: Repairbox","ref": "Upper Undead Burg/Merchant: Repairbox"}]
     },{
         "name": "Undead Parish",
         "map_locations": [
@@ -347,6 +445,16 @@
             {"name": "Andre of Astora: Crest of Artorias","access_rules": ["@canReachUndeadParishAndreOfAstora"],"visibility_rules": ["setting_shop_shuffle"]},
             {"name": "Andre of Astora: Humanity - Drop Added To Shop","access_rules": ["@canReachUndeadParishAndreOfAstora"],"visibility_rules": ["setting_shop_shuffle"]},
             {"name": "Andre of Astora: Blacksmith Hammer - Drop Added To Shop","access_rules": ["@canReachUndeadParishAndreOfAstora"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Andre of Astora: Longsword","access_rules": ["@canReachUndeadParishAndreOfAstora"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Andre of Astora: Broadsword","access_rules": ["@canReachUndeadParishAndreOfAstora"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Andre of Astora: Bastard Sword","access_rules": ["@canReachUndeadParishAndreOfAstora"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Andre of Astora: Battle Axe","access_rules": ["@canReachUndeadParishAndreOfAstora"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Andre of Astora: Warpick","access_rules": ["@canReachUndeadParishAndreOfAstora"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Andre of Astora: Caestus","access_rules": ["@canReachUndeadParishAndreOfAstora"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Andre of Astora: Pike","access_rules": ["@canReachUndeadParishAndreOfAstora"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Andre of Astora: Large Leather Shield","access_rules": ["@canReachUndeadParishAndreOfAstora"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Andre of Astora: Tower Kite Shield","access_rules": ["@canReachUndeadParishAndreOfAstora"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Andre of Astora: Caduceus Kite Shield","access_rules": ["@canReachUndeadParishAndreOfAstora"],"visibility_rules": ["setting_shop_shuffle"]},
             {"name": "Oswald of Carim: Book of the Guilty","access_rules": ["@canReachUndeadParishOswaldOfCarim"],"visibility_rules": ["setting_shop_shuffle"]},
             {"name": "Oswald of Carim: Purging Stone","access_rules": ["@canReachUndeadParishOswaldOfCarim"],"visibility_rules": ["setting_shop_shuffle"]},
             {"name": "Oswald of Carim: Miracle: Karmic Justice","access_rules": ["@canReachUndeadParishOswaldOfCarim"],"visibility_rules": ["setting_shop_shuffle"]},
@@ -354,6 +462,8 @@
             {"name": "Oswald of Carim: Poisonbite Ring","access_rules": ["@canReachUndeadParishOswaldOfCarim"],"visibility_rules": ["setting_shop_shuffle"]},
             {"name": "Oswald of Carim: Rings of Sacrifice","access_rules": ["@canReachUndeadParishOswaldOfCarim"],"visibility_rules": ["setting_shop_shuffle"]},
             {"name": "Oswald of Carim: Twin Humanities - Drop Added To Shop","access_rules": ["@canReachUndeadParishOswaldOfCarim"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Oswald of Carim: Indictment","access_rules": ["@canReachUndeadParishOswaldOfCarim"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Oswald of Carim: Velka's Talisman","access_rules": ["@canReachUndeadParishOswaldOfCarim"],"visibility_rules": ["setting_shop_shuffle"]},
             {"name": "Blacksmith: Weapon Smithbox","access_rules": ["@canReach3BlacksmithsSmithboxen"],"visibility_rules": ["setting_shop_shuffle"]},
             {"name": "Blacksmith: Armor Smithbox","access_rules": ["@canReach3BlacksmithsSmithboxen"],"visibility_rules": ["setting_shop_shuffle"]}
         ]
@@ -391,25 +501,37 @@
         "name": "UP: Boss Fog Wall - Bell Gargoyles","map_locations": [{"map": "Undead Parish","x": 1123,"y": 314}],
         "sections": [{"name": "UP: Boss Fog Wall - Bell Gargoyles","ref": "Undead Parish/UP: Boss Fog Wall - Bell Gargoyles"}]
     },{"name": "UP: Black Knight Greatsword - Black Knight Drop, in Tower","map_locations": [{"map": "Undead Parish","x": 121,"y": 1613}],
-    "sections": [{"name": "UP: Black Knight Greatsword - Black Knight Drop, in Tower","ref": "Undead Parish/UP: Black Knight Greatsword - Black Knight Drop, in Tower"},
-    {"name": "UP: Titanite Chunk - Black Knight Drop, in Tower","ref": "Undead Parish/UP: Titanite Chunk - Black Knight Drop, in Tower"}]
+        "sections": [{"name": "UP: Black Knight Greatsword - Black Knight Drop, in Tower","ref": "Undead Parish/UP: Black Knight Greatsword - Black Knight Drop, in Tower"},
+        {"name": "UP: Titanite Chunk - Black Knight Drop, in Tower","ref": "Undead Parish/UP: Titanite Chunk - Black Knight Drop, in Tower"}]
     },{"name": "UP: Twin Humanities - Bell Gargoyles Drop","map_locations": [{"map": "Undead Parish","x": 1451,"y": 221}],
-    "sections": [{"name": "UP: Twin Humanities - Bell Gargoyles Drop","ref": "Undead Parish/UP: Twin Humanities - Bell Gargoyles Drop"}]
+        "sections": [{"name": "UP: Twin Humanities - Bell Gargoyles Drop","ref": "Undead Parish/UP: Twin Humanities - Bell Gargoyles Drop"}]
     },{"name": "Andre of Astora","map_locations": [{"map": "Undead Parish","x": 1975,"y": 2261}],
-    "sections": [{"name": "Andre of Astora: Crest of Artorias","ref": "Undead Parish/Andre of Astora: Crest of Artorias"},
-    {"name": "Andre of Astora: Humanity - Drop Added To Shop","ref": "Undead Parish/Andre of Astora: Humanity - Drop Added To Shop"},
-    {"name": "Andre of Astora: Blacksmith Hammer - Drop Added To Shop","ref": "Undead Parish/Andre of Astora: Blacksmith Hammer - Drop Added To Shop"},
-    {"name": "Merchant: Repairbox","ref": "Upper Undead Burg/Merchant: Repairbox"},
-    {"name": "Blacksmith: Weapon Smithbox","ref": "Undead Parish/Blacksmith: Weapon Smithbox"},
-    {"name": "Blacksmith: Armor Smithbox","ref": "Undead Parish/Blacksmith: Armor Smithbox"}]
+        "sections": [{"name": "Andre of Astora: Crest of Artorias","ref": "Undead Parish/Andre of Astora: Crest of Artorias"},
+        {"name": "Andre of Astora: Humanity - Drop Added To Shop","ref": "Undead Parish/Andre of Astora: Humanity - Drop Added To Shop"},
+        {"name": "Andre of Astora: Blacksmith Hammer - Drop Added To Shop","ref": "Undead Parish/Andre of Astora: Blacksmith Hammer - Drop Added To Shop"},
+        {"name": "Andre of Astora: Longsword","ref": "Undead Parish/Andre of Astora: Longsword"},
+        {"name": "Andre of Astora: Broadsword","ref": "Undead Parish/Andre of Astora: Broadsword"},
+        {"name": "Andre of Astora: Bastard Sword","ref": "Undead Parish/Andre of Astora: Bastard Sword"},
+        {"name": "Andre of Astora: Battle Axe","ref": "Undead Parish/Andre of Astora: Battle Axe"},
+        {"name": "Andre of Astora: Warpick","ref": "Undead Parish/Andre of Astora: Warpick"},
+        {"name": "Andre of Astora: Caestus","ref": "Undead Parish/Andre of Astora: Caestus"},
+        {"name": "Andre of Astora: Pike","ref": "Undead Parish/Andre of Astora: Pike"},
+        {"name": "Andre of Astora: Large Leather Shield","ref": "Undead Parish/Andre of Astora: Large Leather Shield"},
+        {"name": "Andre of Astora: Tower Kite Shield","ref": "Undead Parish/Andre of Astora: Tower Kite Shield"},
+        {"name": "Andre of Astora: Caduceus Kite Shield","ref": "Undead Parish/Andre of Astora: Caduceus Kite Shield"},
+        {"name": "Merchant: Repairbox","ref": "Upper Undead Burg/Merchant: Repairbox"},
+        {"name": "Blacksmith: Weapon Smithbox","ref": "Undead Parish/Blacksmith: Weapon Smithbox"},
+        {"name": "Blacksmith: Armor Smithbox","ref": "Undead Parish/Blacksmith: Armor Smithbox"}]
     },{"name": "Oswald of Carim","map_locations": [{"map": "Undead Parish","x": 1821,"y": 173}],
-    "sections": [{"name": "Oswald of Carim: Book of the Guilty","ref": "Undead Parish/Oswald of Carim: Book of the Guilty"},
-    {"name": "Oswald of Carim: Purging Stone","ref": "Undead Parish/Oswald of Carim: Purging Stone"},
-    {"name": "Oswald of Carim: Miracle: Karmic Justice","ref": "Undead Parish/Oswald of Carim: Miracle: Karmic Justice"},
-    {"name": "Oswald of Carim: Bloodbite Ring","ref": "Undead Parish/Oswald of Carim: Bloodbite Ring"},
-    {"name": "Oswald of Carim: Poisonbite Ring","ref": "Undead Parish/Oswald of Carim: Poisonbite Ring"},
-    {"name": "Oswald of Carim: Rings of Sacrifice","ref": "Undead Parish/Oswald of Carim: Rings of Sacrifice"},
-    {"name": "Oswald of Carim: Twin Humanities - Drop Added To Shop","ref": "Undead Parish/Oswald of Carim: Twin Humanities - Drop Added To Shop"}]
+        "sections": [{"name": "Oswald of Carim: Book of the Guilty","ref": "Undead Parish/Oswald of Carim: Book of the Guilty"},
+        {"name": "Oswald of Carim: Purging Stone","ref": "Undead Parish/Oswald of Carim: Purging Stone"},
+        {"name": "Oswald of Carim: Miracle: Karmic Justice","ref": "Undead Parish/Oswald of Carim: Miracle: Karmic Justice"},
+        {"name": "Oswald of Carim: Bloodbite Ring","ref": "Undead Parish/Oswald of Carim: Bloodbite Ring"},
+        {"name": "Oswald of Carim: Poisonbite Ring","ref": "Undead Parish/Oswald of Carim: Poisonbite Ring"},
+        {"name": "Oswald of Carim: Rings of Sacrifice","ref": "Undead Parish/Oswald of Carim: Rings of Sacrifice"},
+        {"name": "Oswald of Carim: Twin Humanities - Drop Added To Shop","ref": "Undead Parish/Oswald of Carim: Twin Humanities - Drop Added To Shop"},
+        {"name": "Oswald of Carim: Indictment","ref": "@Undead Parish/Oswald of Carim: Indictment"},
+        {"name": "Oswald of Carim: Velka's Talisman","ref": "@Undead Parish/Oswald of Carim: Velka's Talisman"}]
     },{
         "name": "Lower Undead Burg",
         "map_locations": [
@@ -719,6 +841,7 @@
             {"name": "BT: Large Titanite Shard - Near Quelana","access_rules": ["@canReachLowerBlighttown"]},
             {"name": "BT: Boss Fog Wall - Quelaag","access_rules": ["@canReachLowerBlighttownQuelaag"],"visibility_rules": ["setting_fogwall_lock_boss"]},
             {"name": "BT: Soul of Quelaag","access_rules": ["@canReachLowerBlighttownAfterQuelaag"],"visibility_rules": ["setting_boss_soul_shuffle"]},
+            {"name": "BT: Homeward Bone - Pulled Lever After Quelaag","access_rules": ["@canReachLowerBlighttownAfterQuelaag"],"visibility_rules": ["setting_boss_bone_shuffle"]},
             {"name": "BT: Twin Humanities - Quelaag Drop","access_rules": ["@canReachLowerBlighttownAfterQuelaag"],"visibility_rules": ["setting_boss_humanity_shuffle"]}
         ]
     },{
@@ -768,7 +891,8 @@
         "name": "BT: Quelaag","map_locations": [{"map": "Blighttown Lower","x": 335,"y": 1925}],
         "sections": [{"name": "BT: Boss Fog Wall - Quelaag","ref": "Lower Blighttown/BT: Boss Fog Wall - Quelaag"},
         {"name": "BT: Soul of Quelaag","ref": "Lower Blighttown/BT: Soul of Quelaag"},
-        {"name": "BT: Twin Humanities - Quelaag Drop","ref": "Lower Blighttown/BT: Twin Humanities - Quelaag Drop"}]
+        {"name": "BT: Twin Humanities - Quelaag Drop","ref": "Lower Blighttown/BT: Twin Humanities - Quelaag Drop"},
+        {"name": "BT: Homeward Bone - Pulled Lever After Quelaag","ref": "Lower Blighttown/BT: Homeward Bone - Pulled Lever After Quelaag"}]
     },{
         "name": "Valley of the Drakes",
         "map_locations": [
@@ -1187,6 +1311,22 @@
             {"name": "SF: Humanity - Iron Golem Drop","access_rules": ["@canReachSensFortressAfterIronGolem"],"visibility_rules": ["setting_boss_humanity_shuffle"]},
             {"name": "Crestfallen Merchant: Thunder Stoneplate Ring","access_rules": ["@canReachSensFortressCrestfallenMerchant"],"visibility_rules": ["setting_shop_shuffle"]},
             {"name": "Crestfallen Merchant: Spell Stoneplate Ring","access_rules": ["@canReachSensFortressCrestfallenMerchant"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Crestfallen Merchant: Greatsword","access_rules": ["@canReachSensFortressCrestfallenMerchant"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Crestfallen Merchant: Greataxe","access_rules": ["@canReachSensFortressCrestfallenMerchant"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Crestfallen Merchant: Balder Shield","access_rules": ["@canReachSensFortressCrestfallenMerchant"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Crestfallen Merchant: Tower Shield","access_rules": ["@canReachSensFortressCrestfallenMerchant"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Crestfallen Merchant: Catarina Helm","access_rules": ["@canReachSensFortressCrestfallenMerchant"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Crestfallen Merchant: Catarina Armor","access_rules": ["@canReachSensFortressCrestfallenMerchant"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Crestfallen Merchant: Catarina Gauntlets","access_rules": ["@canReachSensFortressCrestfallenMerchant"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Crestfallen Merchant: Catarina Leggings","access_rules": ["@canReachSensFortressCrestfallenMerchant"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Crestfallen Merchant: Steel Helm","access_rules": ["@canReachSensFortressCrestfallenMerchant"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Crestfallen Merchant: Steel Armor","access_rules": ["@canReachSensFortressCrestfallenMerchant"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Crestfallen Merchant: Steel Gauntlets","access_rules": ["@canReachSensFortressCrestfallenMerchant"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Crestfallen Merchant: Steel Leggings","access_rules": ["@canReachSensFortressCrestfallenMerchant"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Crestfallen Merchant: Balder Helm","access_rules": ["@canReachSensFortressCrestfallenMerchant"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Crestfallen Merchant: Balder Armor","access_rules": ["@canReachSensFortressCrestfallenMerchant"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Crestfallen Merchant: Balder Gauntlets","access_rules": ["@canReachSensFortressCrestfallenMerchant"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Crestfallen Merchant: Balder Leggings","access_rules": ["@canReachSensFortressCrestfallenMerchant"],"visibility_rules": ["setting_shop_shuffle"]},
             {"name": "SF: Ricard's Rapier","access_rules": ["@canReachSensFortressAfterSecondFog"]}
         ]
     },{
@@ -1264,15 +1404,31 @@
         "name": "SF: Soul of a Hero - Sen's Fortress Cage","map_locations": [{"map": "Sen's Fortress Main","x": 800,"y": 2050}],
         "sections": [{"name": "SF: Soul of a Hero - Sen's Fortress Cage","ref": "Sen's Fortress/SF: Soul of a Hero - Sen's Fortress Cage"}]
     },{"name": "SF: Lightning Spear","map_locations": [{"map": "Sen's Fortress Main","x": 1943,"y": 2002}],
-    "sections": [{"name": "SF: Lightning Spear","ref": "Sen's Fortress/SF: Lightning Spear"}]
+        "sections": [{"name": "SF: Lightning Spear","ref": "Sen's Fortress/SF: Lightning Spear"}]
     },{"name": "SF: Iron Golem","map_locations": [{"map": "Sen's Fortress Roof","x": 526,"y": 614}],
-    "sections": [{"name": "SF: Core of an Iron Golem","ref": "Sen's Fortress/SF: Core of an Iron Golem"},
-    {"name": "SF: Humanity - Iron Golem Drop","ref": "Sen's Fortress/SF: Humanity - Iron Golem Drop"}]
+        "sections": [{"name": "SF: Core of an Iron Golem","ref": "Sen's Fortress/SF: Core of an Iron Golem"},
+        {"name": "SF: Humanity - Iron Golem Drop","ref": "Sen's Fortress/SF: Humanity - Iron Golem Drop"}]
     },{"name": "Crestfallen Merchant","map_locations": [{"map": "Sen's Fortress Roof","x": 1819,"y": 507}],
-    "sections": [{"name": "Crestfallen Merchant: Thunder Stoneplate Ring","ref": "Sen's Fortress/Crestfallen Merchant: Thunder Stoneplate Ring"},
-    {"name": "Crestfallen Merchant: Spell Stoneplate Ring","ref": "Sen's Fortress/Crestfallen Merchant: Spell Stoneplate Ring"}]
+        "sections": [{"name": "Crestfallen Merchant: Thunder Stoneplate Ring","ref": "Sen's Fortress/Crestfallen Merchant: Thunder Stoneplate Ring"},
+        {"name": "Crestfallen Merchant: Spell Stoneplate Ring","ref": "Sen's Fortress/Crestfallen Merchant: Spell Stoneplate Ring"},
+        {"name": "Crestfallen Merchant: Greatsword","ref": "@Sen's Fortress/Crestfallen Merchant: Greatsword"},
+        {"name": "Crestfallen Merchant: Greataxe","ref": "@Sen's Fortress/Crestfallen Merchant: Greataxe"},
+        {"name": "Crestfallen Merchant: Balder Shield","ref": "@Sen's Fortress/Crestfallen Merchant: Balder Shield"},
+        {"name": "Crestfallen Merchant: Tower Shield","ref": "@Sen's Fortress/Crestfallen Merchant: Tower Shield"},
+        {"name": "Crestfallen Merchant: Catarina Helm","ref": "@Sen's Fortress/Crestfallen Merchant: Catarina Helm"},
+        {"name": "Crestfallen Merchant: Catarina Armor","ref": "@Sen's Fortress/Crestfallen Merchant: Catarina Armor"},
+        {"name": "Crestfallen Merchant: Catarina Gauntlets","ref": "@Sen's Fortress/Crestfallen Merchant: Catarina Gauntlets"},
+        {"name": "Crestfallen Merchant: Catarina Leggings","ref": "@Sen's Fortress/Crestfallen Merchant: Catarina Leggings"},
+        {"name": "Crestfallen Merchant: Steel Helm","ref": "@Sen's Fortress/Crestfallen Merchant: Steel Helm"},
+        {"name": "Crestfallen Merchant: Steel Armor","ref": "@Sen's Fortress/Crestfallen Merchant: Steel Armor"},
+        {"name": "Crestfallen Merchant: Steel Gauntlets","ref": "@Sen's Fortress/Crestfallen Merchant: Steel Gauntlets"},
+        {"name": "Crestfallen Merchant: Steel Leggings","ref": "@Sen's Fortress/Crestfallen Merchant: Steel Leggings"},
+        {"name": "Crestfallen Merchant: Balder Helm","ref": "@Sen's Fortress/Crestfallen Merchant: Balder Helm"},
+        {"name": "Crestfallen Merchant: Balder Armor","ref": "@Sen's Fortress/Crestfallen Merchant: Balder Armor"},
+        {"name": "Crestfallen Merchant: Balder Gauntlets","ref": "@Sen's Fortress/Crestfallen Merchant: Balder Gauntlets"},
+        {"name": "Crestfallen Merchant: Balder Leggings","ref": "@Sen's Fortress/Crestfallen Merchant: Balder Leggings"}]
     },{"name": "SF: Ricard's Rapier","map_locations": [{"map": "Sen's Fortress Roof","x": 759,"y": 1111}],
-    "sections": [{"name": "SF: Ricard's Rapier","ref": "Sen's Fortress/SF: Ricard's Rapier"}]
+        "sections": [{"name": "SF: Ricard's Rapier","ref": "Sen's Fortress/SF: Ricard's Rapier"}]
     },{
         "name": "Anor Londo",
         "map_locations": [
@@ -1332,7 +1488,13 @@
             {"name": "AL: Soul of Smough","access_rules": ["@canReachAnorLondoAfterOrnsteinandSmough"],"visibility_rules": ["setting_boss_soul_shuffle"]},
             {"name": "AL: Humanity - O+S Drop","access_rules": ["@canReachAnorLondoAfterOrnsteinandSmough"],"visibility_rules": ["setting_boss_humanity_shuffle"]},
             {"name": "AL: Leo Ring - O+S Drop","access_rules": ["@canReachAnorLondoAfterOrnsteinandSmough"]},
-            {"name": "Giant Blacksmith: Blacksmith Giant Hammer - Drop Added To Shop","access_rules": ["@canReachAnorLondoGiantBlacksmith"],"visibility_rules": ["setting_shop_shuffle"]}
+            {"name": "Giant Blacksmith: Blacksmith Giant Hammer - Drop Added To Shop","access_rules": ["@canReachAnorLondoGiantBlacksmith"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Giant Blacksmith: Giant's Halberd","access_rules": ["@canReachAnorLondoGiantBlacksmith"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Giant Blacksmith: Giant Shield","access_rules": ["@canReachAnorLondoGiantBlacksmith"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Giant Blacksmith: Giant Helm","access_rules": ["@canReachAnorLondoGiantBlacksmith"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Giant Blacksmith: Giant Armor","access_rules": ["@canReachAnorLondoGiantBlacksmith"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Giant Blacksmith: Giant Gauntlets","access_rules": ["@canReachAnorLondoGiantBlacksmith"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Giant Blacksmith: Giant Leggings","access_rules": ["@canReachAnorLondoGiantBlacksmith"],"visibility_rules": ["setting_shop_shuffle"]}
         ]
     },{
         "name": "AL: Demon Titanite - Anor Londo Giants","map_locations": [{"map": "Anor Londo Exterior","x": 880,"y": 780}],
@@ -1421,25 +1583,31 @@
         "name": "AL: Boss Fog Wall - Gwyndolin","map_locations": [{"map": "Anor Londo Exterior","x": 2652,"y": 2117}],
         "sections": [{"name": "AL: Boss Fog Wall - Gwyndolin","ref": "Anor Londo/AL: Boss Fog Wall - Gwyndolin"}]
     },{"name": "AL: Crystal Halberd - Mimic Drop, Toward Archives","map_locations": [{"map": "Anor Londo Exterior","x": 2258,"y": 860}],
-    "sections": [{"name": "AL: Crystal Halberd - Mimic Drop, Toward Archives","ref": "Anor Londo/AL: Crystal Halberd - Mimic Drop, Toward Archives"}]
+        "sections": [{"name": "AL: Crystal Halberd - Mimic Drop, Toward Archives","ref": "Anor Londo/AL: Crystal Halberd - Mimic Drop, Toward Archives"}]
     },{"name": "AL: Soul of Gwyndolin","map_locations": [{"map": "Anor Londo Exterior","x": 2650,"y": 2140}],
-    "sections": [{"name": "AL: Soul of Gwyndolin","ref": "Anor Londo/AL: Soul of Gwyndolin"}]
+        "sections": [{"name": "AL: Soul of Gwyndolin","ref": "Anor Londo/AL: Soul of Gwyndolin"}]
     },{"name": "AL: Occult Club - Basement Mimic Drop","map_locations": [{"map": "Anor Londo Interior","x": 850,"y": 720}],
-    "sections": [{"name": "AL: Occult Club - Basement Mimic Drop","ref": "Anor Londo/AL: Occult Club - Basement Mimic Drop"}]
+        "sections": [{"name": "AL: Occult Club - Basement Mimic Drop","ref": "Anor Londo/AL: Occult Club - Basement Mimic Drop"}]
     },{"name": "AL: Gold Coin - Mimic Drop","map_locations": [{"map": "Anor Londo Interior","x": 620,"y": 1695}],
-    "sections": [{"name": "AL: Gold Coin - Mimic Drop","ref": "Anor Londo/AL: Gold Coin - Mimic Drop"}]
+        "sections": [{"name": "AL: Gold Coin - Mimic Drop","ref": "Anor Londo/AL: Gold Coin - Mimic Drop"}]
     },{"name": "AL: Silver Coin - Mimic Drop","map_locations": [{"map": "Anor Londo Interior","x": 616,"y": 1406}],
-    "sections": [{"name": "AL: Silver Coin - Mimic Drop","ref": "Anor Londo/AL: Silver Coin - Mimic Drop"}]
+        "sections": [{"name": "AL: Silver Coin - Mimic Drop","ref": "Anor Londo/AL: Silver Coin - Mimic Drop"}]
     },{"name": "AL: Ornstein and Smough","map_locations": [{"map": "Anor Londo Interior","x": 1554,"y": 2550}],
-    "sections": [{"name": "AL: Soul of Ornstein","ref": "Anor Londo/AL: Soul of Ornstein"},
-    {"name": "AL: Soul of Smough","ref": "Anor Londo/AL: Soul of Smough"},
-    {"name": "AL: Humanity - O+S Drop","ref": "Anor Londo/AL: Humanity - O+S Drop"},
-    {"name": "AL: Leo Ring - O+S Drop","ref": "Anor Londo/AL: Leo Ring - O+S Drop"}]
+        "sections": [{"name": "AL: Soul of Ornstein","ref": "Anor Londo/AL: Soul of Ornstein"},
+        {"name": "AL: Soul of Smough","ref": "Anor Londo/AL: Soul of Smough"},
+        {"name": "AL: Humanity - O+S Drop","ref": "Anor Londo/AL: Humanity - O+S Drop"},
+        {"name": "AL: Leo Ring - O+S Drop","ref": "Anor Londo/AL: Leo Ring - O+S Drop"}]
     },{"name": "Giant Blacksmith","map_locations": [{"map": "Anor Londo Interior","x": 2028,"y": 1540}],
-    "sections": [{"name": "Giant Blacksmith: Blacksmith Giant Hammer - Drop Added To Shop","ref": "Anor Londo/Giant Blacksmith: Blacksmith Giant Hammer - Drop Added To Shop"},
-    {"name": "Merchant: Repairbox","ref": "Upper Undead Burg/Merchant: Repairbox"},
-    {"name": "Blacksmith: Weapon Smithbox","ref": "Undead Parish/Blacksmith: Weapon Smithbox"},
-    {"name": "Blacksmith: Armor Smithbox","ref": "Undead Parish/Blacksmith: Armor Smithbox"}]
+        "sections": [{"name": "Giant Blacksmith: Blacksmith Giant Hammer - Drop Added To Shop","ref": "Anor Londo/Giant Blacksmith: Blacksmith Giant Hammer - Drop Added To Shop"},
+        {"name": "Giant Blacksmith: Giant's Halberd","ref": "@Anor Londo/Giant Blacksmith: Giant's Halberd"},
+        {"name": "Giant Blacksmith: Giant Shield","ref": "@Anor Londo/Giant Blacksmith: Giant Shield"},
+        {"name": "Giant Blacksmith: Giant Helm","ref": "@Anor Londo/Giant Blacksmith: Giant Helm"},
+        {"name": "Giant Blacksmith: Giant Armor","ref": "@Anor Londo/Giant Blacksmith: Giant Armor"},
+        {"name": "Giant Blacksmith: Giant Gauntlets","ref": "@Anor Londo/Giant Blacksmith: Giant Gauntlets"},
+        {"name": "Giant Blacksmith: Giant Leggings","ref": "@Anor Londo/Giant Blacksmith: Giant Leggings"},
+        {"name": "Merchant: Repairbox","ref": "Upper Undead Burg/Merchant: Repairbox"},
+        {"name": "Blacksmith: Weapon Smithbox","ref": "Undead Parish/Blacksmith: Weapon Smithbox"},
+        {"name": "Blacksmith: Armor Smithbox","ref": "Undead Parish/Blacksmith: Armor Smithbox"}]
     },{
         "name": "Painted World of Ariamis",
         "map_locations": [
@@ -1630,7 +1798,8 @@
             {"name": "NL: Composite Bow","access_rules": ["@canReachUpperNewLondoRuinsAfterFog"]},
             {"name": "NL: Large Arrow","access_rules": ["@canReachUpperNewLondoRuinsAfterFog"]},
             {"name": "Rickert of Vinheim: Sorcery: Soul Arrow","access_rules": ["@canReachUpperNewLondoRuinsRickertOfVinheim"],"visibility_rules": ["setting_shop_shuffle"]},
-            {"name": "Rickert of Vinheim: Sorcery: Heavy Soul Arrow","access_rules": ["@canReachUpperNewLondoRuinsRickertOfVinheim"],"visibility_rules": ["setting_shop_shuffle"]}
+            {"name": "Rickert of Vinheim: Sorcery: Heavy Soul Arrow","access_rules": ["@canReachUpperNewLondoRuinsRickertOfVinheim"],"visibility_rules": ["setting_shop_shuffle"]},
+            {"name": "Rickert of Vinheim: Sorcerer's Catalyst","access_rules": ["@canReachUpperNewLondoRuinsRickertOfVinheim"],"visibility_rules": ["setting_shop_shuffle"]}
         ]
     },{
         "name": "NL: Soul of a Nameless Soldier - New Londo Entrance","map_locations": [{"map": "New Londo Ruins","x": 65,"y": 203}],
@@ -1685,8 +1854,9 @@
         "sections": [{"name": "NL: Composite Bow","ref": "Upper New Londo Ruins/NL: Composite Bow"},
         {"name": "NL: Large Arrow","ref": "Upper New Londo Ruins/NL: Large Arrow"}]
     },{"name": "Rickert of Vinheim: Sorcery: Soul Arrow","map_locations": [{"map": "New Londo Ruins","x": 185,"y": 254}],
-    "sections": [{"name": "Rickert of Vinheim: Sorcery: Soul Arrow","ref": "Upper New Londo Ruins/Rickert of Vinheim: Sorcery: Soul Arrow"},
-    {"name": "Rickert of Vinheim: Sorcery: Heavy Soul Arrow","ref": "Upper New Londo Ruins/Rickert of Vinheim: Sorcery: Heavy Soul Arrow"}]
+        "sections": [{"name": "Rickert of Vinheim: Sorcery: Soul Arrow","ref": "Upper New Londo Ruins/Rickert of Vinheim: Sorcery: Soul Arrow"},
+        {"name": "Rickert of Vinheim: Sorcery: Heavy Soul Arrow","ref": "Upper New Londo Ruins/Rickert of Vinheim: Sorcery: Heavy Soul Arrow"},
+        {"name": "Rickert of Vinheim: Sorcerer's Catalyst","ref": "Upper New Londo Ruins/Rickert of Vinheim: Sorcerer's Catalyst"}]
     },{
         "name": "Lower New Londo Ruins",
         "map_locations": [
@@ -1918,7 +2088,7 @@
     },{"name": "DA: Crystal Lizard, Path To Seath's Study","map_locations": [{"map": "Duke's Archives","x": 1621,"y": 683}],
     "sections": [{"name": "DA: Twinkling Titanite - Crystal Lizard Drop, Path To Seath's Study","ref": "Duke's Archives/DA: Twinkling Titanite - Crystal Lizard Drop, Path To Seath's Study"},
     {"name": "DA: Extra Titanite - Crystal Lizard Drop, Path To Seath's Study","ref": "Duke's Archives/DA: Extra Titanite - Crystal Lizard Drop, Path To Seath's Study"}]
-    },{"name": "DA: Crystal Knight Shield - Mimic Drop, 2nd Floor","map_locations": [{"map": "Duke's Archives","x": 358,"y": 899}],
+    },{"name": "DA: Crystal Knight Shield - Mimic Drop, 2nd Floor","map_locations": [{"map": "Duke's Archives Big Room","x": 358,"y": 899}],
     "sections": [{"name": "DA: Crystal Knight Shield - Mimic Drop, 2nd Floor","ref": "Duke's Archives/DA: Crystal Knight Shield - Mimic Drop, 2nd Floor"}]
     },{"name": "DA: Enchanted Falchion - Mimic Drop, Behind Bookcase Door","map_locations": [{"map": "Duke's Archives","x": 1116,"y": 477}],
     "sections": [{"name": "DA: Enchanted Falchion - Mimic Drop, Behind Bookcase Door","ref": "Duke's Archives/DA: Enchanted Falchion - Mimic Drop, Behind Bookcase Door"}]
@@ -2311,7 +2481,7 @@
             {"name": "TotG: Eye of Death - Upper Giant Coffin","access_rules": ["@canReachTomboftheGiants"]},
             {"name": "TotG: Large Divine Ember","access_rules": ["@canReachTomboftheGiants"]},
             {"name": "TotG: Fog Wall - Tomb of the Giants","access_rules": ["@canReachTomboftheGiantsAfterWhiteFog"],"visibility_rules": ["setting_fogwall_lock"]},
-            {"name": "TotG: Soul of a Brave Warrior - Lower Giant Coffin","access_rules": ["@canReachTomboftheGiantsAfterWhiteFog"]},
+            {"name": "TotG: Soul of a Brave Warrior - Lower Giant Coffin","access_rules": ["@canReachTomboftheGiants"]},
             {"name": "TotG: Effigy Shield","access_rules": ["@canReachTomboftheGiantsAfterWhiteFog"]},
             {"name": "TotG: Covetous Silver Serpent Ring","access_rules": ["@canReachTomboftheGiantsAfterWhiteFog"]},
             {"name": "TotG: Soul of a Brave Warrior - Behind Bone Archer","access_rules": ["@canReachTomboftheGiantsAfterWhiteFog"]},
@@ -2923,6 +3093,26 @@
         "@canReachFirelinkShrine, @canReachDepths, @canReachUndeadParishBellGargoyles, @canReachLowerBlighttownAfterQuelaag"
     ]},
     {
+    "name": "canReachFirelinkShrineDomhnallOfZenaAfterIronGolem",
+    "access_rules": [
+        "@canReachFirelinkShrineDomhnallOfZena, @canReachSensFortressIronGolem"
+    ]},
+    {
+    "name": "canReachFirelinkShrineDomhnallOfZenaAfterOnS",
+    "access_rules": [
+        "@canReachFirelinkShrineDomhnallOfZena, @canReachAnorLondoOrnsteinandSmough"
+    ]},
+    {
+    "name": "canReachFirelinkShrineDomhnallOfZenaAfterGwyndolin",
+    "access_rules": [
+        "@canReachFirelinkShrineDomhnallOfZena, @canReachAnorLondoGwyndolin"
+    ]},
+    {
+    "name": "canReachFirelinkShrineDomhnallOfZenaUnderAqueductAfterArtorias",
+    "access_rules": [
+        "@canReachFirelinkShrineDomhnallOfZena, @canReachRoyalWoodArtorias"
+    ]},
+    {
     "name": "canReachDepthstoBlighttownDoor",
     "access_rules": [
         "@canReachDepths, blighttown_key"
@@ -3122,7 +3312,8 @@
     {
     "name": "canReachAnorLondoGwyndolin",
     "access_rules": [
-        "@canReachAnorLondoAfterOrnsteinandSmough, $canPassBossFog|boss_fog_wall_gwyndolin"
+        "@canReachAnorLondoAfterOrnsteinandSmough, $canPassBossFog|boss_fog_wall_gwyndolin",
+        "@canReachAnorLondoAfterFirstFog, dmoon_seance_ring, $canPassBossFog|boss_fog_wall_gwyndolin"
     ]},
     {
     "name": "canReachAnorLondoAfterGwyndolin",
@@ -3205,7 +3396,7 @@
     {
     "name": "canReachTheDukesArchivesAfterArchiveTowerCellKey",
     "access_rules": [
-        "@canReachTheDukesArchivesAfterFirstSeathEncounter, archive_tower_cell_key"
+        "@canReachTheDukesArchivesAfterFirstSeathEncounter"
     ]},
     {
     "name": "canReachTheDukesArchivesAfterArchivePrisonExtraKey",

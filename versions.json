@@ -1,6 +1,20 @@
 {
     "versions": [
         {
+            "package_version": "1.3.0",
+            "download_url": "https://github.com/routhken/Dark_Souls_Remastered_tracker/releases/download/v1.3.0/Dark_Souls_Remastered_aptracker.zip",
+            "sha256": "ddadd2332b31c496990c51ff96a1b83fc30eaee8bc9e0b6fbfe0576faea38c05",
+            "changelog": [
+                " - Updated to apworld v0.2.6",
+                " - Fixed autotab for DLC maps (credit to noka)",
+                " - Fixed crystal knight shield being on wrong map",
+                " - Added Darkmoon Seance Ring access to Gwyndolin",
+                " - Added post-quelaag bone",
+                " - Added all shop armor and weapons",
+                " - Moved master key to settings tab since it still affects logic but can't be obtained normally",
+                " - Removed archive tower cell key from item list and logic"
+            ]
+        },{
             "package_version": "1.2.2",
             "download_url": "https://github.com/routhken/Dark_Souls_Remastered_tracker/releases/download/v1.2.2/Dark_Souls_Remastered_aptracker.zip",
             "sha256": "200014901e3ac766ebeae463220902108b6f08b50901bda273497e178f6403eb",

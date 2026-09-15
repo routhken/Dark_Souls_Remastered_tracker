@@ -46,6 +46,7 @@ ITEM_MAPPING = {
     [11112062] = {"soul_of_manus", "toggle"},
     [11113028] = {"broken_pendant", "toggle"},
     [11113021] = {"crest_key", "toggle"},
+    [11114039] = {"dmoon_seance_ring", "toggle"},
     [11111200] = {"fog_wall_northern_undead_asylum", "toggle"},
     [11111201] = {"fog_wall_undead_burg", "toggle"},
     [11111202] = {"fog_wall_undead_parish", "toggle"},

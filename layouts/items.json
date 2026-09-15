@@ -45,11 +45,10 @@
                                 "annex_key",
                                 "watchtower_basement_key",
                                 "uaf2_west_key",
-                                "master_key",
                                 "archive_prison_extra_key",
-                                "archive_tower_cell_key",
                                 "archive_tower_giant_cell_key",
-                                "archive_tower_giant_door_key"
+                                "archive_tower_giant_door_key",
+                                "dmoon_seance_ring"
                             ]
                         ]
                     }

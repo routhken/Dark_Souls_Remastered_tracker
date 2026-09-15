@@ -72,6 +72,12 @@
         "codes": "crest_of_artorias"
     },
     {
+        "name": "Darkmoon Seance Ring",
+        "type": "toggle",
+        "img": "/images/items/Darkmoon Seance Ring.png",
+        "codes": "dmoon_seance_ring"
+    },
+    {
         "name": "Key to Depths",
         "type": "toggle",
         "img": "/images/items/Key to Depths.png",
