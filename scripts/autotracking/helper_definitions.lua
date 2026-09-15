@@ -29,8 +29,8 @@ MapIDToTab = {
     [27] = {"Undead Burg Upper"}, -- "* Undead Burg  / Undead Parish"}, -> Undead Burg Upper
     [28] = {"Undead Parish"}, -- "* Undead Burg  / Undead Parish"}, -> Undead Parish
     [29] = {"Valley of the Drakes"}, --"* New Londo Ruins / Valley of Drakes"}, -> Valley of Drakes
-    [30] = {"Sanctuary Sanctuary"}, --"* Oolacile"}, -> Sanctuary Garden & Sanctuary
-    [31] = {"Royal wood"}, --"* Oolacile"}, -> Royal wood
-    [32] = {"Oolacile Township"}, --"* Oolacile"}, -> Oolacile Township
-    [33] = {"Chasm of the Abyss"}, --"* Oolacile"}, -> Chasm of the Abyss
+    [30] = {"DLC/Oolacile Sanctuary"}, --"* Oolacile"}, -> Sanctuary Garden & Oolacile Sanctuary
+    [31] = {"DLC/Royal Wood"}, --"* Oolacile"}, -> Royal wood
+    [32] = {"DLC/Oolacile Township"}, --"* Oolacile"}, -> Oolacile Township
+    [33] = {"DLC/Chasm of the Abyss"}, --"* Oolacile"}, -> Chasm of the Abyss
 }

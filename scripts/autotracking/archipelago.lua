@@ -215,7 +215,9 @@ function OnNotify(key, value, old_value)
         if Tracker:FindObjectForCode("setting_auto_tab").Active == true then
             if MapIDToTab[value] then
                 for _, room in ipairs(MapIDToTab[value]) do
-                    Tracker:UiHint("ActivateTab", room)
+                    for substr in string.gmatch(room, "[%a%s']+") do
+                        Tracker:UiHint("ActivateTab", substr)
+                    end
                 end
             end
         end
