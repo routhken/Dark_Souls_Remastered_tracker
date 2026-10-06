@@ -1094,11 +1094,11 @@
             {"name": "DG: Large Soul of a Brave Warrior - Darkroot Garden Cats","access_rules": ["@canReachDarkrootGardenBehindArtoriasDoor"]},
             {"name": "DG: Soul of a Brave Warrior - Down Ladder before Stone Bridge","access_rules": ["@canReachDarkrootGardenBehindArtoriasDoor"]},
             {"name": "DG: Enchanted Ember","access_rules": ["@canReachDarkrootGardenBehindArtoriasDoor"]},
-            {"name": "DG: Hornet Ring","access_rules": ["@canReachDarkrootGardenBehindArtoriasDoor"]},
-            {"name": "DG: Covenant of Artorias - Sif Drop","access_rules": ["@canReachDarkrootGardenBehindArtoriasDoor"]},
-            {"name": "DG: Soul of Sif","access_rules": ["@canReachDarkrootGardenBehindArtoriasDoor"],"visibility_rules": ["setting_boss_soul_shuffle"]},
-            {"name": "DG: Humanity - Sif Drop","access_rules": ["@canReachDarkrootGardenBehindArtoriasDoor"],"visibility_rules": ["setting_boss_humanity_shuffle"]},
-            {"name": "DG: Homeward Bone - Sif Drop","access_rules": ["@canReachDarkrootGardenBehindArtoriasDoor"],"visibility_rules": ["setting_boss_bone_shuffle"]}
+            {"name": "DG: Hornet Ring","access_rules": ["@canReachDarkrootGardenBehindSifDoor"]},
+            {"name": "DG: Covenant of Artorias - Sif Drop","access_rules": ["@canReachDarkrootGardenBehindSifDoor"]},
+            {"name": "DG: Soul of Sif","access_rules": ["@canReachDarkrootGardenBehindSifDoor"],"visibility_rules": ["setting_boss_soul_shuffle"]},
+            {"name": "DG: Humanity - Sif Drop","access_rules": ["@canReachDarkrootGardenBehindSifDoor"],"visibility_rules": ["setting_boss_humanity_shuffle"]},
+            {"name": "DG: Homeward Bone - Sif Drop","access_rules": ["@canReachDarkrootGardenBehindSifDoor"],"visibility_rules": ["setting_boss_bone_shuffle"]}
         ]
     },{
         "name": "DG: Eastern Set","map_locations": [{"map": "Darkroot Garden","x": 362,"y": 470}],
@@ -3215,6 +3215,11 @@
     {
     "name": "canReachDarkrootGardenBehindArtoriasDoor",
     "access_rules": [
+        "@canReachDarkrootGardenBeforeFog, [crest_of_artorias]"
+    ]},
+    {
+    "name": "canReachDarkrootGardenBehindSifDoor",
+    "access_rules": [
         "@canReachDarkrootGardenBeforeFog, crest_of_artorias"
     ]},
     {
@@ -3493,11 +3498,11 @@
     "name": "canReachTheCatacombs",
     "access_rules": [
         "@canReachFirelinkShrine, catacomb_logic_none",
-        "@canReachFirelinkShrine, catacomb_logic_merchant, @canReachUpperUndeadBurgMaleUndeadMerchant",
-        "@canReachFirelinkShrine, catacomb_logic_andre, @canReachUndeadParishAndreOfAstora",
-        "@canReachFirelinkShrine, catacomb_logic_andre_merchant, @canReachUndeadParishAndreOfAstora",
-        "@canReachFirelinkShrine, catacomb_logic_andre_merchant, @canReachUpperUndeadBurgMaleUndeadMerchant",
-        "@canReachFirelinkShrine, catacomb_logic_oands, @canReachAnorLondoAfterOrnsteinandSmough"
+        "@canReachFirelinkShrine, catacomb_logic_merchant, [@canReachUpperUndeadBurgMaleUndeadMerchant]",
+        "@canReachFirelinkShrine, catacomb_logic_andre, [@canReachUndeadParishAndreOfAstora]",
+        "@canReachFirelinkShrine, catacomb_logic_andre_merchant, [@canReachUndeadParishAndreOfAstora]",
+        "@canReachFirelinkShrine, catacomb_logic_andre_merchant, [@canReachUpperUndeadBurgMaleUndeadMerchant]",
+        "@canReachFirelinkShrine, catacomb_logic_oands, [@canReachAnorLondoAfterOrnsteinandSmough]"
     ]},
     {
     "name": "canReachTheCatacombsDoor1",
@@ -3528,8 +3533,8 @@
     "name": "canReachTomboftheGiants",
     "access_rules": [
         "@canReachTheCatacombsAfterPinwheel, totg_logic_none",
-        "@canReachTheCatacombsAfterPinwheel, totg_logic_skull_lantern, skull_lantern",
-        "@canReachTheCatacombsAfterPinwheel, totg_logic_sunlight_maggot, sunlight_maggot"
+        "@canReachTheCatacombsAfterPinwheel, totg_logic_skull_lantern, [skull_lantern]",
+        "@canReachTheCatacombsAfterPinwheel, totg_logic_sunlight_maggot, [sunlight_maggot]"
     ]},
     {
     "name": "canReachTomboftheGiantsAfterWhiteFog",
