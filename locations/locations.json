@@ -219,8 +219,8 @@
         {"name": "Petrus of Thorolund: Miracle: Force","ref": "Firelink Shrine/Petrus of Thorolund: Miracle: Force"},
         {"name": "Petrus of Thorolund: Miracle: Seek Guidance","ref": "Firelink Shrine/Petrus of Thorolund: Miracle: Seek Guidance"},
         {"name": "Petrus of Thorolund: Humanity - Drop Added to Shop","ref": "Firelink Shrine/Petrus of Thorolund: Humanity - Drop Added to Shop"},
-        {"name": "Petrus of Thorolund: Talisman","ref": "@Firelink Shrine/Petrus of Thorolund: Talisman"},
-        {"name": "Petrus of Thorolund: Thorolund Talisman","ref": "@Firelink Shrine/Petrus of Thorolund: Thorolund Talisman"}]
+        {"name": "Petrus of Thorolund: Talisman","ref": "Firelink Shrine/Petrus of Thorolund: Talisman"},
+        {"name": "Petrus of Thorolund: Thorolund Talisman","ref": "Firelink Shrine/Petrus of Thorolund: Thorolund Talisman"}]
     },{"name": "Laurentius of the Great Swamp","map_locations": [{"map": "Firelink Shrine","x": 1560,"y": 1091}],"sections": [
         {"name": "Laurentius of the Great Swamp: Pyromancy: Fireball","ref": "Firelink Shrine/Laurentius of the Great Swamp: Pyromancy: Fireball"},
         {"name": "Laurentius of the Great Swamp: Pyromancy: Fire Orb","ref": "Firelink Shrine/Laurentius of the Great Swamp: Pyromancy: Fire Orb"},
@@ -530,8 +530,8 @@
         {"name": "Oswald of Carim: Poisonbite Ring","ref": "Undead Parish/Oswald of Carim: Poisonbite Ring"},
         {"name": "Oswald of Carim: Rings of Sacrifice","ref": "Undead Parish/Oswald of Carim: Rings of Sacrifice"},
         {"name": "Oswald of Carim: Twin Humanities - Drop Added To Shop","ref": "Undead Parish/Oswald of Carim: Twin Humanities - Drop Added To Shop"},
-        {"name": "Oswald of Carim: Indictment","ref": "@Undead Parish/Oswald of Carim: Indictment"},
-        {"name": "Oswald of Carim: Velka's Talisman","ref": "@Undead Parish/Oswald of Carim: Velka's Talisman"}]
+        {"name": "Oswald of Carim: Indictment","ref": "Undead Parish/Oswald of Carim: Indictment"},
+        {"name": "Oswald of Carim: Velka's Talisman","ref": "Undead Parish/Oswald of Carim: Velka's Talisman"}]
     },{
         "name": "Lower Undead Burg",
         "map_locations": [
@@ -1411,22 +1411,22 @@
     },{"name": "Crestfallen Merchant","map_locations": [{"map": "Sen's Fortress Roof","x": 1819,"y": 507}],
         "sections": [{"name": "Crestfallen Merchant: Thunder Stoneplate Ring","ref": "Sen's Fortress/Crestfallen Merchant: Thunder Stoneplate Ring"},
         {"name": "Crestfallen Merchant: Spell Stoneplate Ring","ref": "Sen's Fortress/Crestfallen Merchant: Spell Stoneplate Ring"},
-        {"name": "Crestfallen Merchant: Greatsword","ref": "@Sen's Fortress/Crestfallen Merchant: Greatsword"},
-        {"name": "Crestfallen Merchant: Greataxe","ref": "@Sen's Fortress/Crestfallen Merchant: Greataxe"},
-        {"name": "Crestfallen Merchant: Balder Shield","ref": "@Sen's Fortress/Crestfallen Merchant: Balder Shield"},
-        {"name": "Crestfallen Merchant: Tower Shield","ref": "@Sen's Fortress/Crestfallen Merchant: Tower Shield"},
-        {"name": "Crestfallen Merchant: Catarina Helm","ref": "@Sen's Fortress/Crestfallen Merchant: Catarina Helm"},
-        {"name": "Crestfallen Merchant: Catarina Armor","ref": "@Sen's Fortress/Crestfallen Merchant: Catarina Armor"},
-        {"name": "Crestfallen Merchant: Catarina Gauntlets","ref": "@Sen's Fortress/Crestfallen Merchant: Catarina Gauntlets"},
-        {"name": "Crestfallen Merchant: Catarina Leggings","ref": "@Sen's Fortress/Crestfallen Merchant: Catarina Leggings"},
-        {"name": "Crestfallen Merchant: Steel Helm","ref": "@Sen's Fortress/Crestfallen Merchant: Steel Helm"},
-        {"name": "Crestfallen Merchant: Steel Armor","ref": "@Sen's Fortress/Crestfallen Merchant: Steel Armor"},
-        {"name": "Crestfallen Merchant: Steel Gauntlets","ref": "@Sen's Fortress/Crestfallen Merchant: Steel Gauntlets"},
-        {"name": "Crestfallen Merchant: Steel Leggings","ref": "@Sen's Fortress/Crestfallen Merchant: Steel Leggings"},
-        {"name": "Crestfallen Merchant: Balder Helm","ref": "@Sen's Fortress/Crestfallen Merchant: Balder Helm"},
-        {"name": "Crestfallen Merchant: Balder Armor","ref": "@Sen's Fortress/Crestfallen Merchant: Balder Armor"},
-        {"name": "Crestfallen Merchant: Balder Gauntlets","ref": "@Sen's Fortress/Crestfallen Merchant: Balder Gauntlets"},
-        {"name": "Crestfallen Merchant: Balder Leggings","ref": "@Sen's Fortress/Crestfallen Merchant: Balder Leggings"}]
+        {"name": "Crestfallen Merchant: Greatsword","ref": "Sen's Fortress/Crestfallen Merchant: Greatsword"},
+        {"name": "Crestfallen Merchant: Greataxe","ref": "Sen's Fortress/Crestfallen Merchant: Greataxe"},
+        {"name": "Crestfallen Merchant: Balder Shield","ref": "Sen's Fortress/Crestfallen Merchant: Balder Shield"},
+        {"name": "Crestfallen Merchant: Tower Shield","ref": "Sen's Fortress/Crestfallen Merchant: Tower Shield"},
+        {"name": "Crestfallen Merchant: Catarina Helm","ref": "Sen's Fortress/Crestfallen Merchant: Catarina Helm"},
+        {"name": "Crestfallen Merchant: Catarina Armor","ref": "Sen's Fortress/Crestfallen Merchant: Catarina Armor"},
+        {"name": "Crestfallen Merchant: Catarina Gauntlets","ref": "Sen's Fortress/Crestfallen Merchant: Catarina Gauntlets"},
+        {"name": "Crestfallen Merchant: Catarina Leggings","ref": "Sen's Fortress/Crestfallen Merchant: Catarina Leggings"},
+        {"name": "Crestfallen Merchant: Steel Helm","ref": "Sen's Fortress/Crestfallen Merchant: Steel Helm"},
+        {"name": "Crestfallen Merchant: Steel Armor","ref": "Sen's Fortress/Crestfallen Merchant: Steel Armor"},
+        {"name": "Crestfallen Merchant: Steel Gauntlets","ref": "Sen's Fortress/Crestfallen Merchant: Steel Gauntlets"},
+        {"name": "Crestfallen Merchant: Steel Leggings","ref": "Sen's Fortress/Crestfallen Merchant: Steel Leggings"},
+        {"name": "Crestfallen Merchant: Balder Helm","ref": "Sen's Fortress/Crestfallen Merchant: Balder Helm"},
+        {"name": "Crestfallen Merchant: Balder Armor","ref": "Sen's Fortress/Crestfallen Merchant: Balder Armor"},
+        {"name": "Crestfallen Merchant: Balder Gauntlets","ref": "Sen's Fortress/Crestfallen Merchant: Balder Gauntlets"},
+        {"name": "Crestfallen Merchant: Balder Leggings","ref": "Sen's Fortress/Crestfallen Merchant: Balder Leggings"}]
     },{"name": "SF: Ricard's Rapier","map_locations": [{"map": "Sen's Fortress Roof","x": 759,"y": 1111}],
         "sections": [{"name": "SF: Ricard's Rapier","ref": "Sen's Fortress/SF: Ricard's Rapier"}]
     },{
@@ -1599,12 +1599,12 @@
         {"name": "AL: Leo Ring - O+S Drop","ref": "Anor Londo/AL: Leo Ring - O+S Drop"}]
     },{"name": "Giant Blacksmith","map_locations": [{"map": "Anor Londo Interior","x": 2028,"y": 1540}],
         "sections": [{"name": "Giant Blacksmith: Blacksmith Giant Hammer - Drop Added To Shop","ref": "Anor Londo/Giant Blacksmith: Blacksmith Giant Hammer - Drop Added To Shop"},
-        {"name": "Giant Blacksmith: Giant's Halberd","ref": "@Anor Londo/Giant Blacksmith: Giant's Halberd"},
-        {"name": "Giant Blacksmith: Giant Shield","ref": "@Anor Londo/Giant Blacksmith: Giant Shield"},
-        {"name": "Giant Blacksmith: Giant Helm","ref": "@Anor Londo/Giant Blacksmith: Giant Helm"},
-        {"name": "Giant Blacksmith: Giant Armor","ref": "@Anor Londo/Giant Blacksmith: Giant Armor"},
-        {"name": "Giant Blacksmith: Giant Gauntlets","ref": "@Anor Londo/Giant Blacksmith: Giant Gauntlets"},
-        {"name": "Giant Blacksmith: Giant Leggings","ref": "@Anor Londo/Giant Blacksmith: Giant Leggings"},
+        {"name": "Giant Blacksmith: Giant's Halberd","ref": "Anor Londo/Giant Blacksmith: Giant's Halberd"},
+        {"name": "Giant Blacksmith: Giant Shield","ref": "Anor Londo/Giant Blacksmith: Giant Shield"},
+        {"name": "Giant Blacksmith: Giant Helm","ref": "Anor Londo/Giant Blacksmith: Giant Helm"},
+        {"name": "Giant Blacksmith: Giant Armor","ref": "Anor Londo/Giant Blacksmith: Giant Armor"},
+        {"name": "Giant Blacksmith: Giant Gauntlets","ref": "Anor Londo/Giant Blacksmith: Giant Gauntlets"},
+        {"name": "Giant Blacksmith: Giant Leggings","ref": "Anor Londo/Giant Blacksmith: Giant Leggings"},
         {"name": "Merchant: Repairbox","ref": "Upper Undead Burg/Merchant: Repairbox"},
         {"name": "Blacksmith: Weapon Smithbox","ref": "Undead Parish/Blacksmith: Weapon Smithbox"},
         {"name": "Blacksmith: Armor Smithbox","ref": "Undead Parish/Blacksmith: Armor Smithbox"}]
