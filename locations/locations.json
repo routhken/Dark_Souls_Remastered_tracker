@@ -3215,7 +3215,7 @@
     {
     "name": "canReachDarkrootGardenBehindArtoriasDoor",
     "access_rules": [
-        "@canReachDarkrootGardenBeforeFog, crest_of_artorias"
+        "@canReachDarkrootGardenBeforeFog, [crest_of_artorias]"
     ]},
     {
     "name": "canReachDarkrootGardenMoonlightButterfly",
@@ -3493,11 +3493,11 @@
     "name": "canReachTheCatacombs",
     "access_rules": [
         "@canReachFirelinkShrine, catacomb_logic_none",
-        "@canReachFirelinkShrine, catacomb_logic_merchant, @canReachUpperUndeadBurgMaleUndeadMerchant",
-        "@canReachFirelinkShrine, catacomb_logic_andre, @canReachUndeadParishAndreOfAstora",
-        "@canReachFirelinkShrine, catacomb_logic_andre_merchant, @canReachUndeadParishAndreOfAstora",
-        "@canReachFirelinkShrine, catacomb_logic_andre_merchant, @canReachUpperUndeadBurgMaleUndeadMerchant",
-        "@canReachFirelinkShrine, catacomb_logic_oands, @canReachAnorLondoAfterOrnsteinandSmough"
+        "@canReachFirelinkShrine, catacomb_logic_merchant, [@canReachUpperUndeadBurgMaleUndeadMerchant]",
+        "@canReachFirelinkShrine, catacomb_logic_andre, [@canReachUndeadParishAndreOfAstora]",
+        "@canReachFirelinkShrine, catacomb_logic_andre_merchant, [@canReachUndeadParishAndreOfAstora]",
+        "@canReachFirelinkShrine, catacomb_logic_andre_merchant, [@canReachUpperUndeadBurgMaleUndeadMerchant]",
+        "@canReachFirelinkShrine, catacomb_logic_oands, [@canReachAnorLondoAfterOrnsteinandSmough]"
     ]},
     {
     "name": "canReachTheCatacombsDoor1",
@@ -3528,8 +3528,8 @@
     "name": "canReachTomboftheGiants",
     "access_rules": [
         "@canReachTheCatacombsAfterPinwheel, totg_logic_none",
-        "@canReachTheCatacombsAfterPinwheel, totg_logic_skull_lantern, skull_lantern",
-        "@canReachTheCatacombsAfterPinwheel, totg_logic_sunlight_maggot, sunlight_maggot"
+        "@canReachTheCatacombsAfterPinwheel, totg_logic_skull_lantern, [skull_lantern]",
+        "@canReachTheCatacombsAfterPinwheel, totg_logic_sunlight_maggot, [sunlight_maggot]"
     ]},
     {
     "name": "canReachTomboftheGiantsAfterWhiteFog",
