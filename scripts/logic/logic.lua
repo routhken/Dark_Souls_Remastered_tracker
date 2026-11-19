@@ -158,6 +158,16 @@ function hasCrestKey()
 end
 
 -- Visibility Rules
-function hasGoalOfAtLeastGwyn()
-    return true
+function hasPostOS()
+    --Locations are hidden when goal is O&S
+    return not has("goal_ornstein_and_smough")
+end
+
+function hasPostOSCata()
+    --Locations are hidden when goal is O&S and logical access to catacombs requires O&S
+    return not (has("goal_ornstein_and_smough") and has("catacomb_logic_oands"))
+end
+
+function existCheck(locationID)
+    return true --(location_set[locationID])-- or (not isConnected)) TODO uncomment this when all the exist check rules are done
 end

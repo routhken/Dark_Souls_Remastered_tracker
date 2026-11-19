@@ -19,6 +19,24 @@ function dump(o)
     end
 end
 
+Set = {}
+location_set = {}
+isConnected = false
+
+function Set.new (t)
+    local set = {}
+    for _, l in ipairs(t) do set[l] = true end
+    return set
+end
+
+function tableMerge(result, ...)
+  for _, t in ipairs({...}) do
+    for _, v in ipairs(t) do
+      table.insert(result, v)
+    end
+  end
+end
+
 function onClear(slotData)
     Tracker.BulkUpdate = true
     CURRENT_INDEX = -1
@@ -94,6 +112,17 @@ function onClear(slotData)
     Tracker:FindObjectForCode("setting_shop_shuffle").Active = false
     Tracker:FindObjectForCode("setting_firelink_altar_logic").CurrentStage = 2
     Tracker:FindObjectForCode("setting_totg_logic").CurrentStage = 1
+    Tracker:FindObjectForCode("setting_include_dlc").Active = false
+    Tracker:FindObjectForCode("setting_include_pw").Active = false
+    Tracker:FindObjectForCode("setting_include_gh").Active = false
+    Tracker:FindObjectForCode("setting_black_knight_titanite_shuffle").Active = false
+    Tracker:FindObjectForCode("setting_mimic_shuffle").Active = false       
+    Tracker:FindObjectForCode("setting_miniboss_shuffle").Active = false       
+    Tracker:FindObjectForCode("setting_hostile_npc_shuffle").Active = false       
+    Tracker:FindObjectForCode("setting_misc_shuffle").Active = false       
+    Tracker:FindObjectForCode("setting_corpse_filler_shuffle").Active = false      
+    Tracker:FindObjectForCode("setting_corpse_useful_shuffle").Active = false      
+    Tracker:FindObjectForCode("setting_corpse_ring_shuffle").Active = false      
     print("settings set to initialize as false")
 
     if sd_options['goal_condition'] == "gwyn" then
@@ -133,21 +162,6 @@ function onClear(slotData)
     if sd_options['can_warp_without_lordvessel'] == 1 then
         Tracker:FindObjectForCode("setting_warp_without_lordvessel").Active = true
     end
-    if sd_options['boss_soul_shuffle'] == 1 then
-        Tracker:FindObjectForCode("setting_boss_soul_shuffle").Active = true
-    end
-    if sd_options['boss_humanity_shuffle'] == 1 then
-        Tracker:FindObjectForCode("setting_boss_humanity_shuffle").Active = true
-    end
-    if sd_options['boss_bone_shuffle'] == 1 then
-        Tracker:FindObjectForCode("setting_boss_bone_shuffle").Active = true
-    end
-    if sd_options['bk_weapon_shuffle'] == 1 then
-        Tracker:FindObjectForCode("setting_black_knight_weapon_shuffle").Active = true
-    end
-    if sd_options['lizard_shuffle'] == 1 then
-        Tracker:FindObjectForCode("setting_crystal_lizard_shuffle").Active = true
-    end
     if sd_options['limited_shop_item_shuffle'] == 1 then
         Tracker:FindObjectForCode("setting_shop_shuffle").Active = true
     end
@@ -169,7 +183,32 @@ function onClear(slotData)
     elseif sd_options['logic_to_access_totg'] == "sunlight_maggot" then
         Tracker:FindObjectForCode("setting_totg_logic").CurrentStage = 2
     end
+    
+    if sd_options['include_dlc'] == 1 then
+        Tracker:FindObjectForCode("setting_include_dlc").Active = true
+    end
+    if sd_options['include_pw'] == 1 then
+        Tracker:FindObjectForCode("setting_include_pw").Active = true
+    end
+    if sd_options['include_gh'] == 1 then
+        Tracker:FindObjectForCode("setting_include_gh").Active = true
+    end
 
+    --This variable is a string whoose full value is "BS,BH,BB,BKW,BKT,LIZ,MIM,MBD,NPC,MIS,CFI,CUI,CRI"
+    if sd_options['ap_loc_categories']:find("BS") ~= nil then  Tracker:FindObjectForCode("setting_boss_soul_shuffle").Active = true end            --BS = Boss Soul
+    if sd_options['ap_loc_categories']:find("BH") ~= nil then  Tracker:FindObjectForCode("setting_boss_humanity_shuffle").Active = true end        --BH = Boss Humanity
+    if sd_options['ap_loc_categories']:find("BB") ~= nil then  Tracker:FindObjectForCode("setting_boss_bone_shuffle").Active = true end            --BB = Boss Bone
+    if sd_options['ap_loc_categories']:find("BKW") ~= nil then Tracker:FindObjectForCode("setting_black_knight_weapon_shuffle").Active = true end  --BKW = Black Knight Weapon
+    if sd_options['ap_loc_categories']:find("BKT") ~= nil then Tracker:FindObjectForCode("setting_black_knight_titanite_shuffle").Active = true end--BKT = Black Knight Titanite
+    if sd_options['ap_loc_categories']:find("LIZ") ~= nil then Tracker:FindObjectForCode("setting_crystal_lizard_shuffle").Active = true end       --LIZ = Crystal Lizard
+    if sd_options['ap_loc_categories']:find("MIM") ~= nil then Tracker:FindObjectForCode("setting_mimic_shuffle").Active = true end                --MIM = Mimic Drops
+    if sd_options['ap_loc_categories']:find("MBD") ~= nil then Tracker:FindObjectForCode("setting_miniboss_shuffle").Active = true end             --MBD = Miniboss Drops
+    if sd_options['ap_loc_categories']:find("NPC") ~= nil then Tracker:FindObjectForCode("setting_hostile_npc_shuffle").Active = true end          --NPC = Hostile NPC Drops
+    if sd_options['ap_loc_categories']:find("MIS") ~= nil then Tracker:FindObjectForCode("setting_misc_shuffle").Active = true end                 --MIS = Misc Drops
+    if sd_options['ap_loc_categories']:find("CFI") ~= nil then Tracker:FindObjectForCode("setting_corpse_filler_shuffle").Active = true end        --CFI = Corpse Filler Item
+    if sd_options['ap_loc_categories']:find("CUI") ~= nil then Tracker:FindObjectForCode("setting_corpse_useful_shuffle").Active = true end        --CUI = Corpse Useful Item
+    if sd_options['ap_loc_categories']:find("CFI") ~= nil then Tracker:FindObjectForCode("setting_corpse_ring_shuffle").Active = true end          --CRI = Corpse Ring Item
+   
     --print("Slotdata: ") --debug
     --print(dump(slotData)) --debug
     
@@ -189,6 +228,13 @@ function onClear(slotData)
             Archipelago:Get({CurrentLocID, DATA_STORAGE_ID})
         end
     end
+
+    --Create set of existing locations
+    local location_table = {}
+    tableMerge(location_table, Archipelago.CheckedLocations, Archipelago.MissingLocations)
+    location_set = Set.new(location_table)
+    isConnected = true
+    print("DEBUG: isConnected = true")
 
     Tracker.BulkUpdate = false
 end

@@ -11,6 +11,18 @@
                 "content": [
                     {
                         "type": "itemgrid",
+                        "item_size": "5, 3",
+                        "item_margin": "2, 2",
+                        "item_h_alignment": "center",
+                        "h_alignment": "left",
+                        "rows": [
+                            [
+                                "setting_goal"
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "itemgrid",
                         "item_size": "4, 4",
                         "item_margin": "2, 2",
                         "item_h_alignment": "center",
@@ -23,13 +35,7 @@
                                 "setting_auto_tab"
                             ]
                         ]
-                    }
-                ]
-            },{
-                "type": "array",
-                "orientation": "vertical",
-                "margin": "0,0",
-                "content": [
+                    },
                     {
                         "type": "itemgrid",
                         "item_size": "4, 4",
@@ -41,19 +47,23 @@
                                 "setting_boss_soul_shuffle",
                                 "setting_boss_humanity_shuffle",
                                 "setting_boss_bone_shuffle",
-                                "setting_black_knight_weapon_shuffle",
                                 "setting_crystal_lizard_shuffle",
                                 "setting_shop_shuffle",
+                                "setting_misc_shuffle",
                                 "master_key"
+                            ],
+                            [
+                                "setting_black_knight_weapon_shuffle",
+                                "setting_black_knight_titanite_shuffle",
+                                "setting_mimic_shuffle",
+                                "setting_miniboss_shuffle",
+                                "setting_hostile_npc_shuffle",
+                                "setting_corpse_filler_shuffle",
+                                "setting_corpse_useful_shuffle",
+                                "setting_corpse_ring_shuffle"
                             ]
                         ]
-                    }
-                ]
-            },{
-                "type": "array",
-                "orientation": "vertical",
-                "margin": "0,0",
-                "content": [
+                    },
                     {
                         "type": "itemgrid",
                         "item_size": "7, 3",
@@ -67,13 +77,25 @@
                                 "setting_firelink_altar_logic"
                             ]
                         ]
-                    }
-                ]
-            },{
-                "type": "array",
-                "orientation": "vertical",
-                "margin": "0,0",
-                "content": [
+                    },
+                    {
+                        "type": "itemgrid",
+                        "item_size": "7, 3",
+                        "item_margin": "2, 2",
+                        "item_h_alignment": "center",
+                        "h_alignment": "left",
+                        "rows": [
+                            [
+                                "setting_include_dlc"
+                            ],
+                            [
+                                "setting_include_pw"
+                            ],
+                            [
+                                "setting_include_gh"
+                            ]
+                        ]
+                    },
                     {
                         "type": "itemgrid",
                         "item_size": "7, 3",

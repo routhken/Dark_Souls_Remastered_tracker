@@ -1,6 +1,18 @@
 {
     "versions": [
         {
+            "package_version": "1.4.0",
+            "download_url": "https://github.com/routhken/Dark_Souls_Remastered_tracker/releases/download/v1.4.0/Dark_Souls_Remastered_aptracker.zip",
+            "sha256": "0391c94ce4bce5c249aa8676ab34eee1a4b44e684fccab2ea2373c642338d705",
+            "changelog": [
+                " - Updated for apworld v0.3.1",
+                " - Added support for new item shuffle settings",
+                " - Added support for new include region settings",
+                " - Added visibility rules for O&S goal",
+                " - Removed white sign soapstone location",
+                " - Fixed Kalameet arena typo"
+            ]
+        },{
             "package_version": "1.3.2",
             "download_url": "https://github.com/routhken/Dark_Souls_Remastered_tracker/releases/download/v1.3.2/Dark_Souls_Remastered_aptracker.zip",
             "sha256": "52649884beac7667a90e5b8c1dd00d851163c5c95f6d4e8df35e6ba69208fbe7",
