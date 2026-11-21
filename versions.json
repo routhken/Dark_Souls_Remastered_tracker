@@ -1,6 +1,13 @@
 {
     "versions": [
         {
+            "package_version": "1.4.2",
+            "download_url": "https://github.com/routhken/Dark_Souls_Remastered_tracker/releases/download/v1.4.2/Dark_Souls_Remastered_aptracker.zip",
+            "sha256": "bc9c3c909a9e8f5c0f3fe8290d88d7e05c73f0d9f7306cb6ba017d7558c31f34",
+            "changelog": [
+                " - Moved flowchart map definition to end of json file so it doesn't break UT autotab"
+            ]
+        },{
             "package_version": "1.4.1",
             "download_url": "https://github.com/routhken/Dark_Souls_Remastered_tracker/releases/download/v1.4.1/Dark_Souls_Remastered_aptracker.zip",
             "sha256": "bbb781370e96f57de6c298b917c6842facbc06b48796017c2209167c90fd7acf",
