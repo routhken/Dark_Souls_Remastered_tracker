@@ -1,5 +1,11 @@
 [
     {
+        "name": "Flowchart",
+        "location_size": 20,
+        "location_border_thickness": 2,
+        "img": "images/maps/Flowchart.png"
+    },
+    {
         "name": "Full Map",
         "location_size": 30,
         "location_border_thickness": 4,

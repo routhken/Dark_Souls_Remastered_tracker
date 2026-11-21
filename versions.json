@@ -1,6 +1,14 @@
 {
     "versions": [
         {
+            "package_version": "1.4.1",
+            "download_url": "https://github.com/routhken/Dark_Souls_Remastered_tracker/releases/download/v1.4.1/Dark_Souls_Remastered_aptracker.zip",
+            "sha256": "bbb781370e96f57de6c298b917c6842facbc06b48796017c2209167c90fd7acf",
+            "changelog": [
+                " - Regionized some of the map tabs",
+                " - Added a new flowchart map (thanks to SeaJay)"
+            ]
+        },{
             "package_version": "1.4.0",
             "download_url": "https://github.com/routhken/Dark_Souls_Remastered_tracker/releases/download/v1.4.0/Dark_Souls_Remastered_aptracker.zip",
             "sha256": "0391c94ce4bce5c249aa8676ab34eee1a4b44e684fccab2ea2373c642338d705",
