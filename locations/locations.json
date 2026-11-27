@@ -107,10 +107,10 @@
             {"name": "Domhnall of Zena After O+S: Ornstein's Armor","access_rules": ["@canReachFirelinkShrineDomhnallOfZenaAfterOnS"],"visibility_rules": ["setting_shop_shuffle, $hasPostOS"]},
             {"name": "Domhnall of Zena After O+S: Ornstein's Gauntlets","access_rules": ["@canReachFirelinkShrineDomhnallOfZenaAfterOnS"],"visibility_rules": ["setting_shop_shuffle, $hasPostOS"]},
             {"name": "Domhnall of Zena After O+S: Ornstein's Leggings","access_rules": ["@canReachFirelinkShrineDomhnallOfZenaAfterOnS"],"visibility_rules": ["setting_shop_shuffle, $hasPostOS"]},
-            {"name": "Domhnall of Zena After Gwyndolin: Crown of the Dark Sun","access_rules": ["@canReachFirelinkShrineDomhnallOfZenaAfterGwyndolin"],"visibility_rules": ["setting_shop_shuffle, $hasPostOS"]},
-            {"name": "Domhnall of Zena After Gwyndolin: Moonlight Robe","access_rules": ["@canReachFirelinkShrineDomhnallOfZenaAfterGwyndolin"],"visibility_rules": ["setting_shop_shuffle, $hasPostOS"]},
-            {"name": "Domhnall of Zena After Gwyndolin: Moonlight Gloves","access_rules": ["@canReachFirelinkShrineDomhnallOfZenaAfterGwyndolin"],"visibility_rules": ["setting_shop_shuffle, $hasPostOS"]},
-            {"name": "Domhnall of Zena After Gwyndolin: Moonlight Waistcloth","access_rules": ["@canReachFirelinkShrineDomhnallOfZenaAfterGwyndolin"],"visibility_rules": ["setting_shop_shuffle, $hasPostOS"]},
+            {"name": "Domhnall of Zena After Gwyndolin: Crown of the Dark Sun","access_rules": ["@canReachFirelinkShrineDomhnallOfZenaAfterGwyndolin"],"visibility_rules": ["setting_shop_shuffle, $hasPostOSCata"]},
+            {"name": "Domhnall of Zena After Gwyndolin: Moonlight Robe","access_rules": ["@canReachFirelinkShrineDomhnallOfZenaAfterGwyndolin"],"visibility_rules": ["setting_shop_shuffle, $hasPostOSCata"]},
+            {"name": "Domhnall of Zena After Gwyndolin: Moonlight Gloves","access_rules": ["@canReachFirelinkShrineDomhnallOfZenaAfterGwyndolin"],"visibility_rules": ["setting_shop_shuffle, $hasPostOSCata"]},
+            {"name": "Domhnall of Zena After Gwyndolin: Moonlight Waistcloth","access_rules": ["@canReachFirelinkShrineDomhnallOfZenaAfterGwyndolin"],"visibility_rules": ["setting_shop_shuffle, $hasPostOSCata"]},
             {"name": "Domhnall of Zena Under Aqueduct After Artorias: Helm of Artorias","access_rules": ["@canReachFirelinkShrineDomhnallOfZenaUnderAqueductAfterArtorias"],"visibility_rules": ["setting_shop_shuffle, setting_include_dlc, $hasPostOS"]},
             {"name": "Domhnall of Zena Under Aqueduct After Artorias: Armor of Artorias","access_rules": ["@canReachFirelinkShrineDomhnallOfZenaUnderAqueductAfterArtorias"],"visibility_rules": ["setting_shop_shuffle, setting_include_dlc, $hasPostOS"]},
             {"name": "Domhnall of Zena Under Aqueduct After Artorias: Gauntlets of Artorias","access_rules": ["@canReachFirelinkShrineDomhnallOfZenaUnderAqueductAfterArtorias"],"visibility_rules": ["setting_shop_shuffle, setting_include_dlc, $hasPostOS"]},
@@ -889,7 +889,7 @@
             {"name": "BT: Twin Humanities - Quelaag Drop","access_rules": ["@canReachLowerBlighttownAfterQuelaag"],"visibility_rules": ["setting_boss_humanity_shuffle"]}
         ]
     },{
-        "name": "BT: Fog Wall - Lower Blighttown Entrance","map_locations": [{"map": "Blighttown Lower","x": 2369,"y": 817}],
+        "name": "BT: Fog Wall - Lower Blighttown Entrance","map_locations": [{"map": "Blighttown Upper","x": 1069,"y": 1247}],
         "sections": [{"name": "BT: Fog Wall - Lower Blighttown Entrance","ref": "Lower Blighttown/BT: Fog Wall - Lower Blighttown Entrance"}]
     },{
         "name": "BT: Large Soul of a Proud Knight - Corpse below Ramp","map_locations": [{"map": "Blighttown Lower","x": 2330,"y": 900}],

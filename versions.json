@@ -1,6 +1,15 @@
 {
     "versions": [
         {
+            "package_version": "1.4.3",
+            "download_url": "https://github.com/routhken/Dark_Souls_Remastered_tracker/releases/download/v1.4.3/Dark_Souls_Remastered_aptracker.zip",
+            "sha256": "b6e3855d9a8c798e15e239e97f575b4233f022ced089f08c10c08e0020afa27c",
+            "changelog": [
+                " - Updated for apworld v0.3.2",
+                " - Changed a few visibility rules for Domhnall of Zena",
+                " - Moved location of blighttown fog wall node to the upper map"
+            ]
+        },{
             "package_version": "1.4.2",
             "download_url": "https://github.com/routhken/Dark_Souls_Remastered_tracker/releases/download/v1.4.2/Dark_Souls_Remastered_aptracker.zip",
             "sha256": "bc9c3c909a9e8f5c0f3fe8290d88d7e05c73f0d9f7306cb6ba017d7558c31f34",
